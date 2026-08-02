@@ -1,6 +1,9 @@
-export const metadata = {
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
   title: "Affiliate Disclosure | DupeDeals",
   description: "How DupeDeals makes money from affiliate links.",
+  alternates: { canonical: "/affiliate-disclosure" },
 }
 
 export default function AffiliateDisclosurePage() {

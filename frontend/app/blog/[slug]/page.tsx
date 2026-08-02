@@ -1,11 +1,35 @@
 import { notFound } from "next/navigation"
 import Image from "next/image"
 import Link from "next/link"
+import type { Metadata } from "next"
 import { getAllPosts, getPostBySlug } from "@/lib/blog"
 import ReactMarkdown from "react-markdown"
+import JsonLd from "@/components/JsonLd"
+import { SITE_URL, SITE_NAME } from "@/lib/site"
 
 export function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }))
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params
+  const post = getPostBySlug(slug)
+  if (!post) return {}
+
+  return {
+    title: `${post.title} | DupeDeals Blog`,
+    description: post.excerpt,
+    alternates: { canonical: `/blog/${post.slug}` },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      url: `${SITE_URL}/blog/${post.slug}`,
+      type: "article",
+      publishedTime: post.date,
+      authors: [post.author],
+      images: post.coverImage ? [post.coverImage] : undefined,
+    },
+  }
 }
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -13,8 +37,21 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const post = getPostBySlug(slug)
   if (!post) notFound()
 
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.excerpt,
+    image: post.coverImage || undefined,
+    datePublished: post.date,
+    author: { "@type": "Organization", name: post.author },
+    publisher: { "@type": "Organization", name: SITE_NAME },
+    mainEntityOfPage: `${SITE_URL}/blog/${post.slug}`,
+  }
+
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-10">
+      <JsonLd data={articleJsonLd} />
       {/* Breadcrumb */}
       <nav className="text-sm text-slate-500 mb-6 flex gap-2">
         <Link href="/" className="hover:text-violet-600 transition">Home</Link>

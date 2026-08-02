@@ -1,10 +1,12 @@
 import Link from "next/link"
 import Image from "next/image"
+import type { Metadata } from "next"
 import { getAllPosts } from "@/lib/blog"
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Blog | DupeDeals",
   description: "Dupe guides, honest comparisons, and money-saving tips for UK shoppers.",
+  alternates: { canonical: "/blog" },
 }
 
 export default function BlogPage() {

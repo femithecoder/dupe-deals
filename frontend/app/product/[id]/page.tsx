@@ -1,13 +1,35 @@
 import { notFound } from "next/navigation"
 import Image from "next/image"
 import Link from "next/link"
+import type { Metadata } from "next"
 import { products } from "@/lib/mock-data"
 import { fetchProductById, fetchProductsByCategory } from "@/lib/api"
 import DealBadge from "@/components/DealBadge"
 import ProductCard from "@/components/ProductCard"
+import JsonLd from "@/components/JsonLd"
+import { SITE_URL } from "@/lib/site"
 
 export function generateStaticParams() {
   return products.map((p) => ({ id: p.id }))
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params
+  const product = await fetchProductById(id)
+  if (!product) return {}
+
+  return {
+    title: `${product.name} | DupeDeals`,
+    description: product.description,
+    alternates: { canonical: `/product/${product.id}` },
+    openGraph: {
+      title: product.name,
+      description: product.description,
+      url: `${SITE_URL}/product/${product.id}`,
+      images: [product.imageUrl],
+      type: "website",
+    },
+  }
 }
 
 export default async function ProductPage({ params }: { params: Promise<{ id: string }> }) {
@@ -20,8 +42,30 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
     .filter((p) => p.id !== product.id)
     .slice(0, 4)
 
+  const productJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    description: product.description,
+    image: product.imageUrl,
+    brand: { "@type": "Brand", name: product.brand },
+    aggregateRating:
+      product.reviewCount > 0
+        ? { "@type": "AggregateRating", ratingValue: product.rating, reviewCount: product.reviewCount }
+        : undefined,
+    offers: {
+      "@type": "Offer",
+      url: `${SITE_URL}/product/${product.id}`,
+      priceCurrency: "GBP",
+      price: product.salePrice,
+      availability: "https://schema.org/InStock",
+      seller: { "@type": "Organization", name: product.merchant },
+    },
+  }
+
   return (
     <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-10">
+      <JsonLd data={productJsonLd} />
       {/* Breadcrumb */}
       <nav className="text-sm text-slate-500 mb-6 flex gap-2">
         <Link href="/" className="hover:text-violet-600 transition">Home</Link>

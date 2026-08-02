@@ -1,10 +1,23 @@
 import { notFound } from "next/navigation"
+import type { Metadata } from "next"
 import { categories } from "@/lib/mock-data"
 import { fetchProductsByCategory } from "@/lib/api"
 import ProductCard from "@/components/ProductCard"
 
 export function generateStaticParams() {
   return categories.map((c) => ({ slug: c.slug }))
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params
+  const category = categories.find((c) => c.slug === slug)
+  if (!category) return {}
+
+  return {
+    title: `${category.name} Deals | DupeDeals`,
+    description: category.description,
+    alternates: { canonical: `/category/${category.slug}` },
+  }
 }
 
 export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {

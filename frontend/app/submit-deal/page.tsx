@@ -1,8 +1,10 @@
+import type { Metadata } from "next"
 import SubmitDealForm from "./SubmitDealForm"
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Submit a Deal | DupeDeals",
   description: "Found a great deal or dupe? Let us know and we might feature it.",
+  alternates: { canonical: "/submit-deal" },
 }
 
 export default function SubmitDealPage() {

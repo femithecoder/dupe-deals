@@ -1,6 +1,9 @@
-export const metadata = {
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
   title: "Terms of Service | DupeDeals",
   description: "The terms that govern your use of DupeDeals.",
+  alternates: { canonical: "/terms" },
 }
 
 export default function TermsPage() {

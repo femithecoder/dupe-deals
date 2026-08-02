@@ -1,6 +1,12 @@
+import type { Metadata } from "next"
 import { searchProducts, fetchFeaturedProducts } from "@/lib/api"
 import ProductCard from "@/components/ProductCard"
 import SearchBar from "@/components/SearchBar"
+
+export const metadata: Metadata = {
+  title: "Search | DupeDeals",
+  robots: { index: false, follow: true },
+}
 
 export default async function SearchPage({
   searchParams,

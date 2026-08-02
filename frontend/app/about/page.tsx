@@ -1,6 +1,9 @@
-export const metadata = {
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
   title: "About | DupeDeals",
   description: "Learn about DupeDeals, the UK's go-to site for finding cheaper alternatives to premium products.",
+  alternates: { canonical: "/about" },
 }
 
 export default function AboutPage() {

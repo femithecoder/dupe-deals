@@ -1,6 +1,9 @@
-export const metadata = {
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
   title: "How It Works | DupeDeals",
   description: "How DupeDeals finds you sale alerts and dupes for the products you love.",
+  alternates: { canonical: "/how-it-works" },
 }
 
 const steps = [
