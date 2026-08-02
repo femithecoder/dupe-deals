@@ -279,7 +279,7 @@ export const products: Product[] = [
     originalPrice: 38.00,
     salePrice: 32.00,
     discountPercent: 16,
-    imageUrl: "https://nourishskinrange.com/cdn/shop/products/Nourish-London-Protect-Skincare-Essentials-Kit_800x.jpg?v=1653565379",
+    imageUrl: "https://images.unsplash.com/photo-1631730486572-226d1f595b68?w=400&h=400&fit=crop",
     affiliateUrl: "https://tidd.ly/4fKZbHd",
     merchant: "Nourish London",
     rating: 4.4,
