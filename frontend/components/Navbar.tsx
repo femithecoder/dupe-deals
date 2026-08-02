@@ -52,6 +52,12 @@ export default function Navbar() {
             >
               Tech
             </Link>
+            <Link
+              href="/blog"
+              className="px-3 py-2 text-sm text-slate-600 hover:text-violet-600 hover:bg-violet-50 rounded-lg transition"
+            >
+              Blog
+            </Link>
           </nav>
 
           {/* Mobile menu toggle */}
@@ -79,6 +85,7 @@ export default function Navbar() {
             { href: "/category/baby-kids", label: "Baby & Kids" },
             { href: "/category/home-kitchen", label: "Home & Kitchen" },
             { href: "/category/electronics-tech", label: "Electronics & Tech" },
+            { href: "/blog", label: "Blog" },
           ].map((link) => (
             <Link
               key={link.href}
