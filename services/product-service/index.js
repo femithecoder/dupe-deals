@@ -1,6 +1,8 @@
 const express = require("express")
 const cors = require("cors")
 const db = require("./db")
+const { runPriceCheck } = require("./pricing/tracker")
+const { startPriceCheckScheduler } = require("./pricing/scheduler")
 
 const app = express()
 const PORT = process.env.PORT || 3001
@@ -84,6 +86,32 @@ app.get("/products/:id", (req, res) => {
   res.json(toClient(product))
 })
 
+// GET /products/:id/price-history — recent tracked prices, oldest first
+app.get("/products/:id/price-history", (req, res) => {
+  const { limit = "30" } = req.query
+  const rows = db
+    .prepare(
+      `SELECT price, checked_at as checkedAt FROM price_history
+       WHERE product_id = ? ORDER BY checked_at DESC LIMIT ?`
+    )
+    .all(req.params.id, parseInt(limit))
+  res.json({ history: rows.reverse() })
+})
+
+// POST /admin/price-check — run the price tracker on demand (for an external
+// scheduler like Vercel Cron / GitHub Actions, or manual triggering)
+app.post("/admin/price-check", async (req, res) => {
+  if (!process.env.CRON_SECRET) {
+    return res.status(503).json({ error: "CRON_SECRET is not configured on this server" })
+  }
+  if (req.get("x-cron-secret") !== process.env.CRON_SECRET) {
+    return res.status(401).json({ error: "Unauthorized" })
+  }
+
+  const result = await runPriceCheck()
+  res.json(result)
+})
+
 // GET /categories — distinct categories with counts
 app.get("/categories", (_req, res) => {
   const rows = db
@@ -118,4 +146,5 @@ function toClient(row) {
 
 app.listen(PORT, () => {
   console.log(`Product service running on http://localhost:${PORT}`)
+  startPriceCheckScheduler()
 })

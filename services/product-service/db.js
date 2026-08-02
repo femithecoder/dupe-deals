@@ -33,6 +33,15 @@ db.exec(`
 
   CREATE INDEX IF NOT EXISTS idx_products_category_slug ON products(category_slug);
   CREATE INDEX IF NOT EXISTS idx_products_discount ON products(discount_percent DESC);
+
+  CREATE TABLE IF NOT EXISTS price_history (
+    id          INTEGER PRIMARY KEY AUTOINCREMENT,
+    product_id  TEXT NOT NULL REFERENCES products(id),
+    price       REAL NOT NULL,
+    checked_at  TEXT NOT NULL DEFAULT (datetime('now'))
+  );
+
+  CREATE INDEX IF NOT EXISTS idx_price_history_product ON price_history(product_id, checked_at DESC);
 `)
 
 module.exports = db
