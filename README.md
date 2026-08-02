@@ -7,7 +7,7 @@ A UK deals and recommendations site. Two-part pitch to visitors, per product pai
 1. If the premium original currently has a genuine discount, buy the real thing while it's cheaper.
 2. If it doesn't, here's a cheaper alternative ("dupe") that does the same job instead.
 
-Monetized via affiliate commission from **both sides** of every comparison, the premium original's retailer and the dupe's retailer, since either can convert.
+Monetized primarily via affiliate commission on the dupe/alternative side (the "catch": naming a premium brand as the comparison point doesn't require an affiliate relationship with it, that's just copy). Mode 1 (discount alerts on the premium original itself) is an optional extra for specific pairs where you also have an affiliate link on the premium side, not a requirement for every listing.
 
 ## Structure
 
@@ -22,6 +22,7 @@ Monetized via affiliate commission from **both sides** of every comparison, the 
 - SEO: sitemap.xml, robots.txt, per-page metadata/canonical URLs, JSON-LD structured data
 - Default branded OG/Twitter share image (generated via `next/og`)
 - Real price-tracking pipeline (`services/product-service/pricing/`): runs every 30 min automatically, pluggable data-source interface, currently using a **simulated** provider (not real retailer data yet), logs price history, detects drops
+- **First real live product**: Nourish London Protect Skincare Essentials Starter Kit (£32, dupe for SkinCeuticals C E Ferulic), real Awin affiliate link, real Trustpilot rating (4.4, 16 reviews). Added to both the backend seed data and the frontend mock-data fallback.
 
 ## Known architecture gap (next big build)
 
@@ -29,15 +30,16 @@ The product data model only tracks the cheap "dupe" side. The premium original (
 
 ## Affiliate program hunting
 
-Going category by category, applying to **both** the premium original's program and the dupe's program per pair.
+Going category by category. Priority is the dupe/alternative side (needs a real affiliate link), premium originals are just named in copy unless a specific pair also needs discount-alert monetization.
 
 ### Beauty & Skincare (in progress)
 
 - Already applied: Boots, Superdrug, LookFantastic, ASOS
-- Recommended to join: Latest in Beauty (strong fit), Sarah Chapman, Susanne Kaufmann (premium originals)
+- **Approved & live**: Nourish London (first real product added, see above)
+- Recommended to join: Latest in Beauty (strong fit), FUL (haircare, fills a gap), Scar Erase (scar treatment, frame as "before you pay for a clinic" not a medical-equivalence claim)
 - Optional: Scottish Fine Soaps
 - Ruled out (wrong category): Let's Swim, Heist, ZipVit, Britt's Superfoods, Intelligent Labs, Curo Skin (it's actually a filtered-showerhead brand, maybe fits Home & Kitchen instead)
-- Unclear, need more info: Tealerlab UK
+- Premium "catch" brands identified so far (no affiliate link needed): SkinCeuticals C E Ferulic (used for both Garnier and now Nourish London), Susanne Kaufmann, Sarah Chapman, Drunk Elephant
 
 ### Home & Kitchen, Baby & Kids, Electronics & Tech
 
@@ -47,5 +49,5 @@ Not started yet.
 
 - Wiring a real price-feed provider (blocked on affiliate network approval, likely Awin)
 - Frontend UI to show price history / "price dropped" indicators
-- Real affiliate URLs (all placeholder `#` in seed data right now)
+- Real affiliate URLs for the remaining 12 mock products (all placeholder `#` in seed data, only Nourish London is real so far)
 - Email price-alert signups/accounts
