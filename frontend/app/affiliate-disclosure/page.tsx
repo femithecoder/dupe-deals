@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Affiliate Disclosure — DupeDeals",
+  title: "Affiliate Disclosure | DupeDeals",
   description: "How DupeDeals makes money from affiliate links.",
 }
 
@@ -18,14 +18,14 @@ export default function AffiliateDisclosurePage() {
         <h2 className="text-xl font-black text-slate-900 mt-10 mb-2">What that means</h2>
         <p>
           When you click through to a retailer from DupeDeals and make a purchase, we may earn a small commission
-          from that retailer. This comes at no extra cost to you — the price you pay is the same whether you reach
+          from that retailer. This comes at no extra cost to you. The price you pay is the same whether you reach
           the retailer through us or find it yourself.
         </p>
 
         <h2 className="text-xl font-black text-slate-900 mt-10 mb-2">It doesn&apos;t change what we recommend</h2>
         <p>
           Commission never decides what makes it onto DupeDeals. We only feature price drops and dupes we&apos;d
-          genuinely recommend, and our comparisons are based on real ingredients, specs, and consumer test results —
+          genuinely recommend, and our comparisons are based on real ingredients, specs, and consumer test results,
           not which retailer pays the highest commission.
         </p>
 

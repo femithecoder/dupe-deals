@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "How It Works — DupeDeals",
+  title: "How It Works | DupeDeals",
   description: "How DupeDeals finds you sale alerts and dupes for the products you love.",
 }
 

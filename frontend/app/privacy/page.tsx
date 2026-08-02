@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Privacy Policy — DupeDeals",
+  title: "Privacy Policy | DupeDeals",
   description: "How DupeDeals collects, uses, and protects your information.",
 }
 
@@ -21,7 +21,7 @@ export default function PrivacyPage() {
           <li>Information you give us directly, such as your email address if you contact us or submit a deal.</li>
           <li>Chat messages sent through our on-site support chat, so we can respond to your query.</li>
         </ul>
-        <p>We do not collect payment details — all purchases happen on the retailer&apos;s own site.</p>
+        <p>We do not collect payment details. All purchases happen on the retailer&apos;s own site.</p>
 
         <h2 className="text-xl font-black text-slate-900 mt-10 mb-2">How we use it</h2>
         <ul className="list-disc pl-5 space-y-2">

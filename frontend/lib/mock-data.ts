@@ -137,7 +137,7 @@ export const products: Product[] = [
     brand: "Tommee Tippee",
     category: "Baby & Kids",
     categorySlug: "baby-kids",
-    description: "Anti-colic baby bottles with breast-like teat. Currently on sale — same quality as Philips Avent at a better price.",
+    description: "Anti-colic baby bottles with breast-like teat. Currently on sale: same quality as Philips Avent at a better price.",
     originalPrice: 24.99,
     salePrice: 14.99,
     discountPercent: 40,

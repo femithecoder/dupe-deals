@@ -16,7 +16,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-sm text-slate-500 leading-relaxed">
-              Cheaper alternatives to the products you love — curated for UK shoppers.
+              Cheaper alternatives to the products you love, curated for UK shoppers.
             </p>
           </div>
 

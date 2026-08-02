@@ -1,7 +1,7 @@
 import SubmitDealForm from "./SubmitDealForm"
 
 export const metadata = {
-  title: "Submit a Deal — DupeDeals",
+  title: "Submit a Deal | DupeDeals",
   description: "Found a great deal or dupe? Let us know and we might feature it.",
 }
 

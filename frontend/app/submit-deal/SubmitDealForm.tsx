@@ -30,7 +30,7 @@ export default function SubmitDealForm() {
       <div className="rounded-2xl border border-violet-100 bg-violet-50 p-6 text-center">
         <p className="font-bold text-slate-900 mb-1">Almost there</p>
         <p className="text-sm text-slate-600">
-          We&apos;ve opened your email app with the details filled in — just hit send. Didn&apos;t open?{" "}
+          We&apos;ve opened your email app with the details filled in, just hit send. Didn&apos;t open?{" "}
           <button onClick={() => setSent(false)} className="text-violet-600 hover:underline">
             Try again
           </button>

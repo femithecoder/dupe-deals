@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Terms of Service — DupeDeals",
+  title: "Terms of Service | DupeDeals",
   description: "The terms that govern your use of DupeDeals.",
 }
 
@@ -18,7 +18,7 @@ export default function TermsPage() {
         <h2 className="text-xl font-black text-slate-900 mt-10 mb-2">What DupeDeals is</h2>
         <p>
           DupeDeals is a UK-based deals and recommendations site. We surface price drops and curate alternative
-          products from third-party retailers. We are not a retailer ourselves — we don&apos;t sell products, process
+          products from third-party retailers. We are not a retailer ourselves. We don&apos;t sell products, process
           payments, or hold stock.
         </p>
 
@@ -44,7 +44,7 @@ export default function TermsPage() {
 
         <h2 className="text-xl font-black text-slate-900 mt-10 mb-2">Acceptable use</h2>
         <p>
-          You agree not to misuse the site — including attempting to scrape it at scale, interfere with its
+          You agree not to misuse the site, including attempting to scrape it at scale, interfere with its
           operation, or submit false or misleading deal information.
         </p>
 

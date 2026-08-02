@@ -3,7 +3,7 @@ import Image from "next/image"
 import { getAllPosts } from "@/lib/blog"
 
 export const metadata = {
-  title: "Blog — DupeDeals",
+  title: "Blog | DupeDeals",
   description: "Dupe guides, honest comparisons, and money-saving tips for UK shoppers.",
 }
 
@@ -18,7 +18,7 @@ export default function BlogPage() {
       </div>
 
       {posts.length === 0 ? (
-        <p className="text-slate-500">No posts yet — check back soon.</p>
+        <p className="text-slate-500">No posts yet. Check back soon.</p>
       ) : (
         <div className="grid sm:grid-cols-2 gap-6">
           {posts.map((post) => (

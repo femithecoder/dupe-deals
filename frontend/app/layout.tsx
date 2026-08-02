@@ -11,7 +11,7 @@ const geist = Geist({
 })
 
 export const metadata: Metadata = {
-  title: "DupeDeals — Cheaper Alternatives to the Products You Love",
+  title: "DupeDeals | Cheaper Alternatives to the Products You Love",
   description:
     "Find UK deals on high-quality alternatives to expensive brands. Save money on beauty, baby, home, and tech products.",
 }

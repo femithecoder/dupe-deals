@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "About — DupeDeals",
-  description: "Learn about DupeDeals — the UK's go-to site for finding cheaper alternatives to premium products.",
+  title: "About | DupeDeals",
+  description: "Learn about DupeDeals, the UK's go-to site for finding cheaper alternatives to premium products.",
 }
 
 export default function AboutPage() {
@@ -11,7 +11,7 @@ export default function AboutPage() {
 
       <div className="prose prose-slate prose-violet max-w-none space-y-6 text-slate-600 leading-relaxed">
         <p>
-          DupeDeals was built on a simple idea: you shouldn&apos;t have to pay a premium price to get a quality product. Whether it&apos;s a £175 moisturiser, a £300 air fryer, or a £30 pack of nappies — there&apos;s almost always a cheaper alternative that does the same job.
+          DupeDeals was built on a simple idea: you shouldn&apos;t have to pay a premium price to get a quality product. Whether it&apos;s a £175 moisturiser, a £300 air fryer, or a £30 pack of nappies, there&apos;s almost always a cheaper alternative that does the same job.
         </p>
         <p>
           We&apos;re a UK-based deals and recommendations site that does two things:
@@ -27,7 +27,7 @@ export default function AboutPage() {
             {
               icon: "✦",
               title: "Dupe finder",
-              body: "We curate affordable alternatives to expensive brands — same quality, fraction of the cost.",
+              body: "We curate affordable alternatives to expensive brands: same quality, fraction of the cost.",
             },
           ].map((item) => (
             <div key={item.title} className="rounded-2xl border border-slate-200 bg-white p-5">
@@ -39,11 +39,11 @@ export default function AboutPage() {
         </div>
 
         <p>
-          Every product on DupeDeals links directly to a trusted UK retailer — Boots, John Lewis, Currys, Argos, Dunelm and more. We earn a small affiliate commission if you buy through our links, which keeps the site running at no extra cost to you.
+          Every product on DupeDeals links directly to a trusted UK retailer: Boots, John Lewis, Currys, Argos, Dunelm and more. We earn a small affiliate commission if you buy through our links, which keeps the site running at no extra cost to you.
         </p>
 
         <p>
-          We&apos;re honest about what we do. We only feature products we&apos;d genuinely recommend, and our dupe comparisons are based on real ingredients, specs, and consumer test results — not brand hype.
+          We&apos;re honest about what we do. We only feature products we&apos;d genuinely recommend, and our dupe comparisons are based on real ingredients, specs, and consumer test results, not brand hype.
         </p>
 
         <h2 className="text-xl font-black text-slate-900 mt-10 mb-2">Get in touch</h2>

@@ -22,7 +22,7 @@ export default async function HomePage() {
             <span className="text-yellow-300">Half the price.</span>
           </h1>
           <p className="text-lg text-white/80 max-w-2xl mx-auto mb-8">
-            We find the best cheaper alternatives to expensive brands — beauty dupes, baby
+            We find the best cheaper alternatives to expensive brands: beauty dupes, baby
             essentials, kitchen kit, and tech. All from trusted UK retailers.
           </p>
           <div className="max-w-xl mx-auto">
@@ -74,7 +74,7 @@ export default async function HomePage() {
           <h2 className="text-2xl font-bold text-slate-900 text-center mb-10">How DupeDeals works</h2>
           <div className="grid sm:grid-cols-3 gap-8">
             {[
-              { step: "1", title: "Search for a product", body: 'Type any brand or product — "AirPods", "La Mer", "Dyson" — and we find the best alternatives.' },
+              { step: "1", title: "Search for a product", body: 'Type any brand or product, like "AirPods", "La Mer", or "Dyson", and we find the best alternatives.' },
               { step: "2", title: "Compare the savings", body: "See side-by-side comparisons with real prices from UK retailers. We show you exactly how much you save." },
               { step: "3", title: "Buy with confidence", body: "Every product is curated and links directly to the retailer. No middlemen, no hidden fees." },
             ].map((item) => (

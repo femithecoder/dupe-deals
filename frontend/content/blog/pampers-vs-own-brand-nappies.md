@@ -7,7 +7,7 @@ category: "Baby & Kids"
 coverImage: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=400&fit=crop"
 ---
 
-Nappies are one of the biggest ongoing costs for new parents. A pack of Pampers Active Fit (Size 4, 44 nappies) costs around £12 — that's roughly £1,400 a year if your baby goes through 4-5 nappies a day.
+Nappies are one of the biggest ongoing costs for new parents. A pack of Pampers Active Fit (Size 4, 44 nappies) costs around £12, which works out to roughly £1,400 a year if your baby goes through 4-5 nappies a day.
 
 Own-brand alternatives cost roughly half that. But do they actually work as well?
 
@@ -30,11 +30,11 @@ Pampers has a slight edge on the stretchy waistband. However, Aldi Mamia introdu
 
 ## Leak protection
 
-All four performed comparably in standard conditions. Heavy wetters may notice a slight difference with budget brands overnight — switching up a size often solves this.
+All four performed comparably in standard conditions. Heavy wetters may notice a slight difference with budget brands overnight, and switching up a size often solves this.
 
 ## Skin sensitivity
 
-None of the own-brand options contain latex. Pampers uses fragrance in some lines — parents with sensitive babies actually prefer unscented own-brand alternatives.
+None of the own-brand options contain latex. Pampers uses fragrance in some lines, so parents with sensitive babies actually prefer unscented own-brand alternatives.
 
 ## The verdict
 

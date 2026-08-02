@@ -13,7 +13,7 @@ type Message = {
 const GREETING: Message = {
   id: "greeting",
   from: "bot",
-  text: "Hi, I'm Dede! Ask me about how the site works, deals, dupes, shipping, returns, or anything else — I'll put you in touch with a real person if I can't help.",
+  text: "Hi, I'm Dede! Ask me about how the site works, deals, dupes, shipping, returns, or anything else. I'll put you in touch with a real person if I can't help.",
 }
 
 function nextId() {
@@ -24,7 +24,7 @@ function buildEscalationMailto(transcript: Message[]): string {
   const body = transcript
     .map((m) => `${m.from === "user" ? "You" : "Bot"}: ${m.text}`)
     .join("\n")
-  const subject = "DupeDeals chat — need a hand"
+  const subject = "DupeDeals chat: need a hand"
   return `mailto:hello@dupedeals.co.uk?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
 }
 
@@ -51,7 +51,7 @@ export default function ChatWidget() {
       : {
           id: nextId(),
           from: "bot",
-          text: "I'm not able to help with that one — want me to pass it to a real person?",
+          text: "I'm not able to help with that one. Want me to pass it to a real person?",
           escalate: true,
         }
 
