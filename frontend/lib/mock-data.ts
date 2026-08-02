@@ -269,6 +269,23 @@ export const products: Product[] = [
     reviewCount: 4200,
     dupeFor: "Samsung Galaxy S23",
   },
+  {
+    id: "13",
+    name: "Nourish London Protect Skincare Essentials Starter Kit",
+    brand: "Nourish London",
+    category: "Beauty & Skincare",
+    categorySlug: "beauty-skincare",
+    description: "Certified organic, vegan 4-piece routine (cleanser, toning mist, peptide serum, moisturiser) with vitamin C and hyaluronic acid for dry, dehydrated skin. Same key actives as SkinCeuticals C E Ferulic for a fraction of the price.",
+    originalPrice: 38.00,
+    salePrice: 32.00,
+    discountPercent: 16,
+    imageUrl: "https://images.unsplash.com/photo-1631730486572-226d1f595b68?w=400&h=400&fit=crop",
+    affiliateUrl: "https://tidd.ly/4fKZbHd",
+    merchant: "Nourish London",
+    rating: 4.4,
+    reviewCount: 16,
+    dupeFor: "SkinCeuticals C E Ferulic",
+  },
 ]
 
 export function getProductsByCategory(slug: string): Product[] {
