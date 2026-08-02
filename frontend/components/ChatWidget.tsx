@@ -13,7 +13,7 @@ type Message = {
 const GREETING: Message = {
   id: "greeting",
   from: "bot",
-  text: "Hi! I'm the DupeDeals bot. Ask me about how the site works, deals, dupes, shipping, returns, or anything else — I'll put you in touch with a real person if I can't help.",
+  text: "Hi, I'm Dede! Ask me about how the site works, deals, dupes, shipping, returns, or anything else — I'll put you in touch with a real person if I can't help.",
 }
 
 function nextId() {
@@ -64,7 +64,7 @@ export default function ChatWidget() {
       {open && (
         <div className="mb-3 flex h-[28rem] w-80 flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-xl sm:w-96">
           <div className="flex items-center justify-between bg-gradient-to-br from-violet-500 to-purple-600 px-4 py-3 text-white">
-            <span className="font-bold text-sm">DupeDeals Support</span>
+            <span className="font-bold text-sm">Dede · DupeDeals Support</span>
             <button
               onClick={() => setOpen(false)}
               aria-label="Close chat"
