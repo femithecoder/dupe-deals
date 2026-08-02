@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "About | DupeDeals",
-  description: "Learn about DupeDeals, the UK's go-to site for finding cheaper alternatives to premium products.",
+  description: "Learn about DupeDeals, the UK's go-to site for discounts on quality products and cheaper alternatives to premium brands.",
   alternates: { canonical: "/about" },
 }
 
@@ -14,7 +14,7 @@ export default function AboutPage() {
 
       <div className="prose prose-slate prose-violet max-w-none space-y-6 text-slate-600 leading-relaxed">
         <p>
-          DupeDeals was built on a simple idea: you shouldn&apos;t have to pay a premium price to get a quality product. Whether it&apos;s a £175 moisturiser, a £300 air fryer, or a £30 pack of nappies, there&apos;s almost always a cheaper alternative that does the same job.
+          DupeDeals was built on a simple idea: you shouldn&apos;t have to pay full price for a quality product. Whether it&apos;s a £175 moisturiser, a £300 air fryer, or a £30 pack of nappies, you can usually get it for less, either by catching a genuine discount on the real thing, or by choosing a cheaper alternative that does the same job.
         </p>
         <p>
           We&apos;re a UK-based deals and recommendations site that does two things:
@@ -25,7 +25,7 @@ export default function AboutPage() {
             {
               icon: "🏷️",
               title: "Sale alerts",
-              body: "We track when products from trusted UK retailers drop in price, so you can buy at the right time.",
+              body: "We track prices on the premium products you already love, so you know the moment a genuine discount lands.",
             },
             {
               icon: "✦",
@@ -42,7 +42,7 @@ export default function AboutPage() {
         </div>
 
         <p>
-          Every product on DupeDeals links directly to a trusted UK retailer: Boots, John Lewis, Currys, Argos, Dunelm and more. We earn a small affiliate commission if you buy through our links, which keeps the site running at no extra cost to you.
+          Every product on DupeDeals links directly to a trusted UK retailer. We earn a small affiliate commission if you buy through our links, which keeps the site running at no extra cost to you.
         </p>
 
         <p>
