@@ -102,7 +102,7 @@ const products = [
     category: "Beauty & Skincare", category_slug: "beauty-skincare",
     description: "Certified organic, vegan 4-piece routine (cleanser, toning mist, peptide serum, moisturiser) with vitamin C and hyaluronic acid for dry, dehydrated skin. Same key actives as SkinCeuticals C E Ferulic for a fraction of the price.",
     original_price: 38.00, sale_price: 32.00, discount_percent: 16,
-    image_url: "https://images.unsplash.com/photo-1631730486572-226d1f595b68?w=400&h=400&fit=crop",
+    image_url: "https://nourishskinrange.com/cdn/shop/products/Nourish-London-Protect-Skincare-Essentials-Kit_800x.jpg?v=1653565379",
     affiliate_url: "https://tidd.ly/4fKZbHd", merchant: "Nourish London", rating: 4.4, review_count: 16, dupe_for: "SkinCeuticals C E Ferulic",
   },
 ]
