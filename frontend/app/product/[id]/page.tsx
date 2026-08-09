@@ -9,6 +9,7 @@ import ProductCard from "@/components/ProductCard"
 import JsonLd from "@/components/JsonLd"
 import ViewDealButton from "@/components/ViewDealButton"
 import { SITE_URL } from "@/lib/site"
+import { getMerchantTrust } from "@/lib/merchant-trust"
 
 export function generateStaticParams() {
   return products.map((p) => ({ id: p.id }))
@@ -39,6 +40,7 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
   if (!product) notFound()
 
   const savings = (product.originalPrice - product.salePrice).toFixed(2)
+  const sellerTrust = getMerchantTrust(product.merchant)
   const related = (await fetchProductsByCategory(product.categorySlug))
     .filter((p) => p.id !== product.id)
     .slice(0, 4)
@@ -96,6 +98,23 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
         <div className="flex flex-col gap-4">
           <p className="text-sm text-slate-500 font-medium">{product.merchant} · {product.category}</p>
           <h1 className="text-2xl font-black text-slate-900 leading-snug">{product.name}</h1>
+
+          {sellerTrust && (
+            <a
+              href={sellerTrust.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-xs text-slate-500 hover:text-violet-600 transition"
+            >
+              <span>
+                Sold by <span className="font-semibold text-slate-700">{product.merchant}</span>
+              </span>
+              <span className="text-amber-400">★</span>
+              <span>
+                {sellerTrust.rating} ({sellerTrust.reviewCount.toLocaleString()} seller reviews on {sellerTrust.source})
+              </span>
+            </a>
+          )}
 
           {product.dupeFor && (
             <div className="inline-flex items-center gap-2 rounded-xl bg-violet-50 border border-violet-100 px-4 py-2.5">
