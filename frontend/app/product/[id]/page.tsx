@@ -7,6 +7,7 @@ import { fetchProductById, fetchProductsByCategory } from "@/lib/api"
 import DealBadge from "@/components/DealBadge"
 import ProductCard from "@/components/ProductCard"
 import JsonLd from "@/components/JsonLd"
+import ViewDealButton from "@/components/ViewDealButton"
 import { SITE_URL } from "@/lib/site"
 
 export function generateStaticParams() {
@@ -122,14 +123,12 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
             <span className="text-slate-600">{product.rating} ({product.reviewCount.toLocaleString()} reviews)</span>
           </div>
 
-          <a
-            href={product.affiliateUrl}
-            target="_blank"
-            rel="noopener noreferrer sponsored"
-            className="mt-2 flex items-center justify-center gap-2 rounded-xl bg-violet-600 py-3.5 px-6 font-bold text-white hover:bg-violet-700 transition"
-          >
-            View deal at {product.merchant} →
-          </a>
+          <ViewDealButton
+            productId={product.id}
+            productName={product.name}
+            merchant={product.merchant}
+            affiliateUrl={product.affiliateUrl}
+          />
           <p className="text-xs text-slate-400 text-center">
             We may earn a commission if you buy via this link.
           </p>

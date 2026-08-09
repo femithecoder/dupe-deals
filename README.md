@@ -22,7 +22,8 @@ Monetized primarily via affiliate commission on the dupe/alternative side (the "
 - SEO: sitemap.xml, robots.txt, per-page metadata/canonical URLs, JSON-LD structured data
 - Default branded OG/Twitter share image (generated via `next/og`)
 - Real price-tracking pipeline (`services/product-service/pricing/`): runs every 30 min automatically, pluggable data-source interface, currently using a **simulated** provider (not real retailer data yet), logs price history, detects drops
-- **First real live product**: Nourish London Protect Skincare Essentials Starter Kit (£32, dupe for SkinCeuticals C E Ferulic), real Awin affiliate link, real Trustpilot rating (4.4, 16 reviews). Added to both the backend seed data and the frontend mock-data fallback.
+- **First real live product**: Nourish London Protect Skincare Essentials Starter Kit (£32, dupe for SkinCeuticals C E Ferulic), real Awin affiliate link, real Trustpilot rating (4.4, 16 reviews). Added to both the backend seed data and the frontend mock-data fallback. Image is a generic stock photo, not their real product photo, their site T&Cs require written permission for content reproduction that the Awin partnership doesn't automatically grant.
+- Vercel Analytics wired up (`@vercel/analytics`), plus custom click-tracking on every "View deal" affiliate button (`ViewDealButton.tsx`) so pageviews vs. actual affiliate clicks can be compared. Only activates once deployed on Vercel.
 
 ## Known architecture gap (next big build)
 
@@ -50,4 +51,4 @@ Not started yet.
 - Wiring a real price-feed provider (blocked on affiliate network approval, likely Awin)
 - Frontend UI to show price history / "price dropped" indicators
 - Real affiliate URLs for the remaining 12 mock products (all placeholder `#` in seed data, only Nourish London is real so far)
-- Email price-alert signups/accounts
+- Email price-alert signups/accounts.
