@@ -46,11 +46,13 @@ export default function ProductCard({ product }: { product: Product }) {
               £{product.originalPrice.toFixed(2)}
             </p>
           </div>
-          <div className="flex items-center gap-1 text-xs text-slate-500">
-            <span className="text-amber-400">★</span>
-            <span>{product.rating}</span>
-            <span>({product.reviewCount.toLocaleString()})</span>
-          </div>
+          {product.reviewCount > 0 && (
+            <div className="flex items-center gap-1 text-xs text-slate-500">
+              <span className="text-amber-400">★</span>
+              <span>{product.rating}</span>
+              <span>({product.reviewCount.toLocaleString()})</span>
+            </div>
+          )}
         </div>
       </div>
     </Link>

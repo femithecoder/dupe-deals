@@ -11,6 +11,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "nourishskinrange.com",
       },
+      {
+        protocol: "https",
+        hostname: "images2.productserve.com",
+      },
     ],
   },
   pageExtensions: ["ts", "tsx", "md", "mdx"],

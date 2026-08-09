@@ -114,14 +114,16 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
             </div>
           </div>
 
-          <div className="flex items-center gap-2 text-sm">
-            <span className="flex">
-              {Array.from({ length: 5 }).map((_, i) => (
-                <span key={i} className={i < Math.round(product.rating) ? "text-amber-400" : "text-slate-200"}>★</span>
-              ))}
-            </span>
-            <span className="text-slate-600">{product.rating} ({product.reviewCount.toLocaleString()} reviews)</span>
-          </div>
+          {product.reviewCount > 0 && (
+            <div className="flex items-center gap-2 text-sm">
+              <span className="flex">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <span key={i} className={i < Math.round(product.rating) ? "text-amber-400" : "text-slate-200"}>★</span>
+                ))}
+              </span>
+              <span className="text-slate-600">{product.rating} ({product.reviewCount.toLocaleString()} reviews)</span>
+            </div>
+          )}
 
           <ViewDealButton
             productId={product.id}
