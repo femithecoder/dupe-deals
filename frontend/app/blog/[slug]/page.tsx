@@ -108,6 +108,15 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                 </a>
               )
             },
+            img: ({ src, alt }) => (
+              <Image
+                src={typeof src === "string" ? src : ""}
+                alt={alt ?? ""}
+                width={400}
+                height={400}
+                className="rounded-2xl border border-slate-200 mx-auto w-full max-w-xs h-auto not-prose"
+              />
+            ),
           }}
         >
           {post.content}
