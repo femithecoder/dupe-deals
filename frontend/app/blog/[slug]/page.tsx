@@ -98,7 +98,20 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         prose-a:text-violet-600 prose-a:no-underline hover:prose-a:underline
         prose-hr:border-slate-200
       ">
-        <ReactMarkdown>{post.content}</ReactMarkdown>
+        <ReactMarkdown
+          components={{
+            a: ({ href, children }) => {
+              const isExternal = href?.startsWith("http")
+              return (
+                <a href={href} {...(isExternal ? { target: "_blank", rel: "nofollow noopener noreferrer" } : {})}>
+                  {children}
+                </a>
+              )
+            },
+          }}
+        >
+          {post.content}
+        </ReactMarkdown>
       </article>
 
       {/* Back link */}

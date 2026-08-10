@@ -15,7 +15,7 @@ Two different things are happening in this list. Some of these are genuine dupes
 
 ### [Soundcore Liberty 5 Pro](/product/14): £153.85 (was £201.99)
 
-Active noise cancellation, wireless charging, and up to 10 hours of playback. Soundcore's own pitch is that this rivals AirPods Pro, but AirPods Pro 2 has actually been discontinued by Apple and is currently clearing out at heavily discounted prices, so that comparison isn't the flex it used to be. The fairer one: **[Bose QuietComfort Earbuds](/product/15)**, which we also stock, retail for £188.84. The Liberty 5 Pro undercuts that by around 18% with a similar noise-cancelling spec sheet.
+Active noise cancellation, wireless charging, and up to 10 hours of playback. Soundcore's own pitch is that this rivals AirPods Pro, but [AirPods Pro 2 has actually been discontinued by Apple](https://www.techradar.com/audio/earbuds-airpods/airpods-pro-2-are-down-to-a-new-record-low-price-and-id-choose-them-over-the-airpods-pro-3-this-black-friday) and is currently clearing out at heavily discounted prices, so that comparison isn't the flex it used to be. The fairer one: **[Bose QuietComfort Earbuds](/product/15)**, which we also stock, retail for £188.84. The Liberty 5 Pro undercuts that by around 18% with a similar noise-cancelling spec sheet.
 
 **Verdict:** A solid dupe, just not for the brand you'd expect.
 
@@ -27,7 +27,7 @@ This isn't a dupe, it's the real thing. Genuine Bose noise cancellation, discoun
 
 ### [Soundcore Space One Pro](/product/16): £153.85 (was £226.99)
 
-Over-ear, adaptive noise cancellation, up to 60 hours of battery. The natural comparison is Sony's WH-1000XM5, which currently sells for around £169 to £173 at the best UK prices we could find, down from an original £299 RRP. Even against that already-discounted Sony price, the Space One Pro is still cheaper, and it has more than double the battery life on paper.
+Over-ear, adaptive noise cancellation, up to 60 hours of battery. The natural comparison is [Sony's WH-1000XM5](https://www.sony.co.uk/electronics/headband-headphones/wh-1000xm5/buy/wh1000xm5s.ce7), which currently sells for around £169 to £173 at the best UK prices we could find, down from an original £299 RRP. Even against that already-discounted Sony price, the Space One Pro is still cheaper, and it has more than double the battery life on paper.
 
 **Verdict:** Beats Sony on price even when Sony's already on sale. Rare.
 
@@ -35,7 +35,7 @@ Over-ear, adaptive noise cancellation, up to 60 hours of battery. The natural co
 
 ### [Eufy SoloCam S220 (2-pack)](/product/17): £133.27 (was £180.99)
 
-Two 2K wireless cameras with local storage built in, no monthly subscription required to actually record anything. That matters more than it sounds: Ring's cheapest ongoing plan for saved recordings is £4.99 a month, which adds up to roughly £60 a year on top of whatever the camera itself costs.
+Two 2K wireless cameras with local storage built in, no monthly subscription required to actually record anything. That matters more than it sounds: [Ring's cheapest ongoing plan](https://en-uk.ring.com/pages/offers) for saved recordings is £4.99 a month, which adds up to roughly £60 a year on top of whatever the camera itself costs.
 
 **Verdict:** The subscription-free angle is the real saving here, not just the sticker price.
 
@@ -47,7 +47,7 @@ Night vision, two-way audio, and local recording by default (cloud storage is op
 
 ### [Eufy L60 Hybrid Robot Vacuum & Mop](/product/19): £299.92 (was £385.99)
 
-Vacuums and mops in one pass, with auto-charging and app control. Worth being precise about the Roomba comparison here: iRobot's entry-level Combo models start around £279 to £329 right now, so this isn't automatically the cheaper option at first glance. Where it clearly wins is against iRobot's mid-and-up range, the Roomba Max 775 Combo is £599, and the flagship Combo j9+ is over £1,000. The Eufy does vacuum-and-mop in one unit for a third of that.
+Vacuums and mops in one pass, with auto-charging and app control. Worth being precise about the Roomba comparison here: [iRobot's entry-level Combo models](https://www.irobot.co.uk/en_GB/deals.html) start around £279 to £329 right now, so this isn't automatically the cheaper option at first glance. Where it clearly wins is against iRobot's mid-and-up range, the Roomba Max 775 Combo is £599, and the flagship Combo j9+ is over £1,000. The Eufy does vacuum-and-mop in one unit for a third of that.
 
 **Verdict:** Not the cheapest robot vacuum that exists, but a lot of vacuum-and-mop for the money once you look past iRobot's entry tier.
 
@@ -55,7 +55,7 @@ Vacuums and mops in one pass, with auto-charging and app control. Worth being pr
 
 ### [Logitech G G435 LIGHTSPEED](/product/20): £76.28 (was £110.99)
 
-Wireless, low-latency, Dolby Atmos support. The fair premium comparison is another *wireless* gaming headset, SteelSeries' Arctis Nova Pro Wireless starts at £249.99 in the UK. At £76.28, the G435 is less than a third of that price for the core wireless-gaming-audio experience, even if it won't match a £250 headset feature-for-feature.
+Wireless, low-latency, Dolby Atmos support. The fair premium comparison is another *wireless* gaming headset, [SteelSeries' Arctis Nova Pro Wireless](https://www.idealo.co.uk/compare/201979898/steelseries-arctis-nova-pro-wireless.html) starts at £249.99 in the UK. At £76.28, the G435 is less than a third of that price for the core wireless-gaming-audio experience, even if it won't match a £250 headset feature-for-feature.
 
 **Verdict:** The realistic budget alternative to premium wireless gaming audio, not a feature-for-feature clone.
 
@@ -77,7 +77,7 @@ Samsung's 2025 Crystal UHD range, 55 inches, under £500. It's not their flagshi
 
 ### [Lenovo ThinkPad E14](/product/23) (Premium Refurbished): £296.14 (was £342.81)
 
-An 11th Gen Intel Core i5, 8GB RAM, 256GB SSD, Windows 11 Pro. Worth being clear about what you're buying: this is an older-generation chip, not the current ThinkPad E14 line, which starts around £570 new with a newer processor. What you're really paying for is the ThinkPad build quality at roughly half the price of a new equivalent, refurbished, not new in box.
+An 11th Gen Intel Core i5, 8GB RAM, 256GB SSD, Windows 11 Pro. Worth being clear about what you're buying: this is an older-generation chip, not the [current ThinkPad E14 line](https://www.idealo.co.uk/compare/202947620/lenovo-thinkpad-e14-g5.html), which starts around £570 new with a newer processor. What you're really paying for is the ThinkPad build quality at roughly half the price of a new equivalent, refurbished, not new in box.
 
 **Verdict:** Real savings, but go in knowing it's a refurbished, previous-generation machine.
 
