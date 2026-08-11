@@ -3,6 +3,7 @@ const cors = require("cors")
 const db = require("./db")
 const { runPriceCheck } = require("./pricing/tracker")
 const { startPriceCheckScheduler } = require("./pricing/scheduler")
+const { seedProducts } = require("./seed")
 
 const app = express()
 const PORT = process.env.PORT || 3001
@@ -107,6 +108,20 @@ app.post("/admin/price-check", async (req, res) => {
 
   const result = await runPriceCheck()
   res.json(result)
+})
+
+// POST /admin/seed — (re)populate the product catalog. Exists because free-tier
+// hosting (e.g. Render's free plan) doesn't include Shell access to run `npm run seed`
+app.post("/admin/seed", async (req, res) => {
+  if (!process.env.CRON_SECRET) {
+    return res.status(503).json({ error: "CRON_SECRET is not configured on this server" })
+  }
+  if (req.get("x-cron-secret") !== process.env.CRON_SECRET) {
+    return res.status(401).json({ error: "Unauthorized" })
+  }
+
+  const seeded = await seedProducts()
+  res.json({ seeded })
 })
 
 // GET /categories — distinct categories with counts

@@ -171,7 +171,7 @@ const products = [
   },
 ]
 
-async function seed() {
+async function seedProducts() {
   for (const p of products) {
     await db.query(
       `INSERT INTO products
@@ -191,11 +191,21 @@ async function seed() {
       ]
     )
   }
-  console.log(`Seeded ${products.length} products.`)
-  await db.pool.end()
+  return products.length
 }
 
-seed().catch((err) => {
-  console.error(err)
-  process.exit(1)
-})
+module.exports = { seedProducts }
+
+// Only run as a standalone CLI script (`npm run seed`), not when imported
+// by index.js's /admin/seed route, importing must not close the shared pool.
+if (require.main === module) {
+  seedProducts()
+    .then((count) => {
+      console.log(`Seeded ${count} products.`)
+      return db.pool.end()
+    })
+    .catch((err) => {
+      console.error(err)
+      process.exit(1)
+    })
+}
