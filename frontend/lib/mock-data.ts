@@ -310,7 +310,7 @@ export const products: Product[] = [
     categorySlug: "electronics-tech",
     description: "Wireless video doorbell with night vision and two-way audio, the same core features as Ring's doorbell without the brand premium.",
     originalPrice: 107.99,
-    salePrice: 74.33,
+    salePrice: 1.23,
     discountPercent: 31,
     imageUrl: "https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2024%2F06%2Ftp-link-tapo-d210-3-mp-2304-x-1296-pixels-1296p-cmos-25-4-3-mm-1-3-15-fps-tapo-d210-372076.jpg&feedId=42863&k=58bc580daf755b13a2b50a1bb3ca64f35d1acc13",
     affiliateUrl: "https://www.awin1.com/pclick.php?p=37967561504&a=3013053&m=19849",
