@@ -1,0 +1,22 @@
+name: Keep Render backend awake
+
+# Render's free web service tier spins down after ~15 min of no HTTP traffic.
+# That breaks two things: a cold Vercel build request can time out and fall
+# back to static mock data, and the daily 06:00 price-check cron inside
+# product-service won't fire if the service happens to be asleep. Pinging
+# both services' /health endpoint often enough that they never go fully idle
+# fixes both for $0, at the cost of this extra moving part.
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping gateway
+        run: curl -sf --max-time 60 https://dupedeals-gateway.onrender.com/health || echo "gateway ping failed, will retry next run"
+      - name: Ping product-service
+        run: curl -sf --max-time 60 https://dupedeals-product-service.onrender.com/health || echo "product-service ping failed, will retry next run"
