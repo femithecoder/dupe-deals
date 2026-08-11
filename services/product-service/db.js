@@ -2,8 +2,11 @@ const Database = require("better-sqlite3")
 const path = require("path")
 const fs = require("fs")
 
-const DATA_DIR = path.join(__dirname, "data")
-if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR)
+// SQLITE_DATA_DIR lets this point at a mounted persistent disk in production
+// (a plain container filesystem is wiped on every redeploy/restart), falls
+// back to a local folder next to the code for development.
+const DATA_DIR = process.env.SQLITE_DATA_DIR || path.join(__dirname, "data")
+if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true })
 
 const db = new Database(path.join(DATA_DIR, "products.db"))
 

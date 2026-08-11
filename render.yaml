@@ -1,0 +1,61 @@
+# Render Blueprint for the two backend services. Deploy: Render dashboard ->
+# New -> Blueprint -> connect this repo. Render reads this file automatically.
+#
+# After the blueprint deploys, two manual steps in the Render dashboard:
+#   1. dupedeals-product-service -> Environment -> set AWIN_API_KEY (from Awin
+#      dashboard -> My Account -> API Credentials) and CRON_SECRET (any random
+#      string, used to authenticate POST /admin/price-check if you ever trigger
+#      it from an external scheduler instead of the built-in daily cron).
+#   2. dupedeals-gateway -> Environment -> set PRODUCT_SERVICE_URL to
+#      dupedeals-product-service's onrender.com URL, visible on its dashboard
+#      page once deployed.
+#
+# Then on Vercel: set NEXT_PUBLIC_GATEWAY_URL to dupedeals-gateway's
+# onrender.com URL and redeploy the frontend. Do NOT point it at
+# product-service directly, the gateway is what adds the /api prefix the
+# frontend expects (frontend/lib/api.ts calls /api/products/..., the gateway
+# strips /api and forwards to product-service's /products/...).
+#
+# Free plan note: Render's free web service tier spins down after ~15 min of
+# no HTTP traffic. That means the daily price-check cron inside
+# product-service (services/product-service/pricing/scheduler.js) may not
+# fire at exactly 06:00 if the service is asleep, it'll run on the next
+# request that wakes it instead. Upgrade product-service to the Starter plan
+# if you need the daily check to be reliably on-time rather than best-effort.
+
+services:
+  - type: web
+    name: dupedeals-gateway
+    runtime: node
+    rootDir: gateway
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: PRODUCT_SERVICE_URL
+        sync: false
+
+  - type: web
+    name: dupedeals-product-service
+    runtime: node
+    rootDir: services/product-service
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    disk:
+      name: product-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: SQLITE_DATA_DIR
+        value: /var/data
+      - key: PRICE_PROVIDER
+        value: awin
+      - key: PRICE_CHECK_CRON
+        value: "0 6 * * *"
+      - key: AWIN_API_KEY
+        sync: false
+      - key: CRON_SECRET
+        sync: false

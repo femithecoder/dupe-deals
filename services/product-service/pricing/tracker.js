@@ -1,5 +1,5 @@
 const db = require("../db")
-const simulatedProvider = require("./providers/simulated")
+const { getProvider } = require("./providers")
 
 const DROP_THRESHOLD = 0.01 // ignore sub-1% noise, only report genuine drops
 
@@ -11,13 +11,23 @@ const insertHistory = db.prepare(
   "INSERT INTO price_history (product_id, price) VALUES (?, ?)"
 )
 
-async function runPriceCheck({ provider = simulatedProvider } = {}) {
+async function runPriceCheck({ provider = getProvider() } = {}) {
   const products = getAllProducts.all()
   const drops = []
+  const failures = []
   let changed = 0
 
   for (const product of products) {
-    const { price: newPrice } = await provider.fetchPrice(product)
+    let newPrice
+    try {
+      ;({ price: newPrice } = await provider.fetchPrice(product))
+    } catch (err) {
+      // a real feed/network call can fail on any single product, don't let it
+      // abort the check for the rest
+      failures.push({ id: product.id, name: product.name, error: err.message })
+      continue
+    }
+
     const oldPrice = product.sale_price
 
     insertHistory.run(product.id, newPrice)
@@ -40,7 +50,7 @@ async function runPriceCheck({ provider = simulatedProvider } = {}) {
     }
   }
 
-  return { checked: products.length, changed, drops }
+  return { checked: products.length, changed, drops, failures }
 }
 
 module.exports = { runPriceCheck }
