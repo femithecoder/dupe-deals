@@ -16,7 +16,7 @@ app.get("/health", (_req, res) => {
 })
 
 // GET /products — list with optional filters
-app.get("/products", (req, res) => {
+app.get("/products", async (req, res) => {
   const { category, sort = "discount", limit = "20", offset = "0" } = req.query
 
   const sortMap = {
@@ -27,74 +27,71 @@ app.get("/products", (req, res) => {
   }
   const orderBy = sortMap[sort] || sortMap.discount
 
-  let query = "SELECT * FROM products"
+  let sql = "SELECT * FROM products"
   const params = []
 
   if (category) {
-    query += " WHERE category_slug = ?"
     params.push(category)
+    sql += ` WHERE category_slug = $${params.length}`
   }
 
-  query += ` ORDER BY ${orderBy} LIMIT ? OFFSET ?`
   params.push(parseInt(limit), parseInt(offset))
+  sql += ` ORDER BY ${orderBy} LIMIT $${params.length - 1} OFFSET $${params.length}`
 
-  const products = db.prepare(query).all(...params)
-  const total = db
-    .prepare(
-      category
-        ? "SELECT COUNT(*) as count FROM products WHERE category_slug = ?"
-        : "SELECT COUNT(*) as count FROM products"
-    )
-    .get(...(category ? [category] : []))
+  const { rows: products } = await db.query(sql, params)
+  const { rows: totalRows } = await db.query(
+    category ? "SELECT COUNT(*) as count FROM products WHERE category_slug = $1" : "SELECT COUNT(*) as count FROM products",
+    category ? [category] : []
+  )
 
-  res.json({ products: products.map(toClient), total: total.count })
+  res.json({ products: products.map(toClient), total: parseInt(totalRows[0].count, 10) })
 })
 
 // GET /products/featured — highest discount products
-app.get("/products/featured", (req, res) => {
+app.get("/products/featured", async (req, res) => {
   const { limit = "8" } = req.query
-  const products = db
-    .prepare("SELECT * FROM products ORDER BY discount_percent DESC LIMIT ?")
-    .all(parseInt(limit))
+  const { rows: products } = await db.query(
+    "SELECT * FROM products ORDER BY discount_percent DESC LIMIT $1",
+    [parseInt(limit)]
+  )
   res.json({ products: products.map(toClient) })
 })
 
 // GET /products/search — full-text search
-app.get("/products/search", (req, res) => {
+app.get("/products/search", async (req, res) => {
   const { q } = req.query
   if (!q || !q.trim()) return res.json({ products: [] })
 
   const term = `%${q.toLowerCase()}%`
-  const products = db
-    .prepare(
-      `SELECT * FROM products
-       WHERE lower(name) LIKE ?
-          OR lower(brand) LIKE ?
-          OR lower(description) LIKE ?
-          OR lower(dupe_for) LIKE ?
-       ORDER BY discount_percent DESC`
-    )
-    .all(term, term, term, term)
-
+  const { rows: products } = await db.query(
+    `SELECT * FROM products
+     WHERE lower(name) LIKE $1
+        OR lower(brand) LIKE $1
+        OR lower(description) LIKE $1
+        OR lower(dupe_for) LIKE $1
+     ORDER BY discount_percent DESC`,
+    [term]
+  )
   res.json({ products: products.map(toClient) })
 })
 
 // GET /products/:id
-app.get("/products/:id", (req, res) => {
-  const product = db.prepare("SELECT * FROM products WHERE id = ?").get(req.params.id)
+app.get("/products/:id", async (req, res) => {
+  const { rows } = await db.query("SELECT * FROM products WHERE id = $1", [req.params.id])
+  const product = rows[0]
   if (!product) return res.status(404).json({ error: "Product not found" })
   res.json(toClient(product))
 })
 
 // GET /products/:id/price-history — recent tracked prices, oldest first
-app.get("/products/:id/price-history", (req, res) => {
+app.get("/products/:id/price-history", async (req, res) => {
   const { limit = "30" } = req.query
-  const rows = db
-    .prepare(
-      `SELECT price, checked_at as checkedAt FROM price_history
-       WHERE product_id = ? ORDER BY checked_at DESC LIMIT ?`
-    )
-    .all(req.params.id, parseInt(limit))
+  const { rows } = await db.query(
+    // unquoted aliases fold to lowercase in Postgres, quote to keep camelCase for clients
+    `SELECT price, checked_at as "checkedAt" FROM price_history
+     WHERE product_id = $1 ORDER BY checked_at DESC LIMIT $2`,
+    [req.params.id, parseInt(limit)]
+  )
   res.json({ history: rows.reverse() })
 })
 
@@ -113,14 +110,12 @@ app.post("/admin/price-check", async (req, res) => {
 })
 
 // GET /categories — distinct categories with counts
-app.get("/categories", (_req, res) => {
-  const rows = db
-    .prepare(
-      `SELECT category as name, category_slug as slug, COUNT(*) as product_count
-       FROM products GROUP BY category_slug ORDER BY name`
-    )
-    .all()
-  res.json({ categories: rows })
+app.get("/categories", async (_req, res) => {
+  const { rows } = await db.query(
+    `SELECT category as name, category_slug as slug, COUNT(*) as product_count
+     FROM products GROUP BY category, category_slug ORDER BY category`
+  )
+  res.json({ categories: rows.map((r) => ({ ...r, product_count: parseInt(r.product_count, 10) })) })
 })
 
 // snake_case DB columns → camelCase for clients

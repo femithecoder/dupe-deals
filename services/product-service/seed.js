@@ -171,18 +171,31 @@ const products = [
   },
 ]
 
-const insert = db.prepare(`
-  INSERT OR REPLACE INTO products
-    (id, name, brand, category, category_slug, description, original_price, sale_price,
-     discount_percent, image_url, affiliate_url, merchant, rating, review_count, dupe_for)
-  VALUES
-    (@id, @name, @brand, @category, @category_slug, @description, @original_price, @sale_price,
-     @discount_percent, @image_url, @affiliate_url, @merchant, @rating, @review_count, @dupe_for)
-`)
+async function seed() {
+  for (const p of products) {
+    await db.query(
+      `INSERT INTO products
+        (id, name, brand, category, category_slug, description, original_price, sale_price,
+         discount_percent, image_url, affiliate_url, merchant, rating, review_count, dupe_for)
+       VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15)
+       ON CONFLICT (id) DO UPDATE SET
+         name = EXCLUDED.name, brand = EXCLUDED.brand, category = EXCLUDED.category,
+         category_slug = EXCLUDED.category_slug, description = EXCLUDED.description,
+         original_price = EXCLUDED.original_price, sale_price = EXCLUDED.sale_price,
+         discount_percent = EXCLUDED.discount_percent, image_url = EXCLUDED.image_url,
+         affiliate_url = EXCLUDED.affiliate_url, merchant = EXCLUDED.merchant,
+         rating = EXCLUDED.rating, review_count = EXCLUDED.review_count, dupe_for = EXCLUDED.dupe_for`,
+      [
+        p.id, p.name, p.brand, p.category, p.category_slug, p.description, p.original_price, p.sale_price,
+        p.discount_percent, p.image_url, p.affiliate_url, p.merchant, p.rating, p.review_count, p.dupe_for ?? null,
+      ]
+    )
+  }
+  console.log(`Seeded ${products.length} products.`)
+  await db.pool.end()
+}
 
-const seedAll = db.transaction((rows) => {
-  for (const row of rows) insert.run(row)
+seed().catch((err) => {
+  console.error(err)
+  process.exit(1)
 })
-
-seedAll(products)
-console.log(`Seeded ${products.length} products.`)

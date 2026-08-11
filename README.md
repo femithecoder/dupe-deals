@@ -12,7 +12,8 @@ Monetized primarily via affiliate commission on the dupe/alternative side (the "
 ## Structure
 
 - `frontend/` — Next.js app (pages, chat bot, SEO)
-- `services/product-service/` — Express + SQLite backend serving product data, includes the price-tracking pipeline
+- `services/product-service/` — Express + Postgres backend serving product data, includes the price-tracking pipeline
+- `gateway/` — thin Express proxy in front of product-service, adds the `/api` prefix the frontend expects (`frontend/lib/api.ts` calls `/api/products/...`, gateway strips `/api` and forwards to product-service's `/products/...`)
 - `gateway/` — (not yet reviewed in these sessions)
 
 ## Built so far
@@ -54,8 +55,9 @@ Not started yet.
 
 ## Not started at all
 
-- Deploying `product-service` somewhere persistent and pointing `NEXT_PUBLIC_GATEWAY_URL` at it. Right now the live frontend reads only from the static `frontend/lib/mock-data.ts`, confirmed by checking the live site's network requests, so the price tracker (however good the data) doesn't reach a single visitor yet.
+- Deploying `gateway` + `product-service` to Render (`render.yaml` at repo root is ready, includes a free Postgres database) and pointing `NEXT_PUBLIC_GATEWAY_URL` at the **gateway's** URL on Vercel. Right now the live frontend reads only from the static `frontend/lib/mock-data.ts`, confirmed by checking the live site's network requests, so the price tracker (however good the data) doesn't reach a single visitor yet.
 - `AWIN_API_KEY` / `PRICE_PROVIDER=awin` aren't set anywhere yet, so the real provider is wired but unused until credentials exist.
+- Database switched from SQLite to Postgres (`services/product-service/db.js` uses `pg`) since Render's free tier doesn't support persistent disks, only paid plans do. Migration tested locally against a throwaway Docker Postgres: seed, every route, and a real price-check run all verified working.
 - Nourish London has no datafeed wired up (single product, different merchant), still needs a plan (manual checks, or its own feed if Nourish London publishes one).
 - Frontend UI to show price history / "price dropped" indicators
 - Real affiliate URLs for the remaining 12 mock products (all placeholder `#` in seed data, only Nourish London is real so far)
