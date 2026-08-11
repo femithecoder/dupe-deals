@@ -60,7 +60,10 @@ async function downloadFeed(feedId) {
   const apiKey = process.env.AWIN_API_KEY
   if (!apiKey) throw new Error("AWIN_API_KEY is not configured")
 
-  const url = `https://productdata.awin.com/datafeed/download/apikey/${apiKey}/language/any/fid/${feedId}/format/csv/compression/gzip/adultcontent/1/`
+  // rid, hasEnhancedFeeds, columns, and delimiter are required by Awin's endpoint,
+  // it 404s without them despite not being documented as mandatory. Confirmed
+  // against the live feed: only requesting the two columns actually used here.
+  const url = `https://productdata.awin.com/datafeed/download/apikey/${apiKey}/language/en/fid/${feedId}/rid/0/hasEnhancedFeeds/0/columns/aw_product_id,search_price/format/csv/delimiter/%2C/compression/gzip/adultcontent/1/`
   const res = await fetch(url)
   if (!res.ok) throw new Error(`Awin datafeed download failed for feed ${feedId}: ${res.status}`)
 
