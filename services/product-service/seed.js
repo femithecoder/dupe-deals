@@ -287,7 +287,19 @@ async function seedProducts() {
       ]
     )
   }
-  return products.length
+
+  // Upserting never removes a row for a product that's been deleted from this
+  // file (e.g. the mock CeraVe/Ordinary/Garnier products removed in favour of
+  // real Nourish London ones) — without this, seeding is a one-way ratchet
+  // that only ever adds/updates, so removed products silently keep showing
+  // live even after being deleted from source.
+  const currentIds = products.map((p) => p.id)
+  const { rowCount } = await db.query(
+    `DELETE FROM products WHERE id != ALL($1::text[])`,
+    [currentIds]
+  )
+
+  return { seeded: products.length, removed: rowCount }
 }
 
 module.exports = { seedProducts }
@@ -296,8 +308,8 @@ module.exports = { seedProducts }
 // by index.js's /admin/seed route, importing must not close the shared pool.
 if (require.main === module) {
   seedProducts()
-    .then((count) => {
-      console.log(`Seeded ${count} products.`)
+    .then(({ seeded, removed }) => {
+      console.log(`Seeded ${seeded} products, removed ${removed} stale row(s).`)
       return db.pool.end()
     })
     .catch((err) => {

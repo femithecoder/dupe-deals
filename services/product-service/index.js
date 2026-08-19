@@ -120,8 +120,8 @@ app.post("/admin/seed", async (req, res) => {
     return res.status(401).json({ error: "Unauthorized" })
   }
 
-  const seeded = await seedProducts()
-  res.json({ seeded })
+  const result = await seedProducts()
+  res.json(result)
 })
 
 // GET /categories — distinct categories with counts
