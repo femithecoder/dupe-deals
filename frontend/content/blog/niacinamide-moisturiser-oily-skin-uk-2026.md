@@ -17,7 +17,7 @@ Not every "oil control" moisturiser is built the same way. The ones worth consid
 
 ### [Nourish London Balance Essential Anti-Blemish Moisturiser](/product/27): £26 (50ml)
 
-![Nourish London Balance Essential Anti-Blemish Moisturiser](https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=400&h=400&fit=crop)
+![Nourish London logo](/images/nourish-london-logo.png)
 
 This one combines niacinamide with saw palmetto and argan kernel extract specifically to regulate oil production and refine the appearance of pores, rather than just masking shine temporarily. It's 89% certified organic, alcohol-free, and formulated for oily and combination skin rather than being a generic all-skin-types moisturiser with niacinamide added as an afterthought.
 

@@ -6,7 +6,7 @@ const products = [
     category: "Beauty & Skincare", category_slug: "beauty-skincare",
     description: "Kale 3D Cleanser (100ml) and Kale Enzymatic Exfoliator (50ml) bundled as a duo, £9 cheaper than buying both separately. Pomegranate enzymes and jojoba beads exfoliate gently, kale and griffonia protect against pollution. Certified organic, vegan, cruelty-free.",
     original_price: 45.00, sale_price: 36.00, discount_percent: 20,
-    image_url: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&h=400&fit=crop",
+    image_url: "/images/nourish-london-logo.png",
     affiliate_url: "https://www.awin1.com/cread.php?awinmid=81819&awinaffid=3013053&clickref=anti-pollution-cleanse&ued=https%3A%2F%2Fnourishskinrange.com%2Fproducts%2Fanti-pollution-double-cleanse-duo", merchant: "Nourish London", rating: 0, review_count: 0, dupe_for: null,
   },
   {
@@ -14,7 +14,7 @@ const products = [
     category: "Beauty & Skincare", category_slug: "beauty-skincare",
     description: "Peptide (Palmitoyl Tripeptide-5) and hyaluronic acid serum with argan oil and Rose of Jericho extract. Soil Association certified organic, vegan, alcohol-free, and pregnancy-safe.",
     original_price: 35.00, sale_price: 35.00, discount_percent: 0,
-    image_url: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&h=400&fit=crop",
+    image_url: "/images/nourish-london-logo.png",
     affiliate_url: "https://www.awin1.com/cread.php?awinmid=81819&awinaffid=3013053&clickref=argan-peptide-serum&ued=https%3A%2F%2Fnourishskinrange.com%2Fproducts%2Fargan-anti-ageing-peptide-serum", merchant: "Nourish London", rating: 0, review_count: 0, dupe_for: null,
   },
   {
@@ -22,7 +22,7 @@ const products = [
     category: "Beauty & Skincare", category_slug: "beauty-skincare",
     description: "Niacinamide and saw palmetto moisturiser for oily and combination skin, formulated to regulate oil production and refine pores without stripping hydration. 89% organic certified, vegan, alcohol-free.",
     original_price: 26.00, sale_price: 26.00, discount_percent: 0,
-    image_url: "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=400&h=400&fit=crop",
+    image_url: "/images/nourish-london-logo.png",
     affiliate_url: "https://www.awin1.com/cread.php?awinmid=81819&awinaffid=3013053&clickref=anti-blemish-moisturiser&ued=https%3A%2F%2Fnourishskinrange.com%2Fproducts%2Fanti-blemish-moisturiser", merchant: "Nourish London", rating: 0, review_count: 0, dupe_for: null,
   },
   {
@@ -30,7 +30,7 @@ const products = [
     category: "Beauty & Skincare", category_slug: "beauty-skincare",
     description: "Peptide and hyaluronic acid daily moisturiser, clinically tested to a 25% increase in skin hydration over 24 hours. Won \"Best Anti-Ageing Product\" at the Beauty Bible Awards 2015. At £35 for 50ml, it undercuts Drunk Elephant's Protini Polypeptide Cream, which starts from £43.65 for the same 50ml size.",
     original_price: 35.00, sale_price: 35.00, discount_percent: 0,
-    image_url: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=400&h=400&fit=crop",
+    image_url: "/images/nourish-london-logo.png",
     affiliate_url: "https://www.awin1.com/cread.php?awinmid=81819&awinaffid=3013053&clickref=argan-skin-renew&ued=https%3A%2F%2Fnourishskinrange.com%2Fproducts%2Fargan-skin-renew-moisturiser", merchant: "Nourish London", rating: 0, review_count: 0, dupe_for: "Drunk Elephant Protini Polypeptide Cream",
   },
   {
@@ -38,7 +38,7 @@ const products = [
     category: "Beauty & Skincare", category_slug: "beauty-skincare",
     description: "Dual-phase hydrating mist with pea peptides, hyaluronic acid, turmeric and liquorice extract. Alcohol-free and usable over makeup, after cleansing, or as a hair refresh.",
     original_price: 23.00, sale_price: 23.00, discount_percent: 0,
-    image_url: "https://images.unsplash.com/photo-1631730486572-226d1f595b68?w=400&h=400&fit=crop",
+    image_url: "/images/nourish-london-logo.png",
     affiliate_url: "https://www.awin1.com/cread.php?awinmid=81819&awinaffid=3013053&clickref=peptide-face-mist&ued=https%3A%2F%2Fnourishskinrange.com%2Fproducts%2Fantioxidant-peptide-mist", merchant: "Nourish London", rating: 0, review_count: 0, dupe_for: null,
   },
   {
@@ -94,7 +94,7 @@ const products = [
     category: "Beauty & Skincare", category_slug: "beauty-skincare",
     description: "Certified organic, vegan 4-piece routine (cleanser, toning mist, peptide serum, moisturiser) with vitamin C and hyaluronic acid for dry, dehydrated skin. Same key actives as SkinCeuticals C E Ferulic for a fraction of the price.",
     original_price: 38.00, sale_price: 32.00, discount_percent: 16,
-    image_url: "https://images.unsplash.com/photo-1631730486572-226d1f595b68?w=400&h=400&fit=crop",
+    image_url: "/images/nourish-london-logo.png",
     affiliate_url: "https://tidd.ly/4fKZbHd", merchant: "Nourish London", rating: 4.4, review_count: 16, dupe_for: "SkinCeuticals C E Ferulic",
   },
   {
