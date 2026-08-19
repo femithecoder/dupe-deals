@@ -1,17 +1,17 @@
 ---
-title: "Best Budget Mechanical Keyboard UK: Real Prices, Real Comparison"
-excerpt: "A tenkeyless mechanical keyboard for £71.23, priced directly against the premium option we sell ourselves, not an estimate."
+title: "Best Budget Mechanical Keyboard UK (Real Prices)"
+excerpt: "A mechanical keyboard for £71.23, priced directly against the pricier option we sell ourselves — not a guess."
 date: "2026-08-19"
 author: "DupeDeals"
 category: "Electronics & Tech"
 coverImage: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&h=400&fit=crop"
 ---
 
-"Best budget mechanical keyboard UK" gets searched constantly, and most roundups list five or six options at once without pricing any of them directly against a specific premium alternative from the same retailer. We can do that here, because we sell both ends of this comparison ourselves.
+"Best budget mechanical keyboard UK" gets searched a lot, but most roundups list five or six options without pricing any of them against a specific premium alternative from the same shop. We can do that here, because we sell both.
 
 ## Why go mechanical at all
 
-If you've only used a membrane (rubber-dome) keyboard, the appeal of mechanical switches is tactile feedback and a more precise, consistent actuation point, useful for typing accuracy and, for gaming, faster registered key presses. The tradeoff has traditionally been price: proper mechanical switches used to mean spending well over £100. That gap has closed considerably, which is exactly the space this comparison sits in.
+If you've only used a rubber-dome keyboard, mechanical switches feel different: more precise, more consistent, and easier to type fast and accurately on. The catch used to be price — proper mechanical keyboards meant spending well over £100. That gap has closed a lot, which is where this comparison sits.
 
 ## The budget pick
 
@@ -19,46 +19,53 @@ If you've only used a membrane (rubber-dome) keyboard, the appeal of mechanical 
 
 ![Logitech G413 TKL SE mechanical keyboard](https://assets.media-quzo.co.uk/site/catalogue/large/2023/03/logitech-g-g413-tkl-se-keyboard-form-factor-tenkeyless-80--87-device-interface-usb-keyboard-key-333985.jpg)
 
-A tenkeyless mechanical keyboard with a solid aluminium top plate, currently 38% off Quzo's own listed price. This isn't an obscure budget brand either, [independent keyboard roundups already name the G413 specifically](https://www.rtings.com/keyboard/reviews/best/cheap-mechanical-keyboards) as one of the better sub-£100 mechanical options in the UK, which is a second data point beyond our own price check.
+A tenkeyless mechanical keyboard with a solid aluminium top, currently 38% off Quzo's own price. It's not an obscure brand either — [independent roundups already name the G413](https://www.rtings.com/keyboard/reviews/best/cheap-mechanical-keyboards) as one of the better sub-£100 mechanical keyboards in the UK, which backs up our own price check.
 
-**Switches:** Logitech's own tactile mechanical switches, rated at 50g actuation force with a 2.0mm actuation point, a comfortable middle ground between light and heavy for most typists.
+**Switches:** Logitech's own tactile switches, a comfortable middle-ground feel, not too light or heavy.
 
-**Build:** A black brushed-aluminium top case, genuinely nicer to look at and more rigid than the plastic-only tops common at this price. Keycaps are PBT plastic, which resists shine and wear from finger oils over time noticeably better than the cheaper ABS plastic used on many budget boards, including, notably, the pricier keyboard we're comparing it against below.
+**Build:** A brushed-aluminium top, sturdier and nicer to look at than the all-plastic tops common at this price. The keycaps are PBT plastic, which resists shine and wear from finger oils much better than the cheaper ABS plastic — including, notably, the pricier keyboard below.
 
-**Connectivity:** Wired only, USB-A. No Bluetooth or 2.4GHz wireless mode, worth knowing if you specifically wanted to go cable-free.
+**Connection:** Wired only, USB-A. No Bluetooth or wireless mode.
 
-**Lighting:** Single-zone white LED backlighting, not per-key RGB.
+**Lighting:** A single colour of white backlight, not per-key RGB.
 
-## What you'd pay to go premium instead
+**Pros:**
+- Much cheaper than the premium alternative below
+- Sturdier aluminium build
+- Better keycap material (PBT) than pricier rivals
+
+**Cons:**
+- Wired only, no wireless option
+- Single-colour lighting, no per-key RGB
+- No macro keys
+
+## What you'd pay to go premium
 
 ### [Razer BlackWidow V4 X](/product/20): £136.89
 
-We sell this too, so this isn't a hypothetical comparison pulled from a different retailer, it's the exact price a customer would see next to the G413 on our own site. That's **£65.66 more**, close to double, for a specific set of upgrades:
+We sell this too, at the same shop, so it's a real comparison, not a guess. That's **£65.66 more** — almost double — for a specific set of upgrades:
 
-- **Switches:** Razer's third-generation mechanical switches, offered in Green (clicky, tactile) or Yellow (linear, silent) variants, both rated at 50g actuation, giving you a choice the G413 doesn't.
-- **Lighting:** Full per-key Razer Chroma RGB, versus the G413's single-colour white backlight, a real difference if customisable lighting matters to your setup.
-- **Extras:** Six dedicated macro keys and a multi-function roller with four media keys, both genuinely useful for streaming or complex game binds, and both absent on the G413.
-- **Keycaps:** Doubleshot ABS, a step down in wear-resistance from the G413's PBT keycaps despite the higher price, which is the one place the cheaper keyboard actually wins on materials.
-- **Connectivity:** Also wired-only, so this specific upgrade isn't about going wireless.
+- **Switches:** A choice of Razer's Green (clicky) or Yellow (silent) switches, a choice the G413 doesn't offer.
+- **Lighting:** Full per-key RGB lighting, versus the G413's single white colour.
+- **Extras:** Six macro keys and a media control roller, both missing on the G413.
+- **Keycaps:** ABS plastic, which wears and shines faster than the G413's PBT keycaps — the one spot where the cheaper keyboard actually wins.
 
 ## So which one
 
-If you want mechanical typing feel, a sturdier aluminium build, and keycaps that'll resist shine for longer, the G413 gets you there for a bit over half the price of a well-known gaming brand's keyboard sold at the same retailer. If per-key RGB, dedicated macro keys, or a choice of switch feel specifically matter to your setup, the BlackWidow V4 X is the one to spend more on for those particular features, and we're not going to pretend the extras don't exist just to push the cheaper option.
+If you want a solid mechanical feel, a sturdier build, and keycaps that last longer, the G413 gets you there for close to half the price of a well-known gaming brand. If per-key RGB, macro keys, or a choice of switch feel actually matter to you, the BlackWidow V4 X is worth the extra money for those specific things.
 
-**Verdict:** Real mechanical typing for £71.23, with the premium alternative priced at the same retailer so there's nothing to estimate. The G413 even wins on keycap material despite costing less.
+**Verdict:** Real mechanical typing for £71.23, priced against the premium option at the same shop — nothing here is a guess. The G413 even wins on keycap material despite costing less.
 
 ## Frequently asked
 
-**Is a tenkeyless (TKL) keyboard missing anything important?** Just the numpad. If you regularly enter long strings of numbers (accounting, spreadsheets), a full-size board might suit you better. For gaming and general typing, TKL is popular specifically because it frees up desk space for mouse movement.
+**Am I missing much without a numpad?** Just the numpad itself. If you type long strings of numbers often, a full-size board suits you better. For gaming and everyday typing, most people prefer the smaller size — it frees up desk space.
 
-**Do these work on both Windows and Mac?** Both are USB keyboards that will type on either, though brand-specific software (Logitech G Hub, Razer Synapse) for remapping keys and lighting is built primarily around Windows.
+**Do these work on Mac as well as Windows?** Yes, both type on either. The brand software (Logitech G Hub, Razer Synapse) for remapping keys and lighting is mostly built for Windows, though.
 
-**Is 50g actuation force heavy or light?** It's a common middle-ground spec, lighter than old-school buckling-spring boards, heavier than the lightest gaming-tuned switches. Most typists find it comfortable without extensive adjustment.
-
-**Why are both of these wired instead of wireless?** Neither keyboard in this comparison offers a wireless mode, that's a genuine limitation of both, not something we're glossing over. If wireless matters more to you than price, that's a different shortlist entirely, and one we'd rather tell you upfront doesn't include either of these than quietly ignore.
+**Why are both of these wired, not wireless?** Neither keyboard here has a wireless mode — that's a real limit on both, not something we're glossing over. If wireless matters more to you than price, that's a different shortlist.
 
 ## How we priced this
 
-Both figures in this comparison came from the same source: Quzo UK's own live pricing on the day we checked, not a manufacturer RRP or a price pulled from a different retailer. That matters here specifically because keyboard pricing swings a lot between retailers and sales periods, a "budget vs premium" comparison sourced from two different sites can end up comparing a discounted budget board against a full-price premium one, or vice versa, and quietly mislead either way. Same retailer, same day, real numbers.
+Both prices came from the same place: Quzo UK's own live pricing on the day we checked, not a manufacturer RRP or a price from a different shop. That matters here — keyboard prices swing a lot between retailers and sales. A comparison built from two different sites can end up pitting a discounted budget board against a full-price premium one, or the other way round, without meaning to.
 
-Browse the full [Electronics & Tech](/category/electronics-tech) range for current prices.
+For more real comparisons, see our picks for a [Fitbit Charge 6 alternative](/blog/fitbit-charge-6-alternative-uk-2026) and a [cheap AirPods alternative with noise cancelling](/blog/cheap-airpods-alternative-anc-uk-2026). Browse the full [Electronics & Tech](/category/electronics-tech) range for current prices.
