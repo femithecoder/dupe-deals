@@ -154,6 +154,16 @@ function toClient(row) {
   }
 }
 
+// Without this, any unhandled error (e.g. a DB constraint violation) falls
+// through to Express's default handler, which returns a bare "Internal
+// Server Error" HTML page with no detail — genuinely hard to debug from
+// the client side, as happened tracking down the price_history foreign-key
+// issue in seed.js. Must be registered after all routes.
+app.use((err, _req, res, _next) => {
+  console.error(err)
+  res.status(500).json({ error: err.message })
+})
+
 app.listen(PORT, () => {
   console.log(`Product service running on http://localhost:${PORT}`)
   startPriceCheckScheduler()

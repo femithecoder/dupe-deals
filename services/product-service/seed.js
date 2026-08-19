@@ -294,6 +294,17 @@ async function seedProducts() {
   // that only ever adds/updates, so removed products silently keep showing
   // live even after being deleted from source.
   const currentIds = products.map((p) => p.id)
+
+  // price_history.product_id has a foreign key into products(id) with no
+  // ON DELETE CASCADE, so a stale product that's ever had a price check
+  // logged against it (the daily cron logs one for every product in the
+  // table, including ones later removed from this file) must have its
+  // history cleared first, or the DELETE below throws a foreign-key
+  // violation instead of actually removing anything.
+  await db.query(
+    `DELETE FROM price_history WHERE product_id != ALL($1::text[])`,
+    [currentIds]
+  )
   const { rowCount } = await db.query(
     `DELETE FROM products WHERE id != ALL($1::text[])`,
     [currentIds]
