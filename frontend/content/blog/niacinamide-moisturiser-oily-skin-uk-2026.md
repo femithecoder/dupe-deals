@@ -4,7 +4,7 @@ excerpt: "A niacinamide and saw palmetto moisturiser built specifically for oily
 date: "2026-08-19"
 author: "DupeDeals"
 category: "Beauty & Skincare"
-coverImage: "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=800&h=400&fit=crop"
+coverImage: "https://images.unsplash.com/photo-1670201203208-055d6d79db4a?w=800&h=400&fit=crop"
 ---
 
 Niacinamide (vitamin B3) has become the go-to ingredient for oily and blemish-prone skin because it genuinely does what the marketing claims: it regulates sebum production and helps refine the look of enlarged pores, without the irritation risk that comes with stronger actives like retinol or high-strength acids. Most niacinamide content online focuses on serums. If you want it in your actual daily moisturiser instead of as a separate step, the options narrow considerably, especially at a genuinely affordable price.

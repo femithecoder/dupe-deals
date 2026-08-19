@@ -35,6 +35,8 @@ What you give up versus the Charge 6 on Android: Fitbit's own coaching features 
 
 ### [Entity AERO Smartwatch](/product/34): £38.11 (was £50.99)
 
+![Entity AERO Smartwatch](https://assets.media-quzo.co.uk/site/catalogue/large/2026/04/01/entity-aero-smartwatch-yellow-nylon-display-diagonal-5-11-cm-2-01-display-technology-tft-displa-421203.webp)
+
 At roughly half the Galaxy Fit3's price, this is a genuinely basic touchscreen smartwatch, not a like-for-like Fitbit replacement. We're not going to pretend it matches the Charge 6's tracking accuracy or app ecosystem, that comparison would be dishonest. It's here because sometimes "cheapest functional smartwatch" is a real, valid search intent of its own, separate from "closest thing to a Fitbit."
 
 **Verdict:** Buy this if budget is the only requirement. Buy the Galaxy Fit3 if you actually want something comparable to the Charge 6.
