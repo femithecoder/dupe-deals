@@ -15,6 +15,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "images2.productserve.com",
       },
+      {
+        protocol: "https",
+        hostname: "assets.media-quzo.co.uk",
+      },
     ],
   },
   pageExtensions: ["ts", "tsx", "md", "mdx"],
