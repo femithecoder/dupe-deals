@@ -4,7 +4,7 @@ excerpt: "Fitbit's Charge 6 has a £139.99 RRP but regularly sells for £79-90. 
 date: "2026-08-19"
 author: "DupeDeals"
 category: "Electronics & Tech"
-coverImage: "https://images.unsplash.com/photo-1544117519-31a4b719223d?w=800&h=400&fit=crop"
+coverImage: "https://images.unsplash.com/photo-1561212942-0d77ee345b35?w=800&h=400&fit=crop"
 ---
 
 Search "Fitbit Charge 6 alternative" and most results compare it to the £139.99 RRP. That makes almost anything look cheap by comparison. But the Charge 6 [regularly sells for £79 to £90](https://www.trustedreviews.com/deals/googles-fitbit-charge-6-is-now-below-90-saving-you-50-for-prime-day) at the best current UK deals, sometimes even under £100 without needing a special code. A fair alternative has to beat that real price, not the number printed on the box. Otherwise you're just comparing a cheap product against an artificially inflated one, and calling it a win either way.
