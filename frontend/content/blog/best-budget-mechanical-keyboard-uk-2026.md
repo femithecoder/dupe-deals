@@ -7,7 +7,7 @@ category: "Electronics & Tech"
 coverImage: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&h=400&fit=crop"
 ---
 
-"Best budget mechanical keyboard UK" gets searched a lot. Most roundups list five or six options without pricing any of them against a specific premium alternative from the same shop. We can do that here, because we sell both.
+Mechanical keyboards have a reputation for being expensive, and a lot of the time that's fair. But the gap between a budget board and a premium one has narrowed a lot in the last few years. Some budget picks now use genuinely good switches and a solid build, they just skip extras like per-key RGB or a wireless mode. Here's a £71.23 keyboard that fits that description, checked directly against a £136.89 alternative we also sell, so you can see exactly what the extra money buys.
 
 ## Why go mechanical at all
 
