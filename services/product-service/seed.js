@@ -265,6 +265,14 @@ const products = [
     image_url: "https://assets.media-quzo.co.uk/site/catalogue/large/2025/08/06/nothing-ear-a-product-type-headset-connectivity-technology-true-wireless-stereo-tws-bluetooth-r-407303.webp",
     affiliate_url: "https://www.awin1.com/cread.php?awinmid=19849&awinaffid=3013053&clickref=nothing-ear-a&ued=https%3A%2F%2Fwww.quzo.co.uk%2Fnothing-ear-a-yellow-a10600065-pid407303.html", merchant: "Quzo UK", rating: 0, review_count: 0, dupe_for: "AirPods 4",
   },
+  {
+    id: "40", name: "Razer BlackWidow V4 X Mechanical Gaming Keyboard", brand: "Razer",
+    category: "Electronics & Tech", category_slug: "electronics-tech",
+    description: "Full-size mechanical gaming keyboard with a choice of Razer Green (clicky) or Yellow (silent) switches, per-key Chroma RGB lighting, and six dedicated macro keys. The premium option next to our budget Logitech G413 pick, same retailer, real price.",
+    original_price: 162.99, sale_price: 136.89, discount_percent: 16,
+    image_url: "https://assets.media-quzo.co.uk/site/catalogue/large/2023/08/razer-blackwidow-v4-x-keyboard-green-rz03-04700300-r3w1-344933.jpg",
+    affiliate_url: "https://www.awin1.com/cread.php?awinmid=19849&awinaffid=3013053&clickref=blackwidow-v4x&ued=https%3A%2F%2Fwww.quzo.co.uk%2Frazer-blackwidow-v4-x-keyboard-green-rz0304700300r3w1-pid344933.html", merchant: "Quzo UK", rating: 0, review_count: 0, dupe_for: null,
+  },
 ]
 
 async function seedProducts() {

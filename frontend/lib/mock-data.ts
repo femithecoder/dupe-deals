@@ -625,6 +625,23 @@ export const products: Product[] = [
     reviewCount: 0,
     dupeFor: "AirPods 4",
   },
+  {
+    id: "40",
+    name: "Razer BlackWidow V4 X Mechanical Gaming Keyboard",
+    brand: "Razer",
+    category: "Electronics & Tech",
+    categorySlug: "electronics-tech",
+    description: "Full-size mechanical gaming keyboard with a choice of Razer Green (clicky) or Yellow (silent) switches, per-key Chroma RGB lighting, and six dedicated macro keys. The premium option next to our budget Logitech G413 pick, same retailer, real price.",
+    originalPrice: 162.99,
+    salePrice: 136.89,
+    discountPercent: 16,
+    imageUrl: "https://assets.media-quzo.co.uk/site/catalogue/large/2023/08/razer-blackwidow-v4-x-keyboard-green-rz03-04700300-r3w1-344933.jpg",
+    affiliateUrl: "https://www.awin1.com/cread.php?awinmid=19849&awinaffid=3013053&clickref=blackwidow-v4x&ued=https%3A%2F%2Fwww.quzo.co.uk%2Frazer-blackwidow-v4-x-keyboard-green-rz0304700300r3w1-pid344933.html",
+    merchant: "Quzo UK",
+    rating: 0,
+    reviewCount: 0,
+    dupeFor: undefined,
+  },
 ]
 
 export function getProductsByCategory(slug: string): Product[] {
