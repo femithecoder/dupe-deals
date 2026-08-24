@@ -89,9 +89,11 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
             sizes="(max-width: 768px) 100vw, 50vw"
             priority
           />
-          <div className="absolute top-3 left-3">
-            <DealBadge percent={product.discountPercent} />
-          </div>
+          {product.discountPercent > 0 && (
+            <div className="absolute top-3 left-3">
+              <DealBadge percent={product.discountPercent} />
+            </div>
+          )}
         </div>
 
         {/* Details */}
@@ -127,10 +129,12 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
 
           <div className="flex items-end gap-3 pt-2">
             <span className="text-4xl font-black text-slate-900">£{product.salePrice.toFixed(2)}</span>
-            <div className="mb-1">
-              <p className="text-sm text-slate-400 line-through">£{product.originalPrice.toFixed(2)}</p>
-              <p className="text-sm text-emerald-600 font-semibold">Save £{savings}</p>
-            </div>
+            {product.originalPrice > product.salePrice && (
+              <div className="mb-1">
+                <p className="text-sm text-slate-400 line-through">£{product.originalPrice.toFixed(2)}</p>
+                <p className="text-sm text-emerald-600 font-semibold">Save £{savings}</p>
+              </div>
+            )}
           </div>
 
           {product.reviewCount > 0 && (

@@ -18,9 +18,11 @@ export default function ProductCard({ product }: { product: Product }) {
           className="object-cover group-hover:scale-105 transition-transform duration-300"
           sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
         />
-        <div className="absolute top-2 left-2">
-          <DealBadge percent={product.discountPercent} />
-        </div>
+        {product.discountPercent > 0 && (
+          <div className="absolute top-2 left-2">
+            <DealBadge percent={product.discountPercent} />
+          </div>
+        )}
       </div>
 
       {/* Content */}
@@ -42,9 +44,11 @@ export default function ProductCard({ product }: { product: Product }) {
             <p className="text-lg font-bold text-slate-900">
               £{product.salePrice.toFixed(2)}
             </p>
-            <p className="text-xs text-slate-400 line-through">
-              £{product.originalPrice.toFixed(2)}
-            </p>
+            {product.originalPrice > product.salePrice && (
+              <p className="text-xs text-slate-400 line-through">
+                £{product.originalPrice.toFixed(2)}
+              </p>
+            )}
           </div>
           {product.reviewCount > 0 && (
             <div className="flex items-center gap-1 text-xs text-slate-500">

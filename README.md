@@ -1,6 +1,6 @@
 # DupeDeals
 
-_Last updated: 2026-08-19_
+_Last updated: 2026-08-24_
 
 A UK deals and recommendations site. Two-part pitch to visitors, per product pair:
 
@@ -43,6 +43,9 @@ Monetized primarily via affiliate commission on the dupe/alternative side (the "
 - **Blog SEO/readability pass on the 4 new posts**, at the user's request after reviewing them against real content standards: shortened every title to under ~55 characters and every excerpt under ~140 (3 of 4 titles and 2 of 4 excerpts were long enough to get truncated in actual Google search results before this). Added two-way internal links between the three Electronics & Tech posts and the original tech post (there were zero blog-to-blog links before — no topical clustering at all). Added a scannable pros/cons list to the main product in each post. Simplified sentence structure and cut jargon/repetition throughout (overused "genuinely" a lot in the first draft) for easier reading. Deliberately did not address the lack of genuine hands-on-testing/E-E-A-T signal — that needs actually having the products, not better writing, so it's flagged as a known limitation rather than faked.
 - **Found and fixed a real data bug while doing a wording pass on the blog**: the mechanical-keyboard post linked "Razer BlackWidow V4 X" to `/product/20`, but that id was actually a Logitech gaming headset from the original 11 Quzo products, an unrelated product. The BlackWidow itself had been researched (real price, real stock) but never actually added to the catalog. Since the post's whole point is "we sell this too, so it's a real comparison," the honest fix was adding it as a real product rather than just correcting the link — id 40, real Quzo image and affiliate link, verified working. Catalog is now 34 products.
 - **Rewrote the 4 new posts again at the user's request**, after they flagged heavy em-dash use as an easy AI-writing tell. Cut dash count from roughly one every other sentence down to 0–1 per post, restructuring rather than just deleting them. Added a second real product image to the mechanical-keyboard post (the newly-added BlackWidow) and a second image to the niacinamide post (a generic serum-application shot, since the only product photo available is the Nourish logo). Brought every post to ~1,000–1,015 words, added a few more genuinely useful FAQ/context additions rather than padding to hit the number.
+- **Both remaining mock categories filled with real products**: joined the **Amazon Sellers Programme (UK)**, run on Awin/PartnerBoost (merchant ID 118045) — a real per-product deep-link feed covering 2,500+ Amazon sellers, distinct from standard Amazon Associates (no PA-API real-time-display restriction, since it's a periodic feed like every other Awin merchant already integrated). Pulled the publisher's own datafeed CSV (16,453 rows), filtered to `Home & Kitchen` (1,152 rows) and `Baby Products` (88 rows), and picked 12 + 10 products by brand recognisability, price spread (£22–£400), and genuine spec data. Every one of the 22 was live-checked against its actual Amazon UK listing before use, not the feed's price — about half the feed prices had already drifted (e.g. Cosori TurboBlaze Air Fryer: feed said £99.99, live was £127.78). One item (a GCurtain curtain pole) was dropped after three different listings from that seller all showed "Currently unavailable" live; replaced with a Waterdrop tap filter. Catalog is now 56 products: 0 mock, 34 previously real, 22 new Amazon Sellers Programme.
+- **No fabricated discounts on the new Amazon products**: Amazon doesn't show a genuine "was" price on most of these listings (checked the actual price-widget HTML, not just page text), so rather than invent one to satisfy the UI, `originalPrice === salePrice` and `discountPercent: 0` for all 22, same honesty convention as the Nourish products above. This exposed a real UI gap — `ProductCard.tsx` and the product detail page rendered the deal badge and strikethrough price unconditionally, which would've shown a nonsensical "-0%" badge and a strikethrough price identical to the real price. Fixed both to only render when there's an actual discount (`discountPercent > 0` / `originalPrice > salePrice`).
+- **3 genuine dupe pairings within the new Amazon products**, using two of our own listings rather than a copy-only comparison: roborock Q7 M5 (£159.99) vs Lefant M210 (£108.17) robot vacuums, eufy Breast Pump S1 (£149.99) vs MOMMED Breast Pump (£49.99), Tapo C840 (£129.00) vs Reolink 4MP camera (£25.49) as baby monitors. Real spec trade-offs cited (suction Pa, heating function, single vs dual lens), not invented performance claims.
 
 ## Known architecture gap (next big build)
 
@@ -63,8 +66,8 @@ Going category by category. Priority is the dupe/alternative side (needs a real 
 
 ### Home & Kitchen, Baby & Kids
 
+- **Approved & live**: Amazon Sellers Programme (UK), via Awin/PartnerBoost (merchant ID 118045) — 12 Home & Kitchen + 10 Baby & Kids real products, see above. Both categories are now fully real, 0 mock products remaining.
 - **Approved, evaluated, not used**: BrickZoneHub (LEGO display frames/cases) — natural fit is Home & Kitchen (decor), not Baby & Kids (adult collector product, not a kids' toy), but entire checked catalog was sold out. Re-check periodically in case stock returns.
-- Nothing fits Baby & Kids yet from any accepted program.
 
 ### Electronics & Tech
 
@@ -81,6 +84,6 @@ Going category by category. Priority is the dupe/alternative side (needs a real 
 - `AWIN_API_KEY` / `PRICE_PROVIDER=awin` aren't set anywhere yet, so the real provider is wired but unused until credentials exist.
 - Database switched from SQLite to Postgres (`services/product-service/db.js` uses `pg`) since Render's free tier doesn't support persistent disks, only paid plans do. Migration tested locally against a throwaway Docker Postgres: seed, every route, and a real price-check run all verified working.
 - Nourish London and BrickZoneHub have no datafeed wired up — manual `cread.php` deep links work, but the price-tracking pipeline can't auto-update them like it does Quzo (which uses the real Awin datafeed). Manual re-checks needed periodically.
+- Amazon Sellers Programme products also aren't wired into the price-tracking pipeline yet — it's a real datafeed (unlike Nourish/BrickZoneHub), so a proper `awin-partnerboost` provider is a realistic near-term addition, just not built this round.
 - Frontend UI to show price history / "price dropped" indicators
-- Real affiliate URLs for the remaining 6 mock products (Baby & Kids ×3, Home & Kitchen ×3, all placeholder `#` in seed data — no accepted affiliate program fits either category yet)
 - Email price-alert signups/accounts.
