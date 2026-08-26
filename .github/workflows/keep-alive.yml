@@ -12,11 +12,19 @@ on:
     - cron: "*/10 * * * *"
   workflow_dispatch:
 
+# A single ping failing the job (and emailing the repo owner via GitHub's
+# built-in failed-workflow notification, Settings -> Notifications -> Actions)
+# used to be swallowed with "will retry next run", so a real outage produced
+# no signal at all until someone happened to check the site. --retry absorbs
+# a single transient blip; if it still fails after that, it's real and should
+# alert. This is deliberately noisy for the duration of a real outage (fires
+# again every ~10 min until it recovers), that's the point, not a bug.
+
 jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
       - name: Ping gateway
-        run: curl -sf --max-time 60 https://dupedeals-gateway.onrender.com/health || echo "gateway ping failed, will retry next run"
+        run: curl -sf --retry 3 --retry-delay 5 --max-time 60 https://dupedeals-gateway.onrender.com/health
       - name: Ping product-service
-        run: curl -sf --max-time 60 https://dupedeals-product-service.onrender.com/health || echo "product-service ping failed, will retry next run"
+        run: curl -sf --retry 3 --retry-delay 5 --max-time 60 https://dupedeals-product-service.onrender.com/health

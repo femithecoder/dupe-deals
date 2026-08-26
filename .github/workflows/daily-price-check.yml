@@ -22,6 +22,18 @@ jobs:
     steps:
       - name: Trigger price check
         run: |
-          curl -sf --max-time 120 -X POST \
+          # -f already fails (and emails, via GitHub's built-in failed-workflow
+          # notification) on a non-2xx, which alone would have caught today's
+          # OOM crash (it returned 502). But a run can also come back 200 with
+          # individual merchants failed inside the body (e.g. one feed 404s),
+          # that's not an HTTP failure so -f alone won't catch it, check the
+          # response itself too.
+          response=$(curl -sf --max-time 120 -X POST \
             -H "x-cron-secret: ${{ secrets.CRON_SECRET }}" \
-            https://dupedeals-product-service.onrender.com/admin/price-check
+            https://dupedeals-product-service.onrender.com/admin/price-check)
+          echo "$response"
+          failure_count=$(echo "$response" | jq '.failures | length')
+          if [ "$failure_count" -gt 0 ]; then
+            echo "::error::$failure_count product(s) failed to price-check, see the failures array above"
+            exit 1
+          fi
