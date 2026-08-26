@@ -1,0 +1,27 @@
+name: Daily price check
+
+# Belt-and-braces alongside the in-process node-cron in
+# services/product-service/pricing/scheduler.js. That scheduler only fires if
+# the Render service happens to be awake at exactly 06:00 server time, and
+# node-cron does not catch up on a missed fire, if Render was asleep at that
+# instant, the whole day's check is silently lost. Confirmed via
+# price_history that this has actually happened repeatedly. Triggering the
+# check externally via HTTP sidesteps that: the request itself wakes the
+# service (same as keep-alive.yml), and running it a few minutes late is
+# harmless. Running both is safe, /admin/price-check is idempotent to call
+# twice in the same window.
+
+on:
+  schedule:
+    - cron: "5 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  price-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger price check
+        run: |
+          curl -sf --max-time 120 -X POST \
+            -H "x-cron-secret: ${{ secrets.CRON_SECRET }}" \
+            https://dupedeals-product-service.onrender.com/admin/price-check

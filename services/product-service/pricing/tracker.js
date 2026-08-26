@@ -45,7 +45,26 @@ async function runPriceCheck({ provider = getProvider() } = {}) {
     }
   }
 
+  if (changed > 0) await notifyFrontend()
+
   return { checked: products.length, changed, drops, failures }
+}
+
+// Pokes the frontend to drop its cached product data immediately instead of
+// waiting on ISR's lazy background regeneration, which is what let stale
+// mock-data prices sit on the live site unnoticed after a real price change.
+// Both env vars are optional, local/dev runs without them just skip this.
+async function notifyFrontend() {
+  const url = process.env.FRONTEND_REVALIDATE_URL
+  const secret = process.env.REVALIDATE_SECRET
+  if (!url || !secret) return
+
+  try {
+    const res = await fetch(url, { method: "POST", headers: { "x-revalidate-secret": secret } })
+    if (!res.ok) console.error(`[price-check] frontend revalidate failed: ${res.status}`)
+  } catch (err) {
+    console.error("[price-check] frontend revalidate failed:", err.message)
+  }
 }
 
 module.exports = { runPriceCheck }

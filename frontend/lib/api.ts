@@ -10,10 +10,17 @@ import {
 const GATEWAY = process.env.NEXT_PUBLIC_GATEWAY_URL
 
 async function get<T>(path: string): Promise<T> {
-  if (!GATEWAY) throw new Error("No gateway configured")
-  const res = await fetch(`${GATEWAY}${path}`, { next: { revalidate: 300 } })
-  if (!res.ok) throw new Error(`API error ${res.status}: ${path}`)
-  return res.json()
+  try {
+    if (!GATEWAY) throw new Error("No gateway configured")
+    const res = await fetch(`${GATEWAY}${path}`, { next: { revalidate: 300, tags: ["products"] } })
+    if (!res.ok) throw new Error(`API error ${res.status}: ${path}`)
+    return await res.json()
+  } catch (err) {
+    // callers fall back to static mock data on failure, that fallback being
+    // silent is exactly what let stale prices sit unnoticed in production
+    console.error(`[api] live fetch failed for ${path}, falling back to mock data:`, err)
+    throw err
+  }
 }
 
 export async function fetchFeaturedProducts(limit = 8): Promise<Product[]> {

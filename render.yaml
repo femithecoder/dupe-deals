@@ -6,8 +6,16 @@
 #   1. dupedeals-product-service -> Environment -> set AWIN_API_KEY (from Awin
 #      dashboard -> My Account -> API Credentials) and CRON_SECRET (any random
 #      string, used to authenticate POST /admin/price-check if you ever trigger
-#      it from an external scheduler instead of the built-in daily cron).
+#      it from an external scheduler instead of the built-in daily cron, also
+#      required by .github/workflows/daily-price-check.yml, which needs the
+#      same value saved as a GitHub Actions repo secret named CRON_SECRET).
 #      DATABASE_URL is wired automatically from the dupedeals-db database below.
+#      Also set FRONTEND_REVALIDATE_URL (e.g. https://www.dupedeals.co.uk/api/revalidate)
+#      and REVALIDATE_SECRET (any random string) so a real price change pokes
+#      the frontend to drop its cached product data immediately, see
+#      frontend/app/api/revalidate/route.ts. REVALIDATE_SECRET must match the
+#      same-named env var set on the Vercel project. Both are optional, if
+#      unset the price check just skips notifying the frontend.
 #   2. dupedeals-gateway -> Environment -> set PRODUCT_SERVICE_URL to
 #      dupedeals-product-service's onrender.com URL, visible on its dashboard
 #      page once deployed.
@@ -16,7 +24,8 @@
 # onrender.com URL and redeploy the frontend. Do NOT point it at
 # product-service directly, the gateway is what adds the /api prefix the
 # frontend expects (frontend/lib/api.ts calls /api/products/..., the gateway
-# strips /api and forwards to product-service's /products/...).
+# strips /api and forwards to product-service's /products/...). Also set
+# REVALIDATE_SECRET on Vercel to match product-service's value above.
 #
 # After first deploy, run `npm run seed` once via product-service's Shell tab
 # to populate the fresh database.
@@ -70,4 +79,8 @@ services:
       - key: AWIN_API_KEY
         sync: false
       - key: CRON_SECRET
+        sync: false
+      - key: FRONTEND_REVALIDATE_URL
+        sync: false
+      - key: REVALIDATE_SECRET
         sync: false
