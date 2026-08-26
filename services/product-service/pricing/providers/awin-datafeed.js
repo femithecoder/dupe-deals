@@ -1,10 +1,19 @@
 // Real price provider backed by Awin's product datafeed. Only covers merchants
-// with a feed wired up below (Quzo UK feedId 42863, Amazon feedId 110672, both
-// inferred from the productserve.com image CDN URLs already stored on those
-// products, same method, confirmed correct for Quzo against its live site).
-// Any product from an unwired merchant (currently just Nourish London, no
-// feed ID known yet), or a mock "#" affiliate link, is left unchanged rather
+// with a feed wired up below (currently Quzo UK, feedId 42863, inferred from the
+// productserve.com image CDN URLs already stored on those products). Any product
+// from an unwired merchant, or a mock "#" affiliate link, is left unchanged rather
 // than guessed, same contract shape as providers/simulated.js: fetchPrice(product).
+//
+// Amazon's feed (110672, same inference method) is NOT wired up despite being
+// identified, downloading and fully materializing it via downloadFeed() below
+// OOM-crashed product-service in production (confirmed via Render logs,
+// "JavaScript heap out of memory", twice, reproducibly). Amazon's catalog is
+// evidently far larger than Quzo's, downloadFeed loads the whole decompressed
+// CSV into memory and indexes every row before any filtering happens, that
+// doesn't scale to a feed of Amazon's size on Render's free-tier memory limit.
+// Needs a streaming rewrite (decompress + parse + filter to only the rows our
+// products actually reference, without ever holding the full feed in memory)
+// before Amazon can be safely re-added here.
 //
 // Two affiliate link shapes exist among our Quzo products: pclick.php?p=<id>
 // links carry Awin's aw_product_id directly, matched below by ID. Older
@@ -18,7 +27,6 @@ const FEED_CACHE_MS = 60 * 60 * 1000 // re-download at most once an hour, not on
 
 const FEEDS = {
   "Quzo UK": process.env.AWIN_QUZO_FEED_ID || "42863",
-  Amazon: process.env.AWIN_AMAZON_FEED_ID || "110672",
 }
 
 const cache = new Map() // feedId -> { feed: { byAwinProductId, byMerchantUrl }, fetchedAt }
