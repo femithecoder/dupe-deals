@@ -1,6 +1,7 @@
 // Stand-in for a real price feed (e.g. an affiliate network's product API) so the
 // tracking pipeline, price history, and drop detection all work end to end today.
-// Swap this out for a real provider by implementing the same fetchPrice(product) shape.
+// Swap this out for a real provider by implementing the same fetchPrices(products)
+// shape: takes the full batch, returns a Map<product.id, { price } | { error }>.
 
 const FLOOR_RATIO = 0.4 // simulated price never drops below 40% of the original RRP
 
@@ -8,7 +9,7 @@ function round2(n) {
   return Math.round(n * 100) / 100
 }
 
-async function fetchPrice(product) {
+function simulateOne(product) {
   const roll = Math.random()
 
   let nextPrice = product.sale_price
@@ -29,4 +30,10 @@ async function fetchPrice(product) {
   return { price: round2(nextPrice) }
 }
 
-module.exports = { fetchPrice }
+async function fetchPrices(products) {
+  const results = new Map()
+  for (const product of products) results.set(product.id, simulateOne(product))
+  return results
+}
+
+module.exports = { fetchPrices }

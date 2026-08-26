@@ -9,16 +9,20 @@ async function runPriceCheck({ provider = getProvider() } = {}) {
   const failures = []
   let changed = 0
 
+  // One batch call, not one per product, so a feed-backed provider can
+  // download and stream each merchant's feed exactly once per run instead of
+  // once per product.
+  const prices = await provider.fetchPrices(products)
+
   for (const product of products) {
-    let newPrice
-    try {
-      ;({ price: newPrice } = await provider.fetchPrice(product))
-    } catch (err) {
-      // a real feed/network call can fail on any single product, don't let it
-      // abort the check for the rest
-      failures.push({ id: product.id, name: product.name, error: err.message })
+    const result = prices.get(product.id)
+    if (!result || result.error) {
+      // a real feed/network call can fail for a whole merchant, don't let it
+      // abort the check for products from other merchants
+      failures.push({ id: product.id, name: product.name, error: result?.error || "no result returned" })
       continue
     }
+    const newPrice = result.price
 
     const oldPrice = product.sale_price
 
