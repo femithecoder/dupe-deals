@@ -155,7 +155,8 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
             affiliateUrl={product.affiliateUrl}
           />
           <p className="text-xs text-slate-400 text-center">
-            We may earn a commission if you buy via this link.
+            We may earn a commission if you buy via this link. Price checked periodically, may
+            differ slightly from the retailer&apos;s current price.
           </p>
         </div>
       </div>
