@@ -106,7 +106,10 @@ app.post("/admin/price-check", async (req, res) => {
     return res.status(401).json({ error: "Unauthorized" })
   }
 
-  const result = await runPriceCheck()
+  // ?merchant=Amazon scopes the check to one merchant, so a merchant whose
+  // prices drift faster (Amazon) can be checked more often on a separate
+  // schedule without re-running the whole catalog, see tracker.js
+  const result = await runPriceCheck({ merchant: req.query.merchant })
   res.json(result)
 })
 

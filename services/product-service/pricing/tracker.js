@@ -3,8 +3,15 @@ const { getProvider } = require("./providers")
 
 const DROP_THRESHOLD = 0.01 // ignore sub-1% noise, only report genuine drops
 
-async function runPriceCheck({ provider = getProvider() } = {}) {
-  const { rows: products } = await db.query("SELECT * FROM products")
+async function runPriceCheck({ provider = getProvider(), merchant } = {}) {
+  // Optional merchant filter, e.g. so Amazon (whose prices change several
+  // times a day per Amazon's own dynamic pricing, confirmed by comparing our
+  // tracked price against the live buy-box price and finding real drift on
+  // 2 of 5 spot-checked products) can be checked more often than merchants
+  // like Quzo, without re-running the whole catalog on that tighter schedule.
+  const { rows: products } = merchant
+    ? await db.query("SELECT * FROM products WHERE merchant = $1", [merchant])
+    : await db.query("SELECT * FROM products")
   const drops = []
   const failures = []
   let changed = 0
