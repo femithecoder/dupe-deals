@@ -23,8 +23,13 @@ to bench-test hardware.
 4. **No fake freshness.** Never year-swap a title with no real update. Use live-price tokens
    (below) so the prices are genuinely current, which is real freshness competitors fake.
 5. **Depth and assets.** Aim for 1,000+ words, a comparison table, an FAQ section, and product
-   imagery. Link to the product page and to related posts.
-6. **Disclosure.** Keep the affiliate relationship clear (site-wide disclosure already exists).
+   imagery.
+6. **Internal linking (SEO).** Every post needs at least 4-5 internal links: the product
+   page(s) it covers, its category page, and 2+ genuinely related posts (link posts to each
+   other, especially within the same category). Use descriptive anchor text, not "click here".
+   Spread contextual links through the body, not only the closing paragraph. Add a link back
+   from older related posts to each new one so linking stays two-way.
+7. **Disclosure.** Keep the affiliate relationship clear (site-wide disclosure already exists).
 
 ## Live prices: never hardcode our own product prices
 
