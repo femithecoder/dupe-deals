@@ -4,3 +4,4 @@ node_modules/
 .env*.local
 services/product-service/data/
 run.sh
+.DS_Store
