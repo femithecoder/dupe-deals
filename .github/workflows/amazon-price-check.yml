@@ -9,12 +9,16 @@ name: Amazon price check
 # matching/parsing, real upstream feed lag. Running the check more often for
 # Amazon specifically shrinks that average lag window; it doesn't eliminate
 # it (still bounded by how often Awin itself refreshes), and other merchants
-# (Quzo) haven't shown this problem, so they stay on the once-daily schedule
+# (Quzo) haven't shown this problem, so they stay on the twice-daily schedule
 # in daily-price-check.yml rather than adding load for no benefit.
+#
+# This is a backup trigger; the primary driver is the in-process catch-up
+# scheduler (services/product-service/pricing/scheduler.js), whose Amazon
+# max-age is kept in step with this cron (2h).
 
 on:
   schedule:
-    - cron: "15 */4 * * *"
+    - cron: "15 */2 * * *"
   workflow_dispatch:
 
 jobs:

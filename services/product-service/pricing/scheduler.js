@@ -15,10 +15,14 @@ const { runPriceCheck } = require("./tracker")
 
 const EVAL_INTERVAL_MS = Number(process.env.PRICE_CHECK_EVAL_INTERVAL_MS) || 15 * 60 * 1000
 
-// Full catalog once a day; Amazon more often, its Awin feed drifts from the
+// Full catalog twice a day; Amazon more often, its Awin feed drifts from the
 // live buy-box price faster than the others (see amazon-price-check.yml).
-const FULL_MAX_AGE_MS = Number(process.env.PRICE_CHECK_FULL_MAX_AGE_MS) || 24 * 60 * 60 * 1000
-const AMAZON_MAX_AGE_MS = Number(process.env.PRICE_CHECK_AMAZON_MAX_AGE_MS) || 4 * 60 * 60 * 1000
+// Tightened from 24h/4h to shrink the window in which our displayed price can
+// trail the retailer's live price. A datafeed can never be truly real-time, so
+// this reduces the drift rather than eliminating it; the product page also
+// timestamps the price and tells shoppers to confirm on the retailer's site.
+const FULL_MAX_AGE_MS = Number(process.env.PRICE_CHECK_FULL_MAX_AGE_MS) || 12 * 60 * 60 * 1000
+const AMAZON_MAX_AGE_MS = Number(process.env.PRICE_CHECK_AMAZON_MAX_AGE_MS) || 2 * 60 * 60 * 1000
 
 const STARTUP_DELAY_MS = 30 * 1000 // let the process settle before the first evaluation
 
