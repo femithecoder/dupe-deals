@@ -17,7 +17,7 @@ Most of this decision comes down to one question: do you want **one large drawer
 
 ### [Cosori TurboBlaze Air Fryer 6L](/product/43): {{price:43}}
 
-![Cosori TurboBlaze 6L air fryer](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F61QsChTr3TL._AC_SL1500_.jpg&feedId=110672&k=placeholder)
+![Cosori TurboBlaze 6L air fryer](https://images2.productserve.com/?w=600&h=600&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41CL8ZWtJkL._SS500_.jpg&feedId=110672&k=b3060f55adfff071390fc74147f82d37cfd80248)
 
 A 6-litre single-drawer air fryer built around a DC brushless motor, which is the part reviewers keep singling out. It's quieter, stays under about 60 decibels, and cooks noticeably faster than the previous Cosori generation, with five fan speeds and nine cooking functions covering air fry, roast, bake, grill, dehydrate, reheat, and proof.
 

@@ -4,7 +4,7 @@ excerpt: "A Dyson cordless starts north of £300. We checked whether a budget st
 date: "2026-09-03"
 author: "DupeDeals"
 category: "Home & Kitchen"
-coverImage: "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800&h=400&fit=crop"
+coverImage: "https://images.unsplash.com/photo-1758273238415-01ec03d9ef27?w=800&h=400&fit=crop"
 ---
 
 Search "cheap Dyson alternative" and most articles quietly compare against a Dyson's full RRP, which makes anything look like a bargain. The honest number to beat is what a Dyson cordless actually costs today. The entry-level [Dyson V8 sells from around £329](https://www.dyson.co.uk/vacuum-cleaners/cordless/v8), and the more current V12 Detect Slim is roughly £320 on a deal and closer to £450 to £560 the rest of the time. So the real question isn't "cheaper than a Dyson," almost everything is. It's whether a budget cordless does enough of the same everyday job to make skipping the Dyson a sensible choice, not a compromise you'll regret.

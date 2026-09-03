@@ -10,6 +10,7 @@ import JsonLd from "@/components/JsonLd"
 import ViewDealButton from "@/components/ViewDealButton"
 import PriceInsight from "@/components/PriceInsight"
 import PriceFreshness from "@/components/PriceFreshness"
+import { highResImage } from "@/lib/image"
 import { SITE_URL } from "@/lib/site"
 import { getMerchantTrust } from "@/lib/merchant-trust"
 
@@ -87,7 +88,7 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
         {/* Image */}
         <div className="relative aspect-square rounded-2xl overflow-hidden bg-slate-100">
           <Image
-            src={product.imageUrl}
+            src={highResImage(product.imageUrl)}
             alt={product.name}
             fill
             className="object-cover"

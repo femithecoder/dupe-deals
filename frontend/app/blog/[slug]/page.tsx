@@ -5,8 +5,10 @@ import type { Metadata } from "next"
 import { getAllPosts, getPostBySlug } from "@/lib/blog"
 import { resolveLivePriceTokens } from "@/lib/live-price"
 import ReactMarkdown from "react-markdown"
+import remarkGfm from "remark-gfm"
 import JsonLd from "@/components/JsonLd"
 import { SITE_URL, SITE_NAME } from "@/lib/site"
+import { highResImage } from "@/lib/image"
 
 export function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }))
@@ -104,6 +106,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         prose-hr:border-slate-200
       ">
         <ReactMarkdown
+          remarkPlugins={[remarkGfm]}
           components={{
             a: ({ href, children }) => {
               const isExternal = href?.startsWith("http")
@@ -115,12 +118,30 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             },
             img: ({ src, alt }) => (
               <Image
-                src={typeof src === "string" ? src : ""}
+                src={typeof src === "string" ? highResImage(src) : ""}
                 alt={alt ?? ""}
                 width={400}
                 height={400}
                 className="rounded-2xl border border-slate-200 mx-auto w-full max-w-xs h-auto not-prose"
               />
+            ),
+            // Let wide tables scroll horizontally on mobile instead of
+            // overflowing the page.
+            table: ({ children }) => (
+              <div className="not-prose my-6 overflow-x-auto rounded-xl border border-slate-200">
+                <table className="w-full border-collapse text-sm">{children}</table>
+              </div>
+            ),
+            thead: ({ children }) => <thead className="bg-slate-50">{children}</thead>,
+            th: ({ children }) => (
+              <th className="border-b border-slate-200 px-4 py-2.5 text-left font-semibold text-slate-900">
+                {children}
+              </th>
+            ),
+            td: ({ children }) => (
+              <td className="border-b border-slate-100 px-4 py-2.5 align-top text-slate-600">
+                {children}
+              </td>
             ),
           }}
         >
