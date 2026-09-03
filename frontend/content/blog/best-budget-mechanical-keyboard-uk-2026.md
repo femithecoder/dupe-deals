@@ -1,13 +1,13 @@
 ---
 title: "Best Budget Mechanical Keyboard UK (Real Prices)"
-excerpt: "A mechanical keyboard for £71.23, priced directly against the pricier option we sell ourselves — not a guess."
+excerpt: "A budget mechanical keyboard priced directly against the pricier option we sell ourselves, not a guess."
 date: "2026-08-19"
 author: "DupeDeals"
 category: "Electronics & Tech"
 coverImage: "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=800&h=400&fit=crop"
 ---
 
-Mechanical keyboards have a reputation for being expensive, and a lot of the time that's fair. But the gap between a budget board and a premium one has narrowed a lot in the last few years. Some budget picks now use genuinely good switches and a solid build, they just skip extras like per-key RGB or a wireless mode. Here's a £71.23 keyboard that fits that description, checked directly against a £136.89 alternative we also sell, so you can see exactly what the extra money buys.
+Mechanical keyboards have a reputation for being expensive, and a lot of the time that's fair. But the gap between a budget board and a premium one has narrowed a lot in the last few years. Some budget picks now use genuinely good switches and a solid build, they just skip extras like per-key RGB or a wireless mode. Here's a {{price:35}} keyboard that fits that description, checked directly against a {{price:40}} alternative we also sell, so you can see exactly what the extra money buys.
 
 ## Why go mechanical at all
 
@@ -15,11 +15,11 @@ If you've only used a rubber-dome keyboard, mechanical switches feel different. 
 
 ## The budget pick
 
-### [Logitech G413 TKL SE](/product/35): £71.23 (was £114.99)
+### [Logitech G413 TKL SE](/product/35): {{price:35}} (was {{rrp:35}})
 
 ![Logitech G413 TKL SE mechanical keyboard](https://assets.media-quzo.co.uk/site/catalogue/large/2023/03/logitech-g-g413-tkl-se-keyboard-form-factor-tenkeyless-80--87-device-interface-usb-keyboard-key-333985.jpg)
 
-A tenkeyless mechanical keyboard with a solid aluminium top, currently 38% off Quzo's own price. It isn't an obscure brand either. [Independent roundups already name the G413](https://www.rtings.com/keyboard/reviews/best/cheap-mechanical-keyboards) as one of the better sub-£100 mechanical keyboards in the UK, which backs up our own price check with a second source.
+A tenkeyless mechanical keyboard with a solid aluminium top, currently {{discount:35}} off Quzo's own price. It isn't an obscure brand either. [Independent roundups already name the G413](https://www.rtings.com/keyboard/reviews/best/cheap-mechanical-keyboards) as one of the better sub-£100 mechanical keyboards in the UK, which backs up our own price check with a second source.
 
 **Switches:** Logitech's own tactile switches, rated for 50g of actuation force. That's a comfortable middle ground, not too light and not too heavy.
 
@@ -41,11 +41,11 @@ A tenkeyless mechanical keyboard with a solid aluminium top, currently 38% off Q
 
 ## What you'd pay to go premium
 
-### [Razer BlackWidow V4 X](/product/40): £136.89 (was £162.99)
+### [Razer BlackWidow V4 X](/product/40): {{price:40}} (was {{rrp:40}})
 
 ![Razer BlackWidow V4 X mechanical gaming keyboard](https://assets.media-quzo.co.uk/site/catalogue/large/2023/08/razer-blackwidow-v4-x-keyboard-green-rz03-04700300-r3w1-344933.jpg)
 
-We sell this one too, at the same shop. That makes it a real comparison, not a guess pulled from a different retailer. It costs **£65.66 more** than the G413, close to double, for a specific set of upgrades:
+We sell this one too, at the same shop. That makes it a real comparison, not a guess pulled from a different retailer. It costs **close to double** the G413's price for a specific set of upgrades:
 
 - **Switches:** A choice of Razer's Green switches (clicky) or Yellow switches (silent), a choice the G413 doesn't offer.
 - **Lighting:** Full per-key RGB lighting, instead of the G413's single white colour.
@@ -56,7 +56,7 @@ We sell this one too, at the same shop. That makes it a real comparison, not a g
 
 If you want a solid mechanical feel, a sturdier build, and keycaps that last longer, the G413 gets you there for close to half the price of a well-known gaming brand. If per-key RGB, macro keys, or a choice of switch feel genuinely matter to your setup, the BlackWidow V4 X is worth paying extra for those specific things.
 
-**Verdict:** Real mechanical typing for £71.23, priced against the premium option at the same shop, so nothing here is a guess. The G413 even wins on keycap material despite costing less.
+**Verdict:** Real mechanical typing for {{price:35}}, priced against the premium option at the same shop, so nothing here is a guess. The G413 even wins on keycap material despite costing less.
 
 ## A word on noise, if you share a desk or office
 

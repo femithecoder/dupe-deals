@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import type { Metadata } from "next"
 import { getAllPosts, getPostBySlug } from "@/lib/blog"
+import { resolveLivePriceTokens } from "@/lib/live-price"
 import ReactMarkdown from "react-markdown"
 import JsonLd from "@/components/JsonLd"
 import { SITE_URL, SITE_NAME } from "@/lib/site"
@@ -36,6 +37,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const { slug } = await params
   const post = getPostBySlug(slug)
   if (!post) notFound()
+
+  // Resolve {{price:ID}} / {{rrp:ID}} tokens to live prices before rendering,
+  // so the post never shows a hardcoded price that has since drifted.
+  const content = await resolveLivePriceTokens(post.content)
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -119,7 +124,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             ),
           }}
         >
-          {post.content}
+          {content}
         </ReactMarkdown>
       </article>
 

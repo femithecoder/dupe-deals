@@ -1,6 +1,6 @@
 ---
 title: "Cheap AirPods Alternative with Noise Cancelling (UK)"
-excerpt: "Nothing Ear (a) beats the best current UK deal on Apple's base AirPods 4 — and it has noise cancelling, which the base AirPods 4 doesn't."
+excerpt: "Nothing Ear (a) beats the best current UK deal on Apple's base AirPods 4, and it has noise cancelling, which the base AirPods 4 doesn't."
 date: "2026-08-19"
 author: "DupeDeals"
 category: "Electronics & Tech"
@@ -15,11 +15,11 @@ Most searches for this land on generic, no-name earbuds from marketplace listing
 
 ## Our pick
 
-### [Nothing Ear (a)](/product/39): £67.14 (was £82.99)
+### [Nothing Ear (a)](/product/39): {{price:39}} (was {{rrp:39}})
 
 ![Nothing Ear (a) true wireless earbuds](https://assets.media-quzo.co.uk/site/catalogue/large/2025/08/06/nothing-ear-a-product-type-headset-connectivity-technology-true-wireless-stereo-tws-bluetooth-r-407303.webp)
 
-Nothing is a real, independently reviewed brand, not a mystery marketplace listing. It's known for a see-through, minimal design that draws obvious comparisons to Apple's own products. At £67.14, it beats even the best current UK deal on the base AirPods 4, and it comes with active noise cancelling, something the base AirPods 4 don't offer at any price.
+Nothing is a real, independently reviewed brand, not a mystery marketplace listing. It's known for a see-through, minimal design that draws obvious comparisons to Apple's own products. At {{price:39}}, it beats even the best current UK deal on the base AirPods 4, and it comes with active noise cancelling, something the base AirPods 4 don't offer at any price.
 
 **Noise cancelling:** Rated up to 45dB, a genuine ANC system rather than basic passive isolation. That puts it close to AirPods 4's separate £179 ANC version, at under half the price.
 
@@ -51,7 +51,7 @@ Apple's ecosystem, instant pairing, Find My tracking, and smooth switching betwe
 
 | | AirPods 4 (base, real price) | AirPods 4 (ANC, RRP) | Nothing Ear (a) |
 |---|---|---|---|
-| Price | ~£88–£89 | £179 | £67.14 |
+| Price | ~£88–£89 | £179 | {{price:39}} |
 | Active noise cancelling | No | Yes | Yes, up to 45dB |
 | Multipoint (2 devices) | No | No | Yes |
 | Water and dust resistance | IP54 (buds) | IP54 (buds) | IP54 (buds), IPX2 (case) |

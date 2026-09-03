@@ -1,6 +1,6 @@
 ---
 title: "Best Niacinamide Moisturiser for Oily Skin (UK)"
-excerpt: "A niacinamide moisturiser made for oily skin, £26, certified organic. Here's what it actually does and who it's for."
+excerpt: "A niacinamide moisturiser made for oily skin, certified organic, and fairly priced. Here's what it actually does and who it's for."
 date: "2026-08-19"
 author: "DupeDeals"
 category: "Beauty & Skincare"
@@ -15,7 +15,7 @@ Not every "oil control" moisturiser does the same job. The good ones pair niacin
 
 ## Our pick
 
-### [Nourish London Balance Essential Anti-Blemish Moisturiser](/product/27): £26 (50ml)
+### [Nourish London Balance Essential Anti-Blemish Moisturiser](/product/27): {{price:27}} (50ml)
 
 ![Nourish London logo](/images/nourish-london-logo.png)
 
