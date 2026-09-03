@@ -2,6 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import type { Product } from "@/lib/mock-data"
 import DealBadge from "./DealBadge"
+import { highResImage } from "@/lib/image"
 
 export default function ProductCard({ product }: { product: Product }) {
   return (
@@ -12,7 +13,7 @@ export default function ProductCard({ product }: { product: Product }) {
       {/* Image */}
       <div className="relative aspect-square bg-slate-100 overflow-hidden">
         <Image
-          src={product.imageUrl}
+          src={highResImage(product.imageUrl)}
           alt={product.name}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-300"
