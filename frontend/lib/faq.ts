@@ -109,7 +109,7 @@ export const faqs: FaqEntry[] = [
     question: "How do I contact DupeDeals?",
     keywords: ["contact", "email address", "get in touch", "reach you", "customer service", "speak to someone"],
     answer:
-      "You can email us anytime at hello@dupedeals.co.uk, or use this chat and I'll pass you through to the team if I can't help.",
+      "You can email us anytime at contactus@dupedeals.co.uk, or use this chat and I'll pass you through to the team if I can't help.",
   },
   {
     id: "privacy",
@@ -155,6 +155,6 @@ export const faqs: FaqEntry[] = [
     question: "How do I report a wrong price or broken link?",
     keywords: ["report a problem", "wrong price", "broken link", "incorrect information", "price is wrong", "link doesn't work"],
     answer:
-      "Thanks for flagging that. Please email hello@dupedeals.co.uk with the product and what's wrong, or ask me to pass it to the team.",
+      "Thanks for flagging that. Please email contactus@dupedeals.co.uk with the product and what's wrong, or ask me to pass it to the team.",
   },
 ]

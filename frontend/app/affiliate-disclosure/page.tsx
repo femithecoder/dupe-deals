@@ -41,7 +41,7 @@ export default function AffiliateDisclosurePage() {
         <h2 className="text-xl font-black text-slate-900 mt-10 mb-2">Questions</h2>
         <p>
           If you have any questions about how we&apos;re funded, email us at{" "}
-          <a href="mailto:hello@dupedeals.co.uk" className="text-violet-600 hover:underline">hello@dupedeals.co.uk</a>.
+          <a href="mailto:contactus@dupedeals.co.uk" className="text-violet-600 hover:underline">contactus@dupedeals.co.uk</a>.
         </p>
       </div>
     </div>

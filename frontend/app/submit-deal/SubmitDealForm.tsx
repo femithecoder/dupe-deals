@@ -21,7 +21,7 @@ export default function SubmitDealForm() {
       .filter(Boolean)
       .join("\n")
 
-    window.location.href = `mailto:hello@dupedeals.co.uk?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+    window.location.href = `mailto:contactus@dupedeals.co.uk?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
     setSent(true)
   }
 

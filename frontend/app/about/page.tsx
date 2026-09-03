@@ -52,8 +52,8 @@ export default function AboutPage() {
         <h2 className="text-xl font-black text-slate-900 mt-10 mb-2">Get in touch</h2>
         <p>
           Got a product suggestion, a deal tip, or just want to say hi? Use the chat button in the bottom right, or email us at{" "}
-          <a href="mailto:hello@dupedeals.co.uk" className="text-violet-600 hover:underline">
-            hello@dupedeals.co.uk
+          <a href="mailto:contactus@dupedeals.co.uk" className="text-violet-600 hover:underline">
+            contactus@dupedeals.co.uk
           </a>
           .
         </p>

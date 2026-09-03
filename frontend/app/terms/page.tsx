@@ -66,7 +66,7 @@ export default function TermsPage() {
         <h2 className="text-xl font-black text-slate-900 mt-10 mb-2">Contact</h2>
         <p>
           Questions about these terms? Email{" "}
-          <a href="mailto:hello@dupedeals.co.uk" className="text-violet-600 hover:underline">hello@dupedeals.co.uk</a>.
+          <a href="mailto:contactus@dupedeals.co.uk" className="text-violet-600 hover:underline">contactus@dupedeals.co.uk</a>.
         </p>
       </div>
     </div>

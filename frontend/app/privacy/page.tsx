@@ -49,7 +49,7 @@ export default function PrivacyPage() {
         <p>
           Under UK GDPR, you can ask us what data we hold about you, request a correction, or ask us to delete it.
           Contact us at{" "}
-          <a href="mailto:hello@dupedeals.co.uk" className="text-violet-600 hover:underline">hello@dupedeals.co.uk</a>{" "}
+          <a href="mailto:contactus@dupedeals.co.uk" className="text-violet-600 hover:underline">contactus@dupedeals.co.uk</a>{" "}
           to make a request.
         </p>
 

@@ -25,7 +25,7 @@ function buildEscalationMailto(transcript: Message[]): string {
     .map((m) => `${m.from === "user" ? "You" : "Bot"}: ${m.text}`)
     .join("\n")
   const subject = "DupeDeals chat: need a hand"
-  return `mailto:hello@dupedeals.co.uk?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+  return `mailto:contactus@dupedeals.co.uk?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
 }
 
 export default function ChatWidget() {

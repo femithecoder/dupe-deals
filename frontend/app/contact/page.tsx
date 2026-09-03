@@ -14,8 +14,8 @@ export default function ContactPage() {
       <p className="text-slate-500 mb-8 leading-relaxed">
         Got a question, some feedback, or spotted a price that looks off? Send us a message below and we&apos;ll get
         back to you. You can also email us directly at{" "}
-        <a href="mailto:hello@dupedeals.co.uk" className="text-violet-600 hover:underline">
-          hello@dupedeals.co.uk
+        <a href="mailto:contactus@dupedeals.co.uk" className="text-violet-600 hover:underline">
+          contactus@dupedeals.co.uk
         </a>
         .
       </p>
