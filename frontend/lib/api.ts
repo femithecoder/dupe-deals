@@ -58,6 +58,20 @@ export async function searchProducts(query: string): Promise<Product[]> {
   }
 }
 
+export type PricePoint = { price: number; checkedAt: string }
+
+// Recent tracked prices for a product, oldest first. On any failure we return
+// an empty list rather than falling back to mock data, since there is no mock
+// price history and "no history" simply renders nothing on the page.
+export async function fetchPriceHistory(id: string): Promise<PricePoint[]> {
+  try {
+    const data = await get<{ history: PricePoint[] }>(`/api/products/${id}/price-history`)
+    return data.history
+  } catch {
+    return []
+  }
+}
+
 export async function fetchCategories(): Promise<Pick<Category, "name" | "slug">[]> {
   try {
     const data = await get<{ categories: Pick<Category, "name" | "slug">[] }>("/api/categories")

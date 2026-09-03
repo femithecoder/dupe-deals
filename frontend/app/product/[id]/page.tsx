@@ -3,11 +3,13 @@ import Image from "next/image"
 import Link from "next/link"
 import type { Metadata } from "next"
 import { products } from "@/lib/mock-data"
-import { fetchProductById, fetchProductsByCategory } from "@/lib/api"
+import { fetchProductById, fetchProductsByCategory, fetchPriceHistory } from "@/lib/api"
 import DealBadge from "@/components/DealBadge"
 import ProductCard from "@/components/ProductCard"
 import JsonLd from "@/components/JsonLd"
 import ViewDealButton from "@/components/ViewDealButton"
+import PriceInsight from "@/components/PriceInsight"
+import PriceFreshness from "@/components/PriceFreshness"
 import { SITE_URL } from "@/lib/site"
 import { getMerchantTrust } from "@/lib/merchant-trust"
 
@@ -41,9 +43,12 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
 
   const savings = (product.originalPrice - product.salePrice).toFixed(2)
   const sellerTrust = getMerchantTrust(product.merchant)
-  const related = (await fetchProductsByCategory(product.categorySlug))
-    .filter((p) => p.id !== product.id)
-    .slice(0, 4)
+  const [priceHistory, related] = await Promise.all([
+    fetchPriceHistory(product.id),
+    fetchProductsByCategory(product.categorySlug).then((list) =>
+      list.filter((p) => p.id !== product.id).slice(0, 4)
+    ),
+  ])
 
   const productJsonLd = {
     "@context": "https://schema.org",
@@ -137,6 +142,8 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
             )}
           </div>
 
+          <PriceInsight history={priceHistory} currentPrice={product.salePrice} />
+
           {product.reviewCount > 0 && (
             <div className="flex items-center gap-2 text-sm">
               <span className="flex">
@@ -155,8 +162,10 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
             affiliateUrl={product.affiliateUrl}
           />
           <p className="text-xs text-slate-400 text-center">
-            We may earn a commission if you buy via this link. Price checked periodically, may
-            differ slightly from the retailer&apos;s current price.
+            <PriceFreshness history={priceHistory} />
+            We may earn a commission if you buy via this link. Prices come from the retailer&apos;s
+            feed and can change at any time, so always confirm the current price on their site
+            before buying.
           </p>
         </div>
       </div>
