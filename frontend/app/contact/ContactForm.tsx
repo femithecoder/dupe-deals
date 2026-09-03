@@ -4,28 +4,57 @@ import { useState } from "react"
 
 const CONTACT_EMAIL = "contactus@dupedeals.co.uk"
 
+type Status = "idle" | "sending" | "sent" | "fallback" | "error"
+
 export default function ContactForm() {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [subject, setSubject] = useState("")
   const [message, setMessage] = useState("")
-  const [sent, setSent] = useState(false)
+  const [company, setCompany] = useState("") // honeypot, hidden from users
+  const [status, setStatus] = useState<Status>("idle")
 
-  function handleSubmit(e: React.FormEvent) {
-    e.preventDefault()
+  function openMailto() {
     const mailSubject = subject ? `Contact: ${subject}` : "Contact form message"
-    const body = [
-      `Name: ${name}`,
-      `Email: ${email}`,
-      "",
-      message,
-    ].join("\n")
-
+    const body = [`Name: ${name}`, `Email: ${email}`, "", message].join("\n")
     window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(mailSubject)}&body=${encodeURIComponent(body)}`
-    setSent(true)
   }
 
-  if (sent) {
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault()
+    setStatus("sending")
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, subject, message, company }),
+      })
+      if (res.ok) {
+        setStatus("sent")
+        return
+      }
+      // Server can't send (e.g. not configured, or a send error): fall back to
+      // opening the visitor's email app with the message pre-filled.
+      openMailto()
+      setStatus("fallback")
+    } catch {
+      openMailto()
+      setStatus("fallback")
+    }
+  }
+
+  if (status === "sent") {
+    return (
+      <div className="rounded-2xl border border-emerald-100 bg-emerald-50 p-6 text-center">
+        <p className="font-bold text-slate-900 mb-1">Message sent</p>
+        <p className="text-sm text-slate-600">
+          Thanks, we&apos;ve got your message and will reply to {email || "your email"} soon.
+        </p>
+      </div>
+    )
+  }
+
+  if (status === "fallback") {
     return (
       <div className="rounded-2xl border border-violet-100 bg-violet-50 p-6 text-center">
         <p className="font-bold text-slate-900 mb-1">Almost there</p>
@@ -36,7 +65,7 @@ export default function ContactForm() {
             {CONTACT_EMAIL}
           </a>{" "}
           or{" "}
-          <button onClick={() => setSent(false)} className="text-violet-600 hover:underline">
+          <button onClick={() => setStatus("idle")} className="text-violet-600 hover:underline">
             try again
           </button>
           .
@@ -94,11 +123,26 @@ export default function ContactForm() {
         />
       </div>
 
+      {/* Honeypot: visually hidden, real users never fill this. */}
+      <div className="hidden" aria-hidden="true">
+        <label>
+          Company
+          <input
+            type="text"
+            tabIndex={-1}
+            autoComplete="off"
+            value={company}
+            onChange={(e) => setCompany(e.target.value)}
+          />
+        </label>
+      </div>
+
       <button
         type="submit"
-        className="w-full rounded-xl bg-violet-600 py-2.5 text-sm font-semibold text-white hover:bg-violet-700 transition"
+        disabled={status === "sending"}
+        className="w-full rounded-xl bg-violet-600 py-2.5 text-sm font-semibold text-white hover:bg-violet-700 transition disabled:opacity-60"
       >
-        Send message
+        {status === "sending" ? "Sending..." : "Send message"}
       </button>
     </form>
   )
