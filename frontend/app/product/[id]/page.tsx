@@ -12,7 +12,10 @@ import PriceInsight from "@/components/PriceInsight"
 import PriceFreshness from "@/components/PriceFreshness"
 import { highResImage } from "@/lib/image"
 import { SITE_URL } from "@/lib/site"
+import { ensureDescription, pageMetadata, shortenProductName, withBrand } from "@/lib/seo"
+import { PRODUCT_TITLE_OVERRIDES } from "@/lib/product-titles"
 import { getMerchantTrust } from "@/lib/merchant-trust"
+import { getPostsForProduct } from "@/lib/blog"
 
 export function generateStaticParams() {
   return products.map((p) => ({ id: p.id }))
@@ -23,18 +26,19 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const product = await fetchProductById(id)
   if (!product) return {}
 
-  return {
-    title: `${product.name} | DupeDeals`,
-    description: product.description,
-    alternates: { canonical: `/product/${product.id}` },
-    openGraph: {
-      title: product.name,
-      description: product.description,
-      url: `${SITE_URL}/product/${product.id}`,
-      images: [product.imageUrl],
-      type: "website",
-    },
-  }
+  return pageMetadata({
+    // Feed names run to 130+ chars, so the <title> uses a hand-written short
+    // name where we have one and an automatic trim otherwise. Either way the
+    // page itself still shows the full name as its H1.
+    title: withBrand(PRODUCT_TITLE_OVERRIDES[product.id] ?? shortenProductName(product.name)),
+    ogTitle: product.name,
+    description: ensureDescription(
+      product.description,
+      "Live UK price and full spec on DupeDeals."
+    ),
+    path: `/product/${product.id}`,
+    images: [product.imageUrl],
+  })
 }
 
 export default async function ProductPage({ params }: { params: Promise<{ id: string }> }) {
@@ -43,12 +47,23 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
   if (!product) notFound()
 
   const savings = (product.originalPrice - product.salePrice).toFixed(2)
+  const guides = getPostsForProduct(product.id)
   const sellerTrust = getMerchantTrust(product.merchant)
   const [priceHistory, related] = await Promise.all([
     fetchPriceHistory(product.id),
-    fetchProductsByCategory(product.categorySlug).then((list) =>
-      list.filter((p) => p.id !== product.id).slice(0, 4)
-    ),
+    fetchProductsByCategory(product.categorySlug).then((list) => {
+      // Rotate the window by this product's position instead of always slicing
+      // from the top. Taking the first four meant every page in a category
+      // showed the same four items, and 30 of 50 products were never linked
+      // from any other product page.
+      const others = list.filter((p) => p.id !== product.id)
+      if (others.length === 0) return others
+      const start = Math.max(0, list.findIndex((p) => p.id === product.id))
+      return Array.from(
+        { length: Math.min(4, others.length) },
+        (_, i) => others[(start + i) % others.length]
+      )
+    }),
   ])
 
   const productJsonLd = {
@@ -170,6 +185,25 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
           </p>
         </div>
       </div>
+
+      {guides.length > 0 && (
+        <section className="mt-16">
+          <h2 className="text-xl font-bold text-slate-900 mb-4">Read our guide</h2>
+          <ul className="space-y-2">
+            {guides.map((g) => (
+              <li key={g.slug}>
+                <Link
+                  href={`/blog/${g.slug}`}
+                  className="text-violet-600 font-semibold hover:text-violet-700 hover:underline"
+                >
+                  {g.title}
+                </Link>
+                <span className="text-slate-400 text-sm"> &middot; {g.readingTime}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {related.length > 0 && (
         <section className="mt-16">

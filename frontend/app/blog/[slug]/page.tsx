@@ -9,6 +9,7 @@ import remarkGfm from "remark-gfm"
 import JsonLd from "@/components/JsonLd"
 import { SITE_URL, SITE_NAME } from "@/lib/site"
 import { highResImage } from "@/lib/image"
+import { clampDescription, pageMetadata, withBrand } from "@/lib/seo"
 
 export function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }))
@@ -19,20 +20,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = getPostBySlug(slug)
   if (!post) return {}
 
-  return {
-    title: `${post.title} | DupeDeals Blog`,
-    description: post.excerpt,
-    alternates: { canonical: `/blog/${post.slug}` },
-    openGraph: {
-      title: post.title,
-      description: post.excerpt,
-      url: `${SITE_URL}/blog/${post.slug}`,
-      type: "article",
-      publishedTime: post.date,
-      authors: [post.author],
-      images: post.coverImage ? [post.coverImage] : undefined,
-    },
-  }
+  return pageMetadata({
+    // withBrand drops the suffix rather than overrun 60 chars on long titles.
+    title: withBrand(post.title),
+    ogTitle: post.title,
+    description: clampDescription(post.excerpt),
+    path: `/blog/${post.slug}`,
+    images: post.coverImage ? [post.coverImage] : undefined,
+    publishedTime: post.date,
+    authors: [post.author],
+  })
 }
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {

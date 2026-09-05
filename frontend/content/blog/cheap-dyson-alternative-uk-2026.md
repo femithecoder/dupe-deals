@@ -1,6 +1,6 @@
 ---
 title: "Cheap Dyson Alternative UK: Is a Budget Cordless Enough?"
-excerpt: "A Dyson cordless starts north of £300. We checked whether a budget stick vacuum from a century-old brand can handle the everyday job for a fraction of that."
+excerpt: "A Dyson cordless starts north of £300. We checked whether a budget stick vacuum from a century-old brand handles the everyday job for a fraction of that."
 date: "2026-09-03"
 author: "DupeDeals"
 category: "Home & Kitchen"

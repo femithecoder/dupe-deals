@@ -1,10 +1,12 @@
 import type { Metadata } from "next"
+import { pageMetadata } from "@/lib/seo"
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Affiliate Disclosure | DupeDeals",
-  description: "How DupeDeals makes money from affiliate links.",
-  alternates: { canonical: "/affiliate-disclosure" },
-}
+  description:
+    "DupeDeals earns a commission when you buy through our links, at no extra cost to you. Here is how that works and why it never changes what we recommend.",
+  path: "/affiliate-disclosure",
+})
 
 export default function AffiliateDisclosurePage() {
   return (

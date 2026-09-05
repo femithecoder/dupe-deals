@@ -63,3 +63,16 @@ export function getPostBySlug(slug: string): BlogPost | null {
     content,
   }
 }
+
+/**
+ * Posts that link to a given product. Lets a product page point back at the
+ * guide covering it, so a post outside a topic cluster still earns inbound
+ * links instead of hanging off the blog index alone.
+ */
+export function getPostsForProduct(productId: string): Omit<BlogPost, "content">[] {
+  const pattern = new RegExp(`\\]\\(/product/${productId}(?![0-9])`)
+  return getAllPosts().filter((post) => {
+    const full = getPostBySlug(post.slug)
+    return full ? pattern.test(full.content) : false
+  })
+}

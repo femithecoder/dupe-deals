@@ -1,10 +1,12 @@
 import type { Metadata } from "next"
+import { pageMetadata } from "@/lib/seo"
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Privacy Policy | DupeDeals",
-  description: "How DupeDeals collects, uses, and protects your information.",
-  alternates: { canonical: "/privacy" },
-}
+  description:
+    "How DupeDeals collects, uses, and protects your information, including what our affiliate links track, the cookies we set, and how to get data removed.",
+  path: "/privacy",
+})
 
 export default function PrivacyPage() {
   return (

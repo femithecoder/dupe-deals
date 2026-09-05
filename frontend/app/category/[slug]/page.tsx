@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation"
 import type { Metadata } from "next"
+import { ensureDescription, pageMetadata } from "@/lib/seo"
 import { categories } from "@/lib/mock-data"
 import { fetchProductsByCategory } from "@/lib/api"
 import ProductCard from "@/components/ProductCard"
@@ -13,11 +14,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const category = categories.find((c) => c.slug === slug)
   if (!category) return {}
 
-  return {
+  return pageMetadata({
     title: `${category.name} Deals | DupeDeals`,
-    description: category.description,
-    alternates: { canonical: `/category/${category.slug}` },
-  }
+    description: ensureDescription(
+      `${category.description}.`,
+      "Compare live UK prices from trusted retailers and see how much you save."
+    ),
+    path: `/category/${category.slug}`,
+  })
 }
 
 export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {

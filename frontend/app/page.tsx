@@ -1,9 +1,18 @@
 import Link from "next/link"
+import type { Metadata } from "next"
+import { pageMetadata } from "@/lib/seo"
+import { SITE_DESCRIPTION } from "@/lib/site"
 import { categories } from "@/lib/mock-data"
 import { fetchFeaturedProducts } from "@/lib/api"
 import CategoryCard from "@/components/CategoryCard"
 import ProductCard from "@/components/ProductCard"
 import SearchBar from "@/components/SearchBar"
+
+export const metadata: Metadata = pageMetadata({
+  title: "DupeDeals | Cheaper Alternatives to the Products You Love",
+  description: SITE_DESCRIPTION,
+  path: "/",
+})
 
 export default async function HomePage() {
   const featured = await fetchFeaturedProducts(8)

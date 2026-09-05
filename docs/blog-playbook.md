@@ -34,7 +34,14 @@ to bench-test hardware.
    This is an E-E-A-T signal, not a leak: the blog renderer auto-adds rel="nofollow noopener"
    and target="_blank" to external links. Link to reference/spec pages, not a rival's buy-now
    page. Only use URLs you have verified resolve (curl-check), never a guessed link.
-8. **Disclosure.** Keep the affiliate relationship clear (site-wide disclosure already exists).
+   Prefer a URL that answers 200 directly: a link that 301s to somewhere else shows up in
+   Ahrefs Site Audit as a "3XX redirect" on the post.
+8. **Frontmatter length limits.** These are what Ahrefs Site Audit and Google measure:
+   - `title` at most 60 characters. Under 48 also keeps the " | DupeDeals" suffix, which
+     `withBrand()` in `frontend/lib/seo.ts` drops automatically on longer titles.
+   - `excerpt` between 110 and 155 characters. It is the meta description verbatim, so too
+     short loses snippet space and too long gets clipped mid-sentence by `clampDescription()`.
+9. **Disclosure.** Keep the affiliate relationship clear (site-wide disclosure already exists).
 
 ## Live prices: never hardcode our own product prices
 

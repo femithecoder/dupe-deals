@@ -1,13 +1,13 @@
 ---
 title: "Cheap Wearable Breast Pump UK: MOMMED vs eufy (and Elvie)"
-excerpt: "Wearable pumps like Elvie made hands-free pumping normal, then made it expensive. We compared two genuinely affordable wearables and were honest about what you give up."
+excerpt: "Wearable pumps like Elvie made hands-free pumping normal, then made it expensive. We compared two affordable wearables and what you give up."
 date: "2026-09-03"
 author: "DupeDeals"
 category: "Baby & Kids"
 coverImage: "https://images.unsplash.com/photo-1570657891791-e39a9d185540?w=800&h=400&fit=crop"
 ---
 
-Wearable breast pumps changed the routine for a lot of parents: no wall socket, no sitting still, no dangling bottles, just a quiet cup inside your bra while you carry on with your day. The brand that made that normal, Elvie, also made it expensive, with its cup-style pumps sitting in the [£250 to £450 range](https://www.elvie.com/en-gb/shop/elvie-pump) depending on the model. The honest question isn't "what's the cheapest pump," it's how much of that hands-free experience you can get for a fraction of the price, and exactly what you trade away. We sell two wearables at very different prices, so this is a straight comparison of both against the premium benchmark.
+Wearable breast pumps changed the routine for a lot of parents: no wall socket, no sitting still, no dangling bottles, just a quiet cup inside your bra while you carry on with your day. The brand that made that normal, Elvie, also made it expensive, with its cup-style pumps sitting in the [£250 to £450 range](https://uk.elvie.com/products/elvie-pump) depending on the model. The honest question isn't "what's the cheapest pump," it's how much of that hands-free experience you can get for a fraction of the price, and exactly what you trade away. We sell two wearables at very different prices, so this is a straight comparison of both against the premium benchmark.
 
 ## Why people look for a cheaper wearable pump
 

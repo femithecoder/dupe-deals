@@ -1,6 +1,6 @@
 ---
-title: "Cheap Ring Alternative UK: Camera + Doorbell, No Subscription"
-excerpt: "Ring's hardware is cheap, then the monthly fee starts. We compared a security camera and a video doorbell that skip the subscription and store footage locally."
+title: "Cheap Ring Alternative UK: No Subscription Cameras"
+excerpt: "Ring's hardware is cheap, then the monthly fee starts. We compared a camera and a video doorbell that skip the subscription and store footage locally."
 date: "2026-09-03"
 author: "DupeDeals"
 category: "Electronics & Tech"

@@ -1,11 +1,13 @@
 import type { Metadata } from "next"
+import { pageMetadata } from "@/lib/seo"
 import ContactForm from "./ContactForm"
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Contact Us | DupeDeals",
-  description: "Get in touch with the DupeDeals team. Questions, feedback, or a price that looks wrong, we'd love to hear from you.",
-  alternates: { canonical: "/contact" },
-}
+  description:
+    "Get in touch with the DupeDeals team. Questions, feedback, a broken link, or a price that looks wrong, we read every message and reply as fast as we can.",
+  path: "/contact",
+})
 
 export default function ContactPage() {
   return (

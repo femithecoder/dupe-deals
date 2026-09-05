@@ -1,6 +1,6 @@
 ---
 title: "Best Budget Mechanical Keyboard UK (Real Prices)"
-excerpt: "A budget mechanical keyboard priced directly against the pricier option we sell ourselves, not a guess."
+excerpt: "A budget mechanical keyboard priced directly against the pricier option we sell ourselves, not a guess, with live UK prices on both of them."
 date: "2026-08-19"
 author: "DupeDeals"
 category: "Electronics & Tech"

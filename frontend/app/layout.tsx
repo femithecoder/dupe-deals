@@ -18,9 +18,11 @@ export const metadata: Metadata = {
   title: "DupeDeals | Cheaper Alternatives to the Products You Love",
   description: SITE_DESCRIPTION,
   openGraph: {
+    // No `url` here: Next.js hands this whole object to any page that does not
+    // define its own openGraph, which made og:url point at the homepage
+    // sitewide. Pages set og:url alongside their canonical via pageMetadata().
     siteName: SITE_NAME,
     description: SITE_DESCRIPTION,
-    url: SITE_URL,
     type: "website",
     locale: "en_GB",
   },

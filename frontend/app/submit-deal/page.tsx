@@ -1,11 +1,13 @@
 import type { Metadata } from "next"
+import { pageMetadata } from "@/lib/seo"
 import SubmitDealForm from "./SubmitDealForm"
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Submit a Deal | DupeDeals",
-  description: "Found a great deal or dupe? Let us know and we might feature it.",
-  alternates: { canonical: "/submit-deal" },
-}
+  description:
+    "Found a great UK deal or a dupe that beats the big brand? Send it to the DupeDeals team and we will check the price and may feature it on the site.",
+  path: "/submit-deal",
+})
 
 export default function SubmitDealPage() {
   return (

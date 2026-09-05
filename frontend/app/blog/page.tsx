@@ -1,13 +1,15 @@
 import Link from "next/link"
 import Image from "next/image"
 import type { Metadata } from "next"
+import { pageMetadata } from "@/lib/seo"
 import { getAllPosts } from "@/lib/blog"
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Blog | DupeDeals",
-  description: "Dupe guides, honest comparisons, and money-saving tips for UK shoppers.",
-  alternates: { canonical: "/blog" },
-}
+  description:
+    "Dupe guides, honest comparisons, and money-saving tips for UK shoppers, with live prices on every product we feature so nothing you read here goes stale.",
+  path: "/blog",
+})
 
 export default function BlogPage() {
   const posts = getAllPosts()

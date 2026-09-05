@@ -1,10 +1,12 @@
 import type { Metadata } from "next"
+import { pageMetadata } from "@/lib/seo"
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "About | DupeDeals",
-  description: "Learn about DupeDeals, the UK's go-to site for discounts on quality products and cheaper alternatives to premium brands.",
-  alternates: { canonical: "/about" },
-}
+  description:
+    "Learn how DupeDeals finds UK shoppers cheaper alternatives to premium brands, how we test our picks, and why we only feature dupes we would buy ourselves.",
+  path: "/about",
+})
 
 export default function AboutPage() {
   return (

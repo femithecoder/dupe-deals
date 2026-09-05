@@ -1,6 +1,6 @@
 ---
 title: "Cosori TurboBlaze vs Ninja Air Fryer UK: Which Wins?"
-excerpt: "Ninja owns the air fryer conversation, but the Cosori TurboBlaze quietly out-specs it on paper. We compared them honestly, including where Ninja still wins."
+excerpt: "Ninja owns the air fryer conversation, but the Cosori TurboBlaze quietly out-specs it on paper. We compared them, including where Ninja still wins."
 date: "2026-09-03"
 author: "DupeDeals"
 category: "Home & Kitchen"
