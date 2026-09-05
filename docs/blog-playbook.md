@@ -29,7 +29,12 @@ to bench-test hardware.
    other, especially within the same category). Use descriptive anchor text, not "click here".
    Spread contextual links through the body, not only the closing paragraph. Add a link back
    from older related posts to each new one so linking stays two-way.
-7. **Disclosure.** Keep the affiliate relationship clear (site-wide disclosure already exists).
+7. **Outbound links (SEO/trust).** Add 1-2 relevant external links to authoritative, on-topic
+   sources: the premium original's own product/spec page, or a reputable independent review.
+   This is an E-E-A-T signal, not a leak: the blog renderer auto-adds rel="nofollow noopener"
+   and target="_blank" to external links. Link to reference/spec pages, not a rival's buy-now
+   page. Only use URLs you have verified resolve (curl-check), never a guessed link.
+8. **Disclosure.** Keep the affiliate relationship clear (site-wide disclosure already exists).
 
 ## Live prices: never hardcode our own product prices
 
