@@ -42,6 +42,19 @@ const SCHEMA_SQL = `
   );
 
   CREATE INDEX IF NOT EXISTS idx_price_history_product ON price_history(product_id, checked_at DESC);
+
+  -- First-party record of outbound affiliate clicks. Deliberately has no
+  -- foreign key to products: a product can drop out of the feed and we still
+  -- want its click history, and a click must never fail because of a join.
+  CREATE TABLE IF NOT EXISTS affiliate_clicks (
+    id          SERIAL PRIMARY KEY,
+    product_id  TEXT NOT NULL,
+    merchant    TEXT,
+    referrer    TEXT,
+    clicked_at  TIMESTAMPTZ NOT NULL DEFAULT now()
+  );
+
+  CREATE INDEX IF NOT EXISTS idx_affiliate_clicks_product ON affiliate_clicks(product_id, clicked_at DESC);
 `
 
 // Memoized so the schema is only created once per process, not once per query.

@@ -96,6 +96,47 @@ app.get("/products/:id/price-history", async (req, res) => {
   res.json({ history: rows.reverse() })
 })
 
+// POST /clicks — record an outbound affiliate click.
+//
+// Counted server-side because the client-side analytics event cannot see the
+// visitors we most need to count: ad blockers that block the affiliate network
+// domain also block the analytics beacon, so blocked clicks are invisible in
+// both the network's reports and ours.
+app.post("/clicks", async (req, res) => {
+  const { productId, merchant, referrer } = req.body ?? {}
+  if (!productId) return res.status(400).json({ error: "productId is required" })
+
+  try {
+    await db.query(
+      `INSERT INTO affiliate_clicks (product_id, merchant, referrer) VALUES ($1, $2, $3)`,
+      [String(productId), merchant ?? null, referrer ?? null]
+    )
+    res.status(201).json({ recorded: true })
+  } catch (err) {
+    // Never let logging failure surface to the caller: the redirect it sits
+    // behind matters more than the record of it.
+    console.error("[clicks] failed to record click:", err)
+    res.status(200).json({ recorded: false })
+  }
+})
+
+// GET /clicks/summary — clicks per product over a window, for reconciling our
+// own count against the clicks the affiliate network reports. A large gap is
+// traffic whose clicks never reached the network.
+app.get("/clicks/summary", async (req, res) => {
+  const { days = "30" } = req.query
+  const { rows } = await db.query(
+    `SELECT product_id as "productId", merchant, COUNT(*)::int as clicks,
+            MAX(clicked_at) as "lastClickedAt"
+     FROM affiliate_clicks
+     WHERE clicked_at > now() - ($1 || ' days')::interval
+     GROUP BY product_id, merchant
+     ORDER BY clicks DESC`,
+    [String(parseInt(days) || 30)]
+  )
+  res.json({ days: parseInt(days) || 30, total: rows.reduce((n, r) => n + r.clicks, 0), products: rows })
+})
+
 // POST /admin/price-check — run the price tracker on demand (for an external
 // scheduler like Vercel Cron / GitHub Actions, or manual triggering)
 app.post("/admin/price-check", async (req, res) => {

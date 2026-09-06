@@ -175,7 +175,6 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
             productId={product.id}
             productName={product.name}
             merchant={product.merchant}
-            affiliateUrl={product.affiliateUrl}
           />
           <p className="text-xs text-slate-400 text-center">
             <PriceFreshness history={priceHistory} />
