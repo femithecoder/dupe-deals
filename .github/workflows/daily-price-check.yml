@@ -3,10 +3,9 @@ name: Daily price check
 # Belt-and-braces backup alongside the in-process catch-up scheduler in
 # services/product-service/pricing/scheduler.js. That scheduler is the primary
 # driver (it re-checks whenever the full catalog is more than its max-age old),
-# but it only runs while the Render service is awake. Triggering the check
-# externally via HTTP is a safety net: the request itself wakes the service
-# (same as keep-alive.yml), so a full-catalog check still lands even if the
-# process happened to be asleep through the scheduler's own evaluations.
+# but it only runs while the process is up. Triggering the check externally via
+# HTTP is a safety net: the request drives a check even if the process missed
+# its own evaluations, whether from a restart, a deploy, or free-tier sleep.
 # Running both is safe, /admin/price-check is idempotent to call twice in the
 # same window. Twice daily (06:05 and 18:05), kept in step with the scheduler's
 # 12h full-catalog max-age.

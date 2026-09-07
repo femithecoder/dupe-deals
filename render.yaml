@@ -30,15 +30,21 @@
 # After first deploy, run `npm run seed` once via product-service's Shell tab
 # to populate the fresh database.
 #
-# Free plan note: Render's free web service tier spins down after ~15 min of
-# no HTTP traffic. That means the daily price-check cron inside
-# product-service (services/product-service/pricing/scheduler.js) may not
-# fire at exactly 06:00 if the service is asleep, it'll run on the next
-# request that wakes it instead. Upgrade product-service to the Starter plan
-# if you need the daily check to be reliably on-time rather than best-effort.
-# Render's free Postgres also has a limited free-tier lifetime before it
-# expires or needs upgrading, check current Render pricing before relying on
-# it long-term, don't take the details here as current.
+# Plans: the `plan:` values below are NOT authoritative. At least one web
+# service was upgraded to Starter ($7/mo) in the Render dashboard, and the
+# dashboard is the source of truth. These lines were deliberately left saying
+# `free` rather than guessed at, because a blueprint sync that disagrees with
+# the dashboard can downgrade a running service. Before editing this file,
+# check each resource's actual plan in the dashboard and correct these lines
+# in the same change, or the next sync may pull a paid service back to free.
+#
+# Spin-down only applies to a service still on the free tier (~15 min of no
+# HTTP traffic). The scheduler in services/product-service/pricing/scheduler.js
+# is written to survive it either way, see the comment there.
+#
+# Worth checking separately: a free Render Postgres has a limited lifetime and
+# takes the price history and affiliate_clicks data with it when it lapses. A
+# paid web service does not cover the database, it's billed on its own.
 
 databases:
   - name: dupedeals-db

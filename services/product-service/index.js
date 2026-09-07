@@ -154,8 +154,10 @@ app.post("/admin/price-check", async (req, res) => {
   res.json(result)
 })
 
-// POST /admin/seed — (re)populate the product catalog. Exists because free-tier
-// hosting (e.g. Render's free plan) doesn't include Shell access to run `npm run seed`
+// POST /admin/seed — (re)populate the product catalog. Added when the service
+// was on a plan without Shell access, so `npm run seed` could not be run
+// directly. Kept because seeding over HTTP works the same from anywhere and
+// needs no dashboard session, see run.sh.
 app.post("/admin/seed", async (req, res) => {
   if (!process.env.CRON_SECRET) {
     return res.status(503).json({ error: "CRON_SECRET is not configured on this server" })

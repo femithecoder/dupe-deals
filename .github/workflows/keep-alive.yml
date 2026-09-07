@@ -1,11 +1,15 @@
 name: Keep Render backend awake
 
-# Render's free web service tier spins down after ~15 min of no HTTP traffic.
-# That breaks two things: a cold Vercel build request can time out and fall
-# back to static mock data, and the daily 06:00 price-check cron inside
-# product-service won't fire if the service happens to be asleep. Pinging
-# both services' /health endpoint often enough that they never go fully idle
-# fixes both for $0, at the cost of this extra moving part.
+# This started as a way to stop Render's free tier spinning down after ~15 min
+# of no traffic (a cold request could time out and drop the site back to static
+# mock data). At least one service is on a paid plan now and no longer sleeps,
+# so the ping's main job today is the alert below: it is the only thing that
+# tells us the backend is down, since nothing else watches these endpoints.
+#
+# The 10-minute cadence is inherited from the anti-sleep days and is more often
+# than an uptime check needs. It's kept because it also buys a faster outage
+# signal, and still prevents spin-down for any resource left on free. Dropping
+# to hourly is safe if the Actions minutes are better spent elsewhere.
 
 on:
   schedule:

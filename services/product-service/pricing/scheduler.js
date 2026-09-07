@@ -3,15 +3,18 @@ const { runPriceCheck } = require("./tracker")
 
 // Catch-up scheduler. The old approach (node-cron firing at exactly 06:00, and
 // GitHub Actions hitting /admin/price-check on a schedule) both kept silently
-// missing days: node-cron does not catch up a fire missed while Render's free
-// tier was asleep, and GitHub's scheduler drops queued jobs under load. Both
-// share the same flaw, depending on an external trigger firing at an exact
-// moment. This instead evaluates "is a check overdue?" on a frequent interval
-// (and on every startup, which on Render free tier means every wake, since a
-// wake is a cold start). The heavy work only runs when actually overdue, so a
-// missed window is caught up on the next evaluation rather than lost. Depends
-// only on the process being awake, which keep-alive.yml already ensures
-// reliably, not on any scheduler firing at a precise time.
+// missing days: node-cron does not catch up a fire missed while the process
+// was down, and GitHub's scheduler drops queued jobs under load. Both share
+// the same flaw, depending on an external trigger firing at an exact moment.
+// This instead evaluates "is a check overdue?" on a frequent interval, and on
+// every startup. The heavy work only runs when actually overdue, so a missed
+// window is caught up on the next evaluation rather than lost.
+//
+// This matters regardless of hosting plan: every deploy restarts the process,
+// and a restart mid-window would otherwise skip that window entirely. It also
+// covers free-tier spin-down (where a wake is a cold start) for as long as any
+// service is still on the free plan. Depends only on the process being awake,
+// not on any scheduler firing at a precise time.
 
 const EVAL_INTERVAL_MS = Number(process.env.PRICE_CHECK_EVAL_INTERVAL_MS) || 15 * 60 * 1000
 
