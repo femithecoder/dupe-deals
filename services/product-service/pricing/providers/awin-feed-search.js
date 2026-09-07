@@ -32,6 +32,10 @@ const COLUMNS = [
   "search_price",
   "rrp_price",
   "merchant_image_url",
+  // Awin's signed image proxy. Needed because the site only allows
+  // images2.productserve.com, not the retailer's own image host, and the
+  // signature cannot be reconstructed by hand, so it has to come from the feed.
+  "aw_image_url",
   "aw_deep_link",
   "brand_name",
   "in_stock",
@@ -148,7 +152,8 @@ async function searchFeed({
         category: get("merchant_category") || undefined,
         price,
         rrp: Number.isFinite(rrp) && rrp > price ? rrp : undefined,
-        imageUrl: get("merchant_image_url") || undefined,
+        imageUrl: get("aw_image_url") || get("merchant_image_url") || undefined,
+        merchantImageUrl: get("merchant_image_url") || undefined,
         deepLink: get("aw_deep_link") || undefined,
         description: (get("description") || "").slice(0, 300),
       })
