@@ -170,6 +170,88 @@ app.post("/admin/seed", async (req, res) => {
   res.json(result)
 })
 
+// POST /admin/import-price-history — restore tracked prices from a backup
+// taken through the public API (see backups/ and restore-price-history.js).
+//
+// price_history is the only data here that cannot be regenerated: products
+// come back from seed.js and prices are re-fetched on the next check, but a
+// lost history is lost for good. Needed because a free Render Postgres is
+// deleted when its lifetime ends, which means the replacement starts empty.
+//
+// Idempotent: a row is skipped when one already exists for the same product
+// at the same instant, so a partial import can simply be re-run. Chunked
+// because a single statement with thousands of rows is what actually falls
+// over on a small instance.
+app.post("/admin/import-price-history", async (req, res) => {
+  if (!process.env.CRON_SECRET) {
+    return res.status(503).json({ error: "CRON_SECRET is not configured on this server" })
+  }
+  if (req.get("x-cron-secret") !== process.env.CRON_SECRET) {
+    return res.status(401).json({ error: "Unauthorized" })
+  }
+
+  const { priceHistory } = req.body ?? {}
+  if (!priceHistory || typeof priceHistory !== "object") {
+    return res.status(400).json({ error: "priceHistory object is required" })
+  }
+
+  // Products must exist first: price_history has a foreign key to products,
+  // so importing into an empty database without seeding fails every row.
+  const { rows: existing } = await db.query("SELECT id FROM products")
+  const known = new Set(existing.map((r) => r.id))
+  if (known.size === 0) {
+    return res.status(409).json({ error: "No products in the database, run /admin/seed first" })
+  }
+
+  const rows = []
+  const skippedUnknown = new Set()
+  for (const [productId, history] of Object.entries(priceHistory)) {
+    if (!known.has(String(productId))) {
+      skippedUnknown.add(String(productId))
+      continue
+    }
+    for (const point of history ?? []) {
+      const price = Number(point.price)
+      const checkedAt = point.checkedAt ?? point.checked_at
+      if (!Number.isFinite(price) || !checkedAt) continue
+      rows.push([String(productId), price, checkedAt])
+    }
+  }
+
+  let inserted = 0
+  const CHUNK = 250
+  for (let i = 0; i < rows.length; i += CHUNK) {
+    const chunk = rows.slice(i, i + CHUNK)
+    const params = []
+    const values = chunk
+      .map((r) => {
+        params.push(r[0], r[1], r[2])
+        const n = params.length
+        return `($${n - 2}, $${n - 1}::double precision, $${n}::timestamptz)`
+      })
+      .join(", ")
+
+    const { rowCount } = await db.query(
+      `INSERT INTO price_history (product_id, price, checked_at)
+       SELECT v.product_id, v.price, v.checked_at
+       FROM (VALUES ${values}) AS v(product_id, price, checked_at)
+       WHERE NOT EXISTS (
+         SELECT 1 FROM price_history ph
+         WHERE ph.product_id = v.product_id AND ph.checked_at = v.checked_at
+       )`,
+      params
+    )
+    inserted += rowCount
+  }
+
+  res.json({
+    received: rows.length,
+    inserted,
+    skippedDuplicates: rows.length - inserted,
+    skippedUnknownProducts: [...skippedUnknown],
+  })
+})
+
 // GET /categories — distinct categories with counts
 app.get("/categories", async (_req, res) => {
   const { rows } = await db.query(

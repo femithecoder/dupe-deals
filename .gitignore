@@ -5,3 +5,4 @@ node_modules/
 services/product-service/data/
 run.sh
 .DS_Store
+backups/

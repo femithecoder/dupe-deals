@@ -6,7 +6,9 @@
     "start": "node index.js",
     "dev": "node --watch index.js",
     "seed": "node seed.js",
-    "price-check": "node pricing/run.js"
+    "price-check": "node pricing/run.js",
+    "backup": "node backup.js",
+    "restore-price-history": "node restore-price-history.js"
   },
   "keywords": [],
   "author": "",
