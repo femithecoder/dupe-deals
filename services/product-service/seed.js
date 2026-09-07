@@ -218,6 +218,14 @@ const products = [
     affiliate_url: "https://www.awin1.com/pclick.php?p=44894949092&a=3013053&m=118045", merchant: "Amazon", rating: 0, review_count: 0, dupe_for: null,
   },
   {
+    id: "63", name: "Elizabeth Arden Eight Hour Cream Skin Protectant 30ml", brand: "Elizabeth Arden",
+    category: "Beauty & Skincare", category_slug: "beauty-skincare",
+    description: "A cult rich balm that has been on sale since 1930, used for dry patches, chapped lips, cuticles and windburn as much as for the face. It works the same way the luxury creams do, by sealing moisture in rather than by any exotic ingredient, which is why it lasts as a favourite at a fraction of their price.",
+    original_price: 20.74, sale_price: 5.31, discount_percent: 74,
+    image_url: "https://uk.plusshop.com/media/catalog/product/e/l/elizabeth_arden_eight_hour_cream_skin_protectant_-_30_ml_.png",
+    affiliate_url: "https://www.awin1.com/pclick.php?p=43213973254&a=3013053&m=69306", merchant: "Plusshop UK", rating: 0, review_count: 0, dupe_for: null,
+  },
+  {
     id: "13", name: "Nourish London Protect Skincare Essentials Starter Kit", brand: "Nourish London",
     category: "Beauty & Skincare", category_slug: "beauty-skincare",
     description: "Certified organic, vegan 4-piece routine (cleanser, toning mist, peptide serum, moisturiser) with vitamin C and hyaluronic acid for dry, dehydrated skin. Same key actives as SkinCeuticals C E Ferulic for a fraction of the price.",

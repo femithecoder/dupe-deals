@@ -26,9 +26,21 @@ const zlib = require("zlib")
 const readline = require("readline")
 const { Readable } = require("stream")
 
+// Merchant -> the feeds to search, in order. A list rather than a single id
+// because one merchant can publish several feeds: Plusshop carries the same
+// catalogue across three, and a given product only appears in some of them.
+// Feeds are tried in order until every product in the batch is found.
+//
+// Plusshop feed 89999 is deliberately excluded. It lists the same products at
+// higher prices with double the delivery (£7.95 against £3.95), so re-pricing
+// from it would quote a worse price for an identical item.
+// Overridable so tests can point at a local fixture server instead of Awin.
+const FEED_BASE_URL = process.env.AWIN_FEED_BASE_URL || "https://productdata.awin.com"
+
 const FEEDS = {
-  "Quzo UK": process.env.AWIN_QUZO_FEED_ID || "42863",
-  Amazon: process.env.AWIN_AMAZON_FEED_ID || "110672",
+  "Quzo UK": [process.env.AWIN_QUZO_FEED_ID || "42863"],
+  Amazon: [process.env.AWIN_AMAZON_FEED_ID || "110672"],
+  "Plusshop UK": (process.env.AWIN_PLUSSHOP_FEED_IDS || "111951,90001").split(","),
 }
 
 function parseCsvLine(line) {
@@ -143,7 +155,7 @@ async function scanFeed(feedId, products) {
   // rid, hasEnhancedFeeds, columns, and delimiter are required by Awin's endpoint,
   // it 404s without them despite not being documented as mandatory. Confirmed
   // against the live feed: only requesting the columns actually used here.
-  const url = `https://productdata.awin.com/datafeed/download/apikey/${apiKey}/language/en/fid/${feedId}/rid/0/hasEnhancedFeeds/0/columns/aw_product_id,search_price,merchant_deep_link/format/csv/delimiter/%2C/compression/gzip/adultcontent/1/`
+  const url = `${FEED_BASE_URL}/datafeed/download/apikey/${apiKey}/language/en/fid/${feedId}/rid/0/hasEnhancedFeeds/0/columns/aw_product_id,search_price,merchant_deep_link/format/csv/delimiter/%2C/compression/gzip/adultcontent/1/`
   const res = await fetch(url)
   if (!res.ok) throw new Error(`Awin datafeed download failed for feed ${feedId}: ${res.status}`)
   if (!res.body) throw new Error(`Awin datafeed for feed ${feedId} returned no body`)
@@ -201,32 +213,47 @@ async function scanFeed(feedId, products) {
 async function fetchPrices(products) {
   const results = new Map()
 
-  const byFeed = new Map() // feedId -> [products]
+  const byMerchant = new Map() // merchant -> [products]
   for (const product of products) {
-    const feedId = FEEDS[product.merchant]
-    if (!feedId) {
+    if (!FEEDS[product.merchant]) {
       // no feed wired up for this merchant, leave unchanged rather than guess
       results.set(product.id, { price: product.sale_price })
       continue
     }
-    if (!byFeed.has(feedId)) byFeed.set(feedId, [])
-    byFeed.get(feedId).push(product)
+    if (!byMerchant.has(product.merchant)) byMerchant.set(product.merchant, [])
+    byMerchant.get(product.merchant).push(product)
   }
 
-  for (const [feedId, feedProducts] of byFeed) {
-    let found
-    try {
-      found = await scanFeed(feedId, feedProducts)
-    } catch (err) {
-      for (const product of feedProducts) results.set(product.id, { error: err.message })
-      continue
+  for (const [merchant, merchantProducts] of byMerchant) {
+    const found = new Map()
+    let remaining = merchantProducts
+    let failure = null
+
+    for (const feedId of FEEDS[merchant]) {
+      if (remaining.length === 0) break // everything located, don't download another feed
+      try {
+        for (const [id, price] of await scanFeed(feedId, remaining)) found.set(id, price)
+        remaining = remaining.filter((p) => !found.has(p.id))
+      } catch (err) {
+        // Remember it but keep going: a later feed may still carry these
+        // products, and one feed being down shouldn't fail the whole merchant.
+        failure = err
+      }
     }
-    for (const product of feedProducts) {
+
+    for (const product of merchantProducts) {
       const rawPrice = found.get(product.id)
-      // not found (dropped from the feed) or missing a price, leave unchanged
-      results.set(product.id, {
-        price: rawPrice ? Math.round(parseFloat(rawPrice) * 100) / 100 : product.sale_price,
-      })
+      if (rawPrice) {
+        results.set(product.id, { price: Math.round(parseFloat(rawPrice) * 100) / 100 })
+      } else if (failure) {
+        // Only surface the error for products we never found. A download that
+        // failed is not the same as a product that has left the feed, and
+        // silently keeping the old price would hide a broken feed.
+        results.set(product.id, { error: failure.message })
+      } else {
+        // Genuinely absent from every feed, so leave the price unchanged.
+        results.set(product.id, { price: product.sale_price })
+      }
     }
   }
 
