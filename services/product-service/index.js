@@ -4,6 +4,7 @@ const db = require("./db")
 const { runPriceCheck } = require("./pricing/tracker")
 const { startPriceCheckScheduler } = require("./pricing/scheduler")
 const { seedProducts } = require("./seed")
+const { searchFeed } = require("./pricing/providers/awin-feed-search")
 
 const app = express()
 const PORT = process.env.PORT || 3001
@@ -250,6 +251,48 @@ app.post("/admin/import-price-history", async (req, res) => {
     skippedDuplicates: rows.length - inserted,
     skippedUnknownProducts: [...skippedUnknown],
   })
+})
+
+// POST /admin/feed-search — find products in an Awin merchant feed that we
+// don't stock yet, so a newly approved advertiser can be assessed without
+// clicking through their catalogue by hand.
+//
+// Lives here rather than in a local script because AWIN_API_KEY is only
+// configured on this service. Read-only: it never writes to products, the
+// point is to review candidates before deciding what to list.
+app.post("/admin/feed-search", async (req, res) => {
+  if (!process.env.CRON_SECRET) {
+    return res.status(503).json({ error: "CRON_SECRET is not configured on this server" })
+  }
+  if (req.get("x-cron-secret") !== process.env.CRON_SECRET) {
+    return res.status(401).json({ error: "Unauthorized" })
+  }
+
+  const { feedId, anyOf, allOf, limit, minPrice, maxPrice, inStockOnly } = req.body ?? {}
+
+  try {
+    const found = await searchFeed({
+      feedId,
+      anyOf: Array.isArray(anyOf) ? anyOf : anyOf ? [anyOf] : [],
+      allOf: Array.isArray(allOf) ? allOf : allOf ? [allOf] : [],
+      limit: Math.min(parseInt(limit) || 25, 100),
+      minPrice: minPrice === undefined ? 0 : Number(minPrice),
+      maxPrice: maxPrice === undefined ? Infinity : Number(maxPrice),
+      inStockOnly: inStockOnly !== false,
+    })
+
+    // Flag what we already stock, so the same product isn't listed twice.
+    const { rows } = await db.query("SELECT affiliate_url FROM products")
+    const existing = new Set(
+      rows.map((r) => (r.affiliate_url.match(/[?&]p=(\d+)/) || [])[1]).filter(Boolean)
+    )
+    for (const item of found.results) item.alreadyListed = existing.has(item.awProductId)
+
+    res.json(found)
+  } catch (err) {
+    console.error("[feed-search] failed:", err)
+    res.status(502).json({ error: err.message })
+  }
 })
 
 // GET /categories — distinct categories with counts

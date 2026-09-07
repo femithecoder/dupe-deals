@@ -8,7 +8,8 @@
     "seed": "node seed.js",
     "price-check": "node pricing/run.js",
     "backup": "node backup.js",
-    "restore-price-history": "node restore-price-history.js"
+    "restore-price-history": "node restore-price-history.js",
+    "feed-search": "node feed-search.js"
   },
   "keywords": [],
   "author": "",
