@@ -187,6 +187,13 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
             </div>
           )}
 
+          {sellerTrust?.notice && (
+            <div className="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3">
+              <p className="text-sm font-bold text-amber-900">Before you buy</p>
+              <p className="text-sm text-amber-900/90 leading-relaxed mt-1">{sellerTrust.notice}</p>
+            </div>
+          )}
+
           <ViewDealButton
             productId={product.id}
             productName={product.name}

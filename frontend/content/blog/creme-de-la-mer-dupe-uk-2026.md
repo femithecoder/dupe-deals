@@ -53,7 +53,20 @@ If the thing you actually want from La Mer is that dense, protective, balm-like 
 
 It earns its place here for the same reason the section above explains: it works by sealing moisture in. That is the actual mechanism behind the expensive jar, and it is not a costly thing to formulate.
 
-**On the price:** {{discount:63}} off its {{rrp:63}} RRP. Add delivery and it lands around £9, which is still less than the cheapest price we could find anywhere else for the 30ml, delivery included. Worth knowing that the delivery is charged per order rather than per item, so it works out better if you buy more than one thing at once.
+**On the price, and the catch:** {{price:63}} is {{discount:63}} off its {{rrp:63}} RRP, and with delivery it lands around £9. But the shop selling it at that price, Plusshop, **requires a £9.95 per month membership to buy anything at all**. That is not a hidden fee we discovered, it is clause one of their terms: "To make a purchase with Plusshop, the customer must subscribe to a membership."
+
+The first 14 days are free and you can cancel, so it is possible to pay just the £9. The details matter though: you cannot cancel in the first 24 hours, cancelling ends the free trial immediately, and there are no refunds. Miss the window by a single month and the cream has cost you about £19, which is more than simply buying it elsewhere.
+
+So the honest maths:
+
+| How you buy it | What you actually pay |
+|---|---|
+| Plusshop, cancelling in time | around £9 |
+| Plusshop, forgetting for one month | around £19 |
+| Cheapest other UK shop, delivered | around £12 |
+| Full RRP | {{rrp:63}} |
+
+We are telling you this rather than quietly banking the click. It is a good deal if you were going to shop there anyway, or if you are buying enough in one order to be worth the membership, since delivery is charged per order rather than per item. For one jar of cream and nothing else, it is not worth the diary reminder, and the [Nourish London moisturiser](/product/28) has no such strings attached.
 
 **Pros:**
 - The closest texture here to what La Mer actually feels like
@@ -63,6 +76,7 @@ It earns its place here for the same reason the section above explains: it works
 **Cons:**
 - 30ml is small, and it is thick and slightly medicinal-smelling
 - Petrolatum-based, so it sits on skin rather than absorbing, which some people dislike
+- Only sold here through a shop that requires a £9.95 monthly membership
 - Delivery makes it poor value as a single-item order
 
 **What reviewers say:** This is one of the most reviewed products in the category, and the verdict is consistent rather than borderline. It averages around 4.4 to 4.6 out of 5 across Influenster, Google and Amazon, on tens of thousands of ratings between them. The recurring praise is versatility, dry patches, lips, cuticles, rather than anything miraculous for the face. The recurring criticism is the smell, which people describe as more ointment than beauty product, and some long-term users prefer the old jar to the tube.
@@ -89,7 +103,7 @@ If it is specifically the peptide side you are after, the [Argan Anti-Ageing Pep
 |---|---|---|---|
 | Crème de la Mer | around £118 to £165 | 30ml | Mineral oil occlusive plus Miracle Broth |
 | [Nourish London Argan Skin Renew](/product/28) | {{price:28}} | 50ml | Peptides, hyaluronic acid, argan oil |
-| [Elizabeth Arden Eight Hour Cream](/product/63) | {{price:63}} | 30ml | Petrolatum occlusive, the closest texture |
+| [Elizabeth Arden Eight Hour Cream](/product/63) | {{price:63}} plus a £9.95/month membership | 30ml | Petrolatum occlusive, the closest texture |
 | [Protect Starter Kit](/product/13) | {{price:13}} | 4-piece routine | Vitamin C and hyaluronic acid |
 | Nivea Creme (supermarket) | a few pounds | 150ml | Mineral oil occlusive, no affiliate link |
 
@@ -117,6 +131,6 @@ We have not tested Crème de la Mer against this cream in any controlled way, an
 
 If you want Crème de la Mer, buy Crème de la Mer. Nothing here replicates it, and a cheaper cream will not deliver the ritual that is a real part of what you are paying for.
 
-If what you want is that rich, protective feel, the [Eight Hour Cream](/product/63) gets closest for a fraction of the outlay. If you want a modern everyday moisturiser instead, the [Argan Skin Renew Moisturiser](/product/28) is the sensible answer, and the [Protect Starter Kit](/product/13) is the sensible way to rebuild a whole routine. Both sit in our [Beauty & Skincare category](/category/beauty-skincare) alongside the rest of what we have checked.
+If what you want is that rich, protective feel, the [Eight Hour Cream](/product/63) gets closest for a fraction of the outlay, as long as you go in knowing about the membership and set a reminder to cancel. If you want a modern everyday moisturiser instead, the [Argan Skin Renew Moisturiser](/product/28) is the sensible answer, and the [Protect Starter Kit](/product/13) is the sensible way to rebuild a whole routine. Both sit in our [Beauty & Skincare category](/category/beauty-skincare) alongside the rest of what we have checked.
 
 For oily and combination skin, where the problem is shine rather than dryness, our guide to the [best niacinamide moisturiser for oily skin](/blog/niacinamide-moisturiser-oily-skin-uk-2026) is the better starting point.
