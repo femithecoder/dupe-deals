@@ -15,6 +15,19 @@ export const merchantTrust: Record<string, MerchantTrust> = {
     source: "Trustpilot",
     url: "https://uk.trustpilot.com/review/quzo.co.uk",
   },
+  // Polarised rather than simply mediocre: 54% five-star against 38%
+  // one-star, so the average hides the shape of it. The recurring
+  // one-star complaint is a membership charge of roughly £10-15 a month
+  // after a "14 day free trial" that reviewers say is disclosed in small
+  // print. Shown here so the page discloses it rather than hiding it,
+  // but the rating alone does not convey that specific risk. Checked
+  // 2026-09-07.
+  "Plusshop UK": {
+    rating: 3.2,
+    reviewCount: 39,
+    source: "Trustpilot",
+    url: "https://www.trustpilot.com/review/uk.plusshop.com",
+  },
 }
 
 export function getMerchantTrust(merchant: string): MerchantTrust | undefined {

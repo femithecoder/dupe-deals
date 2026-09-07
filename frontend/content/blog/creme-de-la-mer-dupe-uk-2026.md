@@ -4,7 +4,7 @@ excerpt: "La Mer costs more than most people spend on skincare in a year. Here's
 date: "2026-09-07"
 author: "DupeDeals"
 category: "Beauty & Skincare"
-coverImage: "https://images.unsplash.com/photo-1608068811588-3a67006b7489?w=800&h=400&fit=crop"
+coverImage: "https://images.unsplash.com/photo-1693004927824-f2623bbedc8b?w=800&h=400&fit=crop"
 ---
 
 Crème de la Mer is the moisturiser people mean when they say skincare has gone too far. A 30ml jar lists at £165 on La Mer's own UK site, and even at the best current UK price it sits around £118 according to [PriceSpy's La Mer listings](https://pricespy.co.uk/c/moisturisers?brand=10476). The 60ml is closer to £185. That is a lot of money for something you will finish in a couple of months.
@@ -47,6 +47,8 @@ This is not a copy of La Mer, and we are not going to pretend it is. It is a dif
 
 ### [Elizabeth Arden Eight Hour Cream Skin Protectant](/product/63): {{price:63}} (30ml, was {{rrp:63}})
 
+![Elizabeth Arden Eight Hour Cream Skin Protectant](https://uk.plusshop.com/media/catalog/product/e/l/elizabeth_arden_eight_hour_cream_skin_protectant_-_30_ml_.png)
+
 If the thing you actually want from La Mer is that dense, protective, balm-like feel, this is the closer match of the two, and it is a genuine cult product rather than a lookalike. It has been sold since 1930, and people keep buying it for chapped lips, dry patches, cuticles and windburn as much as for the face.
 
 It earns its place here for the same reason the section above explains: it works by sealing moisture in. That is the actual mechanism behind the expensive jar, and it is not a costly thing to formulate.
@@ -62,6 +64,8 @@ It earns its place here for the same reason the section above explains: it works
 - 30ml is small, and it is thick and slightly medicinal-smelling
 - Petrolatum-based, so it sits on skin rather than absorbing, which some people dislike
 - Delivery makes it poor value as a single-item order
+
+**What reviewers say:** This is one of the most reviewed products in the category, and the verdict is consistent rather than borderline. It averages around 4.4 to 4.6 out of 5 across Influenster, Google and Amazon, on tens of thousands of ratings between them. The recurring praise is versatility, dry patches, lips, cuticles, rather than anything miraculous for the face. The recurring criticism is the smell, which people describe as more ointment than beauty product, and some long-term users prefer the old jar to the tube.
 
 **Verdict:** The pick if you want the occlusive richness. The Nourish London cream is the pick if you want a modern everyday moisturiser.
 
