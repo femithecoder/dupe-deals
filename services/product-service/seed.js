@@ -421,10 +421,18 @@ async function seedProducts() {
        ON CONFLICT (id) DO UPDATE SET
          name = EXCLUDED.name, brand = EXCLUDED.brand, category = EXCLUDED.category,
          category_slug = EXCLUDED.category_slug, description = EXCLUDED.description,
-         original_price = EXCLUDED.original_price, sale_price = EXCLUDED.sale_price,
-         discount_percent = EXCLUDED.discount_percent, image_url = EXCLUDED.image_url,
+         original_price = EXCLUDED.original_price, image_url = EXCLUDED.image_url,
          affiliate_url = EXCLUDED.affiliate_url, merchant = EXCLUDED.merchant,
          rating = EXCLUDED.rating, review_count = EXCLUDED.review_count, dupe_for = EXCLUDED.dupe_for`,
+      // sale_price and discount_percent are deliberately NOT updated here.
+      // They are owned by the price tracker (pricing/tracker.js), which writes
+      // the live retailer price; the values in this file are only ever the
+      // starting point for a product that does not exist yet. Re-seeding used
+      // to overwrite them, which silently reverted every tracked price to
+      // whatever was typed here, in one case showing a product £30 cheaper
+      // than it really was. The catch-up scheduler would not correct that for
+      // up to 12 hours. INSERT still takes them from this file, so a new
+      // product lists at the right price immediately.
       [
         p.id, p.name, p.brand, p.category, p.category_slug, p.description, p.original_price, p.sale_price,
         p.discount_percent, p.image_url, p.affiliate_url, p.merchant, p.rating, p.review_count, p.dupe_for ?? null,
