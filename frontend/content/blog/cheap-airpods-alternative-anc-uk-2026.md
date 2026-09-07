@@ -148,7 +148,7 @@ Every option in that table costs less than the ANC version of AirPods 4, and fou
 
 The AirPods 4 prices came from TechRadar's live UK deals tracking, not a single shop's listing that might be out of date. We've also been specific about which AirPods 4 tier each price refers to, since the base and ANC models aren't the same product despite sharing a name.
 
-Our own prices update automatically from live retailer data, so the figures above are what each set costs today rather than when this was written.
+The prices for our own picks are read from each retailer directly, so they move when the shops move them.
 
 We have not tested any of these against each other, and we are not going to imply we have. What we can do is check what independent reviewers found, and be straight when we could not find any, which is why the AGM entry is flagged rather than quietly listed alongside the rest. We also chose the picks on merit rather than on what pays us: the cheapest option here earns us the least, and the best reviewed one is a set we are actively telling you to price-check elsewhere.
 
@@ -170,4 +170,4 @@ The honest comparison isn't "cheap earbuds versus AirPods." It's "cheap earbuds 
 
 If you want one answer: the [Nothing Ear (a)](/product/39) is still the best balance of price, reviews and features. If you want lossless audio for less, take the [SoundPEATS Air5 Pro](/product/64). If battery life is what you care about, the [soundcore P42i](/product/65). If you want the best of them and don't mind paying, the [EarFun Air Pro 4](/product/67), bought wherever it is cheapest that day.
 
-For more picks like this, see our [Fitbit Charge 6 alternative](/blog/fitbit-charge-6-alternative-uk-2026) and [budget mechanical keyboard](/blog/best-budget-mechanical-keyboard-uk-2026) comparisons. Browse the full [Electronics & Tech](/category/electronics-tech) range for current prices.
+For more picks like this, see our [Fitbit Charge 6 alternative](/blog/fitbit-charge-6-alternative-uk-2026) and [budget mechanical keyboard](/blog/best-budget-mechanical-keyboard-uk-2026) comparisons. Our other audio and gadget picks are gathered under [Electronics & Tech](/category/electronics-tech).

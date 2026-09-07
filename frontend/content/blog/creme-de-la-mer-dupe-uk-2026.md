@@ -121,11 +121,11 @@ The gap is not marginal. You could buy the Nourish London moisturiser several ti
 
 ## How we priced this
 
-Our own prices come from live retailer data, checked automatically and shown as the current figure rather than an RRP printed on a box, so the numbers above are what the product costs today rather than when this was written.
+Our own prices are read from the retailer rather than typed in, and we show what a thing sells for rather than the RRP on its box, so the figures above are current rather than historic.
 
 The La Mer figures are its current UK street price at the time of writing, taken from its own site and from price comparison listings, not the RRP. We quote a range because it genuinely varies by retailer, and we would rather show you that than pick the highest number to make our comparison look better.
 
-We have not tested Crème de la Mer against this cream in any controlled way, and we are not going to imply we have. What we can tell you accurately is what each contains, what each costs, and where the honest limits of the comparison are.
+No controlled comparison between Crème de la Mer and this cream exists on our side, and implying otherwise would be inventing authority we do not have. What we can tell you accurately is what each contains, what each costs, and where the honest limits of the comparison are.
 
 ## The bottom line
 

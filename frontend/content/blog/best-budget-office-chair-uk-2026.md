@@ -11,7 +11,7 @@ The chair everyone points to as the gold standard, the [Herman Miller Aeron](htt
 
 ## Why people look for a cheaper ergonomic chair
 
-Usually one of three reasons. Home working made a lot of people realise a kitchen chair wrecks your back over eight hours, but they can't justify Aeron money for a spare room. Some want proper lumbar support and adjustability without the premium brand tax. And plenty just want a solid, comfortable chair that will last a few years, not a heirloom with a twelve-year warranty. None of those need a Herman Miller specifically. They need real ergonomic adjustment: lumbar support, adjustable arms, and a breathable back.
+Usually one of three reasons. Home working made a lot of people realise a kitchen chair wrecks your back over eight hours, but they can't justify Aeron money for a spare room. Some want proper lumbar support and adjustability without the premium brand tax. And plenty just want a solid, comfortable chair that will last a few years, not a heirloom with a twelve-year warranty. An Aeron is not required for any of them. They need real ergonomic adjustment: lumbar support, adjustable arms, and a breathable back.
 
 ## The budget pick
 
@@ -71,10 +71,10 @@ Being straight about it: a Herman Miller Aeron or a Steelcase Leap gives you mor
 
 ## How we priced this
 
-The SIHOO price above, and the live figure shown, comes straight from our own tracked retailer price, which updates as the retailer changes it rather than sitting frozen. The Herman Miller comparison uses its real premium price bracket, not a discount, and we've linked Herman Miller's own site so you can check current models yourself. Where the budget chair clearly loses to a premium one, on materials, adjustability, and warranty, we've said so rather than pretending the gap isn't there.
+The SIHOO price above, and the live figure shown, is read live from the retailer, so it reflects today rather than the day this was published. The Herman Miller comparison uses its real premium price bracket, not a discount, and Herman Miller's own listings are linked above, since that comparison only means anything at their real prices. Where the budget chair clearly loses to a premium one, on materials, adjustability, and warranty, we've said so rather than pretending the gap isn't there.
 
 ## The bottom line
 
-A budget ergonomic chair makes sense when it delivers the support that matters. For home working, the SIHOO B100 SE gives you adjustable lumbar, a breathable mesh back, and a sturdy build for a fraction of premium-chair money, from a brand that has made this niche its whole reputation. If you sit all day every day for years and want heirloom build with a twelve-year warranty, that's the honest case for a Herman Miller, and we'd rather tell you that than pretend a cheap chair matches it on longevity.
+A cheap chair earns its place by getting the support right and skipping the rest. For home working, the SIHOO B100 SE gives you adjustable lumbar, a breathable mesh back, and a sturdy build for a fraction of premium-chair money, from a brand that has made this niche its whole reputation. If you sit all day every day for years and want heirloom build with a twelve-year warranty, the Aeron is worth its price, and pretending a cheap chair matches it on longevity would not help you.
 
-Kitting out the rest of the home office or house? See our [best budget robot vacuum](/blog/best-budget-robot-vacuum-uk-2026) and [cheap Dyson alternative](/blog/cheap-dyson-alternative-uk-2026) guides. Browse the full [Home & Kitchen](/category/home-kitchen) range for current prices, they update as retailers change theirs.
+Kitting out the rest of the home office or house? See our [best budget robot vacuum](/blog/best-budget-robot-vacuum-uk-2026) and [cheap Dyson alternative](/blog/cheap-dyson-alternative-uk-2026) guides. Chairs are only part of a room, and the rest of what we track for the house is under [Home & Kitchen](/category/home-kitchen).

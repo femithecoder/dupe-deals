@@ -83,4 +83,4 @@ A good niacinamide moisturiser needs more than the headline ingredient. It needs
 
 If your skin is dry rather than oily, the opposite problem, our honest look at a [Crème de la Mer dupe](/blog/creme-de-la-mer-dupe-uk-2026) covers what a cheaper moisturiser can and cannot replace at the luxury end.
 
-Browse the full [Beauty & Skincare](/category/beauty-skincare) range for current prices.
+The rest of the skincare we have checked is under [Beauty & Skincare](/category/beauty-skincare).

@@ -7,11 +7,11 @@ category: "Home & Kitchen"
 coverImage: "https://images.unsplash.com/photo-1757478558372-43c94b3268bb?w=800&h=400&fit=crop"
 ---
 
-For years a robot vacuum meant spending [iRobot Roomba](https://www.irobot.co.uk/) money to get one that actually navigated your home properly. That's no longer true. The gap between a budget robot and a flagship has narrowed to a few specific things: raw suction, mapping smarts, and self-emptying docks. The honest question isn't "what's the cheapest robot vacuum," it's how much suction and intelligence you actually need for your floors, and what you're really giving up by paying less. We list three at very different prices, so this is a straight comparison up the range.
+For years a robot vacuum meant spending [iRobot Roomba](https://www.irobot.co.uk/) money to get one that actually navigated your home properly. That's no longer true. The gap between a budget robot and a flagship has narrowed to a few specific things: raw suction, mapping smarts, and self-emptying docks. The honest question isn't "what's the cheapest robot vacuum," it's how much suction and intelligence you actually need for your floors, and what you're really giving up by paying less. Three models, spread widely enough on price to show what each extra pound buys.
 
 ## Why people look for a budget robot vacuum
 
-Usually value plus realism. Most homes are mostly hard floors and light rugs, where you don't need flagship 10,000-plus-Pa suction to get a clean daily pass. Some people want a robot purely for maintenance cleaning between proper vacuums, not to replace them. And plenty just don't want to spend Roomba or Dyson money on a first robot they're not sure they'll love. None of those need a premium unit. They need a robot that navigates sensibly and picks up everyday dust and crumbs.
+Usually value plus realism. Most homes are mostly hard floors and light rugs, where you don't need flagship 10,000-plus-Pa suction to get a clean daily pass. Some people want a robot purely for maintenance cleaning between proper vacuums, not to replace them. And plenty just don't want to spend Roomba or Dyson money on a first robot they're not sure they'll love. A flagship is not required for any of that. They need a robot that navigates sensibly and picks up everyday dust and crumbs.
 
 ## The budget pick
 
@@ -117,10 +117,10 @@ Being straight about it: premium iRobot Roomba and top roborock models add self-
 
 ## How we priced this
 
-The Lefant, roborock, and eufy prices above, and the live figures shown, come straight from our own tracked retailer prices, which update as retailers change them rather than sitting frozen. The Roomba comparison uses real premium street prices and we've linked iRobot's own site so you can check current models. Where the cheaper robots clearly lose to a flagship, on self-emptying and top-tier mapping, we've said so instead of pretending the gap isn't there.
+The figures for the Lefant, roborock and eufy are read from the retailers automatically, so what you see is today's price and not the one we happened to catch while writing. The Roomba comparison uses real premium street prices and iRobot's site is linked above for anyone who wants to check the comparison themselves. Where the cheaper robots clearly lose to a flagship, on self-emptying and top-tier mapping, we've said so instead of pretending the gap isn't there.
 
 ## The bottom line
 
-A budget robot vacuum makes sense when it does enough of the job. For hard floors and maintenance the Lefant M210 does exactly that cheaply; for carpet, pets, and a genuine main robot the roborock Q7 M5 is the all-rounder; and the eufy L60 gets you near-flagship results well under Roomba money. If you specifically want a self-emptying dock and the most advanced mapping, that's the honest case for spending more.
+The question is not whether a cheap robot matches a Roomba. It is whether it does enough of the job for your floors. For hard floors and maintenance the Lefant M210 does exactly that cheaply; for carpet, pets, and a genuine main robot the roborock Q7 M5 is the all-rounder; and the eufy L60 gets you near-flagship results well under Roomba money. If you specifically want a self-emptying dock and the most advanced mapping, that is where the extra money actually goes somewhere.
 
-While you're setting up the home, see our guide to the [best budget ergonomic office chair](/blog/best-budget-office-chair-uk-2026) and our [cheap Dyson alternative](/blog/cheap-dyson-alternative-uk-2026) for cordless cleaning. Browse the full [Home & Kitchen](/category/home-kitchen) range for current prices, they update as retailers change theirs.
+While you're setting up the home, see our guide to the [best budget ergonomic office chair](/blog/best-budget-office-chair-uk-2026) and our [cheap Dyson alternative](/blog/cheap-dyson-alternative-uk-2026) for cordless cleaning. Whatever else you are furnishing, [Home & Kitchen](/category/home-kitchen) has the rest of what we track, each at its current price.

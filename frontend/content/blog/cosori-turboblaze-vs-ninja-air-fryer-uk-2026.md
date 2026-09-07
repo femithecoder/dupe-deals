@@ -72,10 +72,10 @@ Being straight about this: if cooking two different foods at two different setti
 
 ## How we priced this
 
-The live Cosori price above comes straight from our own tracked retailer price, which updates as the retailer changes it. The Ninja figures are real current UK street prices for the two most relevant models, not RRPs, and we've been specific about which Ninja each price refers to, since the single-drawer and dual-zone models aren't the same product despite sharing a brand.
+The live Cosori price above tracks the retailer directly, so it changes when they change it. The Ninja figures are real current UK street prices for the two most relevant models, not RRPs, and we've been specific about which Ninja each price refers to, since the single-drawer and dual-zone models aren't the same product despite sharing a brand.
 
 ## The bottom line
 
 Ninja earns its reputation on dual-zone cooking and its ecosystem, and if that two-drawer feature is what you want, buy the Ninja. But the default "just get a Ninja" advice skips a genuinely strong single-drawer option. For one large, fast, quiet drawer with a PFAS-free basket, the Cosori TurboBlaze is the better buy, and it's the one we'd point most people to unless they specifically need two zones.
 
-If you're kitting out the rest of the home on a budget, we take the same honest approach in our guide to a [cheap Dyson alternative](/blog/cheap-dyson-alternative-uk-2026), and in our wider roundup of [tech deals that beat the big brands](/blog/tech-dupes-and-deals-2026). Browse the full [Home & Kitchen](/category/home-kitchen) range for current prices, they update as retailers change theirs.
+If you're kitting out the rest of the home on a budget, we take the same honest approach in our guide to a [cheap Dyson alternative](/blog/cheap-dyson-alternative-uk-2026), and in our wider roundup of [tech deals that beat the big brands](/blog/tech-dupes-and-deals-2026). The rest of the kitchen is covered under [Home & Kitchen](/category/home-kitchen).

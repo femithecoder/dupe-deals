@@ -7,7 +7,7 @@ category: "Baby & Kids"
 coverImage: "https://images.unsplash.com/photo-1770059706518-ece8f7264055?w=800&h=400&fit=crop"
 ---
 
-Dedicated baby monitors have quietly crept up in price. Premium app-connected units like [Nanit](https://www.nanit.com/) run well past £200 once you add the stand and any subscription, and even mid-range travel monitors aren't cheap. Meanwhile a good smart indoor camera does the core job, a clear live feed to your phone, night vision, two-way talk, and sound and motion alerts, for a fraction of that. The honest question is which smart camera actually works well as a baby monitor, and where a purpose-built monitor still earns its price. We list two at very different prices, so this is a straight comparison.
+Dedicated baby monitors have quietly crept up in price. Premium app-connected units like [Nanit](https://www.nanit.com/) run well past £200 once you add the stand and any subscription, and even mid-range travel monitors aren't cheap. Meanwhile a good smart indoor camera does the core job, a clear live feed to your phone, night vision, two-way talk, and sound and motion alerts, for a fraction of that. The honest question is which smart camera actually works well as a baby monitor, and where a purpose-built monitor still earns its price. The two we stock sit far enough apart on price to be worth comparing directly.
 
 ## Why a smart camera instead of a "baby monitor"
 
@@ -99,10 +99,10 @@ Being honest: a purpose-built monitor like Nanit adds things a general camera do
 
 ## How we priced this
 
-The Reolink and Tapo prices above, and the live figures shown, come straight from our own tracked retailer prices, which update as the retailer changes them. The dedicated-monitor figure is a real indicative UK street price for premium units, not a specific RRP, and we've linked Nanit's own site so you can check current models yourself. Where the cheaper cameras genuinely lack a dedicated monitor's extras, like sleep tracking and a standalone screen, we've said so rather than pretending the feature gap isn't there.
+Both the Reolink and Tapo figures are read from the shops themselves and refresh on their own, so they follow the retailer rather than this article. The dedicated-monitor figure is a real indicative UK street price for premium units, not a specific RRP, and Nanit's site is linked above if you would rather see their current line-up first-hand. Where the cheaper cameras genuinely lack a dedicated monitor's extras, like sleep tracking and a standalone screen, we've said so rather than pretending the feature gap isn't there.
 
 ## The bottom line
 
-A budget baby monitor makes sense when it does the core job well, and a good smart camera does. For the lowest price with full room coverage, the Reolink is the value pick; if you want a dual-lens wide-and-zoom view and a more polished app, the Tapo C840 is the step up, both far below dedicated-monitor money. If you specifically want sleep tracking and a standalone parent screen, that's the honest case for paying more for a purpose-built monitor.
+You need to see and hear your baby reliably. A good smart camera does that, which is most of why the dedicated units struggle to justify themselves. For the lowest price with full room coverage, the Reolink is the value pick; if you want a dual-lens wide-and-zoom view and a more polished app, the Tapo C840 is the step up, both far below dedicated-monitor money. If you specifically want sleep tracking and a standalone parent screen, a purpose-built monitor genuinely earns the extra.
 
-Sorting out feeding too? See our comparison of the [cheap wearable breast pump](/blog/cheap-wearable-breast-pump-uk-2026) options. Browse the full [Baby & Kids](/category/baby-kids) range for current prices, they update as retailers change theirs.
+Sorting out feeding too? See our comparison of the [cheap wearable breast pump](/blog/cheap-wearable-breast-pump-uk-2026) options. Everything else we track for babies and toddlers sits in [Baby & Kids](/category/baby-kids), priced as it is today rather than as it was when we wrote this.

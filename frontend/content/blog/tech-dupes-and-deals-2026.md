@@ -143,14 +143,14 @@ Six dupes, three genuine discounts on the famous name, two refurbished machines.
 
 ## How we priced this
 
-Our own prices come from live retailer data and refresh automatically, so they reflect what a product costs today rather than when this was written.
+All eleven prices here are read from the retailers themselves, which is why the table can disagree with what you saw a week ago.
 
 For the premium originals we compared against, we used real current UK street prices rather than the RRP on the box. That matters most where the gap is largest: Sony's WH-1000XM5 has an RRP near £299 but sells closer to £170, and comparing against the RRP would have flattered our pick by about £130 of imaginary saving.
 
-We have not bench-tested any of this hardware against its premium counterpart, and we are not going to imply we have. Sites that genuinely measure noise cancellation and battery life exist, and we link to them where their findings are relevant. What we do instead is check what each product actually costs right now, name honestly what it competes with, and say plainly when an item is the real brand on discount or a refurbished machine rather than a dupe at all.
+None of this hardware has been bench-tested by us against its premium counterpart, and writing as though it had would be a lie. Sites that genuinely measure noise cancellation and battery life exist, and we link to them where their findings are relevant. What we do instead is check what each product actually costs right now, name honestly what it competes with, and say plainly when an item is the real brand on discount or a refurbished machine rather than a dupe at all.
 
 ## The bottom line
 
 Six of these are real dupes for something more famous. Three are the famous name itself, just legitimately cheaper right now. Two are refurbished, not new, and we've said so plainly. That mix is the point: sometimes the smart move is a cheaper alternative, and sometimes it's just catching the real thing on sale. We'd rather tell you which is which than pretend everything's a bargain.
 
-For more picks in the same style, see our [cheap Ring alternative with no subscription](/blog/cheap-ring-alternative-uk-2026), [Fitbit Charge 6 alternative](/blog/fitbit-charge-6-alternative-uk-2026), [budget mechanical keyboard](/blog/best-budget-mechanical-keyboard-uk-2026), and [cheap AirPods alternative with noise cancelling](/blog/cheap-airpods-alternative-anc-uk-2026) comparisons. Browse the full [Electronics & Tech](/category/electronics-tech) range for current prices, they update as retailers change theirs.
+For more picks in the same style, see our [cheap Ring alternative with no subscription](/blog/cheap-ring-alternative-uk-2026), [Fitbit Charge 6 alternative](/blog/fitbit-charge-6-alternative-uk-2026), [budget mechanical keyboard](/blog/best-budget-mechanical-keyboard-uk-2026), and [cheap AirPods alternative with noise cancelling](/blog/cheap-airpods-alternative-anc-uk-2026) comparisons. This is a snapshot of eleven; [Electronics & Tech](/category/electronics-tech) holds the rest, and every price there moves with the retailer.
