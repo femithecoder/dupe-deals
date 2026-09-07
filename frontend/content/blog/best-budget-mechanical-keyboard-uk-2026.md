@@ -52,6 +52,16 @@ We sell this one too, at the same shop. That makes it a real comparison, not a g
 - **Extras:** Six dedicated macro keys and a media control roller, both missing on the G413.
 - **Keycaps:** ABS plastic, which wears and picks up shine faster than the G413's PBT keycaps. This is the one place the cheaper keyboard actually wins.
 
+## Quick comparison
+
+| | [Logitech G413 TKL SE](/product/35) | [Razer BlackWidow V4 X](/product/40) |
+|---|---|---|
+| Price | {{price:35}} | {{price:40}} |
+| Off RRP | {{discount:35}} | {{discount:40}} |
+| Layout | Tenkeyless, no number pad | Full size with number pad |
+| Switches | Tactile mechanical | Razer mechanical |
+| Best for | A smaller desk and a lower spend | Macros, media keys and lighting |
+
 ## So which one should you buy
 
 If you want a solid mechanical feel, a sturdier build, and keycaps that last longer, the G413 gets you there for close to half the price of a well-known gaming brand. If per-key RGB, macro keys, or a choice of switch feel genuinely matter to your setup, the BlackWidow V4 X is worth paying extra for those specific things.

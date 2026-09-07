@@ -42,6 +42,17 @@ This one pairs niacinamide with saw palmetto and argan kernel extract, which act
 
 Most well-known niacinamide products are serums, not moisturisers. They're meant as an extra step, not a replacement for your daily cream. [Paula's Choice's 10% Niacinamide Booster](https://www.idealo.co.uk/compare/6263264/paula-s-choice-10-niacinamide-booster-20ml.html) sells from around £38.95 for 20ml at the best current UK price, and you'd still need a separate moisturiser alongside it. We're not calling this a direct swap. A serum and a moisturiser solve overlapping but different problems. It's useful context, though, for what the wider niacinamide market actually costs.
 
+## Quick comparison
+
+| | [Balance Anti-Blemish Moisturiser](/product/27) | [Argan Skin Renew Moisturiser](/product/28) |
+|---|---|---|
+| Price | {{price:27}} | {{price:28}} |
+| Made for | Oily and combination skin | Dryness and fine lines |
+| Key actives | Niacinamide, saw palmetto | Peptides, hyaluronic acid |
+| Texture | Lightweight cream | Richer daily cream |
+
+Both are certified organic and vegan. The choice is about which problem you actually have, not which is better.
+
 ## Who this is actually for
 
 This suits oily and combination skin dealing with visible pores, midday shine, or hormonal breakouts. If your main concern is fine lines rather than oil, a different product in the range fits better: the peptide-focused [Argan Skin Renew Moisturiser](/product/28). We'd rather point you there than sell you an oil-control formula you don't actually need.

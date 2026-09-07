@@ -64,6 +64,10 @@ Being straight about this: if cooking two different foods at two different setti
 
 **Which is quieter?** The Cosori, thanks to its DC motor. It's one of the quieter air fryers at this size, which reviewers consistently note.
 
+**What does an air fryer actually cost to run?** Far less than the oven it replaces, which is the saving people tend to overlook. A machine like this draws roughly 1.5kW but only for the minutes it is actually cooking, and it needs no preheating of a large empty cavity. For the small, frequent meals most people use one for, running costs are a fraction of a conventional oven's, and that gap keeps paying back long after the purchase price stops mattering.
+
+**Does a cheaper air fryer wear out faster?** Not reliably, no. The parts that fail first tend to be the basket coating and the fan bearing, and neither tracks neatly with price. What does matter is whether replacement baskets are sold separately, since a worn non-stick surface is the usual reason a working air fryer gets thrown away.
+
 **Is a 6L air fryer big enough for a family?** For most families of three or four, yes, for everyday portions. If you routinely cook two separate dishes at once, that's an argument for a dual-zone machine rather than a bigger single drawer.
 
 ## How we priced this

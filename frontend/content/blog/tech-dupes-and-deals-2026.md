@@ -109,6 +109,46 @@ Intel Core i5, 16GB RAM, 256GB SSD, Windows 11 Pro. Same honesty applies here as
 
 **Verdict:** Good specs for the money if you're comfortable buying refurbished.
 
+## All 11 at a glance
+
+Prices update automatically from live retailer data, so this table shows what each costs today.
+
+| Product | Price | What it actually is | Off RRP |
+|---|---|---|---|
+| [Soundcore Liberty 5 Pro](/product/14) | {{price:14}} | Dupe for Bose QuietComfort Earbuds | {{discount:14}} |
+| [Bose QuietComfort Earbuds](/product/15) | {{price:15}} | The real Bose, discounted | {{discount:15}} |
+| [Soundcore Space One Pro](/product/16) | {{price:16}} | Dupe for Sony WH-1000XM5 | {{discount:16}} |
+| [Eufy SoloCam S220 (2-pack)](/product/17) | {{price:17}} | Dupe for Ring Stick Up Cam | {{discount:17}} |
+| [TP-Link Tapo Video Doorbell](/product/18) | {{price:18}} | Dupe for Ring Video Doorbell | {{discount:18}} |
+| [Eufy L60 Robot Vacuum & Mop](/product/19) | {{price:19}} | Dupe for iRobot Roomba Combo | {{discount:19}} |
+| [Logitech G435 LIGHTSPEED](/product/20) | {{price:20}} | Dupe for SteelSeries Arctis Nova | {{discount:20}} |
+| [LG 43" 4K Smart TV](/product/21) | {{price:21}} | The real LG, discounted | {{discount:21}} |
+| [Samsung 55" Crystal UHD](/product/22) | {{price:22}} | The real Samsung, discounted | {{discount:22}} |
+| [Lenovo ThinkPad E14](/product/23) | {{price:23}} | Refurbished, previous generation | {{discount:23}} |
+| [HP EliteBook 840 G6](/product/24) | {{price:24}} | Refurbished, previous generation | {{discount:24}} |
+
+Six dupes, three genuine discounts on the famous name, two refurbished machines. The "off RRP" column is worth reading sceptically on the dupes: a big percentage off a list price nobody pays is less impressive than a small percentage off something people actually buy at.
+
+## Frequently asked
+
+**What's the difference between a dupe and a deal here?** A dupe is a cheaper product that does the same job as something famous, like the Soundcore headphones standing in for Sony. A deal is the famous brand itself, temporarily cheaper, like the Bose earbuds. Both can be the right buy. They are just different decisions, which is why we label every entry rather than lumping them together.
+
+**Is a cheaper brand's noise cancelling actually as good?** Usually not quite, and we would not claim otherwise. What has changed is the size of the gap. Sub-£100 ANC is now genuinely useful for steady noise like traffic or an office, where a few years ago it was mostly marketing. The premium sets still handle sudden noise and voices better.
+
+**Are refurbished laptops safe to buy?** The two here are sold as premium refurbished with a warranty, which is different from second-hand off a marketplace. The real caveat is not condition, it is age: both use processors a few generations old, so they are good for everyday work rather than demanding tasks. We say so in each entry rather than letting "refurbished" imply "as new".
+
+**Why do the prices here not match what I saw last week?** Because they are live. Every price on this page is pulled from current retailer data rather than typed in when the article was written, so a figure can move between visits. That is deliberate. The alternative is a page that quietly goes stale.
+
+**Do the subscription-free cameras really save money?** Over any reasonable period, yes. Hardware price is a one-off, but a recording plan is not, and roughly £60 a year compounds. Two or three years in, the subscription can cost more than the camera did.
+
+## How we priced this
+
+Our own prices come from live retailer data and refresh automatically, so they reflect what a product costs today rather than when this was written.
+
+For the premium originals we compared against, we used real current UK street prices rather than the RRP on the box. That matters most where the gap is largest: Sony's WH-1000XM5 has an RRP near £299 but sells closer to £170, and comparing against the RRP would have flattered our pick by about £130 of imaginary saving.
+
+We have not bench-tested any of this hardware against its premium counterpart, and we are not going to imply we have. Sites that genuinely measure noise cancellation and battery life exist, and we link to them where their findings are relevant. What we do instead is check what each product actually costs right now, name honestly what it competes with, and say plainly when an item is the real brand on discount or a refurbished machine rather than a dupe at all.
+
 ## The bottom line
 
 Six of these are real dupes for something more famous. Three are the famous name itself, just legitimately cheaper right now. Two are refurbished, not new, and we've said so plainly. That mix is the point: sometimes the smart move is a cheaper alternative, and sometimes it's just catching the real thing on sale. We'd rather tell you which is which than pretend everything's a bargain.

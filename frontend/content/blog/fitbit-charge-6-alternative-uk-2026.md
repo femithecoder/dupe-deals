@@ -71,6 +71,14 @@ Roughly half the price of the Galaxy Fit3. This is a genuinely basic touchscreen
 
 **How long do fitness bands like these usually last before needing a replacement?** With normal daily wear and charging, most bands in this price range hold up well for two to three years before battery life noticeably declines. That's worth factoring into the price comparison, since a cheaper band that needs replacing sooner isn't automatically the better deal.
 
+## How we priced this
+
+Our prices come from live retailer data and refresh automatically, so the figures above are what each tracker costs today rather than when this was written.
+
+For the Fitbit Charge 6 we used its real current UK selling price rather than the RRP, because comparing a live price against a list price nobody pays would overstate the saving. Where a tracker is genuinely cheap enough to raise questions about what you give up, we have said what those trade-offs are instead of leaving the low price to speak for itself.
+
+We have not worn these side by side for weeks, and we are not going to imply we have. Heart-rate accuracy and battery claims are things dedicated review sites measure properly; what we can tell you reliably is what each costs right now and what the specification does and does not include.
+
 ## The bottom line
 
 Most "Fitbit Charge 6 alternative" articles compare against a price nobody actually pays. Checked against Fitbit's real UK sale price, the Galaxy Fit3 holds its own, with a real brand behind it, genuine water resistance, and long battery life. Just go in knowing its iPhone limits beforehand.
