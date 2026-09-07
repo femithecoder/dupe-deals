@@ -41,6 +41,17 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   })
 }
 
+// Trims to Google's 150-character limit for schema.org `name`, on a word
+// boundary so the result still reads as a product title rather than a cut-off
+// word. No ellipsis: this is data for a parser, not display text.
+const SCHEMA_NAME_MAX = 150
+function truncateForSchema(name: string) {
+  if (name.length <= SCHEMA_NAME_MAX) return name
+  const cut = name.slice(0, SCHEMA_NAME_MAX)
+  const lastSpace = cut.lastIndexOf(" ")
+  return (lastSpace > 0 ? cut.slice(0, lastSpace) : cut).trim()
+}
+
 export default async function ProductPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params
   const product = await fetchProductById(id)
@@ -69,7 +80,12 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
   const productJsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
-    name: product.name,
+    // Google rejects a name over 150 characters in Merchant listings markup
+    // ("Invalid string length in field name"). Retailer feed titles routinely
+    // run past that, e.g. the refurbished laptops, whose full spec is in the
+    // title. Only the structured data is trimmed, the visible heading keeps
+    // the full name.
+    name: truncateForSchema(product.name),
     description: product.description,
     image: product.imageUrl,
     brand: { "@type": "Brand", name: product.brand },
