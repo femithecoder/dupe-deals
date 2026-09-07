@@ -30,27 +30,37 @@
 # After first deploy, run `npm run seed` once via product-service's Shell tab
 # to populate the fresh database.
 #
-# Plans: the `plan:` values below are NOT authoritative. At least one web
-# service was upgraded to Starter ($7/mo) in the Render dashboard, and the
-# dashboard is the source of truth. These lines were deliberately left saying
-# `free` rather than guessed at, because a blueprint sync that disagrees with
-# the dashboard can downgrade a running service. Before editing this file,
-# check each resource's actual plan in the dashboard and correct these lines
-# in the same change, or the next sync may pull a paid service back to free.
+# Plans: Render re-applies this blueprint on pushes to the linked branch, not
+# only when this file changes, so a `plan:` here overrides whatever the
+# dashboard says and can downgrade a running resource.
 #
-# Spin-down only applies to a service still on the free tier (~15 min of no
-# HTTP traffic). The scheduler in services/product-service/pricing/scheduler.js
-# is written to survive it either way, see the comment there.
+# dupedeals-product-service (paid, $7/mo) and dupedeals-db (paid) therefore
+# have NO `plan:` line. Per Render's blueprint spec, an omitted plan means
+# "Render retains the current compute plan for an existing service", so the
+# dashboard stays authoritative for the two resources that cost money and no
+# sync can reset them. Do not add a plan back to either without checking the
+# dashboard first, and note the current tokens are sizes like `0.5c-512mb`,
+# not the older tier names.
 #
-# Worth checking separately: a free Render Postgres has a limited lifetime and
-# takes the price history and affiliate_clicks data with it when it lapses. A
-# paid web service does not cover the database, it's billed on its own.
+# dupedeals-gateway keeps `plan: free` deliberately, because it really is on
+# free, and because a NEW service with no plan defaults to a paid instance.
+# That line is what stops a fresh deploy of this blueprint quietly billing.
+#
+# Spin-down only applies to a service still on free, i.e. the gateway (~15 min
+# of no HTTP traffic). The scheduler in
+# services/product-service/pricing/scheduler.js survives it either way, see the
+# comment there.
+#
+# The database is billed separately from the web services. It holds the only
+# unrecoverable data (price_history), so back it up with
+# `npm run backup` in services/product-service before any plan change.
 
 databases:
   - name: dupedeals-db
     databaseName: dupedeals
     user: dupedeals
-    plan: free
+    # plan omitted on purpose, see the note above: it is paid, and Render
+    # keeps an existing database's current plan when this is absent.
 
 services:
   - type: web
@@ -69,7 +79,8 @@ services:
     name: dupedeals-product-service
     runtime: node
     rootDir: services/product-service
-    plan: free
+    # plan omitted on purpose, see the note above: this is the $7/mo paid
+    # service, and Render keeps its current plan when this is absent.
     buildCommand: npm install
     startCommand: npm start
     healthCheckPath: /health
