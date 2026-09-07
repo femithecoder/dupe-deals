@@ -4,7 +4,7 @@ excerpt: "La Mer costs more than most people spend on skincare in a year. Here's
 date: "2026-09-07"
 author: "DupeDeals"
 category: "Beauty & Skincare"
-coverImage: "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=800&h=400&fit=crop"
+coverImage: "https://images.unsplash.com/photo-1608068811588-3a67006b7489?w=800&h=400&fit=crop"
 ---
 
 Crème de la Mer is the moisturiser people mean when they say skincare has gone too far. A 30ml jar lists at £165 on La Mer's own UK site, and even at the best current UK price it sits around £118 according to [PriceSpy's La Mer listings](https://pricespy.co.uk/c/moisturisers?brand=10476). The 60ml is closer to £185. That is a lot of money for something you will finish in a couple of months.
