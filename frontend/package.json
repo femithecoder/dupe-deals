@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "faq:simulate": "tsx scripts/simulate-faq.ts"
+    "faq:simulate": "tsx scripts/simulate-faq.ts",
+    "audit:blog": "node scripts/audit-blog.cjs"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",

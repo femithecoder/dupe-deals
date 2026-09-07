@@ -266,7 +266,7 @@ const products = [
     affiliate_url: "https://tidd.ly/4fKZbHd", merchant: "Nourish London", rating: 4.4, review_count: 16, dupe_for: "SkinCeuticals C E Ferulic",
   },
   {
-    id: "14", name: "Soundcore Liberty 5 Pro Wireless Noise Cancelling Earbuds Black", brand: "Soundcore",
+    id: "14", name: "soundcore Liberty 5 Pro Wireless Noise Cancelling Earbuds Black", brand: "soundcore",
     category: "Electronics & Tech", category_slug: "electronics-tech",
     description: "True wireless earbuds with active noise cancellation, wireless charging, and up to 10 hours of playback. Same premium features as AirPods Pro or Bose QuietComfort Earbuds for a fraction of the price.",
     original_price: 201.99, sale_price: 153.85, discount_percent: 24,
@@ -282,7 +282,7 @@ const products = [
     affiliate_url: "https://www.awin1.com/pclick.php?p=45383741025&a=3013053&m=19849", merchant: "Quzo UK", rating: 0, review_count: 0, dupe_for: null,
   },
   {
-    id: "16", name: "Soundcore Space One Pro Headset Wireless Head-band Calls/Music Bluetooth Black", brand: "Soundcore",
+    id: "16", name: "soundcore Space One Pro Headset Wireless Head-band Calls/Music Bluetooth Black", brand: "soundcore",
     category: "Electronics & Tech", category_slug: "electronics-tech",
     description: "Over-ear wireless headphones with adaptive noise cancellation and up to 60 hours of battery life. A dupe for Sony WH-1000XM5 or Bose QuietComfort at a third of the price.",
     original_price: 226.99, sale_price: 153.85, discount_percent: 32,
@@ -290,7 +290,7 @@ const products = [
     affiliate_url: "https://www.awin1.com/pclick.php?p=39140134060&a=3013053&m=19849", merchant: "Quzo UK", rating: 0, review_count: 0, dupe_for: "Sony WH-1000XM5",
   },
   {
-    id: "17", name: "Eufy SoloCam S220 2K Smart Security Camera CCTV - 2 Pack", brand: "Eufy",
+    id: "17", name: "eufy SoloCam S220 2K Smart Security Camera CCTV - 2 Pack", brand: "eufy",
     category: "Electronics & Tech", category_slug: "electronics-tech",
     description: "2K wireless security cameras with local storage, so there's no monthly subscription needed, unlike Ring or Nest. Sold as a 2-pack for whole-home coverage.",
     original_price: 180.99, sale_price: 133.27, discount_percent: 26,
@@ -306,8 +306,8 @@ const products = [
     affiliate_url: "https://www.awin1.com/pclick.php?p=37967561504&a=3013053&m=19849", merchant: "Quzo UK", rating: 0, review_count: 0, dupe_for: "Ring Video Doorbell",
   },
   {
-    id: "19", name: "Eufy L60 Hybrid Robot Vacuum & Mop", brand: "Eufy",
-    category: "Electronics & Tech", category_slug: "electronics-tech",
+    id: "19", name: "eufy L60 Hybrid Robot Vacuum & Mop", brand: "eufy",
+    category: "Home & Kitchen", category_slug: "home-kitchen",
     description: "Robot vacuum and mop combo with app control and auto-charging. Performs like a Roomba or Dyson robot vacuum at a much lower price.",
     original_price: 385.99, sale_price: 299.92, discount_percent: 22,
     image_url: "https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2024%2F09%2Feufy-l60-hybrid-robot-vacuum-product-colour-black-shape-round-dust-capacity-total-0-35-l-water--370574.jpg&feedId=42863&k=dcba162fdca0217ec2a3a8f4c65106a68b8cac2a",

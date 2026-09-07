@@ -1,5 +1,5 @@
 ---
-title: "Best Budget Robot Vacuum UK: Lefant vs Roborock (2026)"
+title: "Best Budget Robot Vacuum UK: Lefant vs roborock (2026)"
 excerpt: "Robot vacuums used to mean spending Roomba money. We compared three that cost far less and were honest about where the suction and smarts actually differ."
 date: "2026-09-03"
 author: "DupeDeals"
@@ -27,7 +27,7 @@ A compact robot vacuum with remote control and 2,200Pa suction. At {{price:42}} 
 
 **Control:** Remote control included, straightforward to run without a complex app setup.
 
-**What you give up:** The big one is suction (2,200Pa vs the Roborock's 10,000Pa) and advanced mapping. It cleans in a simpler pattern rather than building a precise lidar map.
+**What you give up:** The big one is suction (2,200Pa vs the roborock's 10,000Pa) and advanced mapping. It cleans in a simpler pattern rather than building a precise lidar map.
 
 **Pros:**
 - Lowest price of the three
