@@ -41,6 +41,7 @@ const FEEDS = {
   "Quzo UK": [process.env.AWIN_QUZO_FEED_ID || "42863"],
   Amazon: [process.env.AWIN_AMAZON_FEED_ID || "110672"],
   "Plusshop UK": (process.env.AWIN_PLUSSHOP_FEED_IDS || "111951,90001").split(","),
+  EarFun: (process.env.AWIN_EARFUN_FEED_IDS || "107240,114744").split(","),
 }
 
 function parseCsvLine(line) {
