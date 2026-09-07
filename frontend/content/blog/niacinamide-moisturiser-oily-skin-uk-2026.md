@@ -70,4 +70,6 @@ The price and stock came from checking Nourish London's own site directly, on th
 
 A good niacinamide moisturiser needs more than the headline ingredient. It needs actives that actually regulate oil, and a texture that hydrates instead of just mattifying. This one does both, is genuinely certified organic, and costs less than a single niacinamide serum from a well-known premium brand.
 
+If your skin is dry rather than oily, the opposite problem, our honest look at a [Crème de la Mer dupe](/blog/creme-de-la-mer-dupe-uk-2026) covers what a cheaper moisturiser can and cannot replace at the luxury end.
+
 Browse the full [Beauty & Skincare](/category/beauty-skincare) range for current prices.
