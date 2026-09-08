@@ -1,0 +1,42 @@
+name: Blog fact check
+
+# The deterministic half of the blog audit. It cannot tell you whether £169 is
+# still what Apple charges, but it will catch a dead link, a comparison that
+# contradicts our own live prices, or a post pointing at a product that no
+# longer exists. Each of those was a real defect found by hand on 2026-09-08,
+# and each would have gone unnoticed indefinitely, because a post with a stale
+# number still reads perfectly well.
+#
+# Weekly rather than daily: link rot and delistings are not fast, and a check
+# that cries wolf gets muted. Failures email the repo owner through GitHub's
+# built-in failed-workflow notification.
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"
+  workflow_dispatch:
+  # Also on any change to posts or the catalogue, which is when a discrepancy
+  # is most likely to be introduced and cheapest to fix.
+  pull_request:
+    paths:
+      - "frontend/content/blog/**"
+      - "frontend/lib/mock-data.ts"
+      - "services/product-service/seed.js"
+
+jobs:
+  fact-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Playbook compliance
+        working-directory: frontend
+        run: node scripts/audit-blog.cjs
+
+      - name: Factual discrepancies
+        working-directory: frontend
+        # Hits the public gateway for live prices, so it needs no secrets.
+        run: node scripts/check-blog-facts.cjs

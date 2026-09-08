@@ -3,6 +3,7 @@ title: "Cosori TurboBlaze vs Ninja Air Fryer UK: Which Wins?"
 excerpt: "Ninja owns the air fryer conversation, but the Cosori TurboBlaze quietly out-specs it on paper. We compared them, including where Ninja still wins."
 date: "2026-09-03"
 author: "DupeDeals"
+pricesCheckedAt: "2026-09-08"
 category: "Home & Kitchen"
 coverImage: "https://images.unsplash.com/photo-1774074645537-f72f70d40d12?w=800&h=400&fit=crop"
 ---
@@ -49,7 +50,7 @@ Being straight about this: if cooking two different foods at two different setti
 
 | | Cosori TurboBlaze 6L | Ninja AF160UK (single) | Ninja AF400UK (dual) |
 |---|---|---|---|
-| Price | {{price:43}} | Around £99–£130 | Around £179–£220 |
+| Price | {{price:43}} | Around £130–£140 | Around £165–£230 |
 | Drawers | One (6L) | One (5.2L) | Two (9.5L total) |
 | Dual-zone cooking | No | No | Yes |
 | Motor | DC brushless, quiet | Standard | Standard |
