@@ -3,6 +3,7 @@ title: "11 Tech Deals That Beat the Big Brands (UK)"
 excerpt: "Real UK prices behind 11 tech picks, from earbuds to a 55-inch TV. Some are genuine dupes, some are the famous brand on a real discount."
 date: "2026-08-10"
 author: "DupeDeals"
+pricesCheckedAt: "2026-09-08"
 category: "Electronics & Tech"
 coverImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop"
 ---
@@ -33,7 +34,7 @@ This isn't a dupe, it's the real thing. Genuine Bose noise cancellation, discoun
 
 ![soundcore Space One Pro over-ear wireless headphones in black](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2024%2F10%2F23%2Fsoundcore-space-one-pro-product-type-headset-connectivity-technology-wireless-bluetooth-recomme-389030.webp&feedId=42863&k=83b176fc4a1654681304d4975595162c0badcc22)
 
-Over-ear, adaptive noise cancellation, up to 60 hours of battery. The natural comparison is [Sony's WH-1000XM5](https://www.sony.co.uk/electronics/headband-headphones/wh-1000xm5/buy/wh1000xm5s.ce7), which currently sells for around £169 to £173 at the best UK prices we could find, down from an original £299 RRP. Even against that already-discounted Sony price, the Space One Pro is still cheaper, and it has more than double the battery life on paper.
+Over-ear, adaptive noise cancellation, up to 60 hours of battery. The natural comparison is [Sony's WH-1000XM5](https://pricespy.co.uk/product.php?p=6219512), which currently sells from about £173 at the best UK prices we could find, well down on a launch price north of £350. Even against that already-discounted Sony price, the Space One Pro is still cheaper, and it has more than double the battery life on paper.
 
 **Verdict:** Beats Sony on price even when Sony's already on sale. Rare.
 
@@ -43,7 +44,7 @@ Over-ear, adaptive noise cancellation, up to 60 hours of battery. The natural co
 
 ![eufy SoloCam S220 2K wireless security cameras, 2-pack](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2024%2F04%2Feufy-solocam-s220-2-cam-pack-ip-security-camera-indoor--outdoor-wireless-ceilingwall-white-cube-344925.jpg&feedId=42863&k=d021f7e81866532e1bbf99a75b3cfd3f73af234d)
 
-Two 2K wireless cameras with local storage built in, no monthly subscription required to actually record anything. That matters more than it sounds: [Ring's cheapest ongoing plan](https://en-uk.ring.com/pages/offers) for saved recordings is £4.99 a month, which adds up to roughly £60 a year on top of whatever the camera itself costs.
+Two 2K wireless cameras with local storage built in, no monthly subscription required to actually record anything. That matters more than it sounds: [Ring's cheapest ongoing plan](https://en-uk.ring.com/pages/plans) for saved recordings, renamed Ring Solo in January 2026, is £4.99 a month or £49.99 paid annually, on top of whatever the camera itself costs.
 
 **Verdict:** The subscription-free angle is the real saving here, not just the sticker price.
 
@@ -59,7 +60,7 @@ Night vision, two-way audio, and local recording by default (cloud storage is op
 
 ![eufy L60 hybrid robot vacuum and mop in black](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2024%2F09%2Feufy-l60-hybrid-robot-vacuum-product-colour-black-shape-round-dust-capacity-total-0-35-l-water--370574.jpg&feedId=42863&k=dcba162fdca0217ec2a3a8f4c65106a68b8cac2a)
 
-Vacuums and mops in one pass, with auto-charging and app control. Worth being precise about the Roomba comparison here: [iRobot's entry-level Combo models](https://www.irobot.co.uk/en_GB/deals.html) start around £279 to £329 right now, so this isn't automatically the cheaper option at first glance. Where it clearly wins is against iRobot's mid-and-up range, the Roomba Max 775 Combo is £599, and the flagship Combo j9+ is over £1,000. The eufy does vacuum-and-mop in one unit for a third of that.
+Vacuums and mops in one pass, with auto-charging and app control. Worth being precise about the Roomba comparison here: [iRobot's entry-level Combo models](https://www.irobot.co.uk/en_GB/deals.html) start around £279 to £329 right now, so this isn't automatically the cheaper option at first glance. Where it clearly wins is against iRobot's mid-and-up range, where the Combo j5 and j9 series run from about £599 well past £1,000, the flagship Combo j9+ alone being over £1,000. The eufy does vacuum-and-mop in one unit for a third of that.
 
 **Verdict:** Not the cheapest robot vacuum that exists, but a lot of vacuum-and-mop for the money once you look past iRobot's entry tier.
 
@@ -69,7 +70,7 @@ Vacuums and mops in one pass, with auto-charging and app control. Worth being pr
 
 ![Logitech G G435 LIGHTSPEED wireless gaming headset](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2022%2F07%2Flogitech-g-g435-lightspeed-wireless-gaming-headset-product-type-headset-connectivity-technology-320156.jpg&feedId=42863&k=aaf1a09201d651228ce0c20bae9f872ffec46bd8)
 
-Wireless, low-latency, Dolby Atmos support. The fair premium comparison is another *wireless* gaming headset, [SteelSeries' Arctis Nova Pro Wireless](https://www.idealo.co.uk/compare/201979898/steelseries-arctis-nova-pro-wireless.html) starts at £249.99 in the UK. At {{price:20}}, the G435 is roughly a third of that price for the core wireless-gaming-audio experience, even if it won't match a £250 headset feature-for-feature.
+Wireless, low-latency, Dolby Atmos support. The fair premium comparison is another *wireless* gaming headset, and SteelSeries' [Arctis Nova Pro Wireless](https://pricespy.co.uk/product.php?p=6487101) runs from roughly £190 to £270 in the UK depending where you look.
 
 **Verdict:** The realistic budget alternative to premium wireless gaming audio, not a feature-for-feature clone.
 
@@ -87,9 +88,9 @@ No dupe angle needed, this is just a real LG TV, {{discount:21}} off, at a size 
 
 ![Samsung 55-inch Crystal UHD 4K Smart TV](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2026%2F06%2F13%2Fsamsung-55-crystal-uhd-u8020f-4k-smart-tv-2025-139-7-cm-55-3840-x-2160-pixels-led-smart-tv-wi-f-463652.webp&feedId=42863&k=ccf64cedf23646c2dec9da89ed78f78777a8be5d)
 
-Samsung's 2025 Crystal UHD range, 55 inches, under £500. It's not their flagship OLED tier, but it's a recognisable big-name TV at a size and price that a lot of shoppers are actually looking for.
+Samsung's 2025 Crystal UHD range, 55 inches, at {{price:22}}. It's not their flagship OLED tier, but it's a recognisable big-name TV at a size and price that a lot of shoppers are actually looking for.
 
-**Verdict:** Big name, big screen, still under £500. No substitute required.
+**Verdict:** Big name, big screen, well under what a 55-inch Samsung usually costs. No substitute required.
 
 ## Laptops
 
@@ -97,7 +98,7 @@ Samsung's 2025 Crystal UHD range, 55 inches, under £500. It's not their flagshi
 
 ![Lenovo ThinkPad E14 laptop, premium refurbished](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2026%2F07%2F23%2Flalen-e14i58256-premium-refurbished-lenovo-thinkpad-e14-intel-core-i5-1135g7-11th-gen-laptop-14.webp&feedId=42863&k=344f4a5024e45284790c234e9a53e534d27175a9)
 
-An 11th Gen Intel Core i5, 8GB RAM, 256GB SSD, Windows 11 Pro. Worth being clear about what you're buying: this is an older-generation chip, not the [current ThinkPad E14 line](https://www.idealo.co.uk/compare/202947620/lenovo-thinkpad-e14-g5.html), which starts around £570 new with a newer processor. What you're really paying for is the ThinkPad build quality at roughly half the price of a new equivalent, refurbished, not new in box.
+An 11th Gen Intel Core i5, 8GB RAM, 256GB SSD, Windows 11 Pro. Worth being clear about what you're buying: this is an older-generation chip, not the current ThinkPad E14 line, which costs substantially more new with a newer processor. What you're really paying for is the ThinkPad build quality at roughly half the price of a new equivalent, refurbished, not new in box.
 
 **Verdict:** Real savings, but go in knowing it's a refurbished, previous-generation machine.
 
@@ -139,13 +140,13 @@ Six dupes, three genuine discounts on the famous name, two refurbished machines.
 
 **Why do the prices here not match what I saw last week?** Because they are live. Every price on this page is pulled from current retailer data rather than typed in when the article was written, so a figure can move between visits. That is deliberate. The alternative is a page that quietly goes stale.
 
-**Do the subscription-free cameras really save money?** Over any reasonable period, yes. Hardware price is a one-off, but a recording plan is not, and roughly £60 a year compounds. Two or three years in, the subscription can cost more than the camera did.
+**Do the subscription-free cameras really save money?** Over any reasonable period, yes. Hardware price is a one-off, but a recording plan is not, and about £50 a year compounds. Two or three years in, the subscription can cost more than the camera did.
 
 ## How we priced this
 
 All eleven prices here are read from the retailers themselves, which is why the table can disagree with what you saw a week ago.
 
-For the premium originals we compared against, we used real current UK street prices rather than the RRP on the box. That matters most where the gap is largest: Sony's WH-1000XM5 has an RRP near £299 but sells closer to £170, and comparing against the RRP would have flattered our pick by about £130 of imaginary saving.
+For the premium originals we compared against, we used real current UK street prices rather than the RRP on the box. That matters most where the gap is largest: the Sony WH-1000XM5 launched well above £350 and now sells near £173, so comparing against its launch price would have invented a saving roughly the size of the headphones themselves.
 
 None of this hardware has been bench-tested by us against its premium counterpart, and writing as though it had would be a lie. Sites that genuinely measure noise cancellation and battery life exist, and we link to them where their findings are relevant. What we do instead is check what each product actually costs right now, name honestly what it competes with, and say plainly when an item is the real brand on discount or a refurbished machine rather than a dupe at all.
 
