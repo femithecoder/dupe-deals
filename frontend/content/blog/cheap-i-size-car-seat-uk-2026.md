@@ -3,6 +3,7 @@ title: "Cheap i-Size Car Seat UK: What You Give Up"
 excerpt: "Every car seat sold here meets the same legal standard. What a budget one lacks is independent crash testing, and that gap is worth understanding."
 date: "2026-09-08"
 author: "DupeDeals"
+pricesCheckedAt: "2026-09-08"
 category: "Baby & Kids"
 coverImage: "https://images.unsplash.com/photo-1619719287848-883c8f26efbc?w=800&h=400&fit=crop"
 ---

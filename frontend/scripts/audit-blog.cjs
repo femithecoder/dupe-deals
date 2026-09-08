@@ -96,6 +96,30 @@ async function main() {
     if (s.size >= 3) say([...s][0], `phrase repeated in ${s.size} posts: "${g}"`)
   }
 
+  // Competitor prices cannot be tokenised, because we do not sell those
+  // products and have no feed for them. They still go stale, and a wrong
+  // premium price is worse than a wrong price of ours: the comparison is the
+  // whole point of the post. Nothing checked these before, so they aged
+  // silently. Warn rather than fail, since going stale is inevitable and the
+  // useful thing is knowing which post is due a look.
+  const STALE_DAYS = 90
+  const warnings = []
+  for (const p of posts) {
+    const literals = [...new Set([...strip(p.body).replace(/\{\{\w+:\d+\}\}/g, "").matchAll(/£[0-9][0-9.,]*/g)].map((m) => m[0]))]
+    if (!literals.length) continue
+    const checked = (p.fm.match(/pricesCheckedAt: "(.*)"/) || [])[1]
+    if (!checked) {
+      warnings.push(`${p.file}: ${literals.length} competitor price(s), never verified. Add pricesCheckedAt to the frontmatter once checked.`)
+      continue
+    }
+    const age = Math.round((Date.now() - new Date(checked)) / 864e5)
+    if (age > STALE_DAYS) warnings.push(`${p.file}: ${literals.length} competitor price(s) last checked ${age} days ago`)
+  }
+  if (warnings.length) {
+    console.log("\nCOMPETITOR PRICES TO RE-CHECK (warnings, not failures)")
+    warnings.forEach((w) => console.log("  " + w))
+  }
+
   console.log(problems ? `\n${problems} problem(s) found` : `\nall ${posts.length} posts pass`)
   process.exit(problems ? 1 : 0)
 }

@@ -3,6 +3,7 @@ title: "Crème de la Mer Dupe UK: An Honest Look"
 excerpt: "La Mer costs more than most people spend on skincare in a year. Here's a certified organic alternative, and what you give up."
 date: "2026-09-07"
 author: "DupeDeals"
+pricesCheckedAt: "2026-09-07"
 category: "Beauty & Skincare"
 coverImage: "https://images.unsplash.com/photo-1693004927824-f2623bbedc8b?w=800&h=400&fit=crop"
 ---
