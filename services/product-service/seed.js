@@ -453,10 +453,11 @@ async function seedProducts() {
        ON CONFLICT (id) DO UPDATE SET
          name = EXCLUDED.name, brand = EXCLUDED.brand, category = EXCLUDED.category,
          category_slug = EXCLUDED.category_slug, description = EXCLUDED.description,
-         original_price = EXCLUDED.original_price, image_url = EXCLUDED.image_url,
+         image_url = EXCLUDED.image_url,
          affiliate_url = EXCLUDED.affiliate_url, merchant = EXCLUDED.merchant,
          rating = EXCLUDED.rating, review_count = EXCLUDED.review_count, dupe_for = EXCLUDED.dupe_for`,
-      // sale_price and discount_percent are deliberately NOT updated here.
+      // original_price, sale_price and discount_percent are deliberately NOT
+      // updated here.
       // They are owned by the price tracker (pricing/tracker.js), which writes
       // the live retailer price; the values in this file are only ever the
       // starting point for a product that does not exist yet. Re-seeding used
@@ -494,7 +495,18 @@ async function seedProducts() {
     [currentIds]
   )
 
-  return { seeded: products.length, removed: rowCount }
+  // Self-healing invariant: original_price must never sit below sale_price.
+  // The tracker maintains this going forward, but products listed before that
+  // change already drifted, and a "was" price lower than the current price is
+  // worse than no "was" price at all. Idempotent, so it costs nothing to leave
+  // in and it repairs anything that slips through.
+  const { rowCount: repaired } = await db.query(
+    `UPDATE products
+        SET original_price = sale_price, discount_percent = 0, updated_at = now()
+      WHERE sale_price > original_price`
+  )
+
+  return { seeded: products.length, removed: rowCount, repairedPrices: repaired }
 }
 
 module.exports = { seedProducts }

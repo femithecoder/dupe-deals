@@ -38,10 +38,21 @@ async function runPriceCheck({ provider = getProvider(), merchant } = {}) {
     const percentChange = (oldPrice - newPrice) / oldPrice
     if (Math.abs(percentChange) >= DROP_THRESHOLD) {
       changed++
-      const discountPercent = Math.round(((product.original_price - newPrice) / product.original_price) * 100)
+      // A retailer can push a price above whatever we recorded as the "was"
+      // figure. Left alone, original_price then claims a reference price lower
+      // than what the thing currently sells for, which is meaningless, and it
+      // happened to 9 of 55 products within weeks. Raising it keeps the
+      // invariant original_price >= sale_price, so the product simply shows no
+      // discount, which is the truth.
+      //
+      // Raising rather than pinning also means a later drop is measured
+      // against a price the product genuinely sold at, and price_history can
+      // evidence it, which matters for "was" pricing claims.
+      const reference = Math.max(product.original_price, newPrice)
+      const discountPercent = Math.round(((reference - newPrice) / reference) * 100)
       await db.query(
-        "UPDATE products SET sale_price = $1, discount_percent = $2, updated_at = now() WHERE id = $3",
-        [newPrice, Math.max(0, discountPercent), product.id]
+        "UPDATE products SET sale_price = $1, original_price = $2, discount_percent = $3, updated_at = now() WHERE id = $4",
+        [newPrice, reference, Math.max(0, discountPercent), product.id]
       )
 
       if (percentChange >= DROP_THRESHOLD) {
