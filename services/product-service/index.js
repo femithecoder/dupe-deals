@@ -126,6 +126,8 @@ app.post("/clicks", async (req, res) => {
 // traffic whose clicks never reached the network.
 app.get("/clicks/summary", async (req, res) => {
   const { days = "30" } = req.query
+  const window = String(parseInt(days) || 30)
+
   const { rows } = await db.query(
     `SELECT product_id as "productId", merchant, COUNT(*)::int as clicks,
             MAX(clicked_at) as "lastClickedAt"
@@ -133,9 +135,44 @@ app.get("/clicks/summary", async (req, res) => {
      WHERE clicked_at > now() - ($1 || ' days')::interval
      GROUP BY product_id, merchant
      ORDER BY clicks DESC`,
-    [String(parseInt(days) || 30)]
+    [window]
   )
-  res.json({ days: parseInt(days) || 30, total: rows.reduce((n, r) => n + r.clicks, 0), products: rows })
+
+  // Which page sent the click. Worth having separately from the totals,
+  // because a click with no referrer is almost always a direct hit on /go
+  // (a script, a bot, or our own testing), while a real visitor arrives from
+  // whichever of our pages carried the button. Without this the totals cannot
+  // be told apart from our own traffic.
+  const { rows: sources } = await db.query(
+    `SELECT COALESCE(referrer, '(none)') as source, COUNT(*)::int as clicks
+     FROM affiliate_clicks
+     WHERE clicked_at > now() - ($1 || ' days')::interval
+     GROUP BY COALESCE(referrer, '(none)')
+     ORDER BY clicks DESC`,
+    [window]
+  )
+
+  res.json({
+    days: parseInt(days) || 30,
+    total: rows.reduce((n, r) => n + r.clicks, 0),
+    withoutReferrer: sources.filter((s) => s.source === "(none)").reduce((n, s) => n + s.clicks, 0),
+    products: rows,
+    sources,
+  })
+})
+
+// GET /clicks/recent — individual clicks, newest first. The summary answers
+// "how many"; this answers "was that a person or a script", which is the
+// question that actually matters while traffic is still small enough to
+// confuse our own testing with real visitors.
+app.get("/clicks/recent", async (req, res) => {
+  const limit = Math.min(parseInt(req.query.limit) || 50, 500)
+  const { rows } = await db.query(
+    `SELECT id, product_id as "productId", merchant, referrer, clicked_at as "clickedAt"
+     FROM affiliate_clicks ORDER BY clicked_at DESC LIMIT $1`,
+    [limit]
+  )
+  res.json({ clicks: rows })
 })
 
 // POST /admin/price-check — run the price tracker on demand (for an external
