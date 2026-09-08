@@ -3,11 +3,12 @@ title: "Cheap Wearable Breast Pump UK: MOMMED vs eufy (and Elvie)"
 excerpt: "Wearable pumps like Elvie made hands-free pumping normal, then made it expensive. We compared two affordable wearables and what you give up."
 date: "2026-09-03"
 author: "DupeDeals"
+pricesCheckedAt: "2026-09-08"
 category: "Baby & Kids"
 coverImage: "https://images.unsplash.com/photo-1570657891791-e39a9d185540?w=800&h=400&fit=crop"
 ---
 
-Wearable breast pumps changed the routine for a lot of parents: no wall socket, no sitting still, no dangling bottles, just a quiet cup inside your bra while you carry on with your day. The brand that made that normal, Elvie, also made it expensive, with its cup-style pumps sitting in the [£250 to £450 range](https://uk.elvie.com/products/elvie-pump) depending on the model. The honest question isn't "what's the cheapest pump," it's how much of that hands-free experience you can get for a fraction of the price, and exactly what you trade away. We stock two wearables far enough apart on price to be worth weighing against each other, and against the premium benchmark.
+Wearable breast pumps changed the routine for a lot of parents: no wall socket, no sitting still, no dangling bottles, just a quiet cup inside your bra while you carry on with your day.The brand that made that normal, Elvie, also made it expensive, with its [double cup-style pump](https://www.pricerunner.com/pl/1589-5136461/Maternity-Nursing/Elvie-Double-Electric-Breast-Pump-Compare-Prices) running from roughly £370 to £500 depending on the retailer.elvie.com/products/elvie-pump) depending on the model. The honest question isn't "what's the cheapest pump," it's how much of that hands-free experience you can get for a fraction of the price, and exactly what you trade away. We stock two wearables far enough apart on price to be worth weighing against each other, and against the premium benchmark.
 
 ## Why people look for a cheaper wearable pump
 
@@ -72,7 +73,7 @@ Being straight about it: Elvie and Willow have the longest track record, the mos
 
 | | MOMMED (budget) | eufy S1 (step-up) | Elvie (premium) |
 |---|---|---|---|
-| Price | {{price:54}} | {{price:53}} | Around £250 to £450 |
+| Price | {{price:54}} | {{price:53}} | Roughly £370 to £500 |
 | Hands-free / tube-free | Yes | Yes | Yes |
 | Heating | No | Yes | Model dependent |
 | Modes / levels | 3 modes / 12 levels | Multi-mode | App-controlled |

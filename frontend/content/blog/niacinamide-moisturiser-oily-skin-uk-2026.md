@@ -3,6 +3,7 @@ title: "Best Niacinamide Moisturiser for Oily Skin (UK)"
 excerpt: "A niacinamide moisturiser made for oily skin, certified organic, and fairly priced. Here's what it actually does and who it's for."
 date: "2026-08-19"
 author: "DupeDeals"
+pricesCheckedAt: "2026-09-08"
 category: "Beauty & Skincare"
 coverImage: "https://images.unsplash.com/photo-1670201203208-055d6d79db4a?w=800&h=400&fit=crop"
 ---
@@ -40,7 +41,7 @@ This one pairs niacinamide with saw palmetto and argan kernel extract, which act
 
 ## How this compares to niacinamide serums
 
-Most well-known niacinamide products are serums, not moisturisers. They're meant as an extra step, not a replacement for your daily cream. [Paula's Choice's 10% Niacinamide Booster](https://www.idealo.co.uk/compare/6263264/paula-s-choice-10-niacinamide-booster-20ml.html) sells from around £38.95 for 20ml at the best current UK price, and you'd still need a separate moisturiser alongside it. We're not calling this a direct swap. A serum and a moisturiser solve overlapping but different problems. It's useful context, though, for what the wider niacinamide market actually costs.
+Most well-known niacinamide products are serums, not moisturisers. They're meant as an extra step, not a replacement for your daily cream. [Paula's Choice's 10% Niacinamide Booster](https://www.pricerunner.com/pl/253-4723878/Skincare/Paula-s-Choice-10-Niacinamide-Booster-20ml-Compare-Prices) now sells from about £49 for 20ml at the best current UK price, and you'd still need a separate moisturiser alongside it. We're not calling this a direct swap. A serum and a moisturiser solve overlapping but different problems. It's useful context, though, for what the wider niacinamide market actually costs.
 
 ## Quick comparison
 

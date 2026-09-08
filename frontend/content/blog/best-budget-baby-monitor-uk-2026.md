@@ -3,6 +3,7 @@ title: "Best Budget Baby Monitor UK: Reolink vs Tapo (2026)"
 excerpt: "Dedicated baby monitors can cost more than a decent tablet. We compared two smart cameras that do the same job for far less, trade-offs included."
 date: "2026-09-03"
 author: "DupeDeals"
+pricesCheckedAt: "2026-09-08"
 category: "Baby & Kids"
 coverImage: "https://images.unsplash.com/photo-1770059706518-ece8f7264055?w=800&h=400&fit=crop"
 ---

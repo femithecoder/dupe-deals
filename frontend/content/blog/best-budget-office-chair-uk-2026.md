@@ -3,6 +3,7 @@ title: "Budget Ergonomic Office Chair UK: SIHOO vs Herman Miller"
 excerpt: "A Herman Miller Aeron costs more than most people's desks, laptop included. We looked at whether a sub-£200 chair gets enough of the same support."
 date: "2026-09-03"
 author: "DupeDeals"
+pricesCheckedAt: "2026-09-08"
 category: "Home & Kitchen"
 coverImage: "https://images.unsplash.com/photo-1657757996603-acec063f1d9b?w=800&h=400&fit=crop"
 ---

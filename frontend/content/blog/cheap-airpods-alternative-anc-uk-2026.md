@@ -3,11 +3,12 @@ title: "Cheap AirPods Alternative with Noise Cancelling (UK)"
 excerpt: "Five noise cancelling earbuds priced against what AirPods actually sell for, compared honestly, including one you can buy cheaper elsewhere."
 date: "2026-08-19"
 author: "DupeDeals"
+pricesCheckedAt: "2026-09-08"
 category: "Electronics & Tech"
 coverImage: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&h=400&fit=crop"
 ---
 
-Apple's AirPods 4 carry a £159 RRP, but they [regularly sell for around £88 to £89](https://www.techradar.com/news/cheapest-airpods-prices) at the best current UK deals. That's the real number to beat. It's also worth knowing upfront that the base AirPods 4 don't come with active noise cancellation at all. You'd need the pricier ANC version, officially £179, for that.
+Apple's AirPods 4 list at £119 on [Apple's own UK store](https://www.apple.com/uk/shop/buy-airpods/airpods-4), and [sell for less again on a good deal](https://www.techradar.com/news/cheapest-airpods-prices). That lower figure, not the list price, is the real number to beat. It's also worth knowing upfront that the base AirPods 4 don't come with active noise cancellation at all. You'd need the pricier ANC version, £169 from Apple, for that.
 
 ## What "cheap AirPods alternative" usually gets wrong
 
@@ -24,7 +25,7 @@ We list five sets below, all with real active noise cancelling, all cheaper than
 
 Nothing is a real, independently reviewed brand, not a mystery marketplace listing. It's known for a see-through, minimal design that draws obvious comparisons to Apple's own products. At {{price:39}}, it beats even the best current UK deal on the base AirPods 4, and it comes with active noise cancelling, something the base AirPods 4 don't offer at any price.
 
-**Noise cancelling:** Rated up to 45dB, a genuine ANC system rather than basic passive isolation. That puts it close to AirPods 4's separate £179 ANC version, at under half the price.
+**Noise cancelling:** Rated up to 45dB, a genuine ANC system rather than basic passive isolation. That puts it close to AirPods 4's separate £169 ANC version, at well under half the price.
 
 **Sound quality:** An 11mm driver with dual vents, plus Hi-Res Audio support up to 24-bit/96kHz over LDAC on Android phones that support it. iPhone gets AAC instead, which still sounds solid, just not the full Hi-Res spec.
 
@@ -134,8 +135,8 @@ Apple's ecosystem, instant pairing, Find My tracking, and smooth switching betwe
 
 | | Price | ANC | Lossless / Hi-Res | Independent reviews |
 |---|---|---|---|---|
-| AirPods 4 (base, real price) | ~£88–£89 | No | No | Extensive |
-| AirPods 4 (ANC, RRP) | £179 | Yes | No | Extensive |
+| AirPods 4 (base, Apple price) | £119 | No | No | Extensive |
+| AirPods 4 (ANC, Apple price) | £169 | Yes | No | Extensive |
 | [AGM Buds 9](/product/66) | {{price:66}} | Claimed | No | Almost none |
 | [SoundPEATS Air5 Pro](/product/64) | {{price:64}} | Yes | aptX Lossless | Good |
 | [soundcore P42i](/product/65) | {{price:65}} | Yes, up to 55dB | LDAC | Good |
