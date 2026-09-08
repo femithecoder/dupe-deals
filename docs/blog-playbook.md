@@ -53,9 +53,13 @@ a price never goes stale:
   We can't tokenise them: no feed, no product id, nothing to track. They still go stale, and a
   wrong premium price is worse than a wrong price of ours, because the comparison is the whole
   point of the post. So record `pricesCheckedAt: "YYYY-MM-DD"` in the frontmatter whenever you
-  verify them, and `npm run audit:blog` will warn once a post passes 90 days or was never
-  checked at all. Prefer ranges ("around £200 to £280") over precise figures: they age better
-  and they're more honest about a price that genuinely moves between retailers.
+  verify them, and `npm run audit:blog` will warn once a post passes 30 days or was never
+  checked at all. Thirty because a full sweep on 2026-09-08 found precise figures stale in five
+  of seven posts, some within weeks: Apple's AirPods RRP was out by £40 and a Dyson V8 by over
+  £160, both overstating the competitor and so flattering our own pick.
+  Strongly prefer ranges ("around £200 to £280", "well over £1,000") over precise figures. In
+  that same sweep every post that used ranges needed no correction at all, while every post
+  using precise figures did.
 - Cross-product comparisons ("£65 more than X", "18% cheaper") have no token, so phrase them
   softly ("close to double", "undercuts that") or they go stale.
 - Do NOT put prices in the frontmatter excerpt, it is not token-resolved.

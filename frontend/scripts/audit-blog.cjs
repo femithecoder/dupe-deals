@@ -102,7 +102,11 @@ async function main() {
   // whole point of the post. Nothing checked these before, so they aged
   // silently. Warn rather than fail, since going stale is inevitable and the
   // useful thing is knowing which post is due a look.
-  const STALE_DAYS = 90
+  // 30 rather than 90. When the sweep on 2026-09-08 re-checked every post,
+  // precise competitor figures had gone stale in five of seven, several within
+  // weeks of publishing: Apple's AirPods RRP was out by £40, a Dyson V8 by
+  // more than £160. Ninety days would have caught none of them in time.
+  const STALE_DAYS = 30
   const warnings = []
   for (const p of posts) {
     const literals = [...new Set([...strip(p.body).replace(/\{\{\w+:\d+\}\}/g, "").matchAll(/£[0-9][0-9.,]*/g)].map((m) => m[0]))]
