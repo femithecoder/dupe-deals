@@ -83,7 +83,7 @@ Anker's 2026 replacement for the popular P40i, and the safe choice if battery li
 **Cons:**
 - Sound is punchy rather than neutral, typical of Anker
 - No lossless codec, unlike the SoundPEATS
-- Marginally the most expensive of the three mid-priced options
+- Priced above the other Amazon-sold options here, and it moves about
 
 **Verdict:** The one to pick if you want to charge them as little as possible.
 
@@ -91,7 +91,7 @@ Anker's 2026 replacement for the popular P40i, and the safe choice if battery li
 
 ![AGM Buds 9 wireless earbuds](https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F31QTGI%2BXAwL._SS500_.jpg&feedId=110672&k=9afc1b3815f23f5f0737568a5e351face74f55f9)
 
-By far the cheapest ANC set we list, at well under half our main pick. It comes with a touchscreen charging case and a claimed 40 hours of total playtime.
+The cheapest ANC set we list, and comfortably the cheapest way onto this page. It comes with a touchscreen charging case and a claimed 40 hours of total playtime.
 
 **Be careful with this one.** AGM makes rugged phones and is new to audio, and we could find almost no independent testing of this specific model. Everything above comes from the manufacturer's own specification, not from anyone who has measured it. That is exactly the situation this article warned about at the top, and we are including it because the price is genuinely low, not because we can vouch for it.
 
@@ -112,7 +112,7 @@ By far the cheapest ANC set we list, at well under half our main pick. It comes 
 
 The best reviewed set in this list, and the most expensive. Adaptive ANC up to 50dB, aptX Lossless, LDAC and Auracast, on the same Qualcomm chipset as the SoundPEATS.
 
-**The honest problem:** our link goes to EarFun's own shop at {{price:67}}, which is {{discount:67}} off their {{rrp:67}} RRP but still the highest price on this page. The same earbuds frequently sell for less on Amazon, where we earn nothing. We are telling you that rather than quietly taking the click. If you want these specifically, check both before buying.
+**The honest problem:** our link goes to EarFun's own shop at {{price:67}}, which is {{discount:67}} off their {{rrp:67}} RRP but sits at the top end of this page. The same earbuds frequently sell for less on Amazon, where we earn nothing. We are telling you that rather than quietly taking the click. If you want these specifically, check both before buying.
 
 **Pros:**
 - The strongest independent reviews of anything here
@@ -120,7 +120,7 @@ The best reviewed set in this list, and the most expensive. Adaptive ANC up to 5
 - Auracast support, which nothing else on this list has
 
 **Cons:**
-- The most expensive option here
+- Among the priciest here, and cheapest only rarely
 - Often cheaper elsewhere than through our link
 - Overkill if you mainly want something to take calls on
 
@@ -142,7 +142,7 @@ Apple's ecosystem, instant pairing, Find My tracking, and smooth switching betwe
 | [Nothing Ear (a)](/product/39) | {{price:39}} | Yes, up to 45dB | LDAC (Android) | Extensive |
 | [EarFun Air Pro 4](/product/67) | {{price:67}} | Yes, up to 50dB | aptX Lossless, LDAC | Strongest |
 
-Every option in that table costs less than the ANC version of AirPods 4, and four of the five cost less than what the base AirPods 4 actually sells for.
+Every option in that table costs less than the ANC version of AirPods 4. The order between them shifts, sometimes weekly: the soundcore jumped by £15 the day after we listed it, which is exactly why the prices above are read live rather than typed in.
 
 ## How we sourced this
 
