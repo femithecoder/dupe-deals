@@ -3,11 +3,12 @@ title: "Cheap Dyson Alternative UK: Is a Budget Cordless Enough?"
 excerpt: "A Dyson cordless starts north of £300. We checked whether a budget stick vacuum from a century-old brand handles the everyday job for a fraction of that."
 date: "2026-09-03"
 author: "DupeDeals"
+pricesCheckedAt: "2026-09-08"
 category: "Home & Kitchen"
 coverImage: "https://images.unsplash.com/photo-1758273238415-01ec03d9ef27?w=800&h=400&fit=crop"
 ---
 
-Search "cheap Dyson alternative" and most articles quietly compare against a Dyson's full RRP, which makes anything look like a bargain. The honest number to beat is what a Dyson cordless actually costs today. The entry-level [Dyson V8 sells from around £329](https://www.dyson.co.uk/vacuum-cleaners/cordless/v8), and the more current V12 Detect Slim is roughly £320 on a deal and closer to £450 to £560 the rest of the time. So the real question isn't "cheaper than a Dyson," almost everything is. It's whether a budget cordless does enough of the same everyday job to make skipping the Dyson a sensible choice, not a compromise you'll regret.
+Search "cheap Dyson alternative" and most articles quietly compare against a Dyson's full RRP, which makes anything look like a bargain. The honest number to beat is what a Dyson cordless actually costs today. The entry-level [Dyson V8 now sells from about £160](https://pricespy.co.uk/product.php?p=3646647) for the Animal, with the Advanced around £219, and the more current [V12 Detect Slim](https://pricespy.co.uk/product.php?p=5877820) sits near £429. Those are lower than most articles on this subject admit, which cuts against us rather than for us, and it is the number that matters. So the real question isn't "cheaper than a Dyson," almost everything is. It's whether a budget cordless does enough of the same everyday job to make skipping the Dyson a sensible choice, not a compromise you'll regret.
 
 ## Why people look for a Dyson alternative
 
@@ -19,7 +20,7 @@ Usually one of three reasons. The price is a lot to spend on a vacuum, especiall
 
 ![Hoover HF1 Max cordless stick vacuum](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41mz9b2wsOL._SS500_.jpg&feedId=110672&k=da7538484df34cb112b1a2b04289ecabd6201672)
 
-A lightweight cordless stick from Hoover, a brand that has been making vacuum cleaners for over a century, so this isn't a no-name marketplace listing you can't look up. At {{price:46}}, it's roughly a third of what an entry-level Dyson V8 costs right now, and it covers the basics most homes actually use.
+A lightweight cordless stick from Hoover, a brand that has been making vacuum cleaners for over a century, so this isn't a no-name marketplace listing you can't look up. At {{price:46}}, it undercuts even the cheapest current V8 by a wide margin, though not by as much as the RRP-based comparisons you will see elsewhere imply, and it covers the basics most homes actually use.
 
 **Runtime:** Up to 50 minutes in Eco mode, around 20 minutes in Standard, and about 15 minutes in Turbo. That Eco figure is the headline number, so be realistic: for actual cleaning you're relying on the 15 to 20 minute modes, which is enough for a flat or a floor or two, not a whole large house on one charge.
 
@@ -52,7 +53,7 @@ Worth being straight about this. A Dyson V8 or V12 gives you noticeably stronger
 
 | | Dyson V8 (real price) | Hoover HF1 Max |
 |---|---|---|
-| Price | From around £329 | {{price:46}} |
+| Price | From about £160 (Animal) | {{price:46}} |
 | Weight | About 2.6kg | 2.35kg |
 | Runtime | Up to 40 min | Up to 50 min (Eco), 15 to 20 min in use |
 | Bin capacity | 0.54L | 0.7L |

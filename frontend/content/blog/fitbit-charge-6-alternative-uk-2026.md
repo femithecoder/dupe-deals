@@ -3,6 +3,7 @@ title: "Fitbit Charge 6 Alternative UK: Worth It?"
 excerpt: "Fitbit's Charge 6 has a £139.99 RRP but regularly sells for £79-90. We compared a cheaper alternative against that real price, not the number on the box."
 date: "2026-08-19"
 author: "DupeDeals"
+pricesCheckedAt: "2026-09-08"
 category: "Electronics & Tech"
 coverImage: "https://images.unsplash.com/photo-1561212942-0d77ee345b35?w=800&h=400&fit=crop"
 ---
