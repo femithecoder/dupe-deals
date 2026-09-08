@@ -105,4 +105,6 @@ Both the Reolink and Tapo figures are read from the shops themselves and refresh
 
 You need to see and hear your baby reliably. A good smart camera does that, which is most of why the dedicated units struggle to justify themselves. For the lowest price with full room coverage, the Reolink is the value pick; if you want a dual-lens wide-and-zoom view and a more polished app, the Tapo C840 is the step up, both far below dedicated-monitor money. If you specifically want sleep tracking and a standalone parent screen, a purpose-built monitor genuinely earns the extra.
 
-Sorting out feeding too? See our comparison of the [cheap wearable breast pump](/blog/cheap-wearable-breast-pump-uk-2026) options. Everything else we track for babies and toddlers sits in [Baby & Kids](/category/baby-kids), priced as it is today rather than as it was when we wrote this.
+Sorting out feeding too? See our comparison of the [cheap wearable breast pump](/blog/cheap-wearable-breast-pump-uk-2026) options. Before that, if you are still choosing a car seat, our look at [what a cheap i-Size seat gives up](/blog/cheap-i-size-car-seat-uk-2026) covers the one category where paying more may buy you something real.
+
+Everything else we track for babies and toddlers sits in [Baby & Kids](/category/baby-kids), priced as it is today rather than as it was when we wrote this.
