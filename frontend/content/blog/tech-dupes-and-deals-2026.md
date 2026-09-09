@@ -1,14 +1,14 @@
 ---
-title: "11 Tech Deals That Beat the Big Brands (UK)"
-excerpt: "Real UK prices behind 11 tech picks, from earbuds to a 55-inch TV. Some are genuine dupes, some are the famous brand on a real discount."
-date: "2026-08-10"
-author: "DupeDeals"
-pricesCheckedAt: "2026-09-08"
-category: "Electronics & Tech"
-coverImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop"
+title: 11 Tech Deals That Beat the Big Brands (UK)
+excerpt: Real UK prices behind 11 tech picks, from earbuds to a 55-inch TV. Some are genuine dupes, some are the famous brand on a real discount.
+date: 2026-08-10
+pricesCheckedAt: 2026-09-08
+author: DupeDeals
+category: Electronics & Tech
+coverImage: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop
 ---
 
-Tech is where the "quality for less" idea gets tested hardest. A [{{price:28}} moisturiser standing in for a £165 Crème de la Mer](/blog/creme-de-la-mer-dupe-uk-2026) is one thing, but does a sub-£100 gaming headset really hold up against something several times the price? We checked. Every comparison below uses real current UK prices for the premium original, not the RRP printed on a box that nobody actually pays.
+Tech is where the "quality for less" idea gets tested hardest. A [{{price:28}} moisturiser standing in for a £165 Crème de la Mer](/blog/creme-de-la-mer-dupe-uk-2026) is one thing, but can a budget gaming headset under £100 really hold up against something several times the price? We checked. Every comparison below uses real current UK prices for the premium original, not the RRP printed on a box that nobody actually pays.
 
 Two different things are happening in this list. Some of these are genuine dupes, cheaper products that do the same job as something famous. Others are the famous brand itself, just genuinely discounted right now. We've been upfront about which is which.
 
