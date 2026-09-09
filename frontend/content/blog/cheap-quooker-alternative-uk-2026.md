@@ -40,7 +40,7 @@ The closest thing to a Quooker's day-to-day function without the plumber. It fil
 
 **Where it beats one:**
 - No installation, no plumber, no hole cut in the worktop
-- It filters, which a standard Quooker does not; that is a different job the price comparison tends to blur
+- It filters far more deeply. A Quooker's tank filter is carbon, which is about taste; this is reverse osmosis, and it treats everything it dispenses rather than the boiling water alone
 - You can take it with you. A Quooker stays with the house
 
 **Verdict:** If what you want is filtered hot water without waiting, this does it at roughly a fifth of an installed Quooker. If you specifically want a tap, it is not a tap.
@@ -61,7 +61,7 @@ This is a tap-mounted filter aimed at chlorine and general impurities. It does n
 |---|---|---|---|
 | Price | {{price:49}} | {{price:50}} | £1,050 to £3,500+ |
 | Installation | Screws onto the tap | None, sits on the worktop | £300 to £500, plumber |
-| Filters water | Yes | Yes, RO and UV | No, on a standard tap |
+| Filters water | Yes | Yes, RO and UV | Carbon, boiling water only |
 | Hot water | No | Yes, up to 95°C | Yes, 100°C |
 | Takes worktop space | No | Yes | No |
 | Leaves with you | Yes | Yes | No, it is a fixture |
@@ -72,9 +72,9 @@ The gap between the columns is large enough that precision is not the point. Eve
 
 **Is 95°C hot enough for tea?** For most people, yes. For a serious black tea drinker who wants water straight off the boil, it is a genuine compromise and we would rather say so than pretend the numbers are equivalent. For coffee it is arguably the better temperature.
 
-**Does a Quooker filter the water?** A standard Quooker heats but does not filter. Filtration is a separate add-on. This matters for the comparison, because the countertop unit is doing two jobs where the tap does one, and straight price comparisons rarely mention it.
+**Does a Quooker filter the water?** Partly, and it is worth getting this right, because plenty of comparisons state flatly that it does not. Every Quooker has a carbon filter in its boiling water tank. [Quooker's own FAQ](https://www.quooker.co.uk/support/faq) says it absorbs chlorine, pesticides and organic pollutants to improve the taste, and that it is not a limescale filter. Two limits matter for this comparison. It is carbon, not reverse osmosis, so it does not remove dissolved solids the way the countertop unit does. And it treats the boiling water only: the ordinary cold water from a standard Quooker tap is untreated unless you add the CUBE or a cold water filter. So the countertop unit does filter more, and filters everything it pours, but a Quooker is not unfiltered.
 
-**What is the ongoing cost?** Both filtered options need replacement filters, which is a real running cost you should factor in rather than treat as a one-off purchase. A Quooker has its own running cost too: the tank keeps water hot around the clock, so it draws power whether or not you use it.
+**What is the ongoing cost?** Both filtered options need replacement filters, which is a real running cost you should factor in rather than treat as a one-off purchase. A Quooker has its own running costs too: the tank keeps water hot around the clock, so it draws power whether or not you use it, and the carbon filter inside it is a replaceable part rather than a permanent one.
 
 **Is a countertop unit worth it in a small kitchen?** This is the strongest argument against one. If worktop space is your constraint, an appliance that permanently occupies some of it may be the wrong trade, and that is a point in the expensive tap's favour rather than ours.
 
