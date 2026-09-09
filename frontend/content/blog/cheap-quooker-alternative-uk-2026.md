@@ -26,6 +26,8 @@ Everything else in this comparison is about money and worktop space. That one is
 
 ### [Waterdrop K19-HG Instant Hot Countertop RO System](/product/50): {{price:50}}
 
+![Waterdrop K19-HG countertop reverse osmosis system, dispensing hot water into a glass](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F31ig%2BoZLl3L._SS500_.jpg&feedId=110672&k=f7d1d530fa821cec207d2b17b99d38a47158b1c4)
+
 The closest thing to a Quooker's day-to-day function without the plumber. It filters and heats in one countertop unit: reverse osmosis filtration, UV, remineralisation, and hot water in about three seconds, with the temperature adjustable rather than fixed.
 
 **What it actually replaces:** the reason people want a boiling tap is not usually the tap. It is not waiting for a kettle, and not drinking the tap water as it comes. This does both of those things, on a worktop, for a fraction of the outlay.
@@ -44,6 +46,8 @@ The closest thing to a Quooker's day-to-day function without the plumber. It fil
 **Verdict:** If what you want is filtered hot water without waiting, this does it at roughly a fifth of an installed Quooker. If you specifically want a tap, it is not a tap.
 
 ### [Waterdrop FC-02-P Ultra Filtration Water Filter Tap](/product/49): {{price:49}}
+
+![Waterdrop FC-02-P tap-mounted water filter in pink, shown with its push-button diverter](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F310bSiATBIL._SS500_.jpg&feedId=110672&k=bfa0d1547b6ab81b6a242e2b0d9e41365851eca4)
 
 Worth including because a good number of people looking at boiling taps do not actually want boiling water. They want their water to taste better, and a kettle already handles the heat.
 
