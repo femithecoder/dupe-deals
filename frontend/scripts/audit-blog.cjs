@@ -171,7 +171,10 @@ async function main() {
   for (const p of posts) {
     const literals = [...new Set([...strip(p.body).replace(/\{\{\w+:\d+\}\}/g, "").matchAll(/£[0-9][0-9.,]*/g)].map((m) => m[0]))]
     if (!literals.length) continue
-    const checked = (p.fm.match(/pricesCheckedAt: "(.*)"/) || [])[1]
+    // Quotes optional: the CMS writes frontmatter unquoted, and requiring them
+    // made this read nothing on a CMS-edited post and report every competitor
+    // price as never verified. Same fault as in check-blog-facts.cjs.
+    const checked = (p.fm.match(/pricesCheckedAt:\s*"?([\d-]+)"?/) || [])[1]
     if (!checked) {
       warnings.push(`${p.file}: ${literals.length} competitor price(s), never verified. Add pricesCheckedAt to the frontmatter once checked.`)
       continue
