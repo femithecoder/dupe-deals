@@ -16,9 +16,11 @@ This is a category where care matters more than usual, so here is the short answ
 
 Every car seat legally sold in the UK has to meet a mandated standard, and for i-Size seats that is R129. That is not a paperwork exercise. R129 adds mandatory side-impact testing and rollover testing on top of frontal and rear impacts, using Q-series crash dummies carrying dozens of sensors. A budget seat carrying that approval passed the same required tests as one costing three times more.
 
-What differs above the legal minimum is independent testing. Organisations like Which? and Germany's ADAC buy seats and crash test them themselves, to protocols harsher than the legal requirement, and publish the results. Premium brands are routinely put through this. Budget brands frequently are not. An untested seat is not the same as a seat that tested badly; it simply means nobody outside the manufacturer has checked.
+What differs above the legal minimum is independent testing. Germany's ADAC, working with Stiftung Warentest, buys seats off the shelf and crashes them to protocols harsher than the legal requirement. Which? publishes those results for UK readers through the shared European testing programme both belong to, which is why the same ratings turn up in several countries at once. Premium brands are routinely put through this. Budget brands frequently are not. An untested seat is not the same as a seat that tested badly; it simply means nobody outside the manufacturer has checked.
 
-There is one more thing worth saying, because it outweighs a lot of the above: fitting matters enormously. [Government guidance on child car seats](https://www.gov.uk/child-car-seats-the-rules) sets out the legal requirements, and [Which? has crash tested budget seats](https://www.which.co.uk/news/article/cheap-child-car-seats-are-they-any-good-aTdTy1U6fK6l) specifically to see how they hold up. The consistent finding across the field is that the best seat in the world protects nobody if it is installed wrongly, and incorrect fitting is common. A seat you can fit confidently in your own car matters more than a badge.
+Hold on to that distinction, because the product listing will tell you the seat has been crash tested, and that is true. R129 approval is not self-certification: the seat is crashed at an accredited laboratory and signed off by a national approval authority before it can be sold. Jovikids says its seats are "rigorously tested to meet the stringent ECE R129 standards", which is a statement about clearing the legal bar, not a result published by anyone outside the company. Customer reviews describing a seat as feeling solid are not test data at all. So when a listing says crash tested, read it as passed the legal tests, because that is what it means, and it is the same thing we credit the seat with below.
+
+There is one more thing worth saying, because it outweighs a lot of the above: fitting matters enormously. [Government guidance on child car seats](https://www.gov.uk/child-car-seats-the-rules) sets out the legal requirements, and [Which? has reported on how cheap seats hold up](https://www.which.co.uk/news/article/cheap-child-car-seats-are-they-any-good-aTdTy1U6fK6l). The consistent finding across the field is that the best seat in the world protects nobody if it is installed wrongly, and incorrect fitting is common. A seat you can fit confidently in your own car matters more than a badge.
 
 ## Our picks
 
@@ -32,7 +34,7 @@ This is a rotating i-Size seat with ISOFIX, covering 40 to 150cm, so it is inten
 
 **What we can tell you:** it carries R129 approval, meaning it passed the required frontal, rear, side-impact and rollover tests. It has ISOFIX, a five-point harness, side-impact protection and multiple recline positions.
 
-**What we cannot tell you:** we could find no independent crash-test result for this seat from Which?, ADAC or any comparable body. Everything above the legal approval comes from the manufacturer. We are not saying it would do badly. We are saying nobody independent has published a figure, and with a car seat you are entitled to know that before deciding.
+**What we cannot tell you:** we could find no independent crash-test result for this seat from ADAC, Which? or any comparable body. The listing's own safety claims, and the manufacturer's, all trace back to the R129 approval above. Everything beyond it comes from the company that makes the seat. We are not saying it would do badly. We are saying nobody independent has published a figure, and with a car seat you are entitled to know that before deciding.
 
 **Pros:**
 - R129 approved, with the side-impact and rollover testing that entails
@@ -86,7 +88,7 @@ Our prices are read live from the retailer, so the figures above are current rat
 
 The premium comparisons are real UK selling prices for the Joie and Cybex seats, not their RRPs, because comparing our live price against someone else's list price would flatter us by a hundred pounds or more.
 
-We have not crash tested anything, we are not a safety organisation, and nothing here is safety advice. What we did was check which approvals these seats carry, search for independent test results, report honestly that we found none, and link to the government's own guidance and to Which?'s testing so you can weigh it yourself. On a product like this, telling you what we do not know matters more than telling you what we do.
+We have not crash tested anything, we are not a safety organisation, and nothing here is safety advice. What we did was check which approvals these seats carry, search for independent test results, report honestly that we found none, and link to the government's own guidance and to Which?'s reporting on cheap seats so you can weigh it yourself. On a product like this, telling you what we do not know matters more than telling you what we do.
 
 ## The bottom line
 
