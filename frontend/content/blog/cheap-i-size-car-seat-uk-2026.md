@@ -1,6 +1,6 @@
 ---
-title: "Cheap i-Size Car Seat UK: What You Give Up"
-excerpt: "Every car seat sold here meets the same legal standard. What a budget one lacks is independent crash testing, and that gap is worth understanding."
+title: "Cheap Child Car Seat UK: What You Give Up"
+excerpt: "Every child car seat sold here meets the same legal standard. What a budget one lacks is independent crash testing, and that gap is worth understanding."
 date: "2026-09-08"
 author: "DupeDeals"
 pricesCheckedAt: "2026-09-08"
@@ -24,6 +24,8 @@ There is one more thing worth saying, because it outweighs a lot of the above: f
 
 ### [Jovikids Ranger 2 i-Size 360 Rotating Car Seat](/product/57): {{price:57}} (was {{rrp:57}})
 
+![Jovikids Ranger 2 rotating i-Size child car seat, shown with its seat protector](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41SSe41XbkL._SS500_.jpg&feedId=110672&k=832a48d7c6781a2ed4984085d07f88bb9f51f94f)
+
 A rotating i-Size seat with ISOFIX, covering 40 to 150cm, so it is intended to last from newborn through to the booster years rather than being replaced at each stage. It sits at {{price:57}} as we write. Where you see a reduction on our pages it is one the tracker actually recorded against a price the product genuinely sold at, not a permanent "sale" price that was never anything else.
 
 **Why rotation is worth having:** it lets you turn the seat towards the door to load your child, rather than bending into the footwell and twisting. That sounds like convenience rather than safety, and mostly it is, but a seat that is easy to use correctly tends to get used correctly, which is the part that matters.
@@ -45,6 +47,8 @@ A rotating i-Size seat with ISOFIX, covering 40 to 150cm, so it is intended to l
 **Verdict:** A legally approved rotating seat at a fraction of the usual price. Whether the missing independent testing bothers you is a judgement only you can make, and it is a reasonable thing to be bothered by.
 
 ### [Jovikids OHHO+ ISOFIX Booster Seat](/product/58): {{price:58}}
+
+![Jovikids OHHO+ ISOFIX booster seat for older children](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41Y4A6ghdvL._SS500_.jpg&feedId=110672&k=fc5bb125437f78825c6f996b8ce32c330a504c83)
 
 For the stage after a full harnessed seat, when a child needs the belt positioned correctly rather than a harness of their own. ISOFIX-anchored and R129 approved.
 
