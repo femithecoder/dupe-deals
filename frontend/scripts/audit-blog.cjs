@@ -53,6 +53,20 @@ async function main() {
     if (!/## (Frequently asked|FAQ)/i.test(p.body)) say(p.file, "no FAQ section")
     if (!/## How we (priced|chose|sourced)/i.test(p.body)) say(p.file, "no methodology section")
     if (/—/.test(p.body)) say(p.file, "contains an em dash")
+
+    // Every product given its own ### section needs a picture under it. The
+    // Quooker post shipped with both picks named and priced but neither shown,
+    // and nothing caught it, because word count and link count were fine.
+    const sections = [...new Set([...p.body.matchAll(/^###\s+\[.*?\]\(\/product\/(\d+)\)/gm)].map((m) => m[1]))]
+    const images = (p.body.match(/!\[/g) || []).length
+    if (sections.length > images) {
+      say(p.file, `${sections.length} product sections but only ${images} image${images === 1 ? "" : "s"}`)
+    }
+    // An empty alt is worse than no image for a screen reader on a page whose
+    // whole job is showing you the product.
+    for (const alt of [...p.body.matchAll(/!\[(.*?)\]\(/g)].map((m) => m[1])) {
+      if (alt.trim().length < 15) say(p.file, `image alt text too thin: "${alt}"`)
+    }
   }
 
   // Our own prices must come from tokens, never typed in
