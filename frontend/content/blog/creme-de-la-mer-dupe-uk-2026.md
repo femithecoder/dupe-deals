@@ -12,7 +12,7 @@ Crème de la Mer is the moisturiser people mean when they say skincare has gone 
 
 So the search for a cheaper version is entirely reasonable. What follows is an honest answer rather than a flattering one, because most "La Mer dupe" articles quietly imply you can buy the same cream for £30, and you cannot.
 
-## Let's be clear about what a dupe can and can't be
+## What a dupe can and cannot be
 
 There is no product on the market that replicates Crème de la Mer. Its signature is the fermented sea kelp blend the brand calls Miracle Broth, which is proprietary, and no one else has it. Anyone telling you otherwise is guessing.
 
@@ -26,11 +26,11 @@ This matters for your decision. If you love La Mer for the texture, the scent an
 
 ![Nourish London logo](/images/nourish-london-logo.png)
 
-This is not a copy of La Mer, and we are not going to pretend it is. It is a different product built on a different idea: peptides and hyaluronic acid rather than a heavy occlusive base, and certified organic rather than silicone-and-mineral-oil rich.
+This is not a copy of La Mer, and we are not going to pretend it is. It is a different product built on a different idea: peptides and hyaluronic acid rather than a heavy occlusive base, and certified organic rather than built on silicones and mineral oil.
 
-**What's in it:** Palmitoyl Tripeptide-5, a well-studied peptide, alongside hyaluronic acid for water-binding and argan oil for the richer, nourishing side of the formula. Soil Association certified organic and vegan.
+**What is in it:** Palmitoyl Tripeptide-5, a well-studied peptide, alongside hyaluronic acid for water-binding and argan oil for the richer, nourishing side of the formula. Soil Association certified organic and vegan.
 
-**Size:** 50ml, where Crème de la Mer's entry size is 30ml. You are getting more product for a small fraction of the outlay, which changes how freely you use it. People ration La Mer. That is not a small thing when a moisturiser only works if you actually apply it.
+**Size:** 50ml, where Crème de la Mer's entry size is 30ml. You are getting more product for a fraction of the outlay, which changes how freely you use it. People ration La Mer. That is not a small thing when a moisturiser only works if you actually apply it.
 
 **On the claims:** Nourish London says it is clinically tested to a 25% increase in skin hydration over 24 hours, and it won Best Anti-Ageing Product at the Beauty Bible Awards. Those are the brand's own figures and an industry award, not an independent lab result, and we would rather label them that way than dress them up.
 
@@ -54,7 +54,7 @@ If the thing you actually want from La Mer is that dense, protective, balm-like 
 
 It earns its place here for the same reason the section above explains: it works by sealing moisture in. That is the actual mechanism behind the expensive jar, and it is not a costly thing to formulate.
 
-**On the price, and the catch:** {{price:63}} is {{discount:63}} off its {{rrp:63}} RRP, and with delivery it lands around £9. But the shop selling it at that price, Plusshop, **requires a £9.95 per month membership to buy anything at all**. That is not a hidden fee we discovered, it is clause one of their terms: "To make a purchase with Plusshop, the customer must subscribe to a membership."
+**On the price, and the catch:** {{price:63}} is {{discount:63}} off its {{rrp:63}} RRP, and with delivery it lands around £9. But the shop selling it at that price, Plusshop, **requires a £9.95 per month membership to buy anything at all**. That is not a hidden fee we discovered. It is clause one of their terms: "To make a purchase with Plusshop, the customer must subscribe to a membership."
 
 The first 14 days are free and you can cancel, so it is possible to pay just the £9. The details matter though: you cannot cancel in the first 24 hours, cancelling ends the free trial immediately, and there are no refunds. Miss the window by a single month and the cream has cost you about £19, which is more than simply buying it elsewhere.
 
@@ -71,7 +71,7 @@ We are telling you this rather than quietly banking the click. It is a good deal
 
 **Pros:**
 - The closest texture here to what La Mer actually feels like
-- A real cult product with a 90-year history, not a copycat
+- A real cult product sold since 1930, not a copycat
 - Multi-use, so it will not sit unused if it does not suit your face
 
 **Cons:**
@@ -80,7 +80,7 @@ We are telling you this rather than quietly banking the click. It is a good deal
 - Only sold here through a shop that requires a £9.95 monthly membership
 - Delivery makes it poor value as a single-item order
 
-**What reviewers say:** This is one of the most reviewed products in the category, and the verdict is consistent rather than borderline. It averages around 4.4 to 4.6 out of 5 across Influenster, Google and Amazon, on tens of thousands of ratings between them. The recurring praise is versatility, dry patches, lips, cuticles, rather than anything miraculous for the face. The recurring criticism is the smell, which people describe as more ointment than beauty product, and some long-term users prefer the old jar to the tube.
+**What reviewers say:** This is one of the most reviewed products in the category, and the verdict is consistent rather than borderline. It averages around 4.4 to 4.6 out of 5 across Influenster, Google and Amazon, on tens of thousands of ratings between them. The recurring praise is versatility, its use on dry patches, lips and cuticles, rather than anything miraculous for the face. The recurring criticism is the smell, which people describe as more ointment than beauty product, and some long-term users prefer the old jar to the tube.
 
 **Verdict:** The pick if you want the occlusive richness. The Nourish London cream is the pick if you want a modern everyday moisturiser.
 
@@ -94,7 +94,7 @@ That is the honest floor of this comparison. Everything above it is buying a nic
 
 ## If you want the fuller routine
 
-A single cream is rarely the whole answer for dry, dehydrated skin. The [Protect Skincare Essentials Starter Kit](/product/13) bundles a cleanser, toning mist, peptide serum and moisturiser for {{price:13}}, down from {{rrp:13}}, which is {{save:13}} off and {{discount:13}} less than the pieces separately. It is the cheaper way in if you are rebuilding a routine rather than replacing one product.
+A single cream is rarely the whole answer for dry, dehydrated skin. The [Protect Skincare Essentials Starter Kit](/product/13) bundles a cleanser, toning mist, peptide serum and moisturiser for {{price:13}}, down from {{rrp:13}}, a saving of {{save:13}}. It is the cheaper way in if you are rebuilding a routine rather than replacing one product.
 
 If it is specifically the peptide side you are after, the [Argan Anti-Ageing Peptide Serum](/product/26) at {{price:26}} layers under whichever moisturiser you settle on.
 
@@ -114,7 +114,7 @@ The gap is not marginal. You could buy the Nourish London moisturiser several ti
 
 **Is there a real Crème de la Mer dupe?** No, not in the strict sense. The Miracle Broth is proprietary, so nothing replicates the formula. What exists are moisturisers that do the same everyday job of keeping skin hydrated and comfortable, at an ordinary price.
 
-**Why is La Mer so expensive if it's mostly mineral oil?** You are paying for the fermentation process, the brand, the packaging and the marketing, in roughly that order of contested importance. Whether that is worth it is a personal call, not a factual one, and plenty of people genuinely love the product.
+**Why is La Mer so expensive if it is mostly mineral oil?** You are paying for the fermentation process, the brand, the packaging and the marketing, in roughly that order of contested importance. Whether that is worth it is a personal call, not a factual one, and plenty of people genuinely love the product.
 
 **Will a cheaper moisturiser work as well for dry skin?** For everyday dryness, very often yes. Moisturising is not the hard part of skincare. If your skin is persistently dry, cracked or irritated, that is worth raising with a pharmacist or GP rather than solving by spending more.
 
