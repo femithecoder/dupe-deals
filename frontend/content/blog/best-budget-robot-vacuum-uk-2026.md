@@ -7,11 +7,11 @@ category: "Home & Kitchen"
 coverImage: "https://images.unsplash.com/photo-1757478558372-43c94b3268bb?w=800&h=400&fit=crop"
 ---
 
-For years a robot vacuum meant spending [iRobot Roomba](https://www.irobot.co.uk/) money to get one that actually navigated your home properly. That's no longer true. The gap between a budget robot and a flagship has narrowed to a few specific things: raw suction, mapping smarts, and self-emptying docks. The honest question isn't "what's the cheapest robot vacuum," it's how much suction and intelligence you actually need for your floors, and what you're really giving up by paying less. Three models, spread widely enough on price to show what each extra pound buys.
+For years a robot vacuum meant spending [iRobot Roomba](https://www.irobot.co.uk/) money to get one that actually navigated your home properly. That's no longer true. The gap between a budget robot and a flagship has narrowed to a few specific things: raw suction, mapping smarts, and self-emptying docks. The real question is not "what's the cheapest robot vacuum," it's how much suction and intelligence you actually need for your floors, and what you're really giving up by paying less. Three models, spread widely enough on price to show what each extra pound buys.
 
 ## Why people look for a budget robot vacuum
 
-Usually value plus realism. Most homes are mostly hard floors and light rugs, where you don't need flagship 10,000-plus-Pa suction to get a clean daily pass. Some people want a robot purely for maintenance cleaning between proper vacuums, not to replace them. And plenty just don't want to spend Roomba or Dyson money on a first robot they're not sure they'll love. A flagship is not required for any of that. They need a robot that navigates sensibly and picks up everyday dust and crumbs.
+Two things drive it: value, and being realistic about what a robot actually does. Most homes are mostly hard floors and light rugs, where you don't need flagship 10,000-plus-Pa suction to get a clean daily pass. Some people want a robot purely for maintenance cleaning between proper vacuums, not to replace them. And plenty just don't want to spend Roomba or Dyson money on a first robot they're not sure they'll love. A flagship is not required for any of that. A robot that navigates sensibly and picks up everyday dust and crumbs will do it.
 
 ## The budget pick
 
@@ -117,7 +117,7 @@ Being straight about it: premium iRobot Roomba and top roborock models add self-
 
 ## How we priced this
 
-The figures for the Lefant, roborock and eufy are read from the retailers automatically, so what you see is today's price and not the one we happened to catch while writing. The Roomba comparison uses real premium street prices and iRobot's site is linked above for anyone who wants to check the comparison themselves. Where the cheaper robots clearly lose to a flagship, on self-emptying and top-tier mapping, we've said so instead of pretending the gap isn't there.
+The figures for the Lefant, roborock and eufy are read from the retailers automatically, so what you see is today's price and not the one we happened to catch while writing. The Roomba comparison uses real premium street prices and iRobot's site is linked above for anyone who wants to check the comparison themselves. Where the cheaper robots clearly lose to a flagship, on self-emptying and top-tier mapping, we have said so rather than leaving it implied.
 
 ## The bottom line
 

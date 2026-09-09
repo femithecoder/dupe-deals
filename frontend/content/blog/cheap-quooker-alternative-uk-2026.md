@@ -82,7 +82,7 @@ Our own prices are read from the retailer as the page loads, so they are current
 
 The Quooker figures come from Quooker's own published UK price list, not a retailer's estimate, plus typical installation costs from UK trade guidance. We have used the range rather than one number, because the final figure genuinely depends on the model, the tank and your kitchen.
 
-We have not installed a Quooker or tested one against this unit. What we can tell you accurately is what each costs, what each does, and where the specifications differ. The 95°C figure is the manufacturer's own, and it is the single most important number in this comparison, which is why it appears near the top rather than buried in a footnote.
+We have not installed a Quooker or tested one against this unit. What is checkable is what each costs, what each does, and where the specifications differ. The 95°C figure is the manufacturer's own, and it is the single most important number in this comparison, which is why it appears near the top rather than buried in a footnote.
 
 ## The bottom line
 

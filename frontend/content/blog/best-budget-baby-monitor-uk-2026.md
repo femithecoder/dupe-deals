@@ -12,7 +12,7 @@ Dedicated baby monitors have quietly crept up in price. Premium app-connected un
 
 ## Why a smart camera instead of a "baby monitor"
 
-Usually it comes down to value and flexibility. A smart indoor camera gives you the same live view, night vision, and two-way audio as a dedicated monitor, but it's cheaper, works anywhere you have wifi, and repurposes into a general home or pet camera the day you stop using it in the nursery. The trade-offs are real and worth naming: you're viewing on your phone rather than a dedicated always-on parent unit, and you're relying on your home wifi. For most families that's a good deal; for some, a dedicated screen is worth paying for.
+It usually comes down to value and flexibility. A smart indoor camera gives you the same live view, night vision, and two-way audio as a dedicated monitor, but it's cheaper, works anywhere you have wifi, and repurposes into a general home or pet camera the day you stop using it in the nursery. The trade-offs are real and worth naming: you're viewing on your phone rather than a dedicated always-on parent unit, and you're relying on your home wifi. For most families that's a good deal; for some, a dedicated screen is worth paying for.
 
 ## The budget pick
 

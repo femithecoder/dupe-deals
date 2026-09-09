@@ -11,7 +11,7 @@ Ring made the video doorbell a normal thing to own, and the hardware often looks
 
 ## Why people look for a Ring alternative
 
-Usually the subscription. People buy a Ring, then discover that without Ring Protect they can't reliably review recorded clips, and the monthly fee adds up to more than the hardware over time. Some don't want their footage living only in a company's cloud. And plenty just want the core features, motion alerts, live view, two-way talk, night vision, without signing up to an ongoing plan. Ring is not the only way to get any of it. They need cameras that record locally and charge you once.
+It is almost always the subscription. People buy a Ring, then discover that without Ring Protect they can't reliably review recorded clips, and the monthly fee adds up to more than the hardware over time. Some don't want their footage living only in a company's cloud. And plenty just want the core features, motion alerts, live view, two-way talk, night vision, without signing up to an ongoing plan. Ring is not the only way to get any of it. A camera that records locally and charges you once does the same job.
 
 ## The security camera pick
 

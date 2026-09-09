@@ -18,7 +18,7 @@ There is no product on the market that replicates Crème de la Mer. Its signatur
 
 What is worth knowing is how the cream actually works on your face. Crème de la Mer is a rich, occlusive moisturiser, and the bulk of the formula is a mineral oil base rather than the broth itself. Occlusives are not exotic. They sit on the surface and slow the water leaving your skin, which is the same mechanism behind the [emollients the NHS describes](https://www.nhs.uk/tests-and-treatments/emollients/) for dry skin. That is genuinely effective, and it is also the least expensive part of any moisturiser to formulate.
 
-This matters for your decision. If you love La Mer for the texture, the scent and the ritual of it, no alternative will scratch that itch, and you should buy La Mer. If what you actually want is a well-made moisturiser that keeps dry skin comfortable, you have far better options at the price than the shelf suggests.
+This matters for your decision. If you love La Mer for the texture, the scent and the ritual of it, no alternative will scratch that itch, and you should buy La Mer. If your aim is a well-made moisturiser that keeps dry skin comfortable, you have far better options at the price than the shelf suggests.
 
 ## Our pick
 
@@ -126,7 +126,7 @@ Our own prices are read from the retailer rather than typed in, and we show what
 
 The La Mer figures are its current UK street price at the time of writing, taken from its own site and from price comparison listings, not the RRP. We quote a range because it genuinely varies by retailer, and we would rather show you that than pick the highest number to make our comparison look better.
 
-No controlled comparison between Crème de la Mer and this cream exists on our side, and implying otherwise would be inventing authority we do not have. What we can tell you accurately is what each contains, what each costs, and where the honest limits of the comparison are.
+No controlled comparison between Crème de la Mer and this cream exists on our side, and implying otherwise would be inventing authority we do not have. What is verifiable is what each contains, what each costs, and where the limits of the comparison lie.
 
 ## The bottom line
 

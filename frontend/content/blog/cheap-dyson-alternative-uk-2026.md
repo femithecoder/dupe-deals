@@ -12,7 +12,7 @@ Search "cheap Dyson alternative" and most articles quietly compare against a Dys
 
 ## Why people look for a Dyson alternative
 
-Usually one of three reasons. The price is a lot to spend on a vacuum, especially as a second one for upstairs or a small flat. Some people don't need Dyson's top-end suction for hard floors and light carpet. And plenty just want a cordless that's genuinely light to carry up the stairs. Not one of those jobs demands the Dyson name. What each of them needs is a competent cordless from a brand that will still be around for spare parts.
+The reasons tend to cluster into three. The price is a lot to spend on a vacuum, especially as a second one for upstairs or a small flat. Some people don't need Dyson's top-end suction for hard floors and light carpet. And plenty just want a cordless that's genuinely light to carry up the stairs. Not one of those jobs demands the Dyson name. What each of them needs is a competent cordless from a brand that will still be around for spare parts.
 
 ## The budget pick
 
@@ -74,7 +74,7 @@ Worth being straight about this. A Dyson V8 or V12 gives you noticeably stronger
 
 ## How we priced this
 
-The Dyson comparison uses its real current UK selling price, checked against Dyson's own site and UK retailers, not the RRP printed on the box. The Hoover HF1 Max price shown above is taken live from the retailer, so it will not sit frozen at whatever it happened to be the day this went up. Where the Hoover clearly loses to a Dyson, on raw power and bin size, we've said so instead of pretending the gap isn't there.
+The Dyson comparison uses its real current UK selling price, checked against Dyson's own site and UK retailers, not the RRP printed on the box. The Hoover HF1 Max price shown above is taken live from the retailer, so it will not sit frozen at whatever it happened to be the day this went up. Where the Hoover clearly loses to a Dyson, on raw power and bin size, we've said so rather than letting it pass unmentioned.
 
 ## The bottom line
 

@@ -12,7 +12,7 @@ Search "Fitbit Charge 6 alternative" and most results compare it to the £139.99
 
 ## Why people look for a Fitbit alternative
 
-Usually it comes down to one of three things. The price still feels steep even on sale. Some people prefer a different app, like Samsung Health or Google Fit, over Fitbit's own. Others just want a second tracker for the household without paying full Fitbit price twice. All three of these come down to price and trust in the brand, not a random cheap band with no real name behind it.
+Three things send people looking. The price still feels steep even on sale. Some people prefer a different app, like Samsung Health or Google Fit, over Fitbit's own. Others just want a second tracker for the household without paying full Fitbit price twice. All three of these come down to price and trust in the brand, not a random cheap band with no real name behind it.
 
 ## The closest real alternative
 
@@ -78,7 +78,7 @@ Every price we quote for our own picks is read from the retailer as the page loa
 
 For the Fitbit Charge 6 we used its real current UK selling price rather than the RRP, because comparing a live price against a list price nobody pays would overstate the saving. Where a tracker is genuinely cheap enough to raise questions about what you give up, we have said what those trade-offs are instead of leaving the low price to speak for itself.
 
-Nobody here has worn these side by side for a month, and it would be dishonest to write as though we had. Heart-rate accuracy and battery claims are things dedicated review sites measure properly; what we can tell you reliably is what each costs right now and what the specification does and does not include.
+Nobody here has worn these side by side for a month, and it would be dishonest to write as though we had. Heart-rate accuracy and battery claims are things dedicated review sites measure properly; what we can report reliably is what each costs right now and what the specification does and does not include.
 
 ## The bottom line
 

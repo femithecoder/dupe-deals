@@ -12,7 +12,7 @@ The chair everyone points to as the gold standard, the [Herman Miller Aeron](htt
 
 ## Why people look for a cheaper ergonomic chair
 
-Usually one of three reasons. Home working made a lot of people realise a kitchen chair wrecks your back over eight hours, but they can't justify Aeron money for a spare room. Some want proper lumbar support and adjustability without the premium brand tax. And plenty just want a solid, comfortable chair that will last a few years, not a heirloom with a twelve-year warranty. An Aeron is not required for any of them. They need real ergonomic adjustment: lumbar support, adjustable arms, and a breathable back.
+Three reasons come up again and again. Home working made a lot of people realise a kitchen chair wrecks your back over eight hours, but they can't justify Aeron money for a spare room. Some want proper lumbar support and adjustability without the premium brand tax. And plenty just want a solid, comfortable chair that will last a few years, not a heirloom with a twelve-year warranty. An Aeron is not required for any of them. What matters is real ergonomic adjustment: lumbar support, adjustable arms, and a breathable back.
 
 ## The budget pick
 
@@ -72,7 +72,7 @@ Being straight about it: a Herman Miller Aeron or a Steelcase Leap gives you mor
 
 ## How we priced this
 
-The SIHOO price above, and the live figure shown, is read live from the retailer, so it reflects today rather than the day this was published. The Herman Miller comparison uses its real premium price bracket, not a discount, and Herman Miller's own listings are linked above, since that comparison only means anything at their real prices. Where the budget chair clearly loses to a premium one, on materials, adjustability, and warranty, we've said so rather than pretending the gap isn't there.
+The SIHOO price above, and the live figure shown, is read live from the retailer, so it reflects today rather than the day this was published. The Herman Miller comparison uses its real premium price bracket, not a discount, and Herman Miller's own listings are linked above, since that comparison only means anything at their real prices. Where the budget chair clearly loses to a premium one, on materials, adjustability, and warranty, we have said so rather than glossing over it.
 
 ## The bottom line
 

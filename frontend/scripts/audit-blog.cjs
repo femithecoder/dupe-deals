@@ -85,14 +85,35 @@ async function main() {
     const noAnchors = p.body.replace(/\[[^\]]+\]\([^)]*\)/g, " ")
     const w = strip(noAnchors).toLowerCase().replace(/[^a-z0-9' ]/g, " ").split(/\s+/).filter(Boolean)
     const seen = new Set()
-    for (let i = 0; i + 8 <= w.length; i++) {
-      const g = w.slice(i, i + 8).join(" ")
+    // Six words. Eight missed real templating ("Usually one of three reasons"
+    // appeared verbatim in three posts). Five flagged ordinary idioms like
+    // "for a fraction of the". Six catches the former without the latter.
+    for (let i = 0; i + 6 <= w.length; i++) {
+      const g = w.slice(i, i + 6).join(" ")
       if (seen.has(g)) continue
       seen.add(g)
       ;(grams[g] = grams[g] || new Set()).add(p.file)
     }
   }
+  // Some repetition is house terminology rather than a tic. "At the best
+  // current UK price" is the phrase the playbook asks for when quoting a
+  // street price, so it should read the same everywhere.
+  // Repetition that is deliberate rather than lazy: house terminology the
+  // playbook asks for, ordinary English idioms, and the structural formulas
+  // every post is supposed to share (a verdict line, a closing pointer).
+  const DELIBERATE = [
+    "at the best current uk",
+    "the best current uk price",
+    "for a fraction of the",
+    "a fraction of the price",
+    "verdict the pick if you",
+    "verdict the better pick if",
+    "the pick if you want",
+    "the rest of what we",
+    "rest of what we track",
+  ]
   for (const [g, s] of Object.entries(grams)) {
+    if (DELIBERATE.some((d) => g.includes(d))) continue
     if (s.size >= 3) say([...s][0], `phrase repeated in ${s.size} posts: "${g}"`)
   }
 

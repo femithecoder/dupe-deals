@@ -24,7 +24,7 @@ A 6-litre single-drawer air fryer built around a DC brushless motor, which is th
 
 **Capacity:** A 6L drawer is enough for a family-size batch, chips for four, or a small whole chicken, in one go. That's more usable single-drawer space than a standard 5.2L Ninja.
 
-**Speed and noise:** The DC motor is the headline. It reaches temperature fast and runs quieter than most air fryers, which matters more than it sounds if your kitchen is open-plan.
+**Speed and noise:** The DC motor is the headline. It reaches temperature fast and runs quieter than most air fryers, which is a bigger deal than it sounds if your kitchen is open-plan.
 
 **Cleaning:** A PFAS-free ceramic basket that wipes clean with ordinary washing-up liquid, and it's dishwasher-friendly.
 
