@@ -15,6 +15,15 @@ const path = require("path")
 const DIR = path.join(__dirname, "../content/blog")
 const GATEWAY = process.env.NEXT_PUBLIC_GATEWAY_URL || "https://dupedeals-gateway.onrender.com"
 
+// Organisations a reader cannot be assumed to know. The value is what an
+// acceptable introduction looks like in the run-up to the first mention.
+const ORGS = {
+  "Which?": /consumer group|consumers'? association|consumer champion/i,
+  "ADAC": /German|Germany|motoring|automobile club/i,
+  "Stiftung Warentest": /German|Germany|consumer|testing/i,
+  "PriceRunner": /price compar|comparison site|shopping compar/i,
+}
+
 const strip = (body) =>
   body
     .replace(/!\[[^\]]*\]\([^)]*\)/g, "")
@@ -66,6 +75,22 @@ async function main() {
     // whole job is showing you the product.
     for (const alt of [...p.body.matchAll(/!\[(.*?)\]\(/g)].map((m) => m[1])) {
       if (alt.trim().length < 15) say(p.file, `image alt text too thin: "${alt}"`)
+    }
+
+    // Third-party organisations need saying what they are on first mention. A
+    // reader who does not already know the name gets nothing from it, and
+    // "Which?" is the worst case: a question word ending in a question mark,
+    // so dropped in cold it reads as a sentence fragment rather than a body
+    // that tests things. It appeared five times across two posts without ever
+    // being introduced.
+    for (const [org, descriptor] of Object.entries(ORGS)) {
+      const first = p.body.indexOf(org)
+      if (first === -1) continue
+      // Either side counts. "the consumer group Which?" introduces it up
+      // front, "Which?, the UK consumer group," does it in apposition, and
+      // both read fine.
+      const around = p.body.slice(Math.max(0, first - 70), first + org.length + 70)
+      if (!descriptor.test(around)) say(p.file, `first mention of ${org} does not say what it is`)
     }
   }
 

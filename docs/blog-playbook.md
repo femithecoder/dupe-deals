@@ -91,3 +91,11 @@ The templates above reflect what is currently ranking, not guaranteed volume.
 6. An FAQ section (targets "people also ask").
 7. "How we priced this / chose" methodology section.
 8. A bottom-line summary and internal links to related posts plus the category page.
+
+## Name what an organisation is on first mention
+
+A reader who does not already recognise the name gets nothing from it. Say what it is the first time it appears, either up front ("the consumer group Which?") or in apposition ("Which?, the UK consumer group"). Later mentions can use the bare name.
+
+"Which?" is the worst offender and the reason this rule exists: the name is a question word ending in a question mark, so dropped into prose cold it reads as a sentence fragment rather than as an organisation that tests things. It appeared five times across two posts without ever being introduced.
+
+`npm run audit:blog` enforces this for Which?, ADAC, Stiftung Warentest and PriceRunner. Add any new third-party body to `ORGS` in `frontend/scripts/audit-blog.cjs` when you first cite it.

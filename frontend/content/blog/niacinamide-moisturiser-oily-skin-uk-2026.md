@@ -76,7 +76,7 @@ Use it as your last hydrating step before SPF in the morning, or your final step
 
 ## How we sourced this
 
-The price and stock came from checking Nourish London's own site directly, on the day we wrote this, not a third-party listing or an old cached price. The Paula's Choice price came from PriceRunner's live comparison across UK shops. Where we couldn't find a fair, matching premium comparison, moisturiser to moisturiser rather than moisturiser to serum, we said so instead of forcing one.
+The price and stock came from checking Nourish London's own site directly, on the day we wrote this, not a third-party listing or an old cached price. The Paula's Choice price came from the price comparison site PriceRunner, which tracks it live across UK shops. Where we couldn't find a fair, matching premium comparison, moisturiser to moisturiser rather than moisturiser to serum, we said so instead of forcing one.
 
 ## The bottom line
 

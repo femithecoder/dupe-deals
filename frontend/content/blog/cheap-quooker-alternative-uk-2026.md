@@ -78,7 +78,7 @@ The gap between the columns is large enough that precision is not the point. Eve
 
 **Is a countertop unit worth it in a small kitchen?** This is the strongest argument against one. If worktop space is your constraint, an appliance that permanently occupies some of it may be the wrong trade, and that is a point in the expensive tap's favour rather than ours.
 
-**Are boiling taps worth it at all?** [Which? has looked at exactly that question](https://www.which.co.uk/reviews/hot-water-taps/article/quookers-and-boiling-water-taps-are-they-worth-it-a6qXz2A1zq4E) across brands, and it is worth reading before you spend four figures on one. It is worth reading before you buy one of ours, too, since the honest conclusion might be that you need neither.
+**Are boiling taps worth it at all?** The consumer group [Which? has looked at exactly that question](https://www.which.co.uk/reviews/hot-water-taps/article/quookers-and-boiling-water-taps-are-they-worth-it-a6qXz2A1zq4E) across brands, and it is worth reading before you spend four figures on one. It is worth reading before you buy one of ours, too, since the honest conclusion might be that you need neither.
 
 ## How we priced this
 
