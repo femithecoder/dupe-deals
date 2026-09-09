@@ -16,5 +16,12 @@
          means a stranger's release can change the editor under you without a
          deploy on our side. -->
     <script src="https://unpkg.com/@sveltia/cms@0.208.2/dist/sveltia-cms.js" type="module"></script>
+
+    <!-- Our own house rules, live beside the text: em dashes, prices typed as
+         literals instead of tokens, malformed price tokens, organisations used
+         without introduction, product sections with no image, and the edit
+         damage that has actually shipped before now. Grammar and spelling are
+         not its job; Grammarly or the browser's spellcheck cover those. -->
+    <script src="/admin/checks.js" defer></script>
   </body>
 </html>

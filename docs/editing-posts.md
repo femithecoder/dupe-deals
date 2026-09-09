@@ -82,3 +82,42 @@ touches a post, and emails on failure. It runs after the deploy, so it is a
 smoke alarm, not a gate. To make it a gate instead, set
 `publish_mode: editorial_workflow` in `frontend/public/admin/config.yml`: saves
 then become pull requests that run the checks before you merge.
+
+## Proofreading in the editor
+
+Two layers, because they catch different things.
+
+### Grammar and spelling: Grammarly
+
+Sveltia's raw markdown editor is a plain `<textarea>`, which is what the
+Grammarly browser extension attaches to. Install it from the Chrome or Safari
+extension store and it works in `/admin` with no configuration: underlines
+appear as you type, click one to accept the fix or ignore it. The browser's own
+spellcheck is already on for the same reason.
+
+It will occasionally flag markdown syntax as a mistake, and it has no idea what
+our house rules are. That is what the second layer is for.
+
+### House rules: the panel in the corner
+
+`public/admin/checks.js` runs the project's own rules as you type and lists what
+it finds in a panel at the bottom right. Clicking an entry selects that exact
+text in the editor so you can fix it in place.
+
+It checks for em dashes, one of our own prices typed as a literal instead of a
+token, malformed tokens, organisations used without introduction, product
+sections with no image, doubled words, sentences over 45 words, bare URLs
+loose in the prose, and the run-together sentences that a bad find-and-replace
+leaves behind.
+
+The price rule only looks at products the post actually links, which is how
+`audit:blog` scopes it too. Comparing against the whole catalogue produced
+nonsense: Apple's £169 AirPods price is also a car seat's RRP, and neither
+fact has anything to do with the other.
+
+Calibration matters more than coverage here. A panel that flags something on
+every post gets ignored, so run `npm run test:cms-checks` after changing a
+rule. It runs every rule over all fifteen published posts and prints the
+totals. Those posts already pass `audit:blog`, so anything it reports is either
+a real find or a rule that needs narrowing. Three long sentences is the current
+baseline.

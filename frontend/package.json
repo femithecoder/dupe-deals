@@ -10,7 +10,8 @@
     "faq:simulate": "tsx scripts/simulate-faq.ts",
     "audit:blog": "node scripts/audit-blog.cjs",
     "check:facts": "node scripts/check-blog-facts.cjs",
-    "proofread": "node scripts/proofread.cjs"
+    "proofread": "node scripts/proofread.cjs",
+    "test:cms-checks": "node scripts/test-cms-checks.cjs"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",
