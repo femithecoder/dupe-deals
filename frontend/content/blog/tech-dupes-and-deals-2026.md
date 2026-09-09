@@ -14,11 +14,11 @@ Two different things are happening in this list. Some of these are genuine dupes
 
 ## Earbuds & headphones
 
-### [soundcore Liberty 5 Pro](/product/14): {{price:14}} (was {{rrp:14}})
+### [Soundcore Liberty 5 Pro](/product/14): {{price:14}} (was {{rrp:14}})
 
 ![soundcore Liberty 5 Pro wireless noise cancelling earbuds in black](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2026%2F06%2F03%2Fsoundcore-liberty-5-pro-goffline--europe-excluded-uk-plug-black-1-product-type-headset-connecti-461395.webp&feedId=42863&k=579e14fc485649b5dc1484047a5dddac761e6edd)
 
-Active noise cancellation, wireless charging, and up to 10 hours of playback. soundcore's own pitch is that this rivals AirPods Pro, but [AirPods Pro 2 has actually been discontinued by Apple](https://www.techradar.com/audio/earbuds-airpods/airpods-pro-2-are-down-to-a-new-record-low-price-and-id-choose-them-over-the-airpods-pro-3-this-black-friday) and is currently clearing out at heavily discounted prices, so that comparison isn't the flex it used to be. The fairer one: **[Bose QuietComfort Earbuds](/product/15)**, which we also stock at {{price:15}}. The Liberty 5 Pro undercuts that with a similar noise-cancelling spec sheet.
+Active noise cancellation, wireless charging, and up to 10 hours of playback. Soundcore's own pitch is that this rivals AirPods Pro, but [AirPods Pro 2 has actually been discontinued by Apple](https://www.techradar.com/audio/earbuds-airpods/airpods-pro-2-are-down-to-a-new-record-low-price-and-id-choose-them-over-the-airpods-pro-3-this-black-friday) and is currently clearing out at heavily discounted prices, so that comparison isn't the flex it used to be. The fairer one: **[Bose QuietComfort Earbuds](/product/15)**, which we also stock at {{price:15}}. The Liberty 5 Pro undercuts that with a similar noise-cancelling spec sheet.
 
 **Verdict:** A solid dupe, just not for the brand you'd expect.
 
