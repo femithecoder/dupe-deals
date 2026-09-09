@@ -16,7 +16,7 @@ const DIR = path.join(__dirname, "../content/blog")
 const GATEWAY = process.env.NEXT_PUBLIC_GATEWAY_URL || "https://dupedeals-gateway.onrender.com"
 // Sites that refuse bots but are fine for humans. A 403 from these is not a
 // dead link, and treating it as one would train everyone to ignore this check.
-const BOT_HOSTILE = ["dyson.co.uk", "idealo.co.uk", "camelcamelcamel.com", "amazon.co.uk", "which.co.uk", "boots.com"]
+const BOT_HOSTILE = ["dyson.co.uk", "idealo.co.uk", "camelcamelcamel.com", "amazon.co.uk", "which.co.uk", "boots.com", "apple.com"]
 
 const problems = []
 const notes = []
@@ -65,7 +65,25 @@ async function main() {
       }
     }
 
-    // 4. Competitor prices older than the review window.
+    // 4. Damage from a botched edit. Twice now, a regex replacing a sentence
+    //    has stopped at a full stop inside a URL and left a fragment like
+    //    "depending on the retailer.elvie.com/products/elvie-pump)" in the
+    //    published text. It reads as gibberish, it went live, and no other
+    //    check would catch it.
+    const dmg = [
+      [/[a-z]\.(?:com|co\.uk|org|net)\/[^\s)]*\)/g, "URL fragment left in prose"],
+      [/[a-z]\.[A-Z][a-z]/g, "missing space after a full stop"],
+      [/\S\s\)/g, "stray closing bracket"],
+    ]
+    for (const [re, label] of dmg) {
+      for (const m of p.body.matchAll(re)) {
+        const ctx = p.body.slice(Math.max(0, m.index - 35), m.index + 35).replace(/\n/g, " ")
+        if (label === "URL fragment left in prose" && /\]\(/.test(ctx)) continue
+        problems.push(`${p.slug}: ${label} - "...${ctx}..."`)
+      }
+    }
+
+    // 5. Competitor prices older than the review window.
     const checked = (p.fm.match(/pricesCheckedAt: "(.*)"/) || [])[1]
     if (literals.length) {
       if (!checked) notes.push(`${p.slug}: ${literals.length} competitor price(s) never verified`)
@@ -86,7 +104,9 @@ async function main() {
       const res = await fetch(url, { redirect: "follow", headers: { "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/128.0 Safari/537.36" }, signal: AbortSignal.timeout(25000) })
       if (res.ok) continue
       const hostile = BOT_HOSTILE.some((h) => url.includes(h))
-      if (res.status === 403 && hostile) notes.push(`${url} returns 403 to bots (expected for this host, not a dead link)`)
+      // 403 and 503 both show up as bot protection: Dyson and idealo return
+      // 403, Apple's store returns 503. Neither is a broken link.
+      if ((res.status === 403 || res.status === 503) && hostile) notes.push(`${url} returns ${res.status} to bots (expected for this host, not a dead link)`)
       else problems.push(`dead link (${res.status}): ${url}`)
     } catch (e) {
       problems.push(`unreachable: ${url} (${e.message})`)

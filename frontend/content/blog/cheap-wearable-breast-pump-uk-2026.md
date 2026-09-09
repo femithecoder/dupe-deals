@@ -8,7 +8,7 @@ category: "Baby & Kids"
 coverImage: "https://images.unsplash.com/photo-1570657891791-e39a9d185540?w=800&h=400&fit=crop"
 ---
 
-Wearable breast pumps changed the routine for a lot of parents: no wall socket, no sitting still, no dangling bottles, just a quiet cup inside your bra while you carry on with your day.The brand that made that normal, Elvie, also made it expensive, with its [double cup-style pump](https://www.pricerunner.com/pl/1589-5136461/Maternity-Nursing/Elvie-Double-Electric-Breast-Pump-Compare-Prices) running from roughly £370 to £500 depending on the retailer.elvie.com/products/elvie-pump) depending on the model. The real question is not which pump is cheapest, but how much of that hands-free experience you can get for a fraction of the price, and exactly what you trade away. We stock two wearables far enough apart on price to be worth weighing against each other, and against the premium benchmark.
+Wearable breast pumps changed the routine for a lot of parents: no wall socket, no sitting still, no dangling bottles, just a quiet cup inside your bra while you carry on with your day. The brand that made that normal, Elvie, also made it expensive, with its [double cup-style pump](https://www.pricerunner.com/pl/1589-5136461/Maternity-Nursing/Elvie-Double-Electric-Breast-Pump-Compare-Prices) running from roughly £370 to £500 depending on the retailer. The real question is not which pump is cheapest, but how much of that hands-free experience you can get for a fraction of the price, and exactly what you trade away. We stock two wearables far enough apart on price to be worth weighing against each other, and against the premium benchmark.
 
 ## Why people look for a cheaper wearable pump
 

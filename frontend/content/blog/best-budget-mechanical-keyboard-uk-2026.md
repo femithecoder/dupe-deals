@@ -71,7 +71,7 @@ If you want a solid mechanical feel, a sturdier build, and keycaps that last lon
 
 ## A word on noise, if you share a desk or office
 
-Mechanical keyboards are louder than rubber-dome ones, and how loud depends on the switch. Logitech doesn't market the G413's switches as "silent," so expect a noticeable click with every keystroke, closer to a typical mechanical keyboard than a quiet laptop board. The BlackWidow V4 X actually gives you a choice here: Green switches are clicky and loud, built for people who like the sound, while Yellow switches are tuned to be linear and quiet, a real option if you're in a shared office or a video call most of the day. That's a genuine reason to pay more if noise matters to you specifically, separate from RGB or macro keys.
+Mechanical keyboards are louder than rubber-dome ones, and how loud depends on the switch. Logitech doesn't market the G413's switches as "silent", so expect a noticeable click with every keystroke, closer to a typical mechanical keyboard than a quiet laptop board. The BlackWidow V4 X actually gives you a choice here: Green switches are clicky and loud, built for people who like the sound, while Yellow switches are tuned to be linear and quiet, a real option if you're in a shared office or a video call most of the day. That's a genuine reason to pay more if noise matters to you specifically, separate from RGB or macro keys.
 
 ## Frequently asked
 

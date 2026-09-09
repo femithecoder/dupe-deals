@@ -7,11 +7,11 @@ category: "Electronics & Tech"
 coverImage: "https://images.unsplash.com/photo-1601041597271-71988152f98b?w=800&h=400&fit=crop"
 ---
 
-Ring made the video doorbell a normal thing to own, and the hardware often looks cheap up front. The catch is what comes after: to actually save and review your footage, [Ring](https://en-uk.ring.com/) pushes you onto a Ring Protect subscription, so the real cost is the camera plus a monthly fee that never stops. The honest question isn't "what's cheaper than a Ring today," it's what a Ring genuinely costs over a couple of years with the subscription, and whether a camera that stores footage locally does the same job without the recurring bill. We list a security camera and a video doorbell built around exactly that idea.
+Ring made the video doorbell a normal thing to own, and the hardware often looks inexpensive up front. The catch is what comes after: to actually save and review your footage, [Ring](https://en-uk.ring.com/) pushes you onto a Ring Protect subscription, so the real cost is the camera plus a monthly fee that never stops. The real question isn't "what's cheaper than a Ring today". It's what a Ring genuinely costs over a couple of years with the subscription, and whether a camera that stores footage locally does the same job without the recurring bill. We list a security camera and a video doorbell built around exactly that idea.
 
 ## Why people look for a Ring alternative
 
-It is almost always the subscription. People buy a Ring, then discover that without Ring Protect they can't reliably review recorded clips, and the monthly fee adds up to more than the hardware over time. Some don't want their footage living only in a company's cloud. And plenty just want the core features, motion alerts, live view, two-way talk, night vision, without signing up to an ongoing plan. Ring is not the only way to get any of it. A camera that records locally and charges you once does the same job.
+It is almost always the subscription. People buy a Ring, then discover that without Ring Protect they can't reliably review recorded clips, and the monthly fee adds up to more than the hardware over time. Some don't want their footage living only in a company's cloud. And plenty just want the core features without signing up to an ongoing plan: motion alerts, live view, two-way talk and night vision. Ring is not the only way to get any of it. A camera that records locally and charges you once does the same job.
 
 ## The security camera pick
 

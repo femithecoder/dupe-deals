@@ -20,7 +20,7 @@ It usually comes down to value and flexibility. A smart indoor camera gives you 
 
 ![Reolink 4MP pan and tilt indoor camera](https://images2.productserve.com/?w=600&h=600&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41whm4Y8XqL._SS500_.jpg&feedId=110672&k=2a2601753ef0bcde5056c745c65731d0114eea10)
 
-A 4MP pan-and-tilt indoor camera that works well as a baby monitor: full 360-degree coverage so you can pan across a room, night vision, two-way audio, and sound/motion alerts to your phone. At {{price:56}} it's genuinely cheap, cheaper than almost any purpose-built monitor, and it doubles as a home security camera later.
+A 4MP pan-and-tilt indoor camera that works well as a baby monitor: full 360-degree coverage so you can pan across a room, night vision, two-way audio, and sound and motion alerts to your phone. At {{price:56}} it's genuinely cheap, cheaper than almost any purpose-built monitor, and it doubles as a home security camera later.
 
 **Resolution:** 4MP, sharp enough to clearly see your baby's face and movement at night.
 

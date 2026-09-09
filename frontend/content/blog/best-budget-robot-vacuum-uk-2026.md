@@ -7,7 +7,7 @@ category: "Home & Kitchen"
 coverImage: "https://images.unsplash.com/photo-1757478558372-43c94b3268bb?w=800&h=400&fit=crop"
 ---
 
-For years a robot vacuum meant spending [iRobot Roomba](https://www.irobot.co.uk/) money to get one that actually navigated your home properly. That's no longer true. The gap between a budget robot and a flagship has narrowed to a few specific things: raw suction, mapping smarts, and self-emptying docks. The real question is not "what's the cheapest robot vacuum," it's how much suction and intelligence you actually need for your floors, and what you're really giving up by paying less. Three models, spread widely enough on price to show what each extra pound buys.
+For years a robot vacuum meant spending [iRobot Roomba](https://www.irobot.co.uk/) money to get one that actually navigated your home properly. That's no longer true. The gap between a budget robot and a flagship has narrowed to a few specific things: raw suction, mapping smarts, and self-emptying docks. The real question is not "what's the cheapest robot vacuum". It's how much suction and intelligence you actually need for your floors, and what you're really giving up by paying less. Three models, spread widely enough on price to show what each extra pound buys.
 
 ## Why people look for a budget robot vacuum
 
