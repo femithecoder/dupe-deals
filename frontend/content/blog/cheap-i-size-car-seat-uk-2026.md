@@ -60,15 +60,14 @@ At this price the calculation is different. A booster is a simpler object than a
 
 ## How the prices compare
 
-| Seat | Price | Type | Independent testing |
-|---|---|---|---|
-| [Jovikids Ranger 2](/product/57) | {{price:57}} | Rotating i-Size, 40 to 150cm | None we could find |
-| [Jovikids OHHO+ booster](/product/58) | {{price:58}} | ISOFIX booster | None we could find |
-| Joie i-Spin 360 | around £200 to £280 | Rotating i-Size | Widely tested |
-| Cybex Sirona S | around £300 | Rotating i-Size | Widely tested |
-| Cybex Sirona Z2 | around £400 to £500 | Rotating i-Size | Widely tested |
+| Seat | Price | Type | Legal approval | Independent test result |
+|---|---|---|---|---|
+| [Jovikids Ranger 2](/product/57) | {{price:57}} | Rotating i-Size, 40 to 150cm | R129, crash tested | None published |
+| [Jovikids OHHO+ booster](/product/58) | {{price:58}} | ISOFIX booster | R129, crash tested | None published |
+| Joie i-Spin 360 | around £200 to £280 | Rotating i-Size | R129, crash tested | ADAC tested, rated Good |
+| Cybex Sirona Z2 i-Size | around £400 to £500 | Rotating i-Size | R129, crash tested | ADAC tested, rated Good |
 
-Every seat in that table is legal to use. The right-hand column is the difference you are actually paying for.
+Read the two right-hand columns together, because that is the whole point. Every seat here has been crash tested, and the fourth column says so. What the last column adds is whether anyone outside the manufacturer crashed one too and published what happened. For two of these seats there is a public result to look up. For the other two there is nothing, which is not a bad result, just no result.
 
 ## Frequently asked
 
