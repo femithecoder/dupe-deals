@@ -22,6 +22,17 @@ on:
       - "frontend/content/blog/**"
       - "frontend/lib/mock-data.ts"
       - "services/product-service/seed.js"
+  # And on direct commits to main, which is what editing a post through
+  # GitHub's web editor produces. Those skip pull_request entirely, so until
+  # now the most likely way to edit a post by hand was also the only way that
+  # ran no checks at all. This fires after Render has already deployed, so it
+  # is a smoke alarm rather than a gate: a failure emails the repo owner.
+  push:
+    branches: [main]
+    paths:
+      - "frontend/content/blog/**"
+      - "frontend/lib/mock-data.ts"
+      - "services/product-service/seed.js"
 
 jobs:
   fact-check:
