@@ -32,6 +32,21 @@ const strip = (body) =>
     .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
     .replace(/\*\*/g, "")
 
+/**
+ * Read one frontmatter value, quoted or not.
+ *
+ * The CMS at /admin writes frontmatter unquoted, so every regex here that
+ * hard-coded `key: "value"` silently read nothing on a post edited there.
+ * That produced a title of 0 characters, an excerpt of 0 characters, and
+ * seventeen competitor prices reported as never verified, none of which were
+ * true. Parse tolerantly instead of assuming one writer's style.
+ */
+function fmValue(fm, key) {
+  const line = fm.match(new RegExp(`^\\s*${key}:\\s*(.*)$`, "m"))
+  if (!line) return ""
+  return line[1].trim().replace(/^["'](.*)["']$/, "$1").trim()
+}
+
 function read() {
   return fs.readdirSync(DIR).filter((f) => f.endsWith(".md")).map((f) => {
     const src = fs.readFileSync(path.join(DIR, f), "utf8")
@@ -50,8 +65,8 @@ async function main() {
 
   // Playbook structure
   for (const p of posts) {
-    const title = (p.fm.match(/title: "(.*)"/) || [])[1] || ""
-    const excerpt = (p.fm.match(/excerpt: "(.*)"/) || [])[1] || ""
+    const title = fmValue(p.fm, "title")
+    const excerpt = fmValue(p.fm, "excerpt")
     const words = p.body.trim().split(/\s+/).length
     const internal = [...new Set([...p.body.matchAll(/\]\((\/[^)]+)\)/g)].map((m) => m[1]))].filter((u) => !u.startsWith("/images"))
     if (title.length > 60) say(p.file, `title ${title.length} chars, limit 60`)
@@ -171,10 +186,7 @@ async function main() {
   for (const p of posts) {
     const literals = [...new Set([...strip(p.body).replace(/\{\{\w+:\d+\}\}/g, "").matchAll(/£[0-9][0-9.,]*/g)].map((m) => m[0]))]
     if (!literals.length) continue
-    // Quotes optional: the CMS writes frontmatter unquoted, and requiring them
-    // made this read nothing on a CMS-edited post and report every competitor
-    // price as never verified. Same fault as in check-blog-facts.cjs.
-    const checked = (p.fm.match(/pricesCheckedAt:\s*"?([\d-]+)"?/) || [])[1]
+    const checked = fmValue(p.fm, "pricesCheckedAt")
     if (!checked) {
       warnings.push(`${p.file}: ${literals.length} competitor price(s), never verified. Add pricesCheckedAt to the frontmatter once checked.`)
       continue

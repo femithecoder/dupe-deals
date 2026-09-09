@@ -18,6 +18,21 @@ const GATEWAY = process.env.NEXT_PUBLIC_GATEWAY_URL || "https://dupedeals-gatewa
 // dead link, and treating it as one would train everyone to ignore this check.
 const BOT_HOSTILE = ["dyson.co.uk", "idealo.co.uk", "camelcamelcamel.com", "amazon.co.uk", "which.co.uk", "boots.com", "apple.com"]
 
+/**
+ * Read one frontmatter value, quoted or not.
+ *
+ * The CMS at /admin writes frontmatter unquoted, so every regex here that
+ * hard-coded `key: "value"` silently read nothing on a post edited there.
+ * That produced a title of 0 characters, an excerpt of 0 characters, and
+ * seventeen competitor prices reported as never verified, none of which were
+ * true. Parse tolerantly instead of assuming one writer's style.
+ */
+function fmValue(fm, key) {
+  const line = fm.match(new RegExp(`^\\s*${key}:\\s*(.*)$`, "m"))
+  if (!line) return ""
+  return line[1].trim().replace(/^["'](.*)["']$/, "$1").trim()
+}
+
 const problems = []
 const notes = []
 
@@ -84,9 +99,7 @@ async function main() {
     }
 
     // 5. Competitor prices older than the review window.
-    // Quotes optional: the CMS writes frontmatter unquoted, and requiring
-    // them made this silently stop seeing the field on any post edited there.
-    const checked = (p.fm.match(/pricesCheckedAt:\s*"?([\d-]+)"?/) || [])[1]
+    const checked = fmValue(p.fm, "pricesCheckedAt")
     if (literals.length) {
       if (!checked) notes.push(`${p.slug}: ${literals.length} competitor price(s) never verified`)
       else {
