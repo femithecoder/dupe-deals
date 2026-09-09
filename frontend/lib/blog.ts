@@ -5,6 +5,21 @@ import readingTime from "reading-time"
 
 const BLOG_DIR = path.join(process.cwd(), "content/blog")
 
+/**
+ * The CMS writes frontmatter without quotes, and YAML reads an unquoted
+ * 2026-08-10 as a timestamp rather than a string. So a post edited through
+ * /admin returns a Date here while every hand-written one returns a string.
+ *
+ * That difference shipped a real bug: article:published_time rendered as
+ * "[object Object]" on the first post edited in the CMS, because the value was
+ * passed straight into a meta tag. Normalising here means the site does not
+ * care how the frontmatter was written.
+ */
+function isoDate(value: unknown): string {
+  if (value instanceof Date) return value.toISOString().slice(0, 10)
+  return typeof value === "string" ? value : ""
+}
+
 export type BlogPost = {
   slug: string
   title: string
@@ -31,7 +46,7 @@ export function getAllPosts(): Omit<BlogPost, "content">[] {
         slug,
         title: data.title ?? slug,
         excerpt: data.excerpt ?? "",
-        date: data.date ?? "",
+        date: isoDate(data.date),
         author: data.author ?? "DupeDeals",
         category: data.category ?? "General",
         coverImage: data.coverImage ?? "",
@@ -55,7 +70,7 @@ export function getPostBySlug(slug: string): BlogPost | null {
     slug,
     title: data.title ?? slug,
     excerpt: data.excerpt ?? "",
-    date: data.date ?? "",
+    date: isoDate(data.date),
     author: data.author ?? "DupeDeals",
     category: data.category ?? "General",
     coverImage: data.coverImage ?? "",

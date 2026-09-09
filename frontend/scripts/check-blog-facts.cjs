@@ -84,7 +84,9 @@ async function main() {
     }
 
     // 5. Competitor prices older than the review window.
-    const checked = (p.fm.match(/pricesCheckedAt: "(.*)"/) || [])[1]
+    // Quotes optional: the CMS writes frontmatter unquoted, and requiring
+    // them made this silently stop seeing the field on any post edited there.
+    const checked = (p.fm.match(/pricesCheckedAt:\s*"?([\d-]+)"?/) || [])[1]
     if (literals.length) {
       if (!checked) notes.push(`${p.slug}: ${literals.length} competitor price(s) never verified`)
       else {
