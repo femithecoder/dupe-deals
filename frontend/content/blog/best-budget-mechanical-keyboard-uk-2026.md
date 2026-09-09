@@ -8,7 +8,7 @@ category: "Electronics & Tech"
 coverImage: "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=800&h=400&fit=crop"
 ---
 
-Mechanical keyboards have a reputation for being expensive, and a lot of the time that's fair. But the gap between a budget board and a premium one has narrowed a lot in the last few years. Some budget picks now use genuinely good switches and a solid build, they just skip extras like per-key RGB or a wireless mode. Here's a {{price:35}} keyboard that fits that description, checked directly against a {{price:40}} alternative we also sell, so you can see exactly what the extra money buys.
+Mechanical keyboards have a reputation for being expensive, and a lot of the time that's fair. But the gap between a budget board and a premium one has narrowed a lot in the last few years. Some budget picks now use genuinely good switches and a solid build; they just skip extras like per-key RGB or a wireless mode. Here's a {{price:35}} keyboard that fits that description, checked directly against a {{price:40}} alternative we also sell, so you can see exactly what the extra money buys.
 
 ## Why go mechanical at all
 
@@ -20,7 +20,7 @@ If you've only used a rubber-dome keyboard, mechanical switches feel different. 
 
 ![Logitech G413 TKL SE mechanical keyboard](https://assets.media-quzo.co.uk/site/catalogue/large/2023/03/logitech-g-g413-tkl-se-keyboard-form-factor-tenkeyless-80--87-device-interface-usb-keyboard-key-333985.jpg)
 
-A tenkeyless mechanical keyboard with a solid aluminium top, currently {{discount:35}} off Quzo's own price. It isn't an obscure brand either. [Independent roundups already name the G413](https://www.rtings.com/keyboard/reviews/best/cheap-mechanical-keyboards) as one of the better sub-£100 mechanical keyboards in the UK, which backs up our own price check with a second source.
+A tenkeyless mechanical keyboard with a solid aluminium top, listed at {{price:35}}. It isn't an obscure brand either. [Independent roundups already name the G413](https://www.rtings.com/keyboard/reviews/best/cheap-mechanical-keyboards) as one of the better sub-£100 mechanical keyboards in the UK, which backs up our own price check with a second source.
 
 **Switches:** Logitech's own tactile switches, rated for 50g of actuation force. That's a comfortable middle ground, not too light and not too heavy.
 
@@ -85,6 +85,6 @@ Mechanical keyboards are louder than rubber-dome ones, and how loud depends on t
 
 ## How we priced this
 
-Both prices came from the same place. We checked Quzo UK's own live pricing on the day we wrote this, not a manufacturer RRP or a price pulled from a different shop. That matters here specifically, because keyboard prices swing a lot between retailers and sales periods. A comparison built from two different sites can end up pitting a discounted budget board against a full-price premium one, or the other way round, without meaning to.
+Both prices come from the same place, read live from Quzo UK rather than taken from a manufacturer RRP or a different shop. That matters here specifically, because keyboard prices swing a lot between retailers and sales periods. A comparison built from two different sites can end up pitting a discounted budget board against a full-price premium one, or the other way round, without meaning to.
 
 For more real comparisons like this one, see our picks for a [Fitbit Charge 6 alternative](/blog/fitbit-charge-6-alternative-uk-2026) and a [cheap AirPods alternative with noise cancelling](/blog/cheap-airpods-alternative-anc-uk-2026). The rest of the desk, and everything else we track, is under [Electronics & Tech](/category/electronics-tech).

@@ -60,14 +60,14 @@ From eufy, part of the same group as the well-known Anker and eufy home brands, 
 - Still far below Elvie money
 
 **Cons:**
-- More than double the MOMMED
+- Nearly four times the MOMMED
 - Not quite Elvie's ecosystem or cup-fit range
 
 **Verdict:** The better pick if heating and a more established brand matter to you, and you still want to pay well under premium prices.
 
 ## What you'd actually be giving up versus an Elvie
 
-Being straight about it: Elvie and Willow have the longest track record, the most refined apps, the widest range of cup and flange sizes for a proper fit, and generally the quietest motors. A good fit genuinely affects both comfort and how much milk you express, and that's where premium pumps still earn part of their price. What they don't do is justify a four-to-nine-times price gap for every parent. If pumping is occasional, short-season, or a second-pump situation, a cheaper wearable does most of the same job. If you're exclusively pumping for months and fit has been a struggle, that's the case for spending more.
+Being straight about it: Elvie and Willow have the longest track record, the most refined apps, the widest range of cup and flange sizes for a proper fit, and generally the quietest motors. A good fit genuinely affects both comfort and how much milk you express, and that's where premium pumps still earn part of their price. What they don't do is justify a sevenfold or greater price gap for every parent. If pumping is occasional, short-season, or a second-pump situation, a cheaper wearable does most of the same job. If you're exclusively pumping for months and fit has been a struggle, that's the case for spending more.
 
 ## Quick comparison
 
@@ -88,13 +88,13 @@ Being straight about it: Elvie and Willow have the longest track record, the mos
 
 **Is the eufy S1 worth more than the MOMMED?** If heating for comfort and let-down matters to you, or you want a more established brand for daily use, yes. If you mainly want cheap hands-free pumping or a spare, the MOMMED does that for much less.
 
-**Can I use one as a second pump for work?** That's exactly where a budget wearable shines, a cheap hands-free unit to keep at work saves carrying your main pump back and forth, without buying a second premium one.
+**Can I use one as a second pump for work?** That's exactly where a budget wearable shines. A cheap hands-free unit kept at work saves carrying your main pump back and forth, without buying a second premium one.
 
 **Is fit important?** Yes. The right flange size affects both comfort and output, and it's the area premium pumps invest in most. Measure and check sizing whichever pump you choose.
 
 ## How we priced this
 
-The MOMMED and eufy numbers are pulled from the retailers as you load the page, not copied in once and left to rot. The Elvie figure is a real current UK street-price range across its cup-style models, not an RRP, and Elvie's own site is linked above so the exact model and price are checkable rather than taken on trust. Where the cheaper pumps clearly lose to Elvie, on fit range and app maturity, we've said so.
+The MOMMED and eufy numbers are pulled from the retailers as you load the page, not copied in once and left to rot. The Elvie figure is a real current UK street-price range across its cup-style models, not an RRP, and the price comparison we used is linked above so it is checkable rather than taken on trust. Where the cheaper pumps clearly lose to Elvie, on fit range and app maturity, we've said so.
 
 ## The bottom line
 

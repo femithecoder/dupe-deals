@@ -27,7 +27,7 @@ A compact robot vacuum with remote control and 2,200Pa suction. At {{price:42}} 
 
 **Control:** Remote control included, straightforward to run without a complex app setup.
 
-**What you give up:** The big one is suction (2,200Pa vs the roborock's 10,000Pa) and advanced mapping. It cleans in a simpler pattern rather than building a precise lidar map.
+**What you give up:** The big one is suction (2,200Pa against the roborock's 10,000Pa) and advanced mapping. It cleans in a simpler pattern rather than building a precise lidar map.
 
 **Pros:**
 - Lowest price of the three
@@ -49,7 +49,7 @@ A compact robot vacuum with remote control and 2,200Pa suction. At {{price:42}} 
 
 From roborock, one of the most respected names in robot vacuums, the Q7 M5 brings a huge suction jump to 10,000Pa plus a mopping function. At {{price:41}} it's still well below flagship prices, but the extra suction and smarter navigation make it a genuine main-vacuum contender rather than just a maintenance robot.
 
-**Suction:** 10,000Pa, roughly five times the Lefant, which is what lets it pull dust and pet hair out of carpet, not just off hard floors.
+**Suction:** 10,000Pa, more than four times the Lefant, which is what lets it pull dust and pet hair out of carpet, not just off hard floors.
 
 **Mop function:** Adds mopping for hard floors in the same pass.
 
@@ -65,7 +65,7 @@ From roborock, one of the most respected names in robot vacuums, the Q7 M5 bring
 - More than the Lefant
 - No self-emptying dock at this price
 
-**Verdict:** The best all-rounder here, buy it if you have carpet or pets and want one robot that genuinely cleans rather than just tidies.
+**Verdict:** The best all-rounder here. Buy it if you have carpet or pets and want one robot that genuinely cleans rather than just tidies.
 
 ## The near-flagship pick
 
@@ -73,14 +73,13 @@ From roborock, one of the most respected names in robot vacuums, the Q7 M5 bring
 
 ![eufy L60 hybrid robot vacuum and mop](https://images2.productserve.com/?w=600&h=600&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2024%2F09%2Feufy-l60-hybrid-robot-vacuum-product-colour-black-shape-round-dust-capacity-total-0-35-l-water--370574.jpg&feedId=42863&k=dcba162fdca0217ec2a3a8f4c65106a68b8cac2a)
 
-If you want performance closer to a Roomba Combo without the Roomba price, the eufy L60 is the top of our range at {{price:19}}, down from {{rrp:19}}. It's a vacuum-and-mop hybrid with app control and auto-charging, aimed squarely at people cross-shopping premium robots.
+If you want performance closer to a Roomba Combo without the Roomba price, the eufy L60 is the top of our range at {{price:19}}. It's a vacuum-and-mop hybrid with app control and auto-charging, aimed squarely at people cross-shopping premium robots.
 
 **Positioning:** A hybrid that performs like a Roomba or premium robot at a much lower price, the pick when the Lefant feels too basic and you want fewer compromises.
 
 **Pros:**
 - Closest here to premium Roomba-class performance
 - Vacuum and mop hybrid, app control, auto-charging
-- Currently discounted from its usual price
 
 **Cons:**
 - The most expensive of the three

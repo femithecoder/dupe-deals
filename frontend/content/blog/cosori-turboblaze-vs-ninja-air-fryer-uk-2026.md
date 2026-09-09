@@ -8,11 +8,11 @@ category: "Home & Kitchen"
 coverImage: "https://images.unsplash.com/photo-1774074645537-f72f70d40d12?w=800&h=400&fit=crop"
 ---
 
-Ninja has become the default answer to "which air fryer should I buy", to the point where a lot of "best air fryer" lists barely look past it. That's brand strength, not a settled verdict. The Cosori TurboBlaze 6L has been quietly picking up strong reviews, and on paper it out-specs a similarly sized Ninja on a couple of things that actually matter. This isn't a "cheaper dupe" pitch, the prices are close, it's an honest look at which one suits you, including where Ninja genuinely still wins.
+Ninja has become the default answer to "which air fryer should I buy", to the point where a lot of "best air fryer" lists barely look past it. That's brand strength, not a settled verdict. The Cosori TurboBlaze 6L has been quietly picking up strong reviews, and on paper it out-specs a similarly sized Ninja on a couple of things that actually matter. This isn't a "cheaper dupe" pitch, since the prices are close. It's a look at which one suits you, including where Ninja genuinely still wins.
 
 ## The two things people are really choosing between
 
-Most of this decision comes down to one question: do you want **one large drawer** or **two independent smaller ones**? Ninja's most recommended model, the Foodi Max Dual AF400UK, is a dual-zone machine, two baskets you can run at different settings so your chips and your chicken finish together. The Cosori TurboBlaze is a single 6L drawer. That single design choice drives most of the real differences below, more than any spec sheet number does.
+Most of this decision comes down to one question: do you want **one large drawer** or **two independent smaller ones**? Ninja's most recommended model, the Foodi Max Dual AF400UK, is a dual-zone machine: two baskets you can run at different settings, so your chips and your chicken finish together. The Cosori TurboBlaze is a single 6L drawer. That single design choice drives most of the real differences below, more than any spec sheet number does.
 
 ## The single-drawer pick
 

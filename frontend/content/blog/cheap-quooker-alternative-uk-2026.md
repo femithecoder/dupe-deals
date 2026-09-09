@@ -68,7 +68,7 @@ The gap between the columns is large enough that precision is not the point. Eve
 
 **Is 95°C hot enough for tea?** For most people, yes. For a serious black tea drinker who wants water straight off the boil, it is a genuine compromise and we would rather say so than pretend the numbers are equivalent. For coffee it is arguably the better temperature.
 
-**Does a Quooker filter the water?** A standard Quooker heats, it does not filter. Filtration is a separate add-on. This matters for the comparison, because the countertop unit is doing two jobs where the tap does one, and straight price comparisons rarely mention it.
+**Does a Quooker filter the water?** A standard Quooker heats but does not filter. Filtration is a separate add-on. This matters for the comparison, because the countertop unit is doing two jobs where the tap does one, and straight price comparisons rarely mention it.
 
 **What is the ongoing cost?** Both filtered options need replacement filters, which is a real running cost you should factor in rather than treat as a one-off purchase. A Quooker has its own running cost too: the tank keeps water hot around the clock, so it draws power whether or not you use it.
 

@@ -8,7 +8,7 @@ category: "Electronics & Tech"
 coverImage: "https://images.unsplash.com/photo-1561212942-0d77ee345b35?w=800&h=400&fit=crop"
 ---
 
-Search "Fitbit Charge 6 alternative" and most results compare it to the £139.99 RRP. That makes almost anything look cheap by comparison. But the Charge 6 [regularly sells for £79 to £90](https://www.trustedreviews.com/deals/googles-fitbit-charge-6-is-now-below-90-saving-you-50-for-prime-day) at the best current UK deals, sometimes even under £100 without needing a special code. A fair alternative has to hold up against that real price, not the number printed on the box. Otherwise you're just comparing a cheap product against an artificially inflated one, and calling it a win either way.
+Search "Fitbit Charge 6 alternative" and most results compare it to the £139.99 RRP. That makes almost anything look cheap by comparison. But the Charge 6 [regularly sells for £79 to £90](https://www.trustedreviews.com/deals/googles-fitbit-charge-6-is-now-below-90-saving-you-50-for-prime-day) at the best current UK deals, and it rarely sits near its RRP for long. A fair alternative has to hold up against that real price, not the number printed on the box. Otherwise you're just comparing a cheap product against an artificially inflated one, and calling it a win either way.
 
 ## Why people look for a Fitbit alternative
 
@@ -48,7 +48,7 @@ What you lose versus the Charge 6, if you're on Android, is Fitbit's coaching fe
 
 ![Entity AERO Smartwatch](https://assets.media-quzo.co.uk/site/catalogue/large/2026/04/01/entity-aero-smartwatch-yellow-nylon-display-diagonal-5-11-cm-2-01-display-technology-tft-displa-421203.webp)
 
-Roughly half the price of the Galaxy Fit3. This is a genuinely basic touchscreen smartwatch, not a real Fitbit substitute, and we won't pretend it matches the Charge 6 on tracking accuracy or app support. It's on this list because "cheapest smartwatch that actually works" is its own valid search, separate from "closest thing to a Fitbit."
+Roughly half the price of the Galaxy Fit3. This is a genuinely basic touchscreen smartwatch, not a real Fitbit substitute, and we won't pretend it matches the Charge 6 on tracking accuracy or app support. It's on this list because "cheapest smartwatch that actually works" is its own valid search, separate from "closest thing to a Fitbit".
 
 **Verdict:** Buy this if budget is the only requirement. Buy the Galaxy Fit3 if you want something genuinely closer to a Fitbit replacement.
 

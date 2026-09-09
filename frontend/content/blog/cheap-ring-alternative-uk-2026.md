@@ -71,7 +71,7 @@ A wireless video doorbell with night vision and two-way audio, the same core fea
 
 ## What you'd actually be giving up versus Ring
 
-Being straight about it: Ring has the broadest ecosystem, the tightest Alexa integration, and a genuinely slick cloud experience that ties multiple cameras and doorbells together with searchable history, if you pay for Ring Protect. That subscription is also the whole point of avoiding it. For most people the core job, seeing who's at the door and around the house, alerts, two-way talk, and night vision, is fully covered by cameras that store footage locally and charge you once. You're mainly giving up ecosystem breadth and cloud convenience, not security.
+Being straight about it: Ring has the broadest ecosystem, the tightest Alexa integration, and a genuinely slick cloud experience that ties multiple cameras and doorbells together with searchable history, if you pay for Ring Protect. That subscription is also the thing most people are trying to avoid. For most people the core job is fully covered by cameras that store footage locally and charge you once: seeing who's at the door and around the house, alerts, two-way talk, and night vision. You're mainly giving up ecosystem breadth and cloud convenience, not security.
 
 ## Quick comparison
 
@@ -87,7 +87,7 @@ Being straight about it: Ring has the broadest ecosystem, the tightest Alexa int
 
 ## Frequently asked
 
-**Do you need a subscription with a Ring?** To reliably save and review recorded clips, effectively yes, Ring pushes you onto Ring Protect, which is the recurring cost people try to avoid. The eufy and Tapo here store footage locally, so there's no forced monthly fee.
+**Do you need a subscription with a Ring?** To reliably save and review recorded clips, effectively yes. Ring pushes you onto Ring Protect, which is the recurring cost people try to avoid. The eufy and Tapo here store footage locally, so there's no forced monthly fee.
 
 **Are Ring alternatives as secure?** For the core job, yes: live view, motion alerts, two-way talk, and night vision are all covered. Local storage also means your footage isn't only sitting in a company's cloud. What Ring adds is ecosystem breadth and cloud convenience, not fundamentally better security.
 
@@ -99,7 +99,7 @@ Being straight about it: Ring has the broadest ecosystem, the tightest Alexa int
 
 ## How we priced this
 
-What we quote for the eufy and the Tapo are pulled from the retailers themselves and refresh on their own, so a figure here moves when the shop moves it. The Ring comparison accounts for the ongoing Ring Protect subscription, not just the sticker price, because that recurring fee is the honest difference, and Ring's own site is linked above if you want to price the hardware and the plan yourself.
+What we quote for the eufy and the Tapo is pulled from the retailers themselves and refresh on their own, so a figure here moves when the shop moves it. The Ring comparison accounts for the ongoing Ring Protect subscription, not just the sticker price, because that recurring fee is the honest difference, and Ring's own site is linked above if you want to price the hardware and the plan yourself.
 
 ## The bottom line
 
