@@ -8,7 +8,7 @@ category: Electronics & Tech
 coverImage: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop
 ---
 
-Tech is where the "quality for less" idea gets tested hardest. A [{{price:28}} moisturiser standing in for a £165 Crème de la Mer](/blog/creme-de-la-mer-dupe-uk-2026) is one thing, but can a budget gaming headset under £100 really hold up against something several times the price? We checked. Every comparison below uses real current UK prices for the premium original, not the RRP printed on a box that nobody actually pays.
+Tech is where the "quality for less" idea is tested most rigorously. A [{{price:28}} moisturiser standing in for a £165 Crème de la Mer](/blog/creme-de-la-mer-dupe-uk-2026) is one thing, but can a budget gaming headset under £100 really hold up against something priced several times as much? We checked. Every comparison below uses real current UK prices for the premium original, not the RRP printed on a box that nobody actually pays.
 
 Two different things are happening in this list. Some of these are genuine dupes, cheaper products that do the same job as something famous. Others are the famous brand itself, just genuinely discounted right now. We've been upfront about which is which.
 
@@ -26,21 +26,21 @@ Active noise cancellation, wireless charging, and up to 10 hours of playback. So
 
 ![Bose QuietComfort wireless in-ear earbuds in black](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2026%2F07%2F29%2Fbose-quietcomfort-earbuds-product-type-headset-connectivity-technology-wireless-bluetooth-cable-466385.webp&feedId=42863&k=487adbc3b48493caf92daddc765ceb5a8e2673e7)
 
-This isn't a dupe, it's the real thing. Genuine Bose noise cancellation, discounted about {{discount:15}} from RRP direct through a UK retailer. If you specifically want the Bose name and Bose's tuning, this is the one to grab while it's down.
+This isn't a dupe; it's the real thing. Genuine Bose noise cancellation, discounted by about {{discount:15}} from RRP, direct through a UK retailer. If you specifically want the Bose name and Bose's tuning, this is the one to grab while it's down.
 
-**Verdict:** Buy the original while it's actually cheaper, no substitute needed.
+**Verdict:** Buy the original while it's actually cheaper; no substitute needed.
 
-### [soundcore Space One Pro](/product/16): {{price:16}} (was {{rrp:16}})
+### [Soundcore Space One Pro](/product/16): {{price:16}} (was {{rrp:16}})
 
 ![soundcore Space One Pro over-ear wireless headphones in black](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2024%2F10%2F23%2Fsoundcore-space-one-pro-product-type-headset-connectivity-technology-wireless-bluetooth-recomme-389030.webp&feedId=42863&k=83b176fc4a1654681304d4975595162c0badcc22)
 
-Over-ear, adaptive noise cancellation, up to 60 hours of battery. The natural comparison is [Sony's WH-1000XM5](https://pricespy.co.uk/product.php?p=6219512), which currently sells from about £173 at the best UK prices we could find, well down on a launch price north of £350. Even against that already-discounted Sony price, the Space One Pro is still cheaper, and it has more than double the battery life on paper.
+Over-ear, adaptive noise cancellation, up to 60 hours of battery. The natural comparison is [Sony's WH-1000XM5](https://pricespy.co.uk/product.php?p=6219512), which currently sells from about £173 at the best UK prices we could find, well down from a launch price north of £350. Even against that already-discounted Sony price, the Space One Pro is still cheaper, and it has more than double the battery life on paper.
 
 **Verdict:** Beats Sony on price even when Sony's already on sale. Rare.
 
-## Smart home & security
+## Smart Home & Security
 
-### [eufy SoloCam S220 (2-pack)](/product/17): {{price:17}} (was {{rrp:17}})
+### [Eufy SoloCam S220 (2-pack)](/product/17): {{price:17}} (was {{rrp:17}})
 
 ![eufy SoloCam S220 2K wireless security cameras, 2-pack](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2024%2F04%2Feufy-solocam-s220-2-cam-pack-ip-security-camera-indoor--outdoor-wireless-ceilingwall-white-cube-344925.jpg&feedId=42863&k=d021f7e81866532e1bbf99a75b3cfd3f73af234d)
 
@@ -70,7 +70,7 @@ Vacuums and mops in one pass, with auto-charging and app control. Worth being pr
 
 ![Logitech G G435 LIGHTSPEED wireless gaming headset](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2022%2F07%2Flogitech-g-g435-lightspeed-wireless-gaming-headset-product-type-headset-connectivity-technology-320156.jpg&feedId=42863&k=aaf1a09201d651228ce0c20bae9f872ffec46bd8)
 
-Wireless, low-latency, Dolby Atmos support. The fair premium comparison is another *wireless* gaming headset, and SteelSeries' [Arctis Nova Pro Wireless](https://pricespy.co.uk/product.php?p=6487101) runs from roughly £190 to £270 in the UK depending where you look.
+Wireless, low-latency, Dolby Atmos support. The fair premium comparison is another *wireless* gaming headset, and SteelSeries' [Arctis Nova Pro Wireless](https://pricespy.co.uk/product.php?p=6487101) runs from roughly £190 to £270 in the UK, depending on where you look.
 
 **Verdict:** The realistic budget alternative to premium wireless gaming audio, not a feature-for-feature clone.
 
@@ -80,7 +80,7 @@ Wireless, low-latency, Dolby Atmos support. The fair premium comparison is anoth
 
 ![LG 43-inch 4K Ultra HD Smart TV in black](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2025%2F10%2F23%2Flg--109-2-cm-43-3840-x-2160-pixels-led-smart-tv-wi-fi-black-43ua75006la-aek-412770.webp&feedId=42863&k=3cc0aa64beb97e3ec97fdce187cb900744c9d44d)
 
-No dupe angle needed, this is just a real LG TV, {{discount:21}} off, at a size that suits a bedroom or second living room without needing to go big.
+No dupe angle needed; this is just a real LG TV, {{discount:21}} off, at a size that suits a bedroom or second living room without needing to go big.
 
 **Verdict:** A trusted name at a fair mid-size price. Straightforward.
 
@@ -106,7 +106,7 @@ An 11th Gen Intel Core i5, 8GB RAM, 256GB SSD, Windows 11 Pro. Worth being clear
 
 ![HP EliteBook 840 G6 laptop, premium refurbished](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2024%2F04%2Fpremium-refurbished-hp-elitebook-840-g6-intel-core-i5-8365u-8th-gen-laptop-14-inch-full-hd-1080-368071.jpg&feedId=42863&k=22739786b0bcefe60e21ce5dccbc64130aca7938)
 
-Intel Core i5, 16GB RAM, 256GB SSD, Windows 11 Pro. Same honesty applies here as the ThinkPad: business-grade build quality, refurbished condition, and a genuinely steep {{discount:24}} markdown from its listed price.
+Intel Core i5, 16GB RAM, 256GB SSD, Windows 11 Pro. The same honesty applies here as with the ThinkPad: business-grade build quality, refurbished condition, and a genuinely steep {{discount:24}} markdown from its listed price.
 
 **Verdict:** Good specs for the money if you're comfortable buying refurbished.
 
@@ -134,7 +134,7 @@ Six dupes, three genuine discounts on the famous name, two refurbished machines.
 
 **What's the difference between a dupe and a deal here?** A dupe is a cheaper product that does the same job as something famous, like the soundcore headphones standing in for Sony. A deal is the famous brand itself, temporarily cheaper, like the Bose earbuds. Both can be the right buy. They are just different decisions, which is why we label every entry rather than lumping them together.
 
-**Is a cheaper brand's noise cancelling actually as good?** Usually not quite, and we would not claim otherwise. What has changed is the size of the gap. Sub-£100 ANC is now genuinely useful for steady noise like traffic or an office, where a few years ago it was mostly marketing. The premium sets still handle sudden noise and voices better.
+**Is a cheaper brand's noise-cancelling actually as good?** Usually not quite, and we would not claim otherwise. What has changed is the size of the gap. Sub-£100 ANC is now genuinely useful for steady noise like traffic or an office, where a few years ago it was mostly marketing. The premium sets still handle sudden noise and voices better.
 
 **Are refurbished laptops safe to buy?** The two here are sold as premium refurbished with a warranty, which is different from second-hand off a marketplace. The real caveat is not condition, it is age: both use processors a few generations old, so they are good for everyday work rather than demanding tasks. We say so in each entry rather than letting "refurbished" imply "as new".
 
@@ -152,6 +152,6 @@ None of this hardware has been bench-tested by us against its premium counterpar
 
 ## The bottom line
 
-Six of these are real dupes for something more famous. Three are the famous name itself, just legitimately cheaper right now. Two are refurbished, not new, and we've said so plainly. That mix is the point: sometimes the smart move is a cheaper alternative, and sometimes it's just catching the real thing on sale. We'd rather tell you which is which than pretend everything's a bargain.
+Six of these are real dupes for something more famous. Three are the famous names themselves, just legitimately cheaper right now. Two are refurbished, not new, and we've said so plainly. That mix is the point: sometimes the smart move is a cheaper alternative, and sometimes it's just catching the real thing on sale. We'd rather tell you which is which than pretend everything's a bargain.
 
 For more picks in the same style, see our [cheap Ring alternative with no subscription](/blog/cheap-ring-alternative-uk-2026), [Fitbit Charge 6 alternative](/blog/fitbit-charge-6-alternative-uk-2026), [budget mechanical keyboard](/blog/best-budget-mechanical-keyboard-uk-2026), and [cheap AirPods alternative with noise cancelling](/blog/cheap-airpods-alternative-anc-uk-2026) comparisons. This is a snapshot of eleven; [Electronics & Tech](/category/electronics-tech) holds the rest, and every price there moves with the retailer.
