@@ -39,6 +39,13 @@ const nextConfig: NextConfig = {
   //
   // 301 rather than 302: these are gone for good, and a permanent redirect is
   // what passes the ranking signal to the replacement.
+  // public/admin/index.html is served at /admin/index.html. The CMS and every
+  // link to it use the bare /admin, so map it explicitly rather than relying
+  // on the host's directory-index behaviour.
+  async rewrites() {
+    return [{ source: "/admin", destination: "/admin/index.html" }]
+  },
+
   async redirects() {
     return [
       {

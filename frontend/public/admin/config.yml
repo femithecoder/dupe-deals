@@ -1,0 +1,93 @@
+# Sveltia CMS (Decap-compatible config).
+#
+# Saving in the editor writes a normal git commit to main, exactly as editing
+# the file by hand would. That is the whole reason for choosing a git-backed
+# CMS over a hosted one: posts stay as markdown in the repo, so audit:blog,
+# check:facts, the {{price:ID}} tokens and the blog-fact-check workflow all
+# keep working untouched.
+backend:
+  name: github
+  repo: femithecoder/dupe-deals
+  branch: main
+  # Points at our own OAuth handler in app/api/cms/, not at a third party.
+  base_url: https://dupedeals.co.uk
+  auth_endpoint: api/cms/auth
+
+# Paths are relative to the repository root, not to frontend/.
+media_folder: frontend/public/images/blog
+public_folder: /images/blog
+
+publish_mode: simple
+
+collections:
+  - name: blog
+    label: Blog posts
+    label_singular: Blog post
+    folder: frontend/content/blog
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    # New posts get a filename derived from the title. Editing an existing
+    # post always keeps its current filename, which matters: the filename is
+    # the URL, and renaming a published post breaks its link and discards its
+    # Google ranking.
+    slug: "{{slug}}"
+    identifier_field: title
+    summary: "{{title}}"
+    sortable_fields: [date, title]
+    editor:
+      preview: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        # audit:blog fails over 60, which is roughly where Google truncates.
+        pattern: ["^.{1,60}$", "Keep the title to 60 characters or fewer"]
+
+      - label: Excerpt
+        name: excerpt
+        widget: string
+        pattern: ["^.{110,155}$", "Needs to be 110 to 155 characters, which is what audit:blog enforces"]
+        hint: "The line under the title, and the description Google shows. Never put a price in here: this field is not token-resolved, so any number typed here goes stale."
+
+      - label: Date
+        name: date
+        widget: string
+        pattern: ["^\\d{4}-\\d{2}-\\d{2}$", "Use YYYY-MM-DD"]
+        hint: "Publication date, YYYY-MM-DD."
+
+      - label: Prices checked at
+        name: pricesCheckedAt
+        widget: string
+        pattern: ["^\\d{4}-\\d{2}-\\d{2}$", "Use YYYY-MM-DD"]
+        hint: "The day you last verified the competitor prices in the body. check:facts warns once this is over 30 days old."
+
+      - label: Author
+        name: author
+        widget: string
+        default: DupeDeals
+
+      - label: Category
+        name: category
+        widget: select
+        options:
+          - Beauty & Skincare
+          - Baby & Kids
+          - Home & Kitchen
+          - Electronics & Tech
+
+      - label: Cover image URL
+        name: coverImage
+        widget: string
+        hint: "Full https URL. The host must already be listed in next.config.ts remotePatterns or the page will 500 rather than degrade."
+
+      - label: Body
+        name: body
+        widget: markdown
+        # Raw only, deliberately. The rich text editor round-trips markdown
+        # through an AST and reformats on the way back out, which would mangle
+        # the comparison tables and risks escaping the {{price:ID}} braces.
+        # Losing a price token is not a cosmetic problem: it prints the raw
+        # token to readers.
+        modes: [raw]
+        hint: "Never type one of our prices. Use {{price:57}}, {{rrp:57}}, {{save:57}} or {{discount:57}} so it stays live. No em dashes. The preview shows tokens unresolved; the real page fills them in."

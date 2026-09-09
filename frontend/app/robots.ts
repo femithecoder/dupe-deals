@@ -6,7 +6,9 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/search", "/go"],
+      // /admin is the CMS login and /api/cms is its OAuth handshake. Neither
+      // is content, and a crawler following them achieves nothing.
+      disallow: ["/search", "/go", "/admin", "/api/cms"],
     },
     sitemap: `${SITE_URL}/sitemap.xml`,
   }
