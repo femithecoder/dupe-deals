@@ -16,7 +16,7 @@ This is a category where care matters more than usual, so here is the short answ
 
 Every car seat legally sold in the UK has to meet a mandated standard, and for i-Size seats that is R129. That is not a paperwork exercise. R129 adds mandatory side-impact testing and rollover testing on top of frontal and rear impacts, using Q-series crash dummies carrying dozens of sensors. A budget seat carrying that approval passed the same required tests as one costing three times more.
 
-What differs above the legal minimum is independent testing. Germany's ADAC, working with Stiftung Warentest, buys seats off the shelf and crashes them to protocols harsher than the legal requirement. Which? publishes those results for UK readers through the shared European testing programme both belong to, which is why the same ratings turn up in several countries at once. Premium brands are routinely put through this. Budget brands frequently are not. An untested seat is not the same as a seat that tested badly; it simply means nobody outside the manufacturer has checked.
+What differs above the legal minimum is independent testing. Germany's ADAC, working with Stiftung Warentest, buys seats off the shelf and crashes them to protocols harsher than the legal requirement, and checks things the law does not cover at all, such as how easy a seat is to fit correctly and what chemicals are in the fabric. Which? publishes those results for UK readers through the shared European testing programme both belong to, which is why the same ratings turn up in several countries at once. Premium brands are routinely put through this. Budget brands frequently are not. An untested seat is not the same as a seat that tested badly; it simply means nobody outside the manufacturer has checked.
 
 Hold on to that distinction, because the product listing will tell you the seat has been crash tested, and that is true. R129 approval is not self-certification: the seat is crashed at an accredited laboratory and signed off by a national approval authority before it can be sold. Jovikids says its seats are "rigorously tested to meet the stringent ECE R129 standards", which is a statement about clearing the legal bar, not a result published by anyone outside the company. Customer reviews describing a seat as feeling solid are not test data at all. So when a listing says crash tested, read it as passed the legal tests, because that is what it means, and it is the same thing we credit the seat with below.
 
@@ -60,14 +60,18 @@ At this price the calculation is different. A booster is a simpler object than a
 
 ## How the prices compare
 
-| Seat | Price | Type | Legal approval | Independent test result |
+| Seat | Price | Type | Crash tested by law | Crash tested independently |
 |---|---|---|---|---|
-| [Jovikids Ranger 2](/product/57) | {{price:57}} | Rotating i-Size, 40 to 150cm | R129, crash tested | None published |
-| [Jovikids OHHO+ booster](/product/58) | {{price:58}} | ISOFIX booster | R129, crash tested | None published |
-| Joie i-Spin 360 | around £200 to £280 | Rotating i-Size | R129, crash tested | ADAC tested, rated Good |
-| Cybex Sirona Z2 i-Size | around £400 to £500 | Rotating i-Size | R129, crash tested | ADAC tested, rated Good |
+| [Jovikids Ranger 2](/product/57) | {{price:57}} | Rotating i-Size, 40 to 150cm | Yes, R129 approved | No published result |
+| [Jovikids OHHO+ booster](/product/58) | {{price:58}} | ISOFIX booster | Yes, R129 approved | No published result |
+| Joie i-Spin 360 | around £200 to £280 | Rotating i-Size | Yes, R129 approved | Yes, by ADAC |
+| Cybex Sirona Z2 i-Size | around £400 to £500 | Rotating i-Size | Yes, R129 approved | Yes, by ADAC |
 
-Read the two right-hand columns together, because that is the whole point. Every seat here has been crash tested, and the fourth column says so. What the last column adds is whether anyone outside the manufacturer crashed one too and published what happened. For two of these seats there is a public result to look up. For the other two there is nothing, which is not a bad result, just no result.
+Both right-hand columns are about crashes, not about how nice the seat is. Every seat here has been crashed in a laboratory and passed, which is the fourth column. The last column asks a narrower question: did anyone outside the manufacturer buy one, crash it to a harsher protocol, and publish what happened? For two of these seats yes. For the other two, nothing, which is not a bad result, just no result.
+
+One caution if you go and look those results up. ADAC gives each seat a single headline grade, and the Joie and the Cybex above are both rated Good, but that grade is not purely a crash score. Crash performance is 40 per cent of it. The rest is ease of use at 30 per cent, ergonomics at 15, and a chemical test at 15 that checks the fabric and plastics for things like phthalates, flame retardants and formaldehyde. Their scale also runs backwards to the one you expect, from 0.6 at the top to 5.5 at the bottom, so a lower number is better. If crash performance specifically is what you care about, read the safety sub-score rather than the headline grade.
+
+That split cuts the other way too. A seat nobody independent has tested is unchecked on the chemical side as well, not just the crash side, and that is a quieter thing to be missing than it sounds.
 
 ## Frequently asked
 
