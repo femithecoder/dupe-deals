@@ -1,11 +1,11 @@
 ---
-title: "Best Budget Mechanical Keyboard UK (Real Prices)"
-excerpt: "A budget mechanical keyboard priced directly against the pricier option we sell ourselves, not a guess, with live UK prices on both of them."
-date: "2026-08-19"
-author: "DupeDeals"
-pricesCheckedAt: "2026-09-08"
-category: "Electronics & Tech"
-coverImage: "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=800&h=400&fit=crop"
+title: Best Budget Mechanical Keyboard UK (Real Prices)
+excerpt: A budget mechanical keyboard priced directly against the pricier option we sell ourselves, not a guess, with live UK prices on both of them.
+date: 2026-08-19
+pricesCheckedAt: 2026-09-08
+author: DupeDeals
+category: Electronics & Tech
+coverImage: https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=800&h=400&fit=crop
 ---
 
 Mechanical keyboards have a reputation for being expensive, and a lot of the time that's fair. But the gap between a budget board and a premium one has narrowed a lot in the last few years. Some budget picks now use genuinely good switches and a solid build; they just skip extras like per-key RGB or a wireless mode. Here's a {{price:35}} keyboard that fits that description, checked directly against a {{price:40}} alternative we also sell, so you can see exactly what the extra money buys.
@@ -24,7 +24,7 @@ A tenkeyless mechanical keyboard with a solid aluminium top, listed at {{price:3
 
 **Switches:** Logitech's own tactile switches, rated for 50g of actuation force. That's a comfortable middle ground, not too light and not too heavy.
 
-**Build:** A brushed-aluminium top, sturdier and better looking than the all-plastic tops common at this price. The keycaps are PBT plastic. PBT resists shine and wear from finger oils much better than the cheaper ABS plastic used on a lot of budget boards, including, as it turns out, the pricier keyboard below.
+**Build:** A brushed-aluminium top, sturdier and better-looking than the all-plastic tops common at this price. The keycaps are PBT plastic. PBT resists shine and wear from finger oils much better than the cheaper ABS plastic used on a lot of budget boards, including, as it turns out, the pricier keyboard below.
 
 **Connection:** Wired only, through USB-A. There's no Bluetooth or wireless mode on this model.
 
@@ -71,13 +71,13 @@ If you want a solid mechanical feel, a sturdier build, and keycaps that last lon
 
 ## A word on noise, if you share a desk or office
 
-Mechanical keyboards are louder than rubber-dome ones, and how loud depends on the switch. Logitech doesn't market the G413's switches as "silent", so expect a noticeable click with every keystroke, closer to a typical mechanical keyboard than a quiet laptop board. The BlackWidow V4 X actually gives you a choice here: Green switches are clicky and loud, built for people who like the sound, while Yellow switches are tuned to be linear and quiet, a real option if you're in a shared office or a video call most of the day. That's a genuine reason to pay more if noise matters to you specifically, separate from RGB or macro keys.
+Mechanical keyboards are louder than rubber-dome ones, and how loud depends on the switch. Logitech doesn't market the G413's switches as "silent", so expect a noticeable click with every keystroke, closer to a typical mechanical keyboard than a quiet laptop board. The BlackWidow V4 X actually gives you a choice here. Green switches are clicky and loud, built for people who like the sound. Yellow switches are tuned to be linear and quiet, a real option if you're in a shared office or on a video call most of the day. That's a genuine reason to pay more if noise matters to you specifically, separate from RGB or macro keys.
 
 ## Frequently asked
 
 **Am I missing much without a numpad?** Just the numpad itself. If you type long strings of numbers often, a full-size board suits you better. For gaming and everyday typing, most people prefer the smaller size because it frees up desk space for mouse movement.
 
-**Do these work on Mac as well as Windows?** Yes, both type on either system. The brand software (Logitech G Hub, Razer Synapse) used for remapping keys and lighting is mostly built for Windows, though basic typing works fine without it.
+**Do these work on Mac as well as Windows?** Yes, both types are on either system. The brand software (Logitech G Hub, Razer Synapse) used for remapping keys and lighting is mostly built for Windows, though basic typing works fine without it.
 
 **Why are both of these wired, not wireless?** Neither keyboard here has a wireless mode. That's a real limit on both, not something we're glossing over. If wireless matters more to you than price, that's a different shortlist entirely.
 
@@ -85,6 +85,6 @@ Mechanical keyboards are louder than rubber-dome ones, and how loud depends on t
 
 ## How we priced this
 
-Both prices come from the same place, read live from Quzo UK rather than taken from a manufacturer RRP or a different shop. That matters here specifically, because keyboard prices swing a lot between retailers and sales periods. A comparison built from two different sites can end up pitting a discounted budget board against a full-price premium one, or the other way round, without meaning to.
+Both prices come from the same place, read live from Quzo UK rather than taken from a manufacturer's RRP or a different shop. That matters here specifically because keyboard prices swing a lot between retailers and sales periods. A comparison built from two different sites can end up pitting a discounted budget board against a full-price premium one, or the other way round, without meaning to.
 
-For more real comparisons like this one, see our picks for a [Fitbit Charge 6 alternative](/blog/fitbit-charge-6-alternative-uk-2026) and a [cheap AirPods alternative with noise cancelling](/blog/cheap-airpods-alternative-anc-uk-2026). The rest of the desk, and everything else we track, is under [Electronics & Tech](/category/electronics-tech).
+For more real comparisons like this one, see our picks for a [Fitbit Charge 6 alternative](/blog/fitbit-charge-6-alternative-uk-2026) and a [cheap AirPods alternative with noise cancelling](/blog/cheap-airpods-alternative-anc-uk-2026). The rest of the desk and everything else we track is under [Electronics & Tech](/category/electronics-tech).
