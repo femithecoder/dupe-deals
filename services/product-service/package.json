@@ -9,7 +9,8 @@
     "price-check": "node pricing/run.js",
     "backup": "node backup.js",
     "restore-price-history": "node restore-price-history.js",
-    "feed-search": "node feed-search.js"
+    "feed-search": "node feed-search.js",
+    "feed-search-local": "node feed-search-local.js"
   },
   "keywords": [],
   "author": "",
