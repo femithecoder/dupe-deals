@@ -44,16 +44,62 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ ok: true })
   }
 
+  // Two senders share this route: the contact form and the deal submission
+  // form. Only the composed message differs. The SMTP config, the honeypot and
+  // the header-injection guard are the parts worth not duplicating.
+  const kind = body.kind === "deal" ? "deal" : "contact"
+
   const name = oneLine(String(body.name ?? ""))
   const email = oneLine(String(body.email ?? ""))
-  const subject = oneLine(String(body.subject ?? ""))
-  const message = String(body.message ?? "").trim()
 
-  if (!name || !email || !message) {
-    return NextResponse.json({ error: "Name, email and message are required." }, { status: 400 })
+  if (!name || !email) {
+    return NextResponse.json({ error: "Name and email are required." }, { status: 400 })
   }
   if (!isEmail(email)) {
     return NextResponse.json({ error: "That email address doesn't look right." }, { status: 400 })
+  }
+
+  let subject: string
+  let text: string
+
+  if (kind === "deal") {
+    const productName = oneLine(String(body.productName ?? ""))
+    const link = oneLine(String(body.link ?? ""))
+    const price = oneLine(String(body.price ?? ""))
+    const notes = String(body.notes ?? "").trim()
+
+    if (!productName || !link) {
+      return NextResponse.json({ error: "Product name and link are required." }, { status: 400 })
+    }
+    if (!/^https?:\/\//i.test(link)) {
+      return NextResponse.json(
+        { error: "The link needs to start with http:// or https://" },
+        { status: 400 }
+      )
+    }
+
+    subject = `Deal: ${productName}`
+    text = [
+      `Name: ${name}`,
+      `Email: ${email}`,
+      "",
+      `Product: ${productName}`,
+      `Link: ${link}`,
+      price ? `Price: ${price}` : null,
+      notes ? `\nNotes:\n${notes}` : null,
+    ]
+      .filter((line) => line !== null)
+      .join("\n")
+  } else {
+    const formSubject = oneLine(String(body.subject ?? ""))
+    const message = String(body.message ?? "").trim()
+
+    if (!message) {
+      return NextResponse.json({ error: "A message is required." }, { status: 400 })
+    }
+
+    subject = formSubject ? `Contact: ${formSubject}` : "New contact form message"
+    text = `Name: ${name}\nEmail: ${email}\n\n${message}`
   }
 
   const host = process.env.CONTACT_SMTP_HOST || "smtp.zoho.eu"
@@ -71,15 +117,15 @@ export async function POST(req: NextRequest) {
     await transporter.sendMail({
       // From must be our own mailbox so SPF/DKIM line up; the visitor's
       // address goes in replyTo so hitting reply answers them directly.
-      from: `"DupeDeals contact form" <${user}>`,
+      from: `"DupeDeals ${kind === "deal" ? "deal submissions" : "contact form"}" <${user}>`,
       to,
       replyTo: `"${name}" <${email}>`,
-      subject: subject ? `Contact: ${subject}` : "New contact form message",
-      text: `Name: ${name}\nEmail: ${email}\n\n${message}`,
+      subject,
+      text,
     })
     return NextResponse.json({ ok: true })
   } catch (err) {
-    console.error("[contact] send failed:", err)
+    console.error(`[contact] ${kind} send failed:`, err)
     return NextResponse.json({ error: "Could not send the message." }, { status: 502 })
   }
 }
