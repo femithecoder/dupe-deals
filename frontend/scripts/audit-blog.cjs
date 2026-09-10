@@ -152,9 +152,20 @@ async function main() {
   // Phrasing shared across posts reads as templated. Link text is excluded:
   // descriptive anchors pointing at the same post SHOULD match across posts,
   // and counting them as duplication would flag good internal linking.
+  // Sentences that SHOULD be identical everywhere: they state a fact about how
+  // the site works, and rewording them for variety would make them worse, not
+  // less templated. Removed before the n-gram pass rather than allowlisted as
+  // fragments, because one sentence produces a dozen overlapping six-grams and
+  // listing them all is both tedious and easy to get wrong.
+  const BOILERPLATE = [
+    /Our own prices are read live from the retailer as this page loads[^.]*\./gi,
+  ]
+
   const grams = {}
   for (const p of posts) {
-    const noAnchors = p.body.replace(/\[[^\]]+\]\([^)]*\)/g, " ")
+    let text = p.body
+    for (const b of BOILERPLATE) text = text.replace(b, " ")
+    const noAnchors = text.replace(/\[[^\]]+\]\([^)]*\)/g, " ")
     const w = strip(noAnchors).toLowerCase().replace(/[^a-z0-9' ]/g, " ").split(/\s+/).filter(Boolean)
     const seen = new Set()
     // Six words. Eight missed real templating ("Usually one of three reasons"

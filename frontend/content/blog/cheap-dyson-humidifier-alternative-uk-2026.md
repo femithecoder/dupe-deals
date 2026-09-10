@@ -20,7 +20,7 @@ The purifier is the part that matters here. Dyson's own listing describes three-
 
 If, on the other hand, your problem is a dry throat every morning through winter, static, or a nursery that gets uncomfortable when the heating is on, then humidifying is the whole job, and that job costs about thirty pounds.
 
-The fan is the third function and the easiest to replace. A separate fan costs a fraction of the difference.
+The fan is the third function and the easiest to replace. A [separate fan](/blog/cheap-dyson-fan-alternative-uk-2026) costs a fraction of the difference.
 
 ## Our picks
 
