@@ -593,6 +593,38 @@ const products = [
     image_url: "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41DMEcaPunL._SS500_.jpg&feedId=110672&k=4c8ba9b89a2545c5c2a4c8beb55cd0f62312c4ca",
     affiliate_url: "https://www.awin1.com/pclick.php?p=45803026507&a=3013053&m=118045", merchant: "Amazon", rating: 0, review_count: 0, dupe_for: null,
   },
+  {
+    id: "87", name: "Tapo C100 Full HD Indoor Camera", brand: "Tapo",
+    category: "Baby & Kids", category_slug: "baby-kids",
+    description: "A 1080p fixed indoor Wi-Fi camera with night vision and two-way audio. No pan or tilt, which is the trade for the price: you point it at the cot once and leave it.",
+    original_price: 17.99, sale_price: 17.99, discount_percent: 0,
+    image_url: "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41cwHlI%2BedL._SS500_.jpg&feedId=110672&k=a3d83a8da53838e98c605dca768081af658e7314",
+    affiliate_url: "https://www.awin1.com/pclick.php?p=44144193735&a=3013053&m=118045", merchant: "Amazon", rating: 0, review_count: 0, dupe_for: null,
+  },
+  {
+    id: "88", name: "ZOSI 4K Indoor Wi-Fi Camera, 360 Pan and Tilt", brand: "ZOSI",
+    category: "Baby & Kids", category_slug: "baby-kids",
+    description: "A 4K indoor camera with full pan and tilt, so the whole room can be checked from a phone. Far more resolution than a nursery needs, which becomes useful when it is repurposed later.",
+    original_price: 26.99, sale_price: 26.99, discount_percent: 0,
+    image_url: "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F317OH1EXTTL._SS500_.jpg&feedId=110672&k=5680cfff1b6839666e257af280459abffb4283e4",
+    affiliate_url: "https://www.awin1.com/pclick.php?p=42803893343&a=3013053&m=118045", merchant: "Amazon", rating: 0, review_count: 0, dupe_for: null,
+  },
+  {
+    id: "89", name: "NCVI Double Electric Breast Pump", brand: "NCVI",
+    category: "Baby & Kids", category_slug: "baby-kids",
+    description: "A corded double electric pump, pumping both sides at once. Not wearable, so it is used sitting down, which is the trade for the price.",
+    original_price: 30.34, sale_price: 30.34, discount_percent: 0,
+    image_url: "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41%2BnXAiSlaL._SS500_.jpg&feedId=110672&k=2aafebc61ff95c5b999fef9d5c5cf825e66d3be1",
+    affiliate_url: "https://www.awin1.com/pclick.php?p=45766398265&a=3013053&m=118045", merchant: "Amazon", rating: 0, review_count: 0, dupe_for: null,
+  },
+  {
+    id: "90", name: "MOMMED Double Wearable Breast Pumps, 3 Modes", brand: "MOMMED",
+    category: "Baby & Kids", category_slug: "baby-kids",
+    description: "The double version of the wearable pump, with 3 modes and 12 levels. Wearable and hands-free, pumping both sides at once inside a bra.",
+    original_price: 99.99, sale_price: 99.99, discount_percent: 0,
+    image_url: "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41wBTnsb5lL._SS500_.jpg&feedId=110672&k=4c7cc4cdac33aff209ff7aab8cd53205ad260a59",
+    affiliate_url: "https://www.awin1.com/pclick.php?p=44684175803&a=3013053&m=118045", merchant: "Amazon", rating: 0, review_count: 0, dupe_for: null,
+  },
 ]
 
 async function seedProducts() {
