@@ -69,12 +69,32 @@ a price never goes stale:
 Match the word to the category. "dupe" ranks for fashion, beauty, and fragrance. Tech and home
 rank on "alternative", "best budget", and "vs".
 
+**A post does not need a premium comparator.** The first four formats all require one, and
+treating them as the only options meant products with no obvious rival either got a strained
+comparison or no post at all. Four sat unwritten for that reason: a mattress protector, a
+console table, a kids' audio player and a baby nest, none of which has a famous expensive
+version to undercut.
+
+The last three formats need no comparator, and they suit this site for the reason the section
+above gives: the April 2026 update hit comparison and listicle content hardest, while
+methodology-driven pages that show real evaluation held up. A straight review that says what a
+thing does, who it suits and who should skip it is not a weaker post than a comparison. It is
+often the more honest one, because it is not obliged to find a villain.
+
+The rules below still apply in full. A review needs the same methodology section, the same
+FAQ, the same live-price tokens and the same 1,000 words. What changes is only that the
+comparison table becomes a specification or a who-it-suits table, and there is no premium
+price to keep fresh, which removes the single largest source of staleness in our posts.
+
 | Format | Template | Examples from our catalog |
 |--------|----------|---------------------------|
 | Comparison | `[premium] vs [budget] UK` / `[premium] alternative UK` | Cosori vs Ninja Air Fryer UK; Hoover HF1 Max vs Dyson; MOMMED vs Elvie |
 | "Best" | `best budget [category] UK 2026` / `best cheap [category] with [feature]` | Best budget cordless vacuum UK; best cheap wearable breast pump UK; best budget baby monitor UK |
 | Listicle | `[N] [category] dupes/alternatives that beat [big brand]` | 9 Baby & Kids dupes that beat the big brands; Home & Kitchen version of the tech roundup |
 | Beauty (dupe works) | `[brand] dupe UK` | SkinCeuticals C E Ferulic dupe UK; Drunk Elephant Protini dupe UK |
+| Review | `[product] review UK` / `[product] worth it` | Levoit Smart Humidifier review UK; alilo Honey Bunny Pro review |
+| Worth it | `is a [category] worth it` / `do you need a [category]` | Is a bottle washer worth it; do you need a mattress protector |
+| Buying guide | `how to choose a [category]` / `what to look for in a [category]` | How to choose a baby monitor; what to look for in a stroller |
 
 Validate volumes in Google Keyword Planner (free) or Ahrefs/SEMrush before committing effort.
 The templates above reflect what is currently ranking, not guaranteed volume.
