@@ -178,6 +178,10 @@ async function main() {
   // listing them all is both tedious and easy to get wrong.
   const BOILERPLATE = [
     /Our own prices are read live from the retailer as this page loads[^.]*\./gi,
+    // How a discount on our pages is derived. Three posts phrase it three
+    // slightly different ways and all three should be free to say the same
+    // thing, because it is a disclosure, not a flourish.
+    /Where (a discount|you see a reduction)[^.]*\./gi,
   ]
 
   const grams = {}
