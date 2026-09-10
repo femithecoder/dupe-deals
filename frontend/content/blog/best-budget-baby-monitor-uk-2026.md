@@ -14,6 +14,28 @@ Dedicated baby monitors have quietly crept up in price. Premium app-connected un
 
 It usually comes down to value and flexibility. A smart indoor camera gives you the same live view, night vision, and two-way audio as a dedicated monitor. But it's cheaper, works anywhere you have Wi-Fi, and can be repurposed into a general home or pet camera the day you stop using it in the nursery. The trade-offs are real and worth naming: you're viewing on your phone rather than a dedicated always-on parent unit, and you're relying on your home Wi-Fi. For most families, that's a good deal; for some, a dedicated screen is worth paying for.
 
+## The cheapest that works
+
+### [Tapo C100 Full HD Indoor Camera](/product/87): {{price:87}}
+
+![Tapo C100 fixed indoor Wi-Fi camera](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41cwHlI%2BedL._SS500_.jpg&feedId=110672&k=a3d83a8da53838e98c605dca768081af658e7314)
+
+1080p, night vision and two-way audio, from the same Tapo range as the step-up pick further down. What it does not have is pan and tilt: you aim it at the cot once and that is the view you get.
+
+For a newborn in a cot that is genuinely all you need, and it is the cheapest way to stop guessing whether they are asleep. It stops being enough the day they can move across the room.
+
+**Verdict:** Buy this if the baby cannot roll yet and the budget is tight.
+
+## More resolution for the same money
+
+### [ZOSI 4K Indoor Wi-Fi Camera, 360 Pan and Tilt](/product/88): {{price:88}}
+
+![ZOSI 4K indoor camera with 360 degree pan and tilt](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F317OH1EXTTL._SS500_.jpg&feedId=110672&k=5680cfff1b6839666e257af280459abffb4283e4)
+
+4K with full pan and tilt, at within a pound of the Reolink below. More resolution than a nursery needs, which is the point: it is the one most worth keeping when the nursery days end and it becomes a general home camera.
+
+**Verdict:** Effectively the same money as the Reolink, so choose on whether you would rather have the extra resolution or the more established brand.
+
 ## The budget pick
 
 ### [Reolink Indoor Camera 4MP 360°](/product/56): {{price:56}}
@@ -75,16 +97,16 @@ Being honest: a purpose-built monitor like Nanit adds things a general camera do
 
 ## Quick comparison
 
-| | Reolink (budget) | Tapo C840 (step-up) | Dedicated monitor (e.g. Nanit) |
-|---|---|---|---|
-| Price | {{price:56}} | {{price:55}} | Around £240 to £300 |
-| Resolution | 4MP | 2K dual-lens | Varies |
-| Pan / tilt | 360° | Fixed dual-lens | Usually fixed |
-| Night vision | Yes | Yes | Yes |
-| Two-way audio | Yes | Yes | Yes |
-| Sleep tracking | No | No | Yes (premium) |
-| Dedicated parent screen | No (phone) | No (phone) | Yes |
-| Best for | Cheapest capable monitor | Wide + zoom, polished app | Sleep data + standalone screen |
+| | Tapo C100 | ZOSI 4K | Reolink | Tapo C840 | Dedicated monitor (e.g. Nanit) |
+|---|---|---|---|---|---|
+| Price | {{price:87}} | {{price:88}} | {{price:56}} | {{price:55}} | Around £240 to £300 |
+| Resolution | 1080p | 4K | 4MP | 2K dual-lens | Varies |
+| Pan / tilt | Fixed | 360° | 360° | Fixed dual-lens | Usually fixed |
+| Night vision | Yes | Yes | Yes | Yes | Yes |
+| Two-way audio | Yes | Yes | Yes | Yes | Yes |
+| Sleep tracking | No | No | No | No | Yes (premium) |
+| Dedicated parent screen | No (phone) | No (phone) | No (phone) | No (phone) | Yes |
+| Best for | Cot, tight budget | Keeping it afterwards | Cheapest capable monitor | Wide + zoom, polished app | Sleep data + standalone screen |
 
 ## Frequently asked
 

@@ -14,6 +14,20 @@ Wearable breast pumps changed the routine for a lot of parents: no wall socket, 
 
 There are three reasons we hear most. A pump is often a short-season purchase, used intensively for months rather than years, so spending Elvie money can feel hard to justify. Some parents want a spare pump to keep at work or in a bag without buying a second premium unit. And plenty simply want hands-free convenience without the flagship price, and don't need every last feature to get it. No part of that requires the Elvie badge. What it does require is a quiet, comfortable, genuinely hands-free pump that works.
 
+## If you do not need it wearable
+
+### [NCVI Double Electric Breast Pump](/product/89): {{price:89}}
+
+![NCVI corded double electric breast pump](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41%2BnXAiSlaL._SS500_.jpg&feedId=110672&k=2aafebc61ff95c5b999fef9d5c5cf825e66d3be1)
+
+Worth putting first because it undercuts everything else here and the whole page assumes something it should not.
+
+This is a corded double pump. It pumps both sides at once, quietly, and it costs less than half of the cheapest wearable. What it does not do is disappear inside a bra, so you use it sitting down with a machine on the table.
+
+If the reason you want a wearable is genuinely mobility, that matters. If the reason is that wearables are what everyone talks about, this does the same job for less, and the money saved is most of a pram.
+
+**Verdict:** The honest first question is whether you need hands-free at all. If you do not, buy this.
+
 ## The budget pick
 
 ### [MOMMED Wearable Breast Pump](/product/54): {{price:54}}
@@ -39,6 +53,14 @@ A fully wearable, hands-free pump that sits inside your bra, with three modes an
 - App and build aren't flagship-grade
 
 **Verdict:** The right pick if you want real hands-free pumping cheaply, or a second pump to leave at work, and you don't need heating.
+
+### [MOMMED Double Wearable Breast Pumps](/product/90): {{price:90}}
+
+![MOMMED double wearable breast pumps, hands free](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41wBTnsb5lL._SS500_.jpg&feedId=110672&k=4c7cc4cdac33aff209ff7aab8cd53205ad260a59)
+
+The same pump as a pair, so both sides run at once while staying hands-free. Roughly double the single, which is what you would expect, and it halves the time each session takes.
+
+**Verdict:** For anyone pumping several times a day, the time saved is the argument, not the price.
 
 ## The step-up pick
 
@@ -71,14 +93,15 @@ Being straight about it: Elvie and Willow have the longest track record, the mos
 
 ## Quick comparison
 
-| | MOMMED (budget) | eufy S1 (step-up) | Elvie (premium) |
-|---|---|---|---|
-| Price | {{price:54}} | {{price:53}} | Roughly £370 to £500 |
-| Hands-free / tube-free | Yes | Yes | Yes |
-| Heating | No | Yes | Model dependent |
-| Modes / levels | 3 modes / 12 levels | Multi-mode | App-controlled |
-| Cup / flange fit range | Limited | Limited | Widest |
-| Best for | Cheapest hands-free, or a work spare | Comfort + established brand | Exclusive pumping, fit issues |
+| | NCVI (corded) | MOMMED single | MOMMED double | eufy S1 | Elvie (premium) |
+|---|---|---|---|---|---|
+| Price | {{price:89}} | {{price:54}} | {{price:90}} | {{price:53}} | Roughly £370 to £500 |
+| Hands-free / tube-free | No | Yes | Yes | Yes | Yes |
+| Pumps both sides at once | Yes | No | Yes | No | Model dependent |
+| Heating | No | No | No | Yes | Model dependent |
+| Modes / levels | Multi-mode | 3 modes / 12 levels | 3 modes / 12 levels | Multi-mode | App-controlled |
+| Cup / flange fit range | Standard | Limited | Limited | Limited | Widest |
+| Best for | Pumping at home, sitting down | Cheapest hands-free, or a work spare | Halving session time | Comfort + established brand | Exclusive pumping, fit issues |
 
 ## Frequently asked
 
