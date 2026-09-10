@@ -168,6 +168,24 @@ async function main() {
     }
   }
 
+  // seed.js and mock-data.ts both list the catalogue: one seeds the database,
+  // the other is the offline fallback a local render resolves tokens against.
+  // They drift every time a product is added, and the only symptom is a raw
+  // {{price:ID}} printed in a local preview. It happened twice on 2026-09-10.
+  try {
+    const seedSrc = fs.readFileSync(path.join(__dirname, "../../services/product-service/seed.js"), "utf8")
+    const mockSrc = fs.readFileSync(path.join(__dirname, "../lib/mock-data.ts"), "utf8")
+    const ids = (src) => new Set([...src.matchAll(/id: "(\d+)"/g)].map((m) => m[1]))
+    const seeded = ids(seedSrc)
+    const mocked = ids(mockSrc)
+    const missing = [...seeded].filter((id) => !mocked.has(id))
+    if (missing.length) {
+      say("mock-data.ts", `missing ${missing.length} product(s) that seed.js has: ${missing.join(", ")}. Local renders will print their tokens raw.`)
+    }
+  } catch (err) {
+    notes.push(`could not compare seed.js with mock-data.ts: ${err.message}`)
+  }
+
   // Phrasing shared across posts reads as templated. Link text is excluded:
   // descriptive anchors pointing at the same post SHOULD match across posts,
   // and counting them as duplication would flag good internal linking.
