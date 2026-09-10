@@ -77,7 +77,7 @@ Mechanical keyboards are louder than rubber-dome ones, and how loud depends on t
 
 **Am I missing much without a numpad?** Just the numpad itself. If you type long strings of numbers often, a full-size board suits you better. For gaming and everyday typing, most people prefer the smaller size because it frees up desk space for mouse movement.
 
-**Do these work on Mac as well as Windows?** Yes, both types are on either system. The brand software (Logitech G Hub, Razer Synapse) used for remapping keys and lighting is mostly built for Windows, though basic typing works fine without it.
+**Do these work on Mac as well as Windows?** Yes, both work on either system. The brand software (Logitech G Hub, Razer Synapse) used for remapping keys and lighting is mostly built for Windows, though basic typing works fine without it.
 
 **Why are both of these wired, not wireless?** Neither keyboard here has a wireless mode. That's a real limit on both, not something we're glossing over. If wireless matters more to you than price, that's a different shortlist entirely.
 

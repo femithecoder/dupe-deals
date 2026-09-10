@@ -17,6 +17,12 @@ const GATEWAY = process.env.NEXT_PUBLIC_GATEWAY_URL || "https://dupedeals-gatewa
 
 // Organisations a reader cannot be assumed to know. The value is what an
 // acceptable introduction looks like in the run-up to the first mention.
+// Brands that style their own name in a way spellcheck and instinct both want
+// to "fix". The product feed uses the brand's spelling, so a post that
+// corrects it disagrees with its own product pages and, usually, with its own
+// comparison table two screens further down.
+const BRAND_CASING = { Soundcore: "soundcore", Eufy: "eufy", Adidas: "adidas" }
+
 const ORGS = {
   "Which?": /consumer group|consumers'? association|consumer champion/i,
   "ADAC": /German|Germany|motoring|automobile club/i,
@@ -98,6 +104,18 @@ async function main() {
     // so dropped in cold it reads as a sentence fragment rather than a body
     // that tests things. It appeared five times across two posts without ever
     // being introduced.
+    for (const [wrong, right] of Object.entries(BRAND_CASING)) {
+      if (p.body.includes(wrong)) say(p.file, `"${wrong}" should be "${right}", the brand's own spelling`)
+    }
+
+    // House spelling is Wi-Fi, which is the trademark and what retailer specs
+    // use. Three spellings were in circulation before this. Checked against
+    // strip(), which drops image markdown and link URLs, because a feed image
+    // filename containing "wi-fi" is not ours to correct.
+    for (const m of strip(p.body).matchAll(/\b(wifi|WiFi|WIFI|wi-fi|Wifi)\b/g)) {
+      say(p.file, `"${m[1]}" should be "Wi-Fi"`)
+    }
+
     for (const [org, descriptor] of Object.entries(ORGS)) {
       const first = p.body.indexOf(org)
       if (first === -1) continue

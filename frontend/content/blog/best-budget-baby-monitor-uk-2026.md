@@ -12,7 +12,7 @@ Dedicated baby monitors have quietly crept up in price. Premium app-connected un
 
 ## Why a smart camera instead of a "baby monitor"
 
-It usually comes down to value and flexibility. A smart indoor camera gives you the same live view, night vision, and two-way audio as a dedicated monitor. But it's cheaper, works anywhere you have wifi, and can be repurposed into a general home or pet camera the day you stop using it in the nursery. The trade-offs are real and worth naming: you're viewing on your phone rather than a dedicated always-on parent unit, and you're relying on your home wifi. For most families, that's a good deal; for some, a dedicated screen is worth paying for.
+It usually comes down to value and flexibility. A smart indoor camera gives you the same live view, night vision, and two-way audio as a dedicated monitor. But it's cheaper, works anywhere you have Wi-Fi, and can be repurposed into a general home or pet camera the day you stop using it in the nursery. The trade-offs are real and worth naming: you're viewing on your phone rather than a dedicated always-on parent unit, and you're relying on your home Wi-Fi. For most families, that's a good deal; for some, a dedicated screen is worth paying for.
 
 ## The budget pick
 
@@ -71,7 +71,7 @@ From TP-Link's well-established Tapo range, the C840 is a 2K dual-lens camera: o
 
 ## What you'd actually be giving up versus a dedicated monitor
 
-Being honest: a purpose-built monitor like Nanit adds things a general camera doesn't: a dedicated always-on parent screen, sleep tracking and breathing-band add-ons, and a closed system that doesn't lean on your home wifi or phone. Some of that is genuinely useful, especially the sleep analytics for first-time parents who want the data. What it isn't is essential for the core job of seeing and hearing your baby, which a good smart camera does for a fraction of the price. If you specifically want sleep tracking and a standalone screen, pay for the dedicated monitor; if you want a clear feed, night vision, and two-way talk, a smart camera is the value choice.
+Being honest: a purpose-built monitor like Nanit adds things a general camera doesn't: a dedicated always-on parent screen, sleep tracking and breathing-band add-ons, and a closed system that doesn't lean on your home Wi-Fi or phone. Some of that is genuinely useful, especially the sleep analytics for first-time parents who want the data. What it isn't is essential for the core job of seeing and hearing your baby, which a good smart camera does for a fraction of the price. If you specifically want sleep tracking and a standalone screen, pay for the dedicated monitor; if you want a clear feed, night vision, and two-way talk, a smart camera is the value choice.
 
 ## Quick comparison
 
@@ -94,7 +94,7 @@ Being honest: a purpose-built monitor like Nanit adds things a general camera do
 
 **Do I need a subscription?** Not necessarily. Many features work without one, but some cloud storage or extras can sit behind a subscription. If you want to avoid ongoing costs, check for local or SD-card storage before buying.
 
-**Is a phone-based monitor reliable overnight?** For most homes, yes, though it depends on your wifi. If you want a system that never relies on your phone or home network, that's the argument for a dedicated monitor with its own parent unit.
+**Is a phone-based monitor reliable overnight?** For most homes, yes, though it depends on your Wi-Fi. If you want a system that never relies on your phone or home network, that's the argument for a dedicated monitor with its own parent unit.
 
 **Will it still be useful after the baby stage?** That's a real advantage of a smart camera. When the nursery days end, it becomes a general home or pet camera, which a single-purpose baby monitor never can.
 

@@ -14,11 +14,11 @@ Two different things are happening in this list. Some of these are genuine dupes
 
 ## Earbuds & headphones
 
-### [Soundcore Liberty 5 Pro](/product/14): {{price:14}} (was {{rrp:14}})
+### [soundcore Liberty 5 Pro](/product/14): {{price:14}} (was {{rrp:14}})
 
 ![soundcore Liberty 5 Pro wireless noise cancelling earbuds in black](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2026%2F06%2F03%2Fsoundcore-liberty-5-pro-goffline--europe-excluded-uk-plug-black-1-product-type-headset-connecti-461395.webp&feedId=42863&k=579e14fc485649b5dc1484047a5dddac761e6edd)
 
-Active noise cancellation, wireless charging, and up to 10 hours of playback. Soundcore's own pitch is that this rivals AirPods Pro, but [AirPods Pro 2 has actually been discontinued by Apple](https://www.techradar.com/audio/earbuds-airpods/airpods-pro-2-are-down-to-a-new-record-low-price-and-id-choose-them-over-the-airpods-pro-3-this-black-friday) and is currently clearing out at heavily discounted prices, so that comparison isn't the flex it used to be. The fairer one: **[Bose QuietComfort Earbuds](/product/15)**, which we also stock at {{price:15}}. The Liberty 5 Pro undercuts that with a similar noise-cancelling spec sheet.
+Active noise cancellation, wireless charging, and up to 10 hours of playback. The pitch from soundcore is that this rivals AirPods Pro, but [AirPods Pro 2 has actually been discontinued by Apple](https://www.techradar.com/audio/earbuds-airpods/airpods-pro-2-are-down-to-a-new-record-low-price-and-id-choose-them-over-the-airpods-pro-3-this-black-friday) and is currently clearing out at heavily discounted prices, so that comparison isn't the flex it used to be. The fairer one: **[Bose QuietComfort Earbuds](/product/15)**, which we also stock at {{price:15}}. The Liberty 5 Pro undercuts that with a similar noise-cancelling spec sheet.
 
 **Verdict:** A solid dupe, just not for the brand you'd expect.
 
@@ -30,7 +30,7 @@ This isn't a dupe; it's the real thing. Genuine Bose noise cancellation, discoun
 
 **Verdict:** Buy the original while it's actually cheaper; no substitute needed.
 
-### [Soundcore Space One Pro](/product/16): {{price:16}} (was {{rrp:16}})
+### [soundcore Space One Pro](/product/16): {{price:16}} (was {{rrp:16}})
 
 ![soundcore Space One Pro over-ear wireless headphones in black](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2024%2F10%2F23%2Fsoundcore-space-one-pro-product-type-headset-connectivity-technology-wireless-bluetooth-recomme-389030.webp&feedId=42863&k=83b176fc4a1654681304d4975595162c0badcc22)
 
@@ -38,9 +38,9 @@ Over-ear, adaptive noise cancellation, up to 60 hours of battery. The natural co
 
 **Verdict:** Beats Sony on price even when Sony's already on sale. Rare.
 
-## Smart Home & Security
+## Smart home & security
 
-### [Eufy SoloCam S220 (2-pack)](/product/17): {{price:17}} (was {{rrp:17}})
+### [eufy SoloCam S220 (2-pack)](/product/17): {{price:17}} (was {{rrp:17}})
 
 ![eufy SoloCam S220 2K wireless security cameras, 2-pack](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2024%2F04%2Feufy-solocam-s220-2-cam-pack-ip-security-camera-indoor--outdoor-wireless-ceilingwall-white-cube-344925.jpg&feedId=42863&k=d021f7e81866532e1bbf99a75b3cfd3f73af234d)
 
