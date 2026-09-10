@@ -128,6 +128,7 @@ async function main() {
   }
 
   // Our own prices must come from tokens, never typed in
+  const excerptWarnings = []
   let products = []
   try {
     products = (await (await fetch(`${GATEWAY}/api/products?limit=500`)).json()).products
@@ -145,6 +146,24 @@ async function main() {
         if (Math.abs(parseFloat(v.replace(/,/g, "")) - prod.salePrice) < 0.01) {
           say(p.file, `£${v} is product ${id}'s live price typed as plain text, use {{price:${id}}}`)
         }
+      }
+    }
+
+    // The excerpt is frontmatter, so it is never token-resolved. Any price put
+    // there is frozen at the moment it was typed, and it is the line Google
+    // shows. One of ours in there is a defect, since we control that number
+    // and it moves; a competitor's is a warning, since it will age too.
+    // Missed until 2026-09-10, when two posts written that day both did it,
+    // one of them freezing our own Levoit price at £34.
+    const excerptPrices = [...(fmValue(p.fm, "excerpt").matchAll(/£([0-9][0-9.,]*)/g))].map((m) =>
+      m[1].replace(/[.,]$/, "")
+    )
+    for (const v of excerptPrices) {
+      const mine = products.find((prod) => Math.abs(parseFloat(v.replace(/,/g, "")) - prod.salePrice) < 0.01)
+      if (mine) {
+        say(p.file, `excerpt contains £${v}, which is product ${mine.id}'s live price. Excerpts are not token-resolved.`)
+      } else {
+        excerptWarnings.push(`${p.file}: excerpt contains £${v}, which cannot update. Prefer a hedge like "under £200".`)
       }
     }
   }
@@ -211,7 +230,7 @@ async function main() {
   // weeks of publishing: Apple's AirPods RRP was out by £40, a Dyson V8 by
   // more than £160. Ninety days would have caught none of them in time.
   const STALE_DAYS = 30
-  const warnings = []
+  const warnings = [...excerptWarnings]
   for (const p of posts) {
     const literals = [...new Set([...strip(p.body).replace(/\{\{\w+:\d+\}\}/g, "").matchAll(/£[0-9][0-9.,]*/g)].map((m) => m[0]))]
     if (!literals.length) continue

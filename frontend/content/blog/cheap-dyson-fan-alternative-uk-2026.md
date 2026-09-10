@@ -1,6 +1,6 @@
 ---
 title: "Cheap Dyson Fan Alternative UK (2026)"
-excerpt: "Dyson's cheapest fan is £99, not £400, so the honest comparison is narrower than most articles admit. Here is where the gap is real."
+excerpt: "Dyson's cheapest fan costs far less than the usual comparisons imply, so the honest gap is narrower than most articles admit. Here is where it is real."
 date: "2026-09-10"
 author: "DupeDeals"
 pricesCheckedAt: "2026-09-10"

@@ -1,6 +1,6 @@
 ---
 title: "Cheap Dyson Humidifier Alternative UK (2026)"
-excerpt: "A Dyson humidifier is £699 because it is three machines in one. Here is what a £34 one does instead, and the job it cannot do at all."
+excerpt: "A Dyson humidifier costs what it does because it is three machines in one. Here is what a countertop one does instead, and the job it cannot do at all."
 date: "2026-09-10"
 author: "DupeDeals"
 pricesCheckedAt: "2026-09-10"
