@@ -98,8 +98,14 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "A message is required." }, { status: 400 })
     }
 
+    // Set when the message came from a "Tell us" link, so the email says
+    // which page is being reported without the sender having to describe it.
+    const about = oneLine(String(body.about ?? ""))
+
     subject = formSubject ? `Contact: ${formSubject}` : "New contact form message"
-    text = `Name: ${name}\nEmail: ${email}\n\n${message}`
+    text = [`Name: ${name}`, `Email: ${email}`, about ? `Page: ${about}` : null, "", message]
+      .filter((line) => line !== null)
+      .join("\n")
   }
 
   const host = process.env.CONTACT_SMTP_HOST || "smtp.zoho.eu"

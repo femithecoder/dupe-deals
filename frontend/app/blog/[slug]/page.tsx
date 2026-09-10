@@ -4,6 +4,7 @@ import Link from "next/link"
 import type { Metadata } from "next"
 import { getAllPosts, getPostBySlug } from "@/lib/blog"
 import { resolveLivePriceTokens } from "@/lib/live-price"
+import ReportIssue from "@/components/ReportIssue"
 import ReactMarkdown from "react-markdown"
 import remarkGfm from "remark-gfm"
 import JsonLd from "@/components/JsonLd"
@@ -145,6 +146,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           {content}
         </ReactMarkdown>
       </article>
+
+      <ReportIssue
+        prompt="Spotted a mistake, or something out of date?"
+        subject={`Correction: ${post.title}`}
+        path={`/blog/${post.slug}`}
+      />
 
       {/* Back link */}
       <div className="mt-12 pt-6 border-t border-slate-200">

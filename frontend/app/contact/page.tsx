@@ -9,7 +9,15 @@ export const metadata: Metadata = pageMetadata({
   path: "/contact",
 })
 
-export default function ContactPage() {
+export default async function ContactPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ subject?: string; about?: string }>
+}) {
+  // Set by the "Tell us" link on a product page or a post, so the message
+  // arrives already saying which page it is about.
+  const { subject, about } = await searchParams
+
   return (
     <div className="mx-auto max-w-lg px-4 sm:px-6 lg:px-8 py-16">
       <h1 className="text-3xl font-black text-slate-900 mb-4">Contact us</h1>
@@ -22,7 +30,7 @@ export default function ContactPage() {
         .
       </p>
 
-      <ContactForm />
+      <ContactForm defaultSubject={subject} about={about} />
     </div>
   )
 }

@@ -5,6 +5,7 @@ import type { Metadata } from "next"
 import { products } from "@/lib/mock-data"
 import { fetchProductById, fetchProductsByCategory, fetchPriceHistory } from "@/lib/api"
 import DealBadge from "@/components/DealBadge"
+import ReportIssue from "@/components/ReportIssue"
 import ProductCard from "@/components/ProductCard"
 import JsonLd from "@/components/JsonLd"
 import ViewDealButton from "@/components/ViewDealButton"
@@ -226,6 +227,12 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
           </ul>
         </section>
       )}
+
+      <ReportIssue
+        prompt="Price wrong, or the deal already gone?"
+        subject={`Price looks wrong: ${product.name}`}
+        path={`/product/${product.id}`}
+      />
 
       {related.length > 0 && (
         <section className="mt-16">

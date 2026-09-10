@@ -6,17 +6,25 @@ const CONTACT_EMAIL = "contactus@dupedeals.co.uk"
 
 type Status = "idle" | "sending" | "sent" | "fallback" | "error"
 
-export default function ContactForm() {
+export default function ContactForm({
+  defaultSubject,
+  about,
+}: {
+  defaultSubject?: string
+  about?: string
+}) {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
-  const [subject, setSubject] = useState("")
+  const [subject, setSubject] = useState(defaultSubject ?? "")
   const [message, setMessage] = useState("")
   const [company, setCompany] = useState("") // honeypot, hidden from users
   const [status, setStatus] = useState<Status>("idle")
 
   function openMailto() {
     const mailSubject = subject ? `Contact: ${subject}` : "Contact form message"
-    const body = [`Name: ${name}`, `Email: ${email}`, "", message].join("\n")
+    const body = [`Name: ${name}`, `Email: ${email}`, about ? `Page: ${about}` : null, "", message]
+      .filter((line) => line !== null)
+      .join("\n")
     window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(mailSubject)}&body=${encodeURIComponent(body)}`
   }
 
@@ -27,7 +35,7 @@ export default function ContactForm() {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, subject, message, company }),
+        body: JSON.stringify({ name, email, subject, message, company, about }),
       })
       if (res.ok) {
         setStatus("sent")
