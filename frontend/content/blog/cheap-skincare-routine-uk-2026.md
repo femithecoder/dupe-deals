@@ -5,7 +5,7 @@ date: "2026-09-12"
 author: "DupeDeals"
 pricesCheckedAt: "2026-09-12"
 category: "Beauty & Skincare"
-coverImage: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=400&fit=crop"
+coverImage: "https://images2.productserve.com/?w=800&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Auk.plusshop.com%2Fmedia%2Fcatalog%2Fproduct%2Fa%2Fn%2Fanua_heartleaf_pore_control_cleansing_oil_-_200ml.png&feedId=89999&k=b8c35007654d045b35e5607b671c1f997896d26c"
 ---
 
 Skincare is a category where the expensive version and the cheap version often contain much the same actives, and where the routine matters more than any single bottle in it.

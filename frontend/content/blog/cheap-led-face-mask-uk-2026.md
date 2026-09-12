@@ -5,7 +5,7 @@ date: "2026-09-12"
 author: "DupeDeals"
 pricesCheckedAt: "2026-09-12"
 category: "Beauty & Skincare"
-coverImage: "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&h=400&fit=crop"
+coverImage: "https://images2.productserve.com/?w=800&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F319DrSaD1TL._SS500_.jpg&feedId=110672&k=be56fca285d97c470bc629a43bfb276aa116e5ae"
 ---
 
 LED masks are sold on one number and judged on another.

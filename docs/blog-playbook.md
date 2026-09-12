@@ -119,3 +119,24 @@ A reader who does not already recognise the name gets nothing from it. Say what 
 "Which?" is the worst offender and the reason this rule exists: the name is a question word ending in a question mark, so dropped into prose cold it reads as a sentence fragment rather than as an organisation that tests things. It appeared five times across two posts without ever being introduced.
 
 `npm run audit:blog` enforces this for Which?, ADAC, Stiftung Warentest and PriceRunner. Add any new third-party body to `ORGS` in `frontend/scripts/audit-blog.cjs` when you first cite it.
+
+## Look at an image before you use it
+
+Never set a `coverImage` or an inline image from a URL you have not opened. On
+2026-09-12 a check of the eleven newest posts found seven covers that had
+nothing to do with the article: headphones on a humidifier guide, a clay face
+mask and an avocado on an LED mask guide, Prada and YSL handbags on a stroller
+guide, and a baby lying in an inflatable ring on a post about infant sleep
+safety. Every one had been chosen from memory and never viewed.
+
+The reliable fix is to use the product's own image. The Awin proxy signs only
+the source URL, so `w` and `h` can be changed freely: take the `image_url` from
+the catalogue and swap `w=200&h=200` for `w=800&h=400` to get a cover. It is
+guaranteed to show the product the post is about, and the signature still
+validates.
+
+Prefer a product whose image carries no promotional badge. Product 45's
+Amazon image has a "#1 Humidifier" ribbon on it, which is a ranking claim we
+would then be publishing, so the humidifier post uses product 74 instead.
+
+Nothing automated can catch a wrong image. Open it.

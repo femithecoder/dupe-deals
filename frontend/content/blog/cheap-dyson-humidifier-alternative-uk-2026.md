@@ -5,7 +5,7 @@ date: "2026-09-10"
 author: "DupeDeals"
 pricesCheckedAt: "2026-09-10"
 category: "Home & Kitchen"
-coverImage: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=400&fit=crop"
+coverImage: "https://images2.productserve.com/?w=800&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41oC26cPzmL._SS500_.jpg&feedId=110672&k=084e8a04598107d81ee7a66d5202d90b4ce83ea9"
 ---
 
 Dry indoor air is a winter problem with a cheap fix and an expensive one. The expensive one is a [Dyson Humidify+Cool, £699 at John Lewis](https://www.johnlewis.com/dyson-humidify-cool-ph2de-nox-air-purifier-white-white/p114275497). The cheap one starts around thirty pounds.

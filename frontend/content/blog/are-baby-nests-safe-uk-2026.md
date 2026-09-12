@@ -5,7 +5,7 @@ date: "2026-09-12"
 author: "DupeDeals"
 pricesCheckedAt: "2026-09-12"
 category: "Baby & Kids"
-coverImage: "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=800&h=400&fit=crop"
+coverImage: "https://images2.productserve.com/?w=800&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F413Nha7KiVL._SS500_.jpg&feedId=110672&k=749159ef532acf9b2c30b50d436734a526f68900"
 ---
 
 We sell a baby nest. This page exists because selling one without saying the following would be indefensible.

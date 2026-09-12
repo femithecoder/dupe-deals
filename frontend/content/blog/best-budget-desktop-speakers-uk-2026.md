@@ -5,7 +5,7 @@ date: "2026-09-10"
 author: "DupeDeals"
 pricesCheckedAt: "2026-09-10"
 category: "Electronics & Tech"
-coverImage: "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800&h=400&fit=crop"
+coverImage: "https://images2.productserve.com/?w=800&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2021%2F08%2Ftrust-tytan-2-1-audio-output-channels-2-1-channels-rms-rated-power-60-w-recommended-usage-pc-po-22327.jpg&feedId=42863&k=451606ac0052f6f77b000acbda4f04eea5eb72d9"
 ---
 
 Desktop audio is a category where the returns fall off a cliff, and knowing where that cliff is saves you most of the money.
