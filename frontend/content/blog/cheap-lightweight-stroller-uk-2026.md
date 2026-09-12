@@ -5,7 +5,7 @@ date: "2026-09-12"
 author: "DupeDeals"
 pricesCheckedAt: "2026-09-12"
 category: "Baby & Kids"
-coverImage: "https://images2.productserve.com/?w=800&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41%2B9VG7vtaL._SS500_.jpg&feedId=110672&k=8b1b2ddb1786ba5384c9574fc42cabc4d6ccd0d5"
+coverImage: "https://images.unsplash.com/photo-1559135141-2bea6465fccf?w=800&h=400&fit=crop"
 ---
 
 Lightweight strollers are sold on a phrase, and the phrase does not mean what people think.
