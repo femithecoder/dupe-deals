@@ -1547,6 +1547,23 @@ export const products: Product[] = [
     reviewCount: 0,
     dupeFor: undefined,
   },
+  {
+    id: "100",
+    name: "alilo White Noise Machine, Portable Sound Machine",
+    brand: "alilo",
+    category: "Baby & Kids",
+    categorySlug: "baby-kids",
+    description: "A portable sound machine for babies, children and adults, from the same brand as the Honey Bunny music player. Runs without a phone or an app, which is the point: a phone used as a sound machine is a phone in the bedroom.",
+    originalPrice: 59.99,
+    salePrice: 59.99,
+    discountPercent: 0,
+    imageUrl: "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F31%2BAfoT-SpL._SS500_.jpg&feedId=110672&k=0a641c4d0dc4df121405433e1765da2d05a66ce0",
+    affiliateUrl: "https://www.awin1.com/pclick.php?p=43092504556&a=3013053&m=118045",
+    merchant: "Amazon",
+    rating: 0,
+    reviewCount: 0,
+    dupeFor: undefined,
+  },
 ]
 
 export function getProductsByCategory(slug: string): Product[] {
