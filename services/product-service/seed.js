@@ -673,6 +673,22 @@ const products = [
     image_url: "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Auk.plusshop.com%2Fmedia%2Fcatalog%2Fproduct%2Fh%2Fa%2Fharuharu_wonder_black_rice_hyaluronic_toner_-_300ml.png&feedId=89999&k=93b351eb2d05b9b6346acfbda4e20e5ea043490d",
     affiliate_url: "https://www.awin1.com/pclick.php?p=43213973039&a=3013053&m=69306", merchant: "Plusshop UK", rating: 0, review_count: 0, dupe_for: null,
   },
+  {
+    id: "97", name: "Ulike ReGlow LED Face Mask, 4 Wavelengths", brand: "Ulike",
+    category: "Beauty & Skincare", category_slug: "beauty-skincare",
+    description: "An LED mask with four wavelengths: red at 630nm, near-infrared at 830nm, blue at 465nm and yellow at 590nm. FDA cleared under a 510(k) for full face wrinkles and mild to moderate inflammatory acne. Power density is 20mW/cm2 in Glow mode and 40mW/cm2 in Firm mode.",
+    original_price: 144.49, sale_price: 144.49, discount_percent: 0,
+    image_url: "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F319DrSaD1TL._SS500_.jpg&feedId=110672&k=be56fca285d97c470bc629a43bfb276aa116e5ae",
+    affiliate_url: "https://www.awin1.com/pclick.php?p=45387445650&a=3013053&m=118045", merchant: "Amazon", rating: 0, review_count: 0, dupe_for: null,
+  },
+  {
+    id: "98", name: "Nanoleaf LED Face Mask, 432 Diodes, 7 Modes", brand: "Nanoleaf",
+    category: "Beauty & Skincare", category_slug: "beauty-skincare",
+    description: "An LED mask with seven modes across red, near-infrared, blue, green and yellow, built by a lighting company rather than a beauty brand. Nanoleaf does not publish an irradiance figure, so the only numbers available come from third-party reviewers.",
+    original_price: 99.99, sale_price: 99.99, discount_percent: 0,
+    image_url: "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41eLiDK1-%2BL._SS500_.jpg&feedId=110672&k=5ee6ab7c90296e48c190d626d54c0a0b5c054ef8",
+    affiliate_url: "https://www.awin1.com/pclick.php?p=44760539597&a=3013053&m=118045", merchant: "Amazon", rating: 0, review_count: 0, dupe_for: null,
+  },
 ]
 
 async function seedProducts() {
