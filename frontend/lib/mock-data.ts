@@ -1530,6 +1530,23 @@ export const products: Product[] = [
     reviewCount: 0,
     dupeFor: undefined,
   },
+  {
+    id: "99",
+    name: "Jovikids Ayla Twins Double Pushchair, One-Hand Fold",
+    brand: "Jovikids",
+    category: "Baby & Kids",
+    categorySlug: "baby-kids",
+    description: "The twin version of the Ayla, seating two side by side with the same one-hand fold and shock-absorbing frame. The listing does not publish a folded size or weight, so check both against your airline before flying.",
+    originalPrice: 349.00,
+    salePrice: 349.00,
+    discountPercent: 0,
+    imageUrl: "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41AhR8nUusL._SS500_.jpg&feedId=110672&k=47d161b420d0127ffac48a758e150da6482bb3d7",
+    affiliateUrl: "https://www.awin1.com/pclick.php?p=45241008703&a=3013053&m=118045",
+    merchant: "Amazon",
+    rating: 0,
+    reviewCount: 0,
+    dupeFor: undefined,
+  },
 ]
 
 export function getProductsByCategory(slug: string): Product[] {
