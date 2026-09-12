@@ -495,7 +495,7 @@ export const products: Product[] = [
     brand: "Orionstar",
     category: "Baby & Kids",
     categorySlug: "baby-kids",
-    description: "Portable newborn lounger with a breathable, soft cover, designed as a safe spot to lay a baby down at home or when travelling.",
+    description: "A padded lounger with raised sides, for supervised daytime use only. The Lullaby Trust advises that nests and pods are not suitable for unsupervised or overnight sleep: babies should sleep on a firm, flat surface with no cushioned or raised areas.",
     originalPrice: 45.99,
     salePrice: 45.99,
     discountPercent: 0,

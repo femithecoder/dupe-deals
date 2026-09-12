@@ -204,7 +204,7 @@ const products = [
   {
     id: "61", name: "GloTika Baby Nest, Newborn Lounger with Breathable & Soft Cover", brand: "Orionstar",
     category: "Baby & Kids", category_slug: "baby-kids",
-    description: "Portable newborn lounger with a breathable, soft cover, designed as a safe spot to lay a baby down at home or when travelling.",
+    description: "A padded lounger with raised sides, for supervised daytime use only. The Lullaby Trust advises that nests and pods are not suitable for unsupervised or overnight sleep: babies should sleep on a firm, flat surface with no cushioned or raised areas.",
     original_price: 45.99, sale_price: 45.99, discount_percent: 0,
     image_url: "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F413Nha7KiVL._SS500_.jpg&feedId=110672&k=749159ef532acf9b2c30b50d436734a526f68900",
     affiliate_url: "https://www.awin1.com/pclick.php?p=43679839212&a=3013053&m=118045", merchant: "Amazon", rating: 0, review_count: 0, dupe_for: null,
