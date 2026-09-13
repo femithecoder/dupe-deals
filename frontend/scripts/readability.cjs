@@ -31,7 +31,10 @@ function prose(src) {
 }
 
 const sentences = (t) =>
-  t.split(/(?<=[.!?])\s+(?=[A-Z"'(£])/).map((s) => s.trim()).filter((s) => s.split(/\s+/).length > 1)
+  // A sentence can begin with a digit ("1080p ...") or a symbol, so the
+  // lookahead cannot require a capital. Without this, two sentences merged
+  // and were reported as one long one.
+  t.split(/(?<=[.!?])\s+(?=[A-Z0-9"'(£€$])/).map((s) => s.trim()).filter((s) => s.split(/\s+/).length > 1)
 
 const words = (s) => s.split(/\s+/).filter(Boolean)
 
