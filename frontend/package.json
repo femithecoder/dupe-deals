@@ -11,7 +11,8 @@
     "audit:blog": "node scripts/audit-blog.cjs",
     "check:facts": "node scripts/check-blog-facts.cjs",
     "proofread": "node scripts/proofread.cjs",
-    "test:cms-checks": "node scripts/test-cms-checks.cjs"
+    "test:cms-checks": "node scripts/test-cms-checks.cjs",
+    "readability": "node scripts/readability.cjs"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",

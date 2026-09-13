@@ -140,3 +140,35 @@ Amazon image has a "#1 Humidifier" ribbon on it, which is a ranking claim we
 would then be publishing, so the humidifier post uses product 74 instead.
 
 Nothing automated can catch a wrong image. Open it.
+
+## Write it plainly (2026-09-13)
+
+These sit on top of every rule above, they do not replace any of them. The
+methodology section, the FAQ, the live-price tokens, the honesty about what we
+cannot verify: all unchanged. This is about the sentences themselves.
+
+**One idea per sentence.** If a sentence contains a fact and a caveat, it is two
+sentences. Splitting on a comma or a "which" is usually the fix.
+
+**Short sentences.** Aim for an average around 14 words. Under 10% of sentences
+should run past 25 words, and none should pass 35.
+
+**Simplified English.** Target a Flesch-Kincaid grade of 8 or below. Prefer the
+shorter word: "buy" over "purchase", "use" over "utilise", "about" over
+"approximately". Keep technical terms where they are the real name of a thing,
+such as irradiance, R129 or reverse osmosis, and explain them once.
+
+**No ambiguity.** Say which product, which price, which standard. "It is better"
+is not a sentence we can publish; better than what, and by what measure.
+
+**No filler.** Cut "it is worth noting that", "in order to", "when it comes to",
+"the fact that", "that said", "in terms of". They add length and no meaning.
+
+**No AI tells.** No "not just X, but Y". No "isn't just about". No "delve",
+"robust", "seamless", "leverage", "landscape of", "a testament to". No opening
+a paragraph with "Moreover" or "Furthermore". If a sentence could introduce any
+product in any category, it is saying nothing.
+
+Run `npm run readability` for the table across all posts, or
+`npm run readability -- <slug>` to see every sentence over 25 words in one post.
+The baseline before this rule existed was an 18.0 word average and grade 8.5.
