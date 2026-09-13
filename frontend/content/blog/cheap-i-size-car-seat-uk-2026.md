@@ -16,7 +16,7 @@ This is a category where care matters more than usual, so here is the short answ
 
 Every car seat legally sold in the UK has to meet a mandated standard, and for i-Size seats that is R129. That is not a paperwork exercise. R129 adds mandatory side-impact testing and rollover testing on top of frontal and rear impacts, using Q-series crash dummies carrying dozens of sensors. A budget seat carrying that approval passed the same required tests as one costing three times more.
 
-What differs above the legal minimum is independent testing. Germany's ADAC, working with Stiftung Warentest, buys seats off the shelf and crashes them to protocols harsher than the legal requirement, and checks things the law does not cover at all, such as how easy a seat is to fit correctly and what chemicals are in the fabric. Which?, the UK consumer group, publishes those results here through the shared European testing programme both organisations belong to, which is why the same ratings turn up in several countries at once. Premium brands are routinely put through this. Budget brands frequently are not. An untested seat is not the same as a seat that tested badly; it simply means nobody outside the manufacturer has checked.
+What differs above the legal minimum is independent testing. Germany's ADAC works with Stiftung Warentest. They buy seats off the shelf and crash them to protocols harsher than the legal requirement. They also check things the law does not cover at all, such as how easy a seat is to fit correctly and what chemicals are in the fabric. Which?, the UK consumer group, publishes those results here through the shared European testing programme both organisations belong to, which is why the same ratings turn up in several countries at once. Premium brands are routinely put through this. Budget brands frequently are not. An untested seat is not the same as a seat that tested badly; it simply means nobody outside the manufacturer has checked.
 
 Hold on to that distinction, because the product listing will tell you the seat has been crash tested, and that is true. R129 approval is not self-certification: the seat is crashed at an accredited laboratory and signed off by a national approval authority before it can be sold. Jovikids says its seats are "rigorously tested to meet the stringent ECE R129 standards", which is a statement about clearing the legal bar, not a result published by anyone outside the company. Customer reviews describing a seat as feeling solid are not test data at all. So when a listing says crash tested, read it as passed the legal tests, because that is what it means, and it is the same thing we credit the seat with below.
 
@@ -89,13 +89,13 @@ That split cuts the other way too. A seat nobody independent has tested is unche
 
 Our prices are read live from the retailer, so the figures above are current rather than whatever was true when this was written. Any reduction shown on the Ranger 2 is one the tracker recorded against a price the seat genuinely sold at, not a markdown dressed up as a sale.
 
-The premium comparisons are real UK selling prices for the Joie and Cybex seats, not their RRPs, because comparing our live price against someone else's list price would flatter us by a hundred pounds or more.
+The premium comparisons are real UK selling prices for the Joie and Cybex seats, not their RRPs. Comparing our live price against someone else's list price would flatter us by a hundred pounds or more.
 
-We have not crash tested anything, we are not a safety organisation, and nothing here is safety advice. What we did was check which approvals these seats carry, search for independent test results, report honestly that we found none, and link to the government's own guidance and to Which?'s reporting on cheap seats so you can weigh it yourself. On a product like this, telling you what we do not know matters more than telling you what we do.
+We have not crash tested anything, we are not a safety organisation, and nothing here is safety advice. What we did was check which approvals these seats carry and search for independent test results. We found none, and say so. The government's own guidance and Which?'s reporting on cheap seats are linked so you can weigh it yourself. On a product like this, telling you what we do not know matters more than telling you what we do.
 
 ## The bottom line
 
-If your budget is genuinely tight, an R129-approved seat at this end of the market is legal, is built for the job, and beats the alternative of stretching to something you cannot afford or, worse, buying second hand.
+If your budget is genuinely tight, an R129-approved seat at this end of the market is legal and built for the job. It beats stretching to something you cannot afford. It certainly beats buying second hand.
 
 If you can afford a Joie or a Cybex and the absence of independent testing will nag at you, buy the one that lets you sleep. That is not us talking you out of a sale. It is the same standard we would want applied to us.
 

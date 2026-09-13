@@ -74,9 +74,9 @@ The gap between the columns is large enough that precision is not the point. Eve
 
 **Does a Quooker filter the water?** Partly, and it is worth getting this right, because plenty of comparisons state flatly that it does not. Every Quooker has a carbon filter in its boiling water tank. [Quooker's own FAQ](https://www.quooker.co.uk/support/faq) says it absorbs chlorine, pesticides and organic pollutants to improve the taste, and that it is not a limescale filter. Two limits matter for this comparison. It is carbon, not reverse osmosis, so it does not remove dissolved solids the way the countertop unit does. And it treats the boiling water only: the ordinary cold water from a standard Quooker tap is untreated unless you add the CUBE or a cold water filter. So the countertop unit does filter more, and filters everything it pours, but a Quooker is not unfiltered.
 
-**What is the ongoing cost?** Both filtered options need replacement filters, which is a real running cost you should factor in rather than treat as a one-off purchase. A Quooker has its own running costs too: the tank keeps water hot around the clock, so it draws power whether or not you use it, and the carbon filter inside it is a replaceable part rather than a permanent one.
+**What is the ongoing cost?** Both filtered options need replacement filters, which is a real running cost you should factor in rather than treat as a one-off purchase. A Quooker has its own running costs. The tank keeps water hot around the clock, so it draws power whether or not you use it. The carbon filter inside is a replaceable part, not a permanent one.
 
-**Is a countertop unit worth it in a small kitchen?** This is the strongest argument against one. If worktop space is your constraint, an appliance that permanently occupies some of it may be the wrong trade, and that is a point in the expensive tap's favour rather than ours.
+**Is a countertop unit worth it in a small kitchen?** This is the strongest argument against one. If worktop space is your constraint, an appliance that permanently occupies some of it may be the wrong trade. That is a point in the expensive tap's favour, not ours.
 
 **Are boiling taps worth it at all?** The consumer group [Which? has looked at exactly that question](https://www.which.co.uk/reviews/hot-water-taps/article/quookers-and-boiling-water-taps-are-they-worth-it-a6qXz2A1zq4E) across brands, and it is worth reading before you spend four figures on one. It is worth reading before you buy one of ours, too, since the honest conclusion might be that you need neither.
 
@@ -86,7 +86,7 @@ Our own prices are read from the retailer as the page loads, so they are current
 
 The Quooker figures come from Quooker's own published UK price list, not a retailer's estimate, plus typical installation costs from UK trade guidance. We have used the range rather than one number, because the final figure genuinely depends on the model, the tank and your kitchen.
 
-We have not installed a Quooker or tested one against this unit. What is checkable is what each costs, what each does, and where the specifications differ. The 95°C figure is the manufacturer's own, and it is the single most important number in this comparison, which is why it appears near the top rather than buried in a footnote.
+We have not installed a Quooker or tested one against this unit. What is checkable is what each costs, what each does, and where the specifications differ. The 95°C figure is the manufacturer's own. It is the most important number in this comparison, which is why it appears near the top rather than in a footnote.
 
 ## The bottom line
 

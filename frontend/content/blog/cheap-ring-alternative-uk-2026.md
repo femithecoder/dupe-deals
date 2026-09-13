@@ -71,7 +71,7 @@ A wireless video doorbell with night vision and two-way audio, the same core fea
 
 ## What you'd actually be giving up versus Ring
 
-Being straight about it: Ring has the broadest ecosystem, the tightest Alexa integration, and a genuinely slick cloud experience that ties multiple cameras and doorbells together with searchable history, if you pay for Ring Protect. That subscription is also the thing most people are trying to avoid. For most people the core job is fully covered by cameras that store footage locally and charge you once: seeing who's at the door and around the house, alerts, two-way talk, and night vision. You're mainly giving up ecosystem breadth and cloud convenience, not security.
+Being straight about it, Ring has the broadest ecosystem and the tightest Alexa integration. Its cloud experience ties multiple cameras and doorbells together with searchable history. All of that needs Ring Protect. That subscription is also the thing most people are trying to avoid. For most people the core job is seeing who is at the door, alerts, two-way talk and night vision. Cameras that store footage locally cover all of it, and charge you once. You're mainly giving up ecosystem breadth and cloud convenience, not security.
 
 ## Quick comparison
 
@@ -99,7 +99,7 @@ Being straight about it: Ring has the broadest ecosystem, the tightest Alexa int
 
 ## How we priced this
 
-What we quote for the eufy and the Tapo is pulled from the retailers themselves and refresh on their own, so a figure here moves when the shop moves it. The Ring comparison accounts for the ongoing Ring Protect subscription, not just the sticker price, because that recurring fee is the honest difference, and Ring's own site is linked above if you want to price the hardware and the plan yourself.
+What we quote for the eufy and the Tapo is pulled from the retailers themselves and refresh on their own, so a figure here moves when the shop moves it. The Ring comparison accounts for the Ring Protect subscription, not just the sticker price. That recurring fee is the honest difference. Ring's own site is linked above if you want to price the hardware and the plan yourself.
 
 ## The bottom line
 

@@ -18,7 +18,7 @@ Two different things are happening in this list. Some of these are genuine dupes
 
 ![soundcore Liberty 5 Pro wireless noise cancelling earbuds in black](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2026%2F06%2F03%2Fsoundcore-liberty-5-pro-goffline--europe-excluded-uk-plug-black-1-product-type-headset-connecti-461395.webp&feedId=42863&k=579e14fc485649b5dc1484047a5dddac761e6edd)
 
-Active noise cancellation, wireless charging, and up to 10 hours of playback. The pitch from soundcore is that this rivals AirPods Pro, but [AirPods Pro 2 has actually been discontinued by Apple](https://www.techradar.com/audio/earbuds-airpods/airpods-pro-2-are-down-to-a-new-record-low-price-and-id-choose-them-over-the-airpods-pro-3-this-black-friday) and is currently clearing out at heavily discounted prices, so that comparison isn't the flex it used to be. The fairer one: **[Bose QuietComfort Earbuds](/product/15)**, which we also stock at {{price:15}}. The Liberty 5 Pro undercuts that with a similar noise-cancelling spec sheet.
+Active noise cancellation, wireless charging, and up to 10 hours of playback. The pitch from soundcore is that this rivals AirPods Pro. But [AirPods Pro 2 has actually been discontinued by Apple](https://www.techradar.com/audio/earbuds-airpods/airpods-pro-2-are-down-to-a-new-record-low-price-and-id-choose-them-over-the-airpods-pro-3-this-black-friday), and is clearing out at heavy discounts. That comparison is not the flex it used to be. The fairer one: **[Bose QuietComfort Earbuds](/product/15)**, which we also stock at {{price:15}}. The Liberty 5 Pro undercuts that with a similar noise-cancelling spec sheet.
 
 **Verdict:** A solid dupe, just not for the brand you'd expect.
 
@@ -44,7 +44,7 @@ Over-ear, adaptive noise cancellation, up to 60 hours of battery. The natural co
 
 ![eufy SoloCam S220 2K wireless security cameras, 2-pack](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Aassets.media-quzo.co.uk%2Fsite%2Fcatalogue%2Flarge%2F2024%2F04%2Feufy-solocam-s220-2-cam-pack-ip-security-camera-indoor--outdoor-wireless-ceilingwall-white-cube-344925.jpg&feedId=42863&k=d021f7e81866532e1bbf99a75b3cfd3f73af234d)
 
-Two 2K wireless cameras with local storage built in, no monthly subscription required to actually record anything. That matters more than it sounds: [Ring's cheapest ongoing plan](https://en-uk.ring.com/pages/plans) for saved recordings, renamed Ring Solo in January 2026, is £4.99 a month or £49.99 paid annually, on top of whatever the camera itself costs.
+Two 2K wireless cameras with local storage built in, no monthly subscription required to actually record anything. That matters more than it sounds. [Ring's cheapest ongoing plan](https://en-uk.ring.com/pages/plans) for saved recordings, renamed Ring Solo in January 2026, is £4.99 a month or £49.99 a year. That sits on top of whatever the camera costs.
 
 **Verdict:** The subscription-free angle is the real saving here, not just the sticker price.
 
@@ -146,9 +146,9 @@ Six dupes, three genuine discounts on the famous name, two refurbished machines.
 
 All eleven prices here are read from the retailers themselves, which is why the table can disagree with what you saw a week ago.
 
-For the premium originals we compared against, we used real current UK street prices rather than the RRP on the box. That matters most where the gap is largest: the Sony WH-1000XM5 launched well above £350 and now sells near £173, so comparing against its launch price would have invented a saving roughly the size of the headphones themselves.
+For the premium originals we compared against, we used real current UK street prices rather than the RRP on the box. That matters most where the gap is largest. The Sony WH-1000XM5 launched well above £350 and now sells near £173. Comparing against its launch price would have invented a saving roughly the size of the headphones.
 
-None of this hardware has been bench-tested by us against its premium counterpart, and writing as though it had would be a lie. Sites that genuinely measure noise cancellation and battery life exist, and we link to them where their findings are relevant. What we do instead is check what each product actually costs right now, name honestly what it competes with, and say plainly when an item is the real brand on discount or a refurbished machine rather than a dupe at all.
+None of this hardware has been bench-tested by us against its premium counterpart, and writing as though it had would be a lie. Sites that genuinely measure noise cancellation and battery life exist, and we link to them where their findings are relevant. What we do instead is check what each product costs right now and name what it competes with. Where an item is the real brand on discount, or a refurbished machine rather than a dupe, the entry says so.
 
 ## The bottom line
 

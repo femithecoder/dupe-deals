@@ -67,7 +67,7 @@ So the honest maths:
 | Cheapest other UK shop, delivered | around £12 |
 | Full RRP | {{rrp:63}} |
 
-We are telling you this rather than quietly banking the click. It is a good deal if you were going to shop there anyway, or if you are buying enough in one order to be worth the membership, since delivery is charged per order rather than per item. For one jar of cream and nothing else, it is not worth the diary reminder, and the [Nourish London moisturiser](/product/28) has no such strings attached.
+We are telling you this rather than quietly banking the click. It is a good deal if you were going to shop there anyway. It is also a good deal on a large single order, because delivery is charged per order rather than per item. For one jar of cream and nothing else, it is not worth the diary reminder, and the [Nourish London moisturiser](/product/28) has no such strings attached.
 
 **Pros:**
 - The closest texture here to what La Mer actually feels like
@@ -86,7 +86,7 @@ We are telling you this rather than quietly banking the click. It is a good deal
 
 ## The answer nobody makes money from
 
-Worth saying plainly, because we do not earn a penny from it: a tub of ordinary Nivea Creme, the blue tin, costs a few pounds in any supermarket and is also a rich mineral-oil occlusive. Dermatologists have made this comparison for years, and it is not a joke at your expense.
+One more, and we do not earn a penny from it. A tub of ordinary Nivea Creme, the blue tin, costs a few pounds in any supermarket. It is also a rich mineral-oil occlusive. Dermatologists have made this comparison for years, and it is not a joke at your expense.
 
 We looked at listing it and decided not to. The cheapest online price we found came to more than the supermarket price once delivery was added, so we would have been presenting a worse deal as a better one. If a basic occlusive is all you need, buy it on your next shop and keep the difference.
 
@@ -122,7 +122,7 @@ The gap is not marginal. You could buy the Nourish London moisturiser several ti
 
 ## How we priced this
 
-Our own prices are read from the retailer rather than typed in, and we show what a thing sells for rather than the RRP on its box, so the figures above are current rather than historic.
+Our own prices are read from the retailer rather than typed in. We show what a thing sells for, not the RRP on its box. The figures above are current, not historic.
 
 The La Mer figures are its current UK street price at the time of writing, taken from its own site and from price comparison listings, not the RRP. We quote a range because it genuinely varies by retailer, and we would rather show you that than pick the highest number to make our comparison look better.
 
@@ -132,6 +132,6 @@ No controlled comparison between Crème de la Mer and this cream exists on our s
 
 If you want Crème de la Mer, buy Crème de la Mer. Nothing here replicates it, and a cheaper cream will not deliver the ritual that is a real part of what you are paying for.
 
-If what you want is that rich, protective feel, the [Eight Hour Cream](/product/63) gets closest for a fraction of the outlay, as long as you go in knowing about the membership and set a reminder to cancel. If you want a modern everyday moisturiser instead, the [Argan Skin Renew Moisturiser](/product/28) is the sensible answer, and the [Protect Starter Kit](/product/13) is the sensible way to rebuild a whole routine. Both sit in our [Beauty & Skincare category](/category/beauty-skincare) alongside the rest of what we have checked.
+If you want that rich, protective feel, the [Eight Hour Cream](/product/63) gets closest for a fraction of the outlay. Go in knowing about the membership, and set a reminder to cancel. If you want a modern everyday moisturiser instead, the [Argan Skin Renew Moisturiser](/product/28) is the sensible answer, and the [Protect Starter Kit](/product/13) is the sensible way to rebuild a whole routine. Both sit in our [Beauty & Skincare category](/category/beauty-skincare) alongside the rest of what we have checked.
 
 For oily and combination skin, where the problem is shine rather than dryness, our guide to the [best niacinamide moisturiser for oily skin](/blog/niacinamide-moisturiser-oily-skin-uk-2026) is the better starting point.

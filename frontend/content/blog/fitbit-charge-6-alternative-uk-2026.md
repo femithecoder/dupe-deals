@@ -74,11 +74,11 @@ Roughly half the price of the Galaxy Fit3. This is a genuinely basic touchscreen
 
 ## How we priced this
 
-Every price we quote for our own picks is read from the retailer as the page loads, so it is today's number, not the one that happened to be true while this was being drafted.
+Every price we quote for our own picks is read from the retailer as the page loads. It is today's number, not the one that was true while this was drafted.
 
-For the Fitbit Charge 6 we used its real current UK selling price rather than the RRP, because comparing a live price against a list price nobody pays would overstate the saving. Where a tracker is genuinely cheap enough to raise questions about what you give up, we have said what those trade-offs are instead of leaving the low price to speak for itself.
+For the Fitbit Charge 6 we used its real UK selling price, not the RRP. Comparing a live price against a list price nobody pays would overstate the saving. Some of these are cheap enough to raise questions about what you give up. Those trade-offs are named above rather than left to the low price to explain.
 
-Nobody here has worn these side by side for a month, and it would be dishonest to write as though we had. Heart-rate accuracy and battery claims are things dedicated review sites measure properly; what we can report reliably is what each costs right now and what the specification does and does not include.
+Nobody here has worn these side by side for a month, and it would be dishonest to write as though we had. Heart-rate accuracy and battery claims need proper measurement, which dedicated review sites do. What we can report is what each costs and what the specification includes.
 
 ## The bottom line
 

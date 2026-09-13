@@ -20,7 +20,7 @@ Most of this decision comes down to one question: do you want **one large drawer
 
 ![Cosori TurboBlaze 6L air fryer](https://images2.productserve.com/?w=600&h=600&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41CL8ZWtJkL._SS500_.jpg&feedId=110672&k=b3060f55adfff071390fc74147f82d37cfd80248)
 
-A 6-litre single-drawer air fryer built around a DC brushless motor, which is the part reviewers keep singling out. It's quieter, stays under about 60 decibels, and cooks noticeably faster than the previous Cosori generation, with five fan speeds and nine cooking functions covering air fry, roast, bake, grill, dehydrate, reheat, and proof.
+A 6-litre single-drawer air fryer built around a DC brushless motor, which is the part reviewers keep singling out. It stays under about 60 decibels and cooks faster than the previous Cosori generation. There are five fan speeds and nine functions: air fry, roast, bake, grill, dehydrate, reheat and proof.
 
 **Capacity:** A 6L drawer is enough for a family-size batch, chips for four, or a small whole chicken, in one go. That's more usable single-drawer space than a standard 5.2L Ninja.
 
@@ -44,7 +44,7 @@ A 6-litre single-drawer air fryer built around a DC brushless motor, which is th
 
 ## Where Ninja still wins
 
-Being straight about this: if cooking two different foods at two different settings, finishing at the same time, is the feature you want, Ninja's dual-zone AF400UK does it and the single-drawer Cosori simply can't. Ninja also has the bigger accessory range and the larger, more active recipe community, which genuinely helps if you're new to air frying and want hand-holding. The trade-off is size and price: the dual-zone Ninja is a big unit that takes real counter space, and it usually costs more than the Cosori. A single-drawer Ninja like the AF160UK is closer in price, but then you're giving up the dual-zone feature that was Ninja's main advantage in the first place.
+Being straight about this: two foods, two settings, finishing together is a real feature. Ninja's dual-zone AF400UK does it. The single-drawer Cosori cannot. Ninja also has the bigger accessory range and the larger, more active recipe community, which genuinely helps if you're new to air frying and want hand-holding. The trade-off is size and price: the dual-zone Ninja is a big unit that takes real counter space, and it usually costs more than the Cosori. A single-drawer Ninja like the AF160UK is closer in price, but then you're giving up the dual-zone feature that was Ninja's main advantage in the first place.
 
 ## Quick comparison
 
@@ -65,7 +65,7 @@ Being straight about this: if cooking two different foods at two different setti
 
 **Which is quieter?** The Cosori, thanks to its DC motor. It's one of the quieter air fryers at this size, which reviewers consistently note.
 
-**What does an air fryer actually cost to run?** Far less than the oven it replaces, which is the saving people tend to overlook. A machine like this draws roughly 1.5kW but only for the minutes it is actually cooking, and it needs no preheating of a large empty cavity. For the small, frequent meals most people use one for, running costs are a fraction of a conventional oven's, and that gap keeps paying back long after the purchase price stops mattering.
+**What does an air fryer actually cost to run?** Far less than the oven it replaces, which is the saving people tend to overlook. A machine like this draws roughly 1.5kW but only for the minutes it is actually cooking, and it needs no preheating of a large empty cavity. For the small, frequent meals most people use one for, running costs are a fraction of a conventional oven's. That gap keeps paying back long after the purchase price stops mattering.
 
 **Does a cheaper air fryer wear out faster?** Not reliably, no. The parts that fail first tend to be the basket coating and the fan bearing, and neither tracks neatly with price. What does matter is whether replacement baskets are sold separately, since a worn non-stick surface is the usual reason a working air fryer gets thrown away.
 
@@ -73,7 +73,7 @@ Being straight about this: if cooking two different foods at two different setti
 
 ## How we priced this
 
-The live Cosori price above tracks the retailer directly, so it changes when they change it. The Ninja figures are real current UK street prices for the two most relevant models, not RRPs, and we've been specific about which Ninja each price refers to, since the single-drawer and dual-zone models aren't the same product despite sharing a brand.
+The live Cosori price above tracks the retailer directly, so it changes when they change it. The Ninja figures are current UK street prices for the two most relevant models, not RRPs. Each price says which Ninja it refers to. The single-drawer and dual-zone models are not the same product, despite the shared brand.
 
 ## The bottom line
 
