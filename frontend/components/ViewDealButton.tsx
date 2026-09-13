@@ -11,6 +11,9 @@ type ViewDealButtonProps = {
 export default function ViewDealButton({ productId, productName, merchant }: ViewDealButtonProps) {
   return (
     <a
+      // The sticky mobile bar watches this element and only appears once it
+      // has scrolled off screen, so the two never show at the same time.
+      id="primary-buy-button"
       // Goes through our own /go redirect so the click is counted server-side.
       // The track() call below only fires for visitors without an ad blocker,
       // which is exactly the population that is already easy to count.

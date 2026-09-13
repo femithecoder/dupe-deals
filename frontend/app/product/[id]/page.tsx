@@ -9,6 +9,7 @@ import ReportIssue from "@/components/ReportIssue"
 import ProductCard from "@/components/ProductCard"
 import JsonLd from "@/components/JsonLd"
 import ViewDealButton from "@/components/ViewDealButton"
+import StickyBuyBar from "@/components/StickyBuyBar"
 import PriceInsight from "@/components/PriceInsight"
 import PriceFreshness from "@/components/PriceFreshness"
 import { highResImage } from "@/lib/image"
@@ -227,6 +228,13 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
           </ul>
         </section>
       )}
+
+      <StickyBuyBar
+        productId={product.id}
+        productName={product.name}
+        merchant={product.merchant}
+        price={`£${product.salePrice.toFixed(2)}`}
+      />
 
       <ReportIssue
         prompt="Price wrong, or the deal already gone?"

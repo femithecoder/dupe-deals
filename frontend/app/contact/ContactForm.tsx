@@ -18,6 +18,7 @@ export default function ContactForm({
   const [subject, setSubject] = useState(defaultSubject ?? "")
   const [message, setMessage] = useState("")
   const [company, setCompany] = useState("") // honeypot, hidden from users
+  const [error, setError] = useState("")
   const [status, setStatus] = useState<Status>("idle")
 
   function openMailto() {
@@ -31,6 +32,7 @@ export default function ContactForm({
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
     setStatus("sending")
+    setError("")
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
@@ -41,8 +43,19 @@ export default function ContactForm({
         setStatus("sent")
         return
       }
-      // Server can't send (e.g. not configured, or a send error): fall back to
-      // opening the visitor's email app with the message pre-filled.
+      // A 400 is the message's own fault: a missing field, or an address that
+      // is not an address. Handing that to an email client does not fix it, so
+      // say what is wrong and let the visitor correct it. This branch existed
+      // in the Status type from the start and was never reached, so a bad
+      // address silently opened a mail app instead of being reported.
+      if (res.status === 400) {
+        const data = await res.json().catch(() => ({}))
+        setError(data.error || "Please check the details and try again.")
+        setStatus("error")
+        return
+      }
+      // Anything else means we cannot send it: not configured, or SMTP down.
+      // Fall back to the visitor's own email app rather than lose the message.
       openMailto()
       setStatus("fallback")
     } catch {
@@ -144,6 +157,10 @@ export default function ContactForm({
           />
         </label>
       </div>
+
+      {status === "error" && (
+        <p className="rounded-xl border border-amber-200 bg-amber-50 px-4 py-2.5 text-sm text-amber-900">{error}</p>
+      )}
 
       <button
         type="submit"
