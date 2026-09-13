@@ -34,7 +34,7 @@ If the reason you want a wearable is genuinely mobility, that matters. If the re
 
 ![MOMMED wearable breast pump](https://images2.productserve.com/?w=600&h=600&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41uzs7o8UCL._SS500_.jpg&feedId=110672&k=801147619358a2b631aa31946adebc97eabefb6a)
 
-A fully wearable, hands-free pump that sits inside your bra, with three modes and twelve suction levels, so you can move between a gentle let-down rhythm and stronger expression. At {{price:54}} it's a small fraction of an Elvie, and it covers the core of what makes a wearable useful: no tubes, no bottles hanging off you, and low noise so you can pump without announcing it to the room.
+A fully wearable, hands-free pump that sits inside your bra, with three modes and twelve suction levels, so you can move between a gentle let-down rhythm and stronger expression. At {{price:54}} it is a small fraction of an Elvie. It covers the core of what makes a wearable useful: no tubes, no bottles hanging off you, and low noise.
 
 **Modes and control:** Three modes (massage/let-down, expression, and a mixed mode) with twelve levels, adjustable from a button or the companion app.
 
@@ -117,10 +117,10 @@ Being straight about it: Elvie and Willow have the longest track record, the mos
 
 ## How we priced this
 
-The MOMMED and eufy numbers are pulled from the retailers as you load the page, not copied in once and left to rot. The Elvie figure is a real current UK street-price range across its cup-style models, not an RRP, and the price comparison we used is linked above so it is checkable rather than taken on trust. Where the cheaper pumps clearly lose to Elvie, on fit range and app maturity, we've said so.
+The MOMMED and eufy numbers are pulled from the retailers as you load the page, not copied in once and left to rot. The Elvie figure is a current UK street-price range across its cup-style models, not an RRP. The price comparison we used is linked above, so it is checkable rather than taken on trust. Where the cheaper pumps clearly lose to Elvie, on fit range and app maturity, we've said so.
 
 ## The bottom line
 
-What you are really buying is the hands-free part, and that does not cost Elvie money. For most parents who want convenience without flagship spending, the MOMMED delivers real tube-free pumping for a fraction of the price, and the eufy S1 adds heating and a more established brand while still undercutting premium pumps heavily. If you're exclusively pumping long-term and fit has been a problem, an Elvie is worth the money, and pretending the gap does not exist would be doing you a disservice.
+What you are really buying is the hands-free part, and that does not cost Elvie money. For most parents who want convenience without flagship spending, the MOMMED delivers real tube-free pumping for a fraction of the price. The eufy S1 adds heating and a more established brand, and still undercuts premium pumps heavily. If you're exclusively pumping long-term and fit has been a problem, an Elvie is worth the money, and pretending the gap does not exist would be doing you a disservice.
 
 For a peaceful night once feeding is sorted, see our guide to the [best budget baby monitor](/blog/best-budget-baby-monitor-uk-2026). There is more for new parents under [Baby & Kids](/category/baby-kids), priced live rather than frozen.

@@ -27,7 +27,7 @@ Nothing is a real, independently reviewed brand, not a mystery marketplace listi
 
 **Noise cancelling:** Rated up to 45dB, a genuine ANC system rather than basic passive isolation. That puts it close to AirPods 4's separate £169 ANC version, at well under half the price.
 
-**Sound quality:** An 11mm driver with dual vents, plus Hi-Res Audio support up to 24-bit/96kHz over LDAC on Android phones that support it. iPhone gets AAC instead, which still sounds solid, just not the full Hi-Res spec.
+**Sound quality:** An 11mm driver with dual vents. Hi-Res Audio runs up to 24-bit/96kHz over LDAC, on Android phones that support it. iPhone gets AAC instead. That still sounds solid, just not the full Hi-Res spec.
 
 **Battery life:** This varies with your settings. Expect 6 to 9.5 hours per charge depending on whether ANC and the higher-quality LDAC codec are switched on, with the case stretching total playtime to around 42.5 hours. Leaving ANC on will noticeably cut into that number, which is true of most ANC earbuds, not just this pair.
 
@@ -151,7 +151,7 @@ The AirPods 4 prices came from TechRadar's live UK deals tracking, not a single 
 
 The prices for our own picks are read from each retailer directly, so they move when the shops move them.
 
-We have not tested any of these against each other, and we are not going to imply we have. What we can do is check what independent reviewers found, and be straight when we could not find any, which is why the AGM entry is flagged rather than quietly listed alongside the rest. We also chose the picks on merit rather than on what pays us: the cheapest option here earns us the least, and the best reviewed one is a set we are actively telling you to price-check elsewhere.
+We have not tested any of these against each other, and we are not going to imply we have. What we can do is check what independent reviewers found, and be straight when we could not find any, which is why the AGM entry is flagged rather than quietly listed alongside the rest. We also chose the picks on merit rather than on what pays us. The cheapest option here earns us the least. The best reviewed one is a set we are telling you to price-check elsewhere.
 
 ## Frequently asked
 

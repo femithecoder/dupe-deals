@@ -85,10 +85,16 @@ const SLOP = [
   /\b(landscape|ecosystem) of\b/gi,
   /\ba testament to\b/gi,
   /\bnavigat(e|ing) the\b/gi,
-  /\b(robust|seamless|leverage|elevate|unlock|harness)\b/gi,
+  // "harness" only as the verb. A five-point harness is the real name of
+  // the part on a car seat, and flagging it was a false positive.
+  /\b(robust|seamless|leverage|elevate|unlock)\b/gi,
+  /\bharness(es|ing|ed)?\s+(the|its|their)\b/gi,
   /\bgame[- ]chang(er|ing)\b/gi,
   /\bin today's\b/gi,
-  /\bwhether you('re| are) [^.,;]{1,40} or\b/gi,
+  // Only the opener. "Whether you're a beginner or a pro, this product..."
+  // is slop; "Decide first whether you are gate-checking or carrying on"
+  // is a useful sentence and was being flagged for the same shape.
+  /(^|[.!?]\s+)Whether you('re| are) [^.,;]{1,40} or\b/g,
   /\bthe honest (answer|truth) is\b/gi,
   /\bmore than just\b/gi,
 ]

@@ -87,7 +87,7 @@ Read down the Dyson rows before deciding the brand is a rip-off. The £699 machi
 
 **Why is the Dyson desk fan £249 when their smallest is £99?** Because they are different sizes doing different jobs, which is the same reason our range runs from {{price:76}} to {{price:79}}. Size and airflow drive fan prices far more than brand does.
 
-**Does a cheap fan cool a room?** No fan cools a room. Fans move air across skin, which makes you feel cooler while the room temperature stays put or rises slightly. This is true of a {{price:76}} fan and a £699 one alike, and it is worth knowing before spending either amount.
+**Does a cheap fan cool a room?** No fan cools a room. Fans move air across skin, which makes you feel cooler while the room temperature stays put or rises slightly. This is true of a {{price:76}} fan and a £699 one alike, and worth knowing before spending either amount.
 
 **What about noise?** This is where cheap fans genuinely can be bad, and it is why both Levoit units above are picked on their 20dB rating rather than their airflow. Check the decibel figure before the price.
 
@@ -97,7 +97,7 @@ Read down the Dyson rows before deciding the brand is a rip-off. The £699 machi
 
 Our own prices are read live from the retailer as this page loads, so they are current rather than whatever they were when this was written.
 
-The Dyson figures are John Lewis's listed prices on the date above, taken from their Dyson fan listings rather than from an RRP or an older article. We deliberately did not use the AM07 tower fan, which several comparison sites still quote: John Lewis lists it as no longer available and unlikely to be restocked, and its remaining prices are clearance prices that mean nothing.
+The Dyson figures are John Lewis's listed prices on the date above, taken from their Dyson fan listings rather than from an RRP or an older article. We deliberately did not use the AM07 tower fan, which several comparison sites still quote. John Lewis lists it as no longer available and unlikely to be restocked. Its remaining prices are clearance prices that mean nothing.
 
 We have not tested these against each other, and we have not measured anyone's airflow. The verifiable parts are the prices, the manufacturers' own claims, and which Dyson machines are fans rather than purifiers or heaters wearing a fan's shape. That last distinction does more work here than any measurement would.
 

@@ -20,9 +20,9 @@ The reasons tend to cluster into three. The price is a lot to spend on a vacuum,
 
 ![Hoover HF1 Max cordless stick vacuum](https://images2.productserve.com/?w=400&h=400&bg=white&trim=5&t=letterbox&url=ssl%3Am.media-amazon.com%2Fimages%2FI%2F41mz9b2wsOL._SS500_.jpg&feedId=110672&k=da7538484df34cb112b1a2b04289ecabd6201672)
 
-A lightweight cordless stick from Hoover, a brand that has been making vacuum cleaners for over a century, so this isn't a no-name marketplace listing you can't look up. At {{price:46}}, it undercuts even the cheapest current V8 by a wide margin, though not by as much as the RRP-based comparisons you will see elsewhere imply, and it covers the basics most homes actually use.
+A lightweight cordless stick from Hoover, a brand that has been making vacuum cleaners for over a century, so this isn't a no-name marketplace listing you can't look up. At {{price:46}} it undercuts even the cheapest current V8 by a wide margin. Not by as much as the RRP-based comparisons elsewhere imply, but it covers the basics most homes use.
 
-**Runtime:** Up to 50 minutes in Eco mode, around 20 minutes in Standard, and about 15 minutes in Turbo. That Eco figure is the headline number, so be realistic: for actual cleaning you're relying on the 15- to 20-minute modes, which is enough for a flat or a floor or two, not a whole large house on one charge.
+**Runtime:** Up to 50 minutes in Eco mode, around 20 minutes in Standard, and about 15 minutes in Turbo. That Eco figure is the headline number, so be realistic. For actual cleaning you rely on the 15 to 20 minute modes. That covers a flat, or a floor or two, not a whole large house on one charge.
 
 **Weight:** 2.35kg. That's genuinely light, a touch lighter than a Dyson V8, which matters most when you're holding it up to do stairs or reaching under furniture.
 
@@ -47,7 +47,7 @@ A lightweight cordless stick from Hoover, a brand that has been making vacuum cl
 
 ## What you'd actually be giving up versus a Dyson
 
-Worth being straight about this. A Dyson V8 or V12 gives you noticeably stronger suction on thick carpet, better fine-dust filtration, a larger bin, and Dyson's wider ecosystem of attachments and replacement parts. If your home is mostly deep carpet, or you want one vacuum to do everything to a high standard, the Dyson earns its price. Where the Hoover makes sense is the very common case: mostly hard floors and rugs, a smaller space, or a light second vacuum, where you would be paying a substantial premium for Dyson power you won't fully use.
+Worth being straight about this. A Dyson V8 or V12 gives you noticeably stronger suction on thick carpet, better fine-dust filtration, a larger bin, and Dyson's wider range of attachments and replacement parts. If your home is mostly deep carpet, or you want one vacuum to do everything to a high standard, the Dyson earns its price. The Hoover makes sense in a very common case. Mostly hard floors and rugs, a smaller space, or a light second vacuum. In those homes a Dyson is a substantial premium for power you will not fully use.
 
 ## Quick comparison
 
@@ -78,8 +78,8 @@ The Dyson comparison uses its real current UK selling price, checked against Dys
 
 ## The bottom line
 
-A cheap Dyson alternative only makes sense if it does enough of the same job. For hard floors, light carpet, and pet hair in a flat or smaller home, the Hoover HF1 Max does exactly that, from a brand that will still be around in five years, and for comfortably less than an entry Dyson's real price. If your home is mostly deep carpet or you want a single do-everything vacuum, that's the case for spending more on the Dyson, and we'd rather tell you that than sell you the cheaper option regardless.
+A cheap Dyson alternative only makes sense if it does enough of the same job. For hard floors, light carpet and pet hair in a flat or smaller home, the Hoover HF1 Max does exactly that. It comes from a brand that will still be around in five years, and it costs comfortably less than an entry Dyson. If your home is mostly deep carpet, or you want one do-everything vacuum, that is the case for spending more on the Dyson. We would rather say so than sell you the cheaper option regardless.
 
-If you'd rather the floor cleaned itself, see our [best budget robot vacuum](/blog/best-budget-robot-vacuum-uk-2026) guide, and for more real comparisons, how a budget air fryer stacks up in [Cosori TurboBlaze vs Ninja](/blog/cosori-turboblaze-vs-ninja-air-fryer-uk-2026) plus our wider roundup of [tech deals that beat the big brands](/blog/tech-dupes-and-deals-2026). If the kitchen is next, our look at a [cheap Quooker alternative](/blog/cheap-quooker-alternative-uk-2026) applies the same test to boiling water taps.
+If you would rather the floor cleaned itself, see our [best budget robot vacuum](/blog/best-budget-robot-vacuum-uk-2026) guide. For more comparisons in the same style, there is [Cosori TurboBlaze vs Ninja](/blog/cosori-turboblaze-vs-ninja-air-fryer-uk-2026) and our wider roundup of [tech deals that beat the big brands](/blog/tech-dupes-and-deals-2026). If the kitchen is next, our look at a [cheap Quooker alternative](/blog/cheap-quooker-alternative-uk-2026) applies the same test to boiling water taps.
 
 Other cleaning picks, and the rest of the house, live under [Home & Kitchen](/category/home-kitchen).

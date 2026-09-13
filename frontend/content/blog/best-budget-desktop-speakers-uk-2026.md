@@ -12,7 +12,7 @@ Desktop audio is a category where the returns fall off a cliff, and knowing wher
 
 At the top, an [Audioengine A2+ starts around £248](https://www.idealo.co.uk/compare/4151869/audioengine-a2.html) in the UK. In the middle, the speaker set that wins most round-ups, the [Logitech Z407](https://pricespy.co.uk/product.php?p=5630473), sits between roughly £80 and £94. At the bottom, a plain stereo pair costs {{price:83}}.
 
-We are not going to pretend the £248 pair is a con. It is better. What is worth saying plainly is that the single largest improvement in this entire category is the first one, from the speakers built into your monitor or laptop to almost any real pair, and that step costs less than forty pounds.
+We are not going to pretend the £248 pair is a con. It is better. The single largest improvement in this category is the first one. That is the step from the speakers built into your monitor or laptop to almost any real pair. It costs less than forty pounds.
 
 ## The three tiers, and which one you are actually in
 
@@ -97,7 +97,7 @@ The Logitech row is the honest one to read carefully. It is the set most reviewe
 
 **Are RMS watts comparable between brands?** Roughly, and only roughly. RMS is a more honest measure than the peak or PMPO figures some boxes shout about, but cabinet design and driver quality move the result more than a few watts either way. Treat the numbers above as a rough ordering, not a ranking.
 
-**Is the Audioengine worth £248?** If you listen critically, at a desk, for hours a day, it is a genuinely better speaker. For everyone else the honest answer is that you would notice it and then stop noticing it.
+**Is the Audioengine worth £248?** If you listen critically, at a desk, for hours a day, it is a genuinely better speaker. For everyone else, you would notice it, and then you would stop noticing it.
 
 **Why is Bluetooth on some and not others?** Convenience rather than quality. A wired connection is still the better one for a desk machine that never moves, and Bluetooth mainly earns its place if the same speakers double as a phone speaker.
 

@@ -120,6 +120,6 @@ The figures for the Lefant, roborock and eufy are read from the retailers automa
 
 ## The bottom line
 
-The question is not whether a cheap robot matches a Roomba. It is whether it does enough of the job for your floors. For hard floors and maintenance the Lefant M210 does exactly that cheaply; for carpet, pets, and a genuine main robot the roborock Q7 M5 is the all-rounder; and the eufy L60 gets you near-flagship results well under Roomba money. If you specifically want a self-emptying dock and the most advanced mapping, that is where the extra money actually goes somewhere.
+The question is not whether a cheap robot matches a Roomba. It is whether it does enough of the job for your floors. For hard floors and maintenance, the Lefant M210 does that cheaply. For carpet, pets and a genuine main robot, the roborock Q7 M5 is the all-rounder. The eufy L60 gets near-flagship results for well under Roomba money. If you specifically want a self-emptying dock and the most advanced mapping, that is where the extra money actually goes somewhere.
 
 While you're setting up the home, see our guide to the [best budget ergonomic office chair](/blog/best-budget-office-chair-uk-2026) and our [cheap Dyson alternative](/blog/cheap-dyson-alternative-uk-2026) for cordless cleaning. Whatever else you are furnishing, [Home & Kitchen](/category/home-kitchen) has the rest of what we track, each at its current price.

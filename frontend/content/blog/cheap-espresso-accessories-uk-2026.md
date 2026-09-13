@@ -95,7 +95,7 @@ Fine needles stirred through the grounds to break up the clumps that come off al
 | [WDT tool](/product/71) | {{price:71}} | Channelling from clumps | Around £45 and up |
 | [Scale with timer](/product/72) | {{price:72}} | Shots you cannot repeat | Acaia Lunar, £320 |
 
-The scale is the only row where the premium option costs many times more, and it is also the only row where the premium option is meaningfully different: an Acaia measures flow rate in real time, which none of the cheap scales do. Whether that is worth roughly nine times the price is a question only a fairly serious hobbyist should answer yes to.
+The scale is the only row where the premium option costs many times more. It is also the only row where it is meaningfully different. An Acaia measures flow rate in real time, and none of the cheap scales do. Whether that is worth roughly nine times the price is a question only a fairly serious hobbyist should answer yes to.
 
 ## Frequently asked
 
@@ -113,7 +113,7 @@ The scale is the only row where the premium option costs many times more, and it
 
 Our own prices are read live from the retailer as this page loads, so they are current rather than whatever they were when this was written.
 
-The Acaia figure is the price listed by a UK speciality retailer on the date above, and we have given the range across UK sellers rather than one number, because it varies by about twenty pounds depending on where you look. The other premium figures are approximate and deliberately labelled as such, since that end of the market moves and we would rather say "around" than print a precise number that ages badly.
+The Acaia figure is the price listed by a UK speciality retailer on the date above. We give a range across UK sellers rather than one number, because it varies by about twenty pounds. The other premium figures are approximate and deliberately labelled as such, since that end of the market moves and we would rather say "around" than print a precise number that ages badly.
 
 We have not run these tools against each other under controlled conditions, and anyone claiming to have done so at home should be read sceptically. What is stated above is what each tool physically does and which fault it addresses, both of which are checkable, plus what everything costs.
 
@@ -121,4 +121,4 @@ We have not run these tools against each other under controlled conditions, and 
 
 Fix the grinder first. After that, these are the cheapest upgrades in coffee that produce a difference you can actually taste, and the [WDT tool](/product/71) is where to start.
 
-The only place the premium market earns its money here is the scale, and even then it earns it from people pulling shots all day rather than two before work. Everything else we track for the kitchen is under [Home & Kitchen](/category/home-kitchen), and if the machine itself is the next question, the [air fryer comparison](/blog/cosori-turboblaze-vs-ninja-air-fryer-uk-2026) applies the same reasoning to a different worktop.
+The only place the premium market earns its money here is the scale, and even then it earns it from people pulling shots all day rather than two before work. Everything else we track for the kitchen is under [Home & Kitchen](/category/home-kitchen). If the machine itself is the next question, the [air fryer comparison](/blog/cosori-turboblaze-vs-ninja-air-fryer-uk-2026) applies the same reasoning to a different worktop.

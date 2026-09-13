@@ -69,7 +69,7 @@ Read the first column, not the price column. Every row sterilises to a standard 
 
 **Can I skip washing if the machine sterilises?** No, and this is the mistake worth avoiding. Milk residue has to come off before sterilising works properly, which is why a bottle washer washes first and why a steriliser expects clean bottles. The NHS is explicit that cleaning comes first.
 
-**How long do I need to keep doing this?** Until at least 12 months, per NHS guidance. That is the number to run the maths on: a machine used twice a day for a year is doing roughly seven hundred cycles, which is a very different proposition from one bought for a newborn and abandoned at four months.
+**How long do I need to keep doing this?** Until at least 12 months, per NHS guidance. That is the number to run the maths on. A machine used twice a day for a year does roughly seven hundred cycles. That is a very different proposition from one bought for a newborn and abandoned at four months.
 
 **Is a dishwasher enough?** A hot dishwasher cycle cleans, but the NHS lists sterilising as a separate step, so a dishwasher alone does not replace it for under-12-months.
 
@@ -81,7 +81,7 @@ Our own prices are read live from the retailer as this page loads, so they are c
 
 The Baby Brezza figure is the price on the manufacturer's own UK site, linked above, on the date at the top of this page. The NHS guidance is linked rather than paraphrased from memory, because on anything involving infant feeding the primary source should be one click away and you should not have to take our word for it.
 
-We have not tested either machine. What is stated here is what each one does, what the NHS requires, and what everything costs. On a purchase this size the useful thing is not our opinion of the wash quality; it is being clear that the expensive option is buying time rather than safety, which the packaging tends not to spell out.
+We have not tested either machine. What is stated here is what each one does, what the NHS requires, and what everything costs. On a purchase this size, our opinion of the wash quality is not the useful thing. Being clear that the expensive option buys time rather than safety is. The packaging tends not to spell that out.
 
 Where a discount is shown it is one the tracker recorded against a price the product genuinely sold at, not a permanent sale price that was never anything else.
 

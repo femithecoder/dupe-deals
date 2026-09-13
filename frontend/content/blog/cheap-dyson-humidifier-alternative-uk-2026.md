@@ -18,7 +18,7 @@ A Dyson Humidify+Cool is not a humidifier. It is three machines sharing one body
 
 The purifier is the part that matters here. Dyson's own listing describes three-stage filtration, HEPA H13 with a carbon layer and catalytic oxidisation, aimed at dust, odours and allergens. None of the units below do any of that. They add moisture to the air and nothing else. If you have hay fever or a dust allergy, or you live on a main road and want something done about the air rather than the dryness, a cheap humidifier does not replace a purifier. We would rather say that at the top than bury it.
 
-If, on the other hand, your problem is a dry throat every morning through winter, static, or a nursery that gets uncomfortable when the heating is on, then humidifying is the whole job, and that job costs about thirty pounds.
+Your problem might instead be a dry throat every morning through winter, or static, or a nursery that gets uncomfortable when the heating is on. Then humidifying is the whole job. That job costs about thirty pounds.
 
 The fan is the third function and the easiest to replace. A [separate fan](/blog/cheap-dyson-fan-alternative-uk-2026) costs a fraction of the difference.
 

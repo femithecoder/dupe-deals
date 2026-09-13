@@ -10,7 +10,7 @@ coverImage: "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=800&
 
 Most desk advice is a shopping list in a random order. This is the same six things in the order that helps, which turns out to matter more than which brand you pick.
 
-The headline number, since it is the one people arrive looking for: an [Apple Studio Display is £1,499](https://www.apple.com/uk/shop/buy-mac/studio-display) and Apple does not discount it. A 27-inch 4K panel from Dell is {{price:36}}. That is the widest gap on this page by a distance, and it is also the only one where a straightforward comparison is honest, so we will deal with it properly below rather than pretending the other five have equivalents.
+The headline number, since it is the one people arrive looking for: an [Apple Studio Display is £1,499](https://www.apple.com/uk/shop/buy-mac/studio-display) and Apple does not discount it. A 27-inch 4K panel from Dell is {{price:36}}. That is the widest gap on this page by a distance. It is also the only one where a straight comparison is honest. We deal with it properly below, rather than pretending the other five have equivalents.
 
 ## Fix the height before the pixels
 

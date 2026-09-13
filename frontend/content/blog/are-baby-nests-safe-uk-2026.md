@@ -18,7 +18,7 @@ That is not our opinion. It is what the UK's safer sleep guidance says, and the 
 
 [The Lullaby Trust](https://www.lullabytrust.org.uk/safer-sleep-advice/) is the UK charity for safer infant sleep, and its advice on this is not ambiguous.
 
-Babies should sleep on their back, on a **firm, flat, waterproof mattress**, in the same room as you for at least the first six months. On what goes in the cot, the guidance is blunt: **"No pods or nests, rolled up towels or anything soft placed on top of the mattress."** Their phrase for the goal is that the safest cot is a clear cot.
+Babies should sleep on their back, on a **firm, flat, waterproof mattress**, in the same room as you for at least the first six months. On what goes in the cot, the guidance is blunt. **"No pods or nests, rolled up towels or anything soft placed on top of the mattress."** Their phrase for the goal is a clear cot.
 
 The reason is specific rather than general caution. Cushioned pods and nests, along with hammocks, cot bumpers, pillows and anything that wedges or straps a baby in place, can pose a risk to babies under twelve months. A soft surface makes it harder for a baby to lose body heat and hold a safe temperature, and that is associated with an increased risk of sudden infant death syndrome.
 
@@ -30,7 +30,7 @@ This is the part that surprises people, and it matters more than any product fea
 
 There is no safety standard covering sudden infant death risk, and baby nests fall outside the existing regulatory frameworks for infant sleep products. A nest can be perfectly legal to sell, well made, and marketed with confidence, without any of that meaning it has been tested for the thing you are worried about. Nothing exists to test it against.
 
-In 2021 the Advertising Standards Authority [upheld a complaint](https://www.asa.org.uk/rulings/weybury-hildreth-ltd-a21-1123068-weybury-hildreth-ltd.html) about a baby sleep product advertised as "certified safe for unsupervised, overnight sleeping". The ASA found that consumers would read "certified safe" as meaning a certificate had been awarded, when the company held test data and no certificate, and that the advert implied compliance with established standards for a product that sat outside them.
+In 2021 the Advertising Standards Authority [upheld a complaint](https://www.asa.org.uk/rulings/weybury-hildreth-ltd-a21-1123068-weybury-hildreth-ltd.html) about a baby sleep product advertised as "certified safe for unsupervised, overnight sleeping". The ASA found two things. Consumers would read "certified safe" as meaning a certificate had been awarded, and the company held test data but no certificate. The advert also implied compliance with established standards, for a product that sat outside them.
 
 So when a listing in this category sounds certain, check what it is being certain about.
 
@@ -40,7 +40,7 @@ Supervised daytime use. A padded spot to put a baby down while you are in the sa
 
 That is a real use, and it is why we still list one. What it is not is a place for a baby to sleep, in the day or at night, with you out of the room or asleep yourself.
 
-If you are shopping for a nest so that a baby can sleep somewhere other than a cot, the honest answer is that you want a different product. The cheapest correct one is a Moses basket, or a cot with a firm flat mattress.
+If you are shopping for a nest so that a baby can sleep somewhere other than a cot, then you want a different product. The cheapest correct one is a Moses basket, or a cot with a firm flat mattress.
 
 ## The one we list
 
@@ -84,7 +84,7 @@ The pattern in that table is the whole article: the nest column has exactly one 
 
 Our own price is read live from the retailer as this page loads, so it is current rather than whatever it was when this was written.
 
-Everything above about safer sleep comes from The Lullaby Trust, linked at the top, and the advertising ruling is linked directly to the ASA's own published decision rather than summarised from a news article. On a subject like this the primary source should be one click away, and you should not have to take our word for any of it.
+Everything above about safer sleep comes from The Lullaby Trust, linked at the top. The advertising ruling links to the ASA's own published decision, not to a news article about it. On a subject like this the primary source should be one click away, and you should not have to take our word for any of it.
 
 We have not tested this product and there is nothing meaningful we could test it for. What we can state is what it physically is, what it costs, and what the national guidance says about the category, which is the part that should decide the purchase.
 

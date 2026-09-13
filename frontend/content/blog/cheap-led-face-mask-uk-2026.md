@@ -111,4 +111,4 @@ Check for a wavelength and an irradiance figure before anything else. If a brand
 
 On that test the [Ulike](/product/97) is the pick, because it is in the same output band as a mask costing several times more and someone qualified has verified it. The [Nanoleaf](/product/98) is the cheaper option with the honest caveat attached.
 
-More of what we track for skin is under [Beauty & Skincare](/category/beauty-skincare), and the same question of what the expensive version is actually giving you runs through our [Crème de la Mer comparison](/blog/creme-de-la-mer-dupe-uk-2026) and our [niacinamide moisturiser guide](/blog/niacinamide-moisturiser-oily-skin-uk-2026).
+More of what we track for skin is under [Beauty & Skincare](/category/beauty-skincare). The same question, of what the expensive version actually gives you, runs through our [Crème de la Mer comparison](/blog/creme-de-la-mer-dupe-uk-2026) and our [niacinamide moisturiser guide](/blog/niacinamide-moisturiser-oily-skin-uk-2026).

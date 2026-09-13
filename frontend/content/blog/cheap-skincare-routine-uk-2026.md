@@ -18,7 +18,7 @@ One thing to get out of the way first, because it changes the maths.
 
 Six of the eight products below are sold by Plusshop, and **Plusshop requires a £9.95 monthly membership before you can buy anything at all.** There is a free 14-day trial, you cannot cancel within the first 24 hours, and there are no refunds.
 
-That is disclosed on every Plusshop product page on this site, and it is worth repeating here because a routine that looks like thirty pounds is not thirty pounds if you are also paying a subscription.
+That is disclosed on every Plusshop product page on this site. It bears repeating here. A routine that looks like thirty pounds is not thirty pounds if you are also paying a subscription.
 
 What it means practically: if you are buying from them, buy everything in one order rather than drip-feeding purchases across months. Delivery is £3.95 on the feeds we price from. If a single cleanser is all you want, the membership makes it a bad deal and you should buy elsewhere.
 
