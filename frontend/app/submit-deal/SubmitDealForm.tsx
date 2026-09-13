@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import { track } from "@vercel/analytics"
 
 const CONTACT_EMAIL = "contactus@dupedeals.co.uk"
 
@@ -47,6 +48,14 @@ export default function SubmitDealForm() {
         body: JSON.stringify({ kind: "deal", name, email, productName, link, price, notes, company }),
       })
       if (res.ok) {
+        // Same reasoning as the contact form: success is shown in place, so
+        // without this event a completion is invisible in analytics.
+        // Send the hostname only. The useful signal is which retailer people
+        // are finding deals at; the rest of the URL is unbounded text a
+        // stranger typed, and analytics is not the place for it.
+        let host = "unknown"
+        try { host = new URL(link).hostname.replace(/^www\./, "") } catch {}
+        track("deal_submitted", { retailer: host })
         setStatus("sent")
         return
       }
@@ -54,15 +63,18 @@ export default function SubmitDealForm() {
       // handing it to an email client that cannot fix it either.
       if (res.status === 400) {
         const data = await res.json().catch(() => ({}))
+        track("deal_form_rejected")
         setError(data.error || "Please check the details and try again.")
         setStatus("error")
         return
       }
       // Anything else means we cannot send it: not configured, or SMTP is
       // down. Fall back to the visitor's own email app rather than lose it.
+      track("deal_form_fallback")
       openMailto()
       setStatus("fallback")
     } catch {
+      track("deal_form_fallback")
       openMailto()
       setStatus("fallback")
     }

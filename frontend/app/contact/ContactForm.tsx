@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import { track } from "@vercel/analytics"
 
 const CONTACT_EMAIL = "contactus@dupedeals.co.uk"
 
@@ -40,6 +41,11 @@ export default function ContactForm({
         body: JSON.stringify({ name, email, subject, message, company, about }),
       })
       if (res.ok) {
+        // The form shows success in place rather than redirecting to a
+        // thank-you page, so there is no URL change for analytics to count.
+        // These events are what make a completion measurable, and what would
+        // show a form quietly breaking.
+        track("contact_form_sent", { about: about || "direct" })
         setStatus("sent")
         return
       }
@@ -50,15 +56,20 @@ export default function ContactForm({
       // address silently opened a mail app instead of being reported.
       if (res.status === 400) {
         const data = await res.json().catch(() => ({}))
+        track("contact_form_rejected")
         setError(data.error || "Please check the details and try again.")
         setStatus("error")
         return
       }
       // Anything else means we cannot send it: not configured, or SMTP down.
       // Fall back to the visitor's own email app rather than lose the message.
+      // A fallback means our own sending failed. Worth counting separately:
+      // a rise here is the SMTP relay breaking, not visitors changing.
+      track("contact_form_fallback")
       openMailto()
       setStatus("fallback")
     } catch {
+      track("contact_form_fallback")
       openMailto()
       setStatus("fallback")
     }
