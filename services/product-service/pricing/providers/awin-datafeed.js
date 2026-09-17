@@ -217,8 +217,12 @@ async function fetchPrices(products) {
   const byMerchant = new Map() // merchant -> [products]
   for (const product of products) {
     if (!FEEDS[product.merchant]) {
-      // no feed wired up for this merchant, leave unchanged rather than guess
-      results.set(product.id, { price: product.sale_price })
+      // No feed wired up for this merchant, so leave the price alone rather
+      // than guess. Flagged as unverified because the caller must not record
+      // this as a check: doing so wrote a price_history row on every run and
+      // made the product page tell visitors "price last checked 26 minutes
+      // ago" about a number nothing had ever checked.
+      results.set(product.id, { price: product.sale_price, unverified: true })
       continue
     }
     if (!byMerchant.has(product.merchant)) byMerchant.set(product.merchant, [])

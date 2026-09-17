@@ -14,6 +14,10 @@ async function runPriceCheck({ provider = getProvider(), merchant } = {}) {
     : await db.query("SELECT * FROM products")
   const drops = []
   const failures = []
+  // Products whose merchant has no feed configured. Not failures: nothing went
+  // wrong, we simply have no way to price them. Surfaced so a run reporting
+  // "checked: 88" cannot quietly mean "priced 82, left 6 alone".
+  const unpriced = []
   let changed = 0
 
   // One batch call, not one per product, so a feed-backed provider can
@@ -29,6 +33,17 @@ async function runPriceCheck({ provider = getProvider(), merchant } = {}) {
       failures.push({ id: product.id, name: product.name, error: result?.error || "no result returned" })
       continue
     }
+    // No feed covers this merchant, so nothing was actually checked. Record
+    // nothing: a history row here is a claim of verification we cannot make,
+    // and PriceFreshness reads the latest row to tell visitors when we last
+    // looked. Any rows written before this check existed are removed, because
+    // they were never real checks either.
+    if (result.unverified) {
+      unpriced.push({ id: product.id, name: product.name, merchant: product.merchant })
+      await db.query("DELETE FROM price_history WHERE product_id = $1", [product.id])
+      continue
+    }
+
     const newPrice = result.price
 
     const oldPrice = product.sale_price
@@ -69,7 +84,9 @@ async function runPriceCheck({ provider = getProvider(), merchant } = {}) {
 
   if (changed > 0) await notifyFrontend()
 
-  return { checked: products.length, changed, drops, failures }
+  // "checked" now means actually priced against a feed. The two numbers are
+  // reported separately so a clean-looking run cannot hide unpriced products.
+  return { checked: products.length - unpriced.length, changed, drops, failures, unpriced }
 }
 
 // Pokes the frontend to drop its cached product data immediately instead of
